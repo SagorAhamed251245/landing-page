@@ -18,7 +18,7 @@ const RightContent = () => {
 
           <video id="video1" width="420" height="100%" className="video">
             <source
-              src="https://videos.pexels.com/video-files/3324489/3324489-hd_1080_1920_30fps.mp4"
+              src="https://videos.pexels.com/video-files/6771767/6771767-hd_1080_1920_30fps.mp4"
               type="video/mp4"
             />
           </video>
