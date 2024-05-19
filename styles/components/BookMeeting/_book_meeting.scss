@@ -1,0 +1,47 @@
+.book_meeting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  height: 600px;
+  .right_book_meeting {
+    width: 50%;
+    background-color: rebeccapurple;
+    height: 100%;
+  }
+  .left_book_meeting {
+    width: 50%;
+    background-color: palegoldenrod;
+
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+    > div {
+      > h4 {
+        width: 60%;
+      }
+      > p {
+        font-size: 16px;
+        letter-spacing: 2;
+        color: #5c5958;
+        margin: 30px 0px;
+        width: 80%;
+      }
+      .book_button {
+        padding: 16px 30px;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        font-weight: bolder;
+        border-radius: 10px;
+        background-color: #5831f0;
+        border: none;
+        color: white;
+        > span {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

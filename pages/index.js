@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner/Banner";
+import BookMeeting from "@/components/BookMeeting/BookMeeting";
 import StudentsExperience from "@/components/StudentsExperience/StudentsExperience";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
         <>
           <Banner />
           <StudentsExperience />
+          <BookMeeting />
         </>
       </main>
     </>
