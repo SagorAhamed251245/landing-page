@@ -1,10 +1,12 @@
+import Banner from "@/components/Banner/Banner";
+
 export default function Home() {
   return (
     <>
       <main>
-        <div className="container ">
-          <h1>This is landing page</h1>
-        </div>
+        <>
+          <Banner />
+        </>
       </main>
     </>
   );
