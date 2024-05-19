@@ -1,6 +1,5 @@
 .banner {
   // background-color: $primary_color;
-
   position: relative;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -27,6 +26,7 @@
       > li {
         list-style: none;
         font-size: 16px;
+        color: white;
       }
     }
   }
@@ -38,7 +38,9 @@
   justify-content: space-between;
   align-items: center;
   height: calc(100% - 80px);
-  > .video_section {
+  // right_banner_section
+  .right_banner_section {
+    width: 50%;
     height: 596px;
     margin-right: 30px;
     width: 614px;
@@ -46,7 +48,7 @@
     border-radius: 20px;
     position: relative;
 
-    > .video_relative {
+    .video_relative {
       height: 596px;
       border-radius: 20px;
       background-color: $primary_color;
@@ -57,6 +59,30 @@
       z-index: -1;
       right: -10%;
     }
+    .play_button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+      > div {
+        opacity: 100%;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
     > p {
       background-color: #fff;
       height: $sudo_size;
@@ -65,10 +91,57 @@
       text-align: center;
       border-radius: 20px 20px 0px 0px;
     }
-    > .div {
+    .div {
       height: calc(100% - $sudo_size);
       display: flex;
       justify-content: center;
+    }
+  }
+
+  // left_banner_section
+  .left_banner_section {
+    width: 50%;
+    > * {
+      margin: 30px 0;
+    }
+    *:first-child {
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+    *:last-child {
+      margin-bottom: 0px;
+    }
+    .p {
+      color: black;
+      background-color: #fff;
+      border-radius: 30px;
+      padding: 8px 20px;
+      font-size: 12px;
+      font-weight: bold;
+      width: auto;
+      display: inline-block;
+    }
+    .h3 {
+      font-size: 50px;
+      font-weight: 700px;
+      width: 80%;
+    }
+    .sub_p {
+      font-size: 18px;
+      font-weight: 500;
+      width: 60%;
+    }
+    .contact_button {
+      padding: 16px 30px;
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      font-weight: bolder;
+      border-radius: 10px;
+      border: none;
+      > span {
+        margin-left: 10px;
+      }
     }
   }
 }
