@@ -1,9 +1,16 @@
 .banner {
   // background-color: $primary_color;
-  background-image: url("/images/svg/bannerSvg.svg");
+
+  position: relative;
+  background-position: bottom;
   background-repeat: no-repeat;
-  border: 2px solid black;
+  // border: 2px solid black;
   height: 762px;
+  .background_image {
+    position: absolute;
+    top: 0;
+    z-index: -3;
+  }
 }
 .nav {
   display: flex;
@@ -26,11 +33,42 @@
 }
 
 .banner_content {
-  background-color: $primary_color;
+  // background-color: $primary_color;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: calc(100% - 80px);
   > .video_section {
-    height: 595px;
+    height: 596px;
+    margin-right: 30px;
+    width: 614px;
+    background-color: #0d2032;
+    border-radius: 20px;
+    position: relative;
+
+    > .video_relative {
+      height: 596px;
+      border-radius: 20px;
+      background-color: $primary_color;
+      opacity: 100;
+      width: 614px;
+      position: absolute;
+      top: 10%;
+      z-index: -1;
+      right: -10%;
+    }
+    > p {
+      background-color: #fff;
+      height: $sudo_size;
+      font-size: 1.5rem;
+      font-weight: bolder;
+      text-align: center;
+      border-radius: 20px 20px 0px 0px;
+    }
+    > .div {
+      height: calc(100% - $sudo_size);
+      display: flex;
+      justify-content: center;
+    }
   }
 }
