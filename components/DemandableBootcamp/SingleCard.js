@@ -11,10 +11,16 @@ const SingleCard = () => {
           <h4>AWS CloudOps Engineer</h4>
           <p>Total hours: 100+h Video Lectures</p>
           <p>
-            5.0 <span>****</span> <span>(#0,765)</span>
+            5.0
+            <span style={{ display: "flex", alignItems: "center" }}>
+              <img src="/images/svg/stars.svg" />
+            </span>{" "}
+            <span>(#0,765)</span>
           </p>
           <div className="div_2">
-            <p>$10.50</p>
+            <p>
+              $10.50 <span>$50.50</span>
+            </p>
             <button>Learn More</button>
           </div>
         </div>

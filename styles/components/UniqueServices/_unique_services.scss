@@ -1,37 +1,42 @@
-.unique_service{
-    height: 800px;
-    .services_cards{
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
-        // gap: 10px;
-        // flex-wrap: wrap;
+.unique_service {
+  //   height: 800px;
+  margin-bottom: 120px;
+  .services_cards {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // gap: 10px;
+    // flex-wrap: wrap;
 
-        display: grid;
-        grid-template-columns: repeat(6,1fr);
-        gap: 25px;
-        
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 25px;
+    @include breakpoints(laptop) {
+      grid-template-columns: repeat(2, 1fr);
+      height: 100%;
     }
-    // background-color: aquamarine;
-    .service_card{
-        background-color: #5831F017;
-        height: 242px;
-        width: 235px;
-        padding: 30px;
-        border-radius: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 25px;
-        position: relative;
-        .vector_relative{
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            z-index: 0;
-        }
-        > p {
-            font-weight: 700;
-        }
+  }
+  // background-color: aquamarine;
+  .service_card {
+    background-color: #5831f017;
+    height: 242px;
+    width: 235px;
+
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    position: relative;
+    .vector_relative {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: 0;
     }
+    > p {
+      font-weight: 700;
+    }
+  }
 }
