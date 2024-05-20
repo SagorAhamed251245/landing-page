@@ -1,0 +1,45 @@
+.demandable_bootcamp {
+  background-color: $back_ground;
+  height: 800px;
+  margin-bottom: 120px;
+  padding: 100px 0px;
+  //   single_card
+  .single_card {
+    height: 390px;
+    width: 382px;
+    border: #00000033 solid 1px;
+    border-radius: 10px;
+    padding: 15px;
+    // single_card_image
+    .single_card_img {
+      height: 219px;
+      width: 352px;
+      border-radius: 10px;
+      display: flex;
+      overflow: hidden;
+      background-color: $primary_color;
+      margin-bottom: 15px;
+      > img {
+        object-fit: cover;
+        width: 100%;
+      }
+    }
+    // single_card_info
+    .single_card_info {
+      //   display: flex;
+      //   height: calc(390px - 219px);
+      .div_1 {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column; /* You might want to use 'row' depending on your layout needs */
+        align-items: stretch;
+        gap: 10px;
+        .div_2 {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}
