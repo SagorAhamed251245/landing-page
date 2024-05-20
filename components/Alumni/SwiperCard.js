@@ -25,7 +25,7 @@ const SwiperCard = () => {
   return (
     <div className="swiper-container">
       <Swiper
-        slidesPerView={3}
+        slidesPerView={5}
         spaceBetween={30}
         freeMode={true}
         pagination={{
