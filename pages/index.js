@@ -3,6 +3,7 @@ import Banner from "@/components/Banner/Banner";
 import BookMeeting from "@/components/BookMeeting/BookMeeting";
 import DemandableBootcamp from "@/components/DemandableBootcamp/DemandableBootcamp";
 import StudentsExperience from "@/components/StudentsExperience/StudentsExperience";
+import StudentsReviews from "@/components/StudentsReviews/StudentsReviews";
 import UniqueServices from "@/components/UniqueServices/UniqueServices";
 
 export default function Home() {
@@ -11,11 +12,12 @@ export default function Home() {
       <main className="">
         <>
           <Banner />
-          <UniqueServices/>
+          <UniqueServices />
           <StudentsExperience />
           <BookMeeting />
           <Alumni />
           <DemandableBootcamp />
+          <StudentsReviews />
         </>
       </main>
     </>
