@@ -2,6 +2,7 @@ import Alumni from "@/components/Alumni/Alumni";
 import Banner from "@/components/Banner/Banner";
 import BookMeeting from "@/components/BookMeeting/BookMeeting";
 import DemandableBootcamp from "@/components/DemandableBootcamp/DemandableBootcamp";
+import FailureReasons from "@/components/FailureReasons/FailureReasons";
 import LostITjob from "@/components/LostITjob/LostITjob";
 import StudentsExperience from "@/components/StudentsExperience/StudentsExperience";
 import StudentsReviews from "@/components/StudentsReviews/StudentsReviews";
@@ -20,6 +21,7 @@ export default function Home() {
           <DemandableBootcamp />
           <StudentsReviews />
           <LostITjob />
+          <FailureReasons />
         </>
       </main>
     </>
