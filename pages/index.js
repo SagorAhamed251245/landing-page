@@ -14,6 +14,7 @@ import ResourcesForYou from "@/components/ResourcesForYou/ResourcesForYou";
 import RecommendationForCourse from "@/components/RecommendationForCourse/RecommendationForCourse";
 import Finance from "@/components/Finance/Finance";
 import Footer from "@/components/Footer/Footer";
+import OurFounder from "@/components/OurFounder/OurFounder";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <>
           <Banner />
           <UniqueServices />
+          <OurFounder />
           <StudentsExperience />
           <BookMeeting />
           <Alumni />
@@ -31,11 +33,14 @@ export default function Home() {
           <LostITjob />
           <FailureReasons />
           <NextCareer />
-          <FreeCourses/>
-          <ResourcesForYou/>
-          <RecommendationForCourse/>
-          <Finance/>
-          <Footer/>
+          <FreeCourses />
+          <ResourcesForYou />
+          <RecommendationForCourse />
+          <Finance />
+          <Footer />
+          <FreeCourses />
+          <ResourcesForYou />
+          <RecommendationForCourse />
         </>
       </main>
     </>
