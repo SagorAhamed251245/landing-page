@@ -1,9 +1,9 @@
 import React from "react";
 import Vector from "../SVG/Vector";
 
-const ReviewCard = ({ review, name, image }) => {
+const SingleCard = ({ name, review }) => {
   return (
-    <div className="review_card">
+    <div className="recommendation_card">
       {/* user info */}
 
       <div className="user_info">
@@ -26,8 +26,10 @@ const ReviewCard = ({ review, name, image }) => {
 
         <img src="/images/svg/stars.svg" style={{ width: "150px" }} />
       </div>
+
+      <Vector color={"#0065FF"} />
     </div>
   );
 };
 
-export default ReviewCard;
+export default SingleCard;
