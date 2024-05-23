@@ -10,7 +10,7 @@ const BootcampCompletion = () => {
                 </h4>
 
                 <p style={{marginTop:"30px"}}>
-                Take one of Schools Hub’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. 
+                Take one of Schools Hub’s range of Python courses and learn how to code using this incredibly useful language. It's simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. 
                 </p>
 
                <div style={{display:"flex", marginTop:"30px", marginBottom:"20px", gap:"10px"}}>
