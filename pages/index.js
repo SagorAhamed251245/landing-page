@@ -11,6 +11,7 @@ import StudentsReviews from "@/components/StudentsReviews/StudentsReviews";
 import UniqueServices from "@/components/UniqueServices/UniqueServices";
 import FreeCourses from "@/components/FreeCourses/FreeCourses";
 import ResourcesForYou from "@/components/ResourcesForYou/ResourcesForYou";
+import RecommendationForCourse from "@/components/RecommendationForCourse/RecommendationForCourse";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
           <NextCareer />
           <FreeCourses/>
           <ResourcesForYou/>
+          <RecommendationForCourse/>
         </>
       </main>
     </>
