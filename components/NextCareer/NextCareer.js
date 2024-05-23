@@ -2,9 +2,9 @@ import React from 'react';
 
 const NextCareer = () => {
     return (
-        <section className='bootcamp_completion_container container'>
-            <div className='bootcamp_completion'>
-            <div className='left_bootcamp'>
+        <section className='bootcamp_completion_container  '>
+            <div style={{gap:"40px", textAlign:"start"}} className='bootcamp_completion'>
+            <div style={{width:"35%"}} className=''>
                 <h4 className='title'>
                 Next Career Opportunities
                 </h4>
@@ -18,7 +18,7 @@ const NextCareer = () => {
             </div>
 
             
-               <img style={{width:"600px", marginTop:"40px"}} src='\images\svg\Rectangle 41581.svg'/>
+               <img style={{width:"700px", marginTop:"40px"}} src='\images\svg\Rectangle 41581.svg'/>
             
         </div>
         </section>
