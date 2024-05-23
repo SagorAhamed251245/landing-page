@@ -9,6 +9,7 @@ import LostITjob from "@/components/LostITjob/LostITjob";
 import StudentsExperience from "@/components/StudentsExperience/StudentsExperience";
 import StudentsReviews from "@/components/StudentsReviews/StudentsReviews";
 import UniqueServices from "@/components/UniqueServices/UniqueServices";
+import FreeCourses from "@/components/FreeCourses/FreeCourses";
 
 export default function Home() {
   return (
@@ -23,10 +24,10 @@ export default function Home() {
           <DemandableBootcamp />
           <StudentsReviews />
           <BootcampCompletion />
-          <NextCareer />
           <LostITjob />
           <FailureReasons />
-          <BootcampCompletion />
+          <NextCareer />
+          <FreeCourses/>
         </>
       </main>
     </>
