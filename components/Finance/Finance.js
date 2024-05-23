@@ -7,17 +7,17 @@ const Finance = () => {
         <div>
           <p
             style={{
-              fontSize: "30px",
+              fontSize: "40px",
               textAlign: "center",
               fontWeight: "bolder",
             }}
           >
-            Where Our Alumni Works
+            Finance Options
           </p>
           <div></div>
           <hr
             style={{
-              width: "300px",
+              width: "250px",
               margin: "0 auto",
               marginTop: "30px",
               marginBottom: "60px",
