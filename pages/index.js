@@ -10,6 +10,7 @@ import StudentsExperience from "@/components/StudentsExperience/StudentsExperien
 import StudentsReviews from "@/components/StudentsReviews/StudentsReviews";
 import UniqueServices from "@/components/UniqueServices/UniqueServices";
 import FreeCourses from "@/components/FreeCourses/FreeCourses";
+import ResourcesForYou from "@/components/ResourcesForYou/ResourcesForYou";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
           <FailureReasons />
           <NextCareer />
           <FreeCourses/>
+          <ResourcesForYou/>
         </>
       </main>
     </>
