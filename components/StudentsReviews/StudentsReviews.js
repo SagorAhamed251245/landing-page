@@ -63,7 +63,7 @@ const StudentsReviews = () => {
       {/* review content */}
       <div className="review_cards">
         {reviews.map((review, index) => (
-          <ReviewCard name={review?.name} review={review?.review} />
+          <ReviewCard key={index} name={review?.name} review={review?.review} />
         ))}
       </div>
     </section>
