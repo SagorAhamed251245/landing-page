@@ -1,0 +1,18 @@
+.finance{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .finance_card{
+        width: 380px;
+        height: 210px;
+        background-color: #F7F5FE;
+        border: 1px solid #5831F080;
+        border-radius: 10px;
+        padding: 30px;
+
+        h3{
+            font-size: 30px;
+            color: #4B4A4D;
+        }
+    }
+}

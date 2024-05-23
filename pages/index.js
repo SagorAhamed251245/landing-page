@@ -12,6 +12,7 @@ import UniqueServices from "@/components/UniqueServices/UniqueServices";
 import FreeCourses from "@/components/FreeCourses/FreeCourses";
 import ResourcesForYou from "@/components/ResourcesForYou/ResourcesForYou";
 import RecommendationForCourse from "@/components/RecommendationForCourse/RecommendationForCourse";
+import Finance from "@/components/Finance/Finance";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
           <FreeCourses/>
           <ResourcesForYou/>
           <RecommendationForCourse/>
+          <Finance/>
         </>
       </main>
     </>
