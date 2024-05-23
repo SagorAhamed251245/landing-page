@@ -21,7 +21,7 @@ const ReviewCard = ({ review, name, image }) => {
       {/* reviews */}
 
       <div className="reviews">
-        <p>{review}</p>
+        <p style={{marginTop:"20px"}}>{review}</p>
         {/* ratings */}
 
         <img src="/images/svg/stars.svg" style={{ width: "150px" }} />

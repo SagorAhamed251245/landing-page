@@ -13,6 +13,7 @@ import FreeCourses from "@/components/FreeCourses/FreeCourses";
 import ResourcesForYou from "@/components/ResourcesForYou/ResourcesForYou";
 import RecommendationForCourse from "@/components/RecommendationForCourse/RecommendationForCourse";
 import Finance from "@/components/Finance/Finance";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
           <ResourcesForYou/>
           <RecommendationForCourse/>
           <Finance/>
+          <Footer/>
         </>
       </main>
     </>
