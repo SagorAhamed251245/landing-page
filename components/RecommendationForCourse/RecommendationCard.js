@@ -1,9 +1,9 @@
-import React from 'react';
-import Vector from '../SVG/Vector';
+import React from "react";
+import Vector from "../SVG/Vector";
 
-const RecommendationCard = ({ review, name, image}) => {
-    return (
-        <div className="recommendation_card">
+const RecommendationCard = ({ review, name, image }) => {
+  return (
+    <div className="recommendation_card">
       {/* user info */}
       <>
         <div className="user_info">
@@ -12,7 +12,7 @@ const RecommendationCard = ({ review, name, image}) => {
             <div>
               <p className="user_name">{name}</p>
               <p className="p">Students of TS4U</p>
-              <Vector color={"#0065FF"}/>
+              {/* <Vector color={"#0065FF"} /> */}
             </div>
             <div>
               <img src="/images/svg/cotation.svg" />
@@ -20,7 +20,6 @@ const RecommendationCard = ({ review, name, image}) => {
           </div>
         </div>
         {/* reviews */}
-
         <div className="reviews">
           <p>{review}</p>
           {/* ratings */}
@@ -29,7 +28,7 @@ const RecommendationCard = ({ review, name, image}) => {
         </div>
       </>
     </div>
-    );
+  );
 };
 
 export default RecommendationCard;

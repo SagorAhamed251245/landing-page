@@ -42,7 +42,7 @@ export default function Home() {
           <FreeCourses />
           <ResourcesForYou />
           <OurProgram />
-          <RecommendationForCourse />
+          {/* <RecommendationForCourse /> */}
         </>
       </main>
     </>

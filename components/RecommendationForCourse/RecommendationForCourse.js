@@ -1,6 +1,8 @@
 import React from "react";
 import ReviewCard from "../StudentsReviews/ReviewCard";
 import SingleCard from "./SingleCard";
+import SingleVideo from "./SingleVideo";
+import RecommendationVideos from "./RecommendationVideos";
 
 const RecommendationForCourse = () => {
   const recommendation = [
@@ -22,6 +24,12 @@ const RecommendationForCourse = () => {
         "I am so glad that I joined the SQA Automation Bootcamp. The team was incredibly supportive right from the start, checking in on me regularly to provide guidance and help whenever I needed it. The course content was presented in an easy-to-understand format, which made it quicker for me to grasp the concepts. It is impressive how the schedule was thoughtfully organized...",
       image: "",
     },
+    {
+      name: "Veranika Halouchyts",
+      review:
+        "I am so glad that I joined the SQA Automation Bootcamp. The team was incredibly supportive right from the start, checking in on me regularly to provide guidance and help whenever I needed it. The course content was presented in an easy-to-understand format, which made it quicker for me to grasp the concepts. It is impressive how the schedule was thoughtfully organized...",
+      image: "",
+    },
   ];
 
   return (
@@ -31,6 +39,7 @@ const RecommendationForCourse = () => {
           <SingleCard key={index} name={review?.name} review={review?.review} />
         ))}
       </div>
+      <RecommendationVideos />
     </section>
   );
 };
