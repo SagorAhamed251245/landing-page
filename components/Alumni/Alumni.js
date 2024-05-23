@@ -19,6 +19,7 @@ const Alumni = () => {
             width: "300px",
             margin: "0 auto",
             marginTop: "30px",
+            marginBottom: "60px",
             height: "2px",
             border: "0",
             backgroundColor: "#CCCCCC",
