@@ -11,8 +11,8 @@ const TextComponent = () => {
   return (
     <section>
       <div>
-        <h4 style={{marginBottom:"20px",width:"50%"}} className="title">Bootcamp Students Failure Reasons</h4>
-        <p style={{marginBottom:"30px" ,width:"65%"}}>
+        <h4 className="title">Bootcamp Students Failure Reasons</h4>
+        <p>
           Some students may enter bootcamps expecting instant mastery without
           realizing the intensive effort required.
         </p>
@@ -24,7 +24,7 @@ const TextComponent = () => {
                 display: "flex",
                 alignItems: "center",
                 gap: "10px",
-                marginTop:"15px"
+                marginTop: "15px",
               }}
             >
               <span>
