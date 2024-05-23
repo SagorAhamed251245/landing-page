@@ -12,6 +12,7 @@ import UniqueServices from "@/components/UniqueServices/UniqueServices";
 import FreeCourses from "@/components/FreeCourses/FreeCourses";
 import ResourcesForYou from "@/components/ResourcesForYou/ResourcesForYou";
 import RecommendationForCourse from "@/components/RecommendationForCourse/RecommendationForCourse";
+import OurFounder from "@/components/OurFounder/OurFounder";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <>
           <Banner />
           <UniqueServices />
+          <OurFounder />
           <StudentsExperience />
           <BookMeeting />
           <Alumni />
@@ -29,9 +31,9 @@ export default function Home() {
           <LostITjob />
           <FailureReasons />
           <NextCareer />
-          <FreeCourses/>
-          <ResourcesForYou/>
-          <RecommendationForCourse/>
+          <FreeCourses />
+          <ResourcesForYou />
+          <RecommendationForCourse />
         </>
       </main>
     </>
