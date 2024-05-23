@@ -15,6 +15,7 @@ import RecommendationForCourse from "@/components/RecommendationForCourse/Recomm
 import Finance from "@/components/Finance/Finance";
 import Footer from "@/components/Footer/Footer";
 import OurFounder from "@/components/OurFounder/OurFounder";
+import OurProgram from "@/components/OurProgram/OurProgram";
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
           <Footer />
           <FreeCourses />
           <ResourcesForYou />
+          <OurProgram />
           <RecommendationForCourse />
         </>
       </main>
