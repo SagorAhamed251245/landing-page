@@ -15,7 +15,6 @@ import RecommendationForCourse from "@/components/RecommendationForCourse/Recomm
 import Finance from "@/components/Finance/Finance";
 import Footer from "@/components/Footer/Footer";
 import OurFounder from "@/components/OurFounder/OurFounder";
-import CompareTable from "@/components/CompareTable/CompareTable";
 
 export default function Home() {
   return (
@@ -40,9 +39,6 @@ export default function Home() {
           <FreeCourses />
           <ResourcesForYou />
           <RecommendationForCourse />
-          <Finance />
-          <CompareTable/>
-          <Footer />
         </>
       </main>
     </>

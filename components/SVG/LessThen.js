@@ -12,7 +12,7 @@ const LessThen = ({ color }) => {
       <path
         d="M1.25 12.5L6.75 7L1.25 1.5"
         stroke={color}
-        stroke-width="2"
+        strokeWidth="2"
         stroke-linecap="round"
         stroke-linejoin="round"
       />

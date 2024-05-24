@@ -1,5 +1,6 @@
 import React from "react";
 import FounderInfo from "./FounderInfo";
+import ReviewAboutFounder from "./ReviewAboutFounder";
 
 const OurFounder = () => {
   return (
@@ -14,6 +15,7 @@ const OurFounder = () => {
 
       <div className="container">
         <FounderInfo />
+        <ReviewAboutFounder />
       </div>
     </section>
   );

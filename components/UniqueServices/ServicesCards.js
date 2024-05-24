@@ -67,7 +67,7 @@ const ServicesCards = () => {
   return (
     <div className="services_cards">
       {cards.map((card, index) => (
-        <ServicesCard url={card?.url} text={card?.text} i={index} />
+        <ServicesCard key={index} url={card?.url} text={card?.text} i={index} />
       ))}
     </div>
   );

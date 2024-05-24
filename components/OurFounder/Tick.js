@@ -17,7 +17,7 @@ const Tick = () => {
       <path
         d="M6.4585 10.0001L8.81683 12.3584L13.5418 7.64172"
         stroke="#5831F0"
-        stroke-width="1.5"
+        strokeWidth="1.5"
         stroke-linecap="round"
         stroke-linejoin="round"
       />
