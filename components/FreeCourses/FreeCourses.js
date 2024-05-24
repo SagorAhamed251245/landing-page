@@ -4,7 +4,7 @@ import DemandableBootcampCard from '../DemandableBootcamp/DemandableBootcampCard
 const FreeCourses = () => {
     return (
         <div>
-            <section className="demandable_bootcamp ">
+            <section style={{marginTop:"120px"}} className="demandable_bootcamp ">
       <div style={{ textAlign: "center" }}>
         <h4 className="title">Our Free Courses</h4>
         <p style={{ width: "40%", margin: "20px auto 60px auto" }}>

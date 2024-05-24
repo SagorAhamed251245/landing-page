@@ -2,7 +2,7 @@ import React from 'react';
 
 const NextCareer = () => {
     return (
-        <section className='bootcamp_completion_container book_meeting '>
+        <section style={{marginTop:"120px"}} className='bootcamp_completion_container book_meeting '>
             <div style={{gap:"40px"}} className='bootcamp_completion'>
             <div style={{width:"35%"}} className=''>
                 <h4 className='title'>

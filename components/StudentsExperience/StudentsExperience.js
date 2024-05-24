@@ -4,7 +4,7 @@ import VideoCard from "./VideoCard";
 
 const StudentsExperience = () => {
   return (
-    <section className="container">
+    <section style={{marginTop:"120px"}} className="container">
       <div className="students_experience">
         <Intro />
         <VideoCard />

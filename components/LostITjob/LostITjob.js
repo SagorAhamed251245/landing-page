@@ -3,7 +3,7 @@ import LessThen from "../SVG/LessThen";
 
 const LostITjob = () => {
   return (
-    <section className="lost_IT_job">
+    <section style={{marginTop:"120px"}} className="lost_IT_job">
       {/* right */}
       <div className="left_section">
         <div>
