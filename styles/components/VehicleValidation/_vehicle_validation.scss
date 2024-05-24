@@ -1,0 +1,78 @@
+.vehicle_validation {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #efebfe;
+  margin-top: 120px;
+  .vehicle_validation_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  //   first card_card
+  .first_card {
+    height: 390px;
+    width: 382px;
+    border: #00000033 solid 1px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    // single_card_image
+    .single_card_img {
+      height: 219px;
+      width: 352px;
+      border-radius: 10px;
+      display: flex;
+      overflow: hidden;
+      //   background-color: $primary_color;
+      margin-bottom: 15px;
+      > img {
+        object-fit: cover;
+        width: 100%;
+      }
+    }
+    // single_card_info
+    .single_card_info {
+      //   display: flex;
+      //   height: calc(390px - 219px);
+      .div_1 {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column; /* You might want to use 'row' depending on your layout needs */
+        align-items: stretch;
+        gap: 10px;
+        > p {
+          color: #00000099;
+          font-weight: 600px;
+          display: flex;
+          justify-content: start;
+          align-items: center;
+        }
+        .div_2 {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          > button {
+            padding: 10px 20px;
+            background-color: white;
+            border-radius: 40px;
+            border: 1px solid $primary_color;
+            color: $primary_color;
+            font-weight: bold;
+            cursor: pointer;
+          }
+          > p {
+            font-size: 20px;
+            font-weight: bolder;
+            > span {
+              font-size: 16px;
+              color: #00000099;
+              font-weight: lighter;
+              text-decoration: line-through;
+            }
+          }
+        }
+      }
+    }
+  }
+}

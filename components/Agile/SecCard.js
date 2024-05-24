@@ -8,14 +8,14 @@ const SecCard = () => {
     "Months 6+",
   ];
   return (
-    <section style={{ color: "white" }}>
+    <section style={{ color: "white", display: "flex", alignItems: "center" }}>
       <div>
-        <h4 className="title">MERN Full-Stack Software Engineer</h4>
-        <p>
-          Embark on a 7-9 month journey to mastery as a MERN Full-Stack Software
-          Engineer! Dive into hands-on learning, Agile Scrum projects, and
-          mentorship in a virtual environment. Build enterprise-grade apps, earn
-          $120K-$250K yearly, and step into a promising IT career!
+        <h4 className="title">Agile Product Owner</h4>
+        <p style={{ margin: "30px 0px", width: "70%" }}>
+          Transform your career in just 5 to 7 months with our IT training
+          course! Become an Agile Product Owner and lead top-notch development
+          teams. Dive into hands-on learning and real-world problem-solving,
+          mastering enterprise-grade applications.
         </p>
         <div className="features">
           {features.map((item, index) => (

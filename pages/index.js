@@ -17,6 +17,9 @@ import Footer from "@/components/Footer/Footer";
 import OurFounder from "@/components/OurFounder/OurFounder";
 import OurProgram from "@/components/OurProgram/OurProgram";
 import OurCourses from "@/components/OurCourses/OurCourses";
+import VehicleValidation from "@/components/VehicleValidation/VehicleValidation";
+import Agile from "@/components/Agile/Agile";
+import MERN from "@/components/MERN/MERN";
 
 export default function Home() {
   return (
@@ -42,6 +45,9 @@ export default function Home() {
           <ResourcesForYou />
           <OurProgram />
           <OurCourses />
+          <VehicleValidation />
+          <Agile />
+          <MERN />
           {/* <RecommendationForCourse /> */}
         </>
       </main>
