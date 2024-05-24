@@ -2,7 +2,7 @@ import React from 'react';
 
 const Finance = () => {
     return (
-        <section>
+        <section style={{marginTop:"120px"}}>
             <div style={{ marginBottom: "50px" }} className="no-select">
         <div>
           <p

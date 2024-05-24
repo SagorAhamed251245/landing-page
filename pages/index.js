@@ -20,6 +20,8 @@ import OurCourses from "@/components/OurCourses/OurCourses";
 import VehicleValidation from "@/components/VehicleValidation/VehicleValidation";
 import Agile from "@/components/Agile/Agile";
 import MERN from "@/components/MERN/MERN";
+import FAQ from "@/components/FAQ/FAQ";
+import BookCall from "@/components/BookCall/BookCall";
 
 export default function Home() {
   return (
@@ -49,6 +51,10 @@ export default function Home() {
           <Agile />
           <MERN />
           {/* <RecommendationForCourse /> */}
+          <FAQ />
+          <BookCall />
+          <Finance />
+          <Footer />
         </>
       </main>
     </>
