@@ -17,6 +17,7 @@ import Footer from "@/components/Footer/Footer";
 import OurFounder from "@/components/OurFounder/OurFounder";
 import OurProgram from "@/components/OurProgram/OurProgram";
 import FAQ from "@/components/FAQ/FAQ";
+import BookCall from "@/components/BookCall/BookCall";
 
 export default function Home() {
   return (
@@ -43,6 +44,7 @@ export default function Home() {
           <OurProgram />
           {/* <RecommendationForCourse /> */}
           <FAQ/>
+          <BookCall/>
           <Finance/>
           <Footer/>
         </>
