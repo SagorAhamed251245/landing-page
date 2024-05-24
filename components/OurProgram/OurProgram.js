@@ -24,7 +24,6 @@ const OurProgram = () => {
         </h4>
         <RecommendationForCourse />
       </section>
-      ;
     </>
   );
 };
