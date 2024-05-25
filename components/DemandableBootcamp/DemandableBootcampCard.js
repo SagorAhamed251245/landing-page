@@ -62,7 +62,6 @@ const DemandableBootcampCard = () => {
           ))}
           <SwiperNavButtons />
         </Swiper>
-        {/* <SwiperNavButtons /> */}
       </div>
     </div>
   );

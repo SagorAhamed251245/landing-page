@@ -1,0 +1,43 @@
+.latest_news {
+  width: 100%;
+  padding: 120px 0;
+
+  background-image: url("/images/image/blueBackground.png");
+  background-repeat: no-repeat;
+  .latest_news_cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    .latest_news_card {
+      height: 286px;
+      position: relative;
+      .div {
+        height: 160px;
+        width: 342px;
+        background-color: #fff;
+        position: absolute;
+        //
+        bottom: -25%;
+        padding: 15px;
+        left: 5%;
+        border-radius: 15px;
+        > .div2 {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 15px;
+
+          > P {
+            color: $primary_color;
+            background-color: #efdde4;
+            font-size: 10px;
+            font-weight: 500;
+            display: flex;
+            padding: 6px 6px;
+            align-items: center;
+            border-radius: 5px;
+            gap: 6px;
+          }
+        }
+      }
+    }
+  }
+}

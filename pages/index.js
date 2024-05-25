@@ -24,6 +24,7 @@ import FAQ from "@/components/FAQ/FAQ";
 import BookCall from "@/components/BookCall/BookCall";
 import CompareTable from "@/components/CompareTable/CompareTable";
 import FrontEnd from "@/components/FrontEnd/FrontEnd";
+import LatestNews from "@/components/LatestNews/LatestNews";
 
 export default function Home() {
   return (
@@ -53,6 +54,7 @@ export default function Home() {
           {/* <RecommendationForCourse /> */}
           <FreeCourses />
           <ResourcesForYou />
+          <LatestNews />
           <Finance />
 
           {/* <RecommendationForCourse />          */}
