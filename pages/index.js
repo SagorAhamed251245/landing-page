@@ -22,6 +22,7 @@ import Agile from "@/components/Agile/Agile";
 import MERN from "@/components/MERN/MERN";
 import FAQ from "@/components/FAQ/FAQ";
 import BookCall from "@/components/BookCall/BookCall";
+import CompareTable from "@/components/CompareTable/CompareTable";
 
 export default function Home() {
   return (
@@ -52,6 +53,7 @@ export default function Home() {
           <MERN />
           {/* <RecommendationForCourse /> */}
           <FAQ />
+          <CompareTable />
           <BookCall />
           <Finance />
           <Footer />
