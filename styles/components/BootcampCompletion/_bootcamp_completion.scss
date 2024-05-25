@@ -1,20 +1,20 @@
-.bootcamp_completion_container{
-    background-color: #F7F5FE;
-    // width: 1620px;
-    height: 575px;
-    // margin: auto;
-    margin-top: 40px;
-    >.bootcamp_completion {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        >.left_bootcamp{
-            width: 50%;
-            height: 240px;
-        }
-        .right_img{
-            width: 420px;
-            margin-top: 70px;
-        }
+.bootcamp_completion_container {
+  background-color: #f7f5fe;
+  // width: 1620px;
+  height: 575px;
+  // margin: auto;
+
+  > .bootcamp_completion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > .left_bootcamp {
+      width: 50%;
+      height: 240px;
     }
+    .right_img {
+      width: 420px;
+      margin-top: 70px;
+    }
+  }
 }

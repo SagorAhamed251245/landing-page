@@ -23,6 +23,7 @@ import MERN from "@/components/MERN/MERN";
 import FAQ from "@/components/FAQ/FAQ";
 import BookCall from "@/components/BookCall/BookCall";
 import CompareTable from "@/components/CompareTable/CompareTable";
+import FrontEnd from "@/components/FrontEnd/FrontEnd";
 
 export default function Home() {
   return (
@@ -41,19 +42,21 @@ export default function Home() {
           <FailureReasons />
           <BootcampCompletion />
           <OurProgram />
-          <MERN />
+          <OurCourses />
           <VehicleValidation />
           <Agile />
+          <MERN />
+          <FrontEnd />
           <NextCareer />
           <CompareTable />
           <FAQ />
           {/* <RecommendationForCourse /> */}
           <FreeCourses />
           <ResourcesForYou />
-          <Finance />          
-          <OurCourses />         
+          <Finance />
+
           {/* <RecommendationForCourse />          */}
-          <BookCall />
+          {/* <BookCall /> */}
           <Footer />
         </>
       </main>

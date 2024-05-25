@@ -10,10 +10,12 @@ const SecCard = () => {
   return (
     <section style={{ color: "black", display: "flex", alignItems: "center" }}>
       <div>
-        <h4 className="title">Software Quality Automation Engineer</h4>
-        <p style={{ margin: "30px 0px" }}>
-          In just 6 to 9 months, our IT training program will transform you into
-          a Software Quality Automation Engineer.
+        <h4 className="title">Vehicle Validation Engineer</h4>
+        <p style={{ margin: "30px 0px", width: "80%" }}>
+          This course will equip aspiring engineers with the necessary skills
+          and experience to become Vehicle Validation Engineer. The 5 to 7-month
+          IT training course guarantees you a job as an OEM Infotainment Test
+          Validation Engineer in Michigan, with a starting salary of over $80k.
         </p>
         <div className="features">
           {features.map((item, index) => (
