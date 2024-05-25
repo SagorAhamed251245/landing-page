@@ -16,13 +16,13 @@ const OurProgram = () => {
           <SecCard />
           <LastCard />
         </div>
-        <h4
-          className="title"
-          style={{ margin: "120px 0", textAlign: "center", color: "white" }}
-        >
-          Recommendation for This Course
-        </h4>
-        <RecommendationForCourse />
+
+        <RecommendationForCourse
+          titleColor={"white"}
+          LessThenColor={"#5831f0"}
+          btnChildren={"Book A Meeting"}
+          primaryBtn={false}
+        />
       </section>
     </>
   );

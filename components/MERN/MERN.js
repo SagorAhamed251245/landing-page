@@ -11,12 +11,7 @@ const MERN = () => {
         <SecCard />
         <LastCard />
       </div>
-      <h4
-        className="title"
-        style={{ margin: "120px 0", textAlign: "center", color: "black" }}
-      >
-        Recommendation for This Course
-      </h4>
+
       <RecommendationForCourse />
     </section>
   );
