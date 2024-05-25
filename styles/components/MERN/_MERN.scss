@@ -3,9 +3,11 @@
   padding-bottom: 120px;
   background-color: #efebfe;
   margin-top: 120px;
+
   .mern_stack_cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 60px;
   }
   //   single_card
   .single_card {

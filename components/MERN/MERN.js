@@ -12,7 +12,11 @@ const MERN = () => {
         <LastCard />
       </div>
 
-      <RecommendationForCourse />
+      <RecommendationForCourse
+        primaryBtn={true}
+        btnChildren={"Book a call"}
+        LessThenColor={"white"}
+      />
     </section>
   );
 };

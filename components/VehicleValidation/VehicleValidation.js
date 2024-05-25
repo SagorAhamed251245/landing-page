@@ -13,7 +13,11 @@ const VehicleValidation = () => {
           <LastCard />
         </div>
 
-        <RecommendationForCourse />
+        <RecommendationForCourse
+          LessThenColor={"white"}
+          btnChildren={"Book a meeting"}
+          primaryBtn={true}
+        />
       </section>
     </>
   );
