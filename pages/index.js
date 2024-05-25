@@ -46,7 +46,7 @@ export default function Home() {
           {/* <RecommendationForCourse /> */}
           <FAQ/>
           <CompareTable/>
-          <BookCall/>
+          {/* <BookCall/> */}
           <Finance/>
           <Footer/>
         </>
