@@ -18,6 +18,7 @@ import OurFounder from "@/components/OurFounder/OurFounder";
 import OurProgram from "@/components/OurProgram/OurProgram";
 import FAQ from "@/components/FAQ/FAQ";
 import BookCall from "@/components/BookCall/BookCall";
+import CompareTable from "@/components/CompareTable/CompareTable";
 
 export default function Home() {
   return (
@@ -44,6 +45,7 @@ export default function Home() {
           <OurProgram />
           {/* <RecommendationForCourse /> */}
           <FAQ/>
+          <CompareTable/>
           <BookCall/>
           <Finance/>
           <Footer/>
