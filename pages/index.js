@@ -24,6 +24,7 @@ import FAQ from "@/components/FAQ/FAQ";
 import BookCall from "@/components/BookCall/BookCall";
 import CompareTable from "@/components/CompareTable/CompareTable";
 import FrontEnd from "@/components/FrontEnd/FrontEnd";
+import SuccessfulStudents from "@/components/SuccessfulStudents/SuccessfulStudents";
 
 export default function Home() {
   return (
@@ -48,13 +49,13 @@ export default function Home() {
           <MERN />
           <FrontEnd />
           <NextCareer />
+          <SuccessfulStudents/>
           <CompareTable />
           <FAQ />
           {/* <RecommendationForCourse /> */}
           <FreeCourses />
           <ResourcesForYou />
           <Finance />
-
           {/* <RecommendationForCourse />          */}
           {/* <BookCall /> */}
           <Footer />
