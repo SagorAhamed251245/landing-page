@@ -13,13 +13,13 @@ const LastCard = () => {
       <img src="/images/svg/leady.png" />
       <div
         style={{
-          width: "496px",
-          height: " 447px",
+          width: "300px",
+          height: " 300px",
           backgroundColor: "#FFC700",
           position: "absolute",
-          left: "10%",
+          left: "30%",
           zIndex: "-1",
-          bottom: "-60px",
+          bottom: "-70px",
           borderRadius: "10px",
         }}
       ></div>

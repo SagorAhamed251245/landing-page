@@ -4,6 +4,7 @@
   .our_courses_cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 120px;
   }
   //   first card_card
   .first_card {
