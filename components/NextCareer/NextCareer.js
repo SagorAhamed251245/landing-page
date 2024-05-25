@@ -4,7 +4,7 @@ const NextCareer = () => {
     return (
         <section style={{marginTop:"120px"}} className='bootcamp_completion_container book_meeting '>
             <div style={{gap:"40px"}} className='bootcamp_completion'>
-            <div style={{width:"35%"}} className=''>
+            <div style={{width:"30%"}} className=''>
                 <h4 className='title'>
                 Next Career Opportunities
                 </h4>

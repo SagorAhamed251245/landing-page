@@ -37,23 +37,23 @@ export default function Home() {
           <Alumni />
           <DemandableBootcamp />
           <StudentsReviews />
-          <BootcampCompletion />
           <LostITjob />
           <FailureReasons />
+          <BootcampCompletion />
+          <OurProgram />
+          <MERN />
+          <VehicleValidation />
+          <Agile />
           <NextCareer />
+          <CompareTable />
+          <FAQ />
           {/* <RecommendationForCourse /> */}
           <FreeCourses />
           <ResourcesForYou />
-          <OurProgram />
-          <OurCourses />
-          <VehicleValidation />
-          <Agile />
-          <MERN />
-          {/* <RecommendationForCourse /> */}
-          <FAQ />
-          <CompareTable />
+          <Finance />          
+          <OurCourses />         
+          {/* <RecommendationForCourse />          */}
           <BookCall />
-          <Finance />
           <Footer />
         </>
       </main>
