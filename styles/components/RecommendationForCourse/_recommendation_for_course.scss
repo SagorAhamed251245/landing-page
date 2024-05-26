@@ -22,10 +22,14 @@
     gap: 30px;
     margin-top: 30px;
     grid-template-columns: repeat(4, 1fr);
+    @include breakpoints (largeMobile){
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
     > .single_video {
-      position: relative; /* Ensure positioning context for play button */
+      position: relative; 
       background-color: peachpuff;
-      overflow: hidden; /* Ensure video doesn't overflow the container */
+      overflow: hidden; 
       border-radius: 20px;
       width: 100%;
     }
@@ -43,7 +47,7 @@
       width: 70px;
       height: 70px;
       border-radius: 50%;
-      background-color: rgba(238, 190, 190, 0.2); /* 20% opacity */
+      background-color: rgba(238, 190, 190, 0.2); 
       display: flex;
       justify-content: center;
       align-items: center;
@@ -63,22 +67,14 @@
   }
   .recommendation_cards {
     margin-top: 60px;
-    /* display: grid;
-    gap: 30px;
-    grid-template-columns: repeat(4, 1fr); */
     .recommendation_card {
       position: relative;
-
-      //   background-color: palegoldenrod;
-      //   height: 436px;
       background-color: #fff;
       min-height: 235px;
-      //   max-height: 235px;
       width: 100%;
       overflow: hidden;
       border-radius: 15px;
       padding: 30px;
-      // box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
       box-shadow: 2px 2px 2px 2px rgba(108, 59, 235, 0.11);
       .vector_relative {
         position: absolute;
