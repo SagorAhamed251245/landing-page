@@ -1,11 +1,11 @@
 import React from "react";
 
 const RightContent = () => {
-  function playPause() {
+  /*  function playPause() {
     let myVideo = document.getElementById("video1");
     if (myVideo.paused) myVideo.play();
     else myVideo.pause();
-  }
+  } */
 
   return (
     <>
@@ -16,20 +16,29 @@ const RightContent = () => {
         <div className="div">
           {/* <button onClick="playPause()">Play/Pause</button> */}
 
-          <video id="video1" height="100%" className="video">
-            <source
-              src="https://videos.pexels.com/video-files/6771767/6771767-hd_1080_1920_30fps.mp4"
-              type="video/mp4"
-            />
-          </video>
+          <iframe
+            id="founder"
+            style={{
+              objectFit: "cover",
+              width: "100%",
+              height: "100%",
+            }}
+            className="video"
+            src="https://youtube.com/embed/hZ5wd00Yr3M?si=egRKC5uCOQr_876N"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
         </div>
         {/* relative */}
         <div className="video_relative"></div>
-        <div className="play_button" onClick={playPause}>
+        {/*  <div className="play_button" onClick={playPause}>
           <div>
             <img src="/images/svg/Polygon.svg" alt="Play/Pause" />
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );

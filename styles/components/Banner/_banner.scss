@@ -130,6 +130,8 @@
     }
     .div {
       height: calc(100% - $sudo_size);
+
+      overflow: hidden;
       display: flex;
       justify-content: center;
     }
