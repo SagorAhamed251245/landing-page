@@ -3,6 +3,17 @@
   height: 800px;
   margin-bottom: 120px;
   padding: 100px 0px;
+  .demand-text{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    @include breakpoints (largeMobile){
+      width: 100%;
+    text-align: center;
+    }
+  }
   //   single_card
   .single_card {
     height: 390px;
