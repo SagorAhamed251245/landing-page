@@ -7,6 +7,9 @@
 .title {
   font-size: 42px;
   font-weight: bolder;
+  @include breakpoints(largeMobile){
+    font-size: 27px;
+  }
 }
 
 .max_container {
@@ -15,10 +18,10 @@
 }
 
 .no-select {
-  user-select: none; /* Standard syntax */
-  -webkit-user-select: none; /* Safari */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; 
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
 }
 
 .book_a_meeting_1 {

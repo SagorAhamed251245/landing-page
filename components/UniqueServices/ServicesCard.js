@@ -13,7 +13,8 @@ const ServicesCard = ({ i, url, text }) => {
           <img src={url} alt={`Service ${i}`} />
         </div>
         <p>{text}</p>
-        <Vector color={i === 0 ? "#0065FF" : "#C0D1FE"} />
+        <Vector className="large-vector" color={i === 0 ? "#0065FF" : "#C0D1FE"} />
+        <Vector size={"75"} className="mobile-vector" color={i === 0 ? "#0065FF" : "#C0D1FE"}/>
       </div>
     </section>
   );
