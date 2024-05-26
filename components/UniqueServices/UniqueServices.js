@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
 const UniqueServices = () => {
-  let slider = [0, 1, 2, 3, 4];
+  let slider = [0, 1, 2];
   return (
     <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
       {slider.map((slider, idx) => (

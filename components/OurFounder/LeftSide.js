@@ -14,15 +14,20 @@ const LeftSide = () => {
     <div className="founder_info_left">
       {/* intro */}
       <div>
-        <h4 className="title">Shiblu Ahmad</h4>
-        <p className="p1">Principal, TS4U</p>
+        <div className="founder_contact">
+          <div>
+            <h4 className="title">Shiblu Ahmad</h4>
+            <p className="p1">Principal, TS4U</p>
+          </div>
 
-        <button className="book_a_meeting">
-          Book a call
-          <span>
-            <LessThen color={"white"} />
-          </span>{" "}
-        </button>
+          <button className="book_a_meeting">
+            Book a call
+            <span>
+              <LessThen color={"white"} />
+            </span>{" "}
+          </button>
+        </div>
+
         <p className="into_p">
           Hi, my name is Shiblu Ahmad, and I’m the principal at TS4U. I am a
           Bangladeshi-born American with over 20 years of experience in the IT
