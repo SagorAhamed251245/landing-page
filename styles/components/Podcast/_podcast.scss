@@ -10,6 +10,10 @@
         overflow: hidden; 
         border-radius: 20px;
         width: 1200px;
+        @include breakpoints (largeMobile){
+          width: 350px;
+          height: 220px;
+        }
       }
   
       .div {
