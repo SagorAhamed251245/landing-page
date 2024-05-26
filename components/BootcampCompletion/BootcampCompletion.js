@@ -4,9 +4,9 @@ const BootcampCompletion = () => {
     return (
         <section className='bootcamp_completion_container container'>
             <div className='bootcamp_completion'>
-            <div style={{width:"40%"}} className='left_bootcamp'>
+            <div className='left_bootcamp'>
                 <h4 className='title'>
-                Bootcamp Completion: Career Path
+                Salary for this role
                 </h4>
 
                 <p style={{marginTop:"30px"}}>
