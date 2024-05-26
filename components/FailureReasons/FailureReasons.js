@@ -1,5 +1,6 @@
 import React from "react";
 import TextComponent from "./TextComponent";
+import LessThen from "../SVG/LessThen";
 
 const FailureReasons = () => {
   let a =
@@ -7,9 +8,16 @@ const FailureReasons = () => {
   const surroundingImages = [a, a, a, a, a, a, a, a];
   return (
     <section className="failure_reasons container">
+      <button className="book_a_meeting_mobile ">
+        Book a call
+        <span>
+          <LessThen color={"white"} />
+        </span>
+      </button>
       <div className="cercel_img">
         <img src="/images/svg/Group 1171283242.png" />
       </div>
+
       <div>
         <TextComponent />
       </div>

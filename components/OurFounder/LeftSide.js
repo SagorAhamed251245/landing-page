@@ -24,7 +24,7 @@ const LeftSide = () => {
             Book a call
             <span>
               <LessThen color={"white"} />
-            </span>{" "}
+            </span>
           </button>
         </div>
 

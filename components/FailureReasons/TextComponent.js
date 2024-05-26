@@ -1,4 +1,5 @@
 import React from "react";
+import LessThen from "../SVG/LessThen";
 
 const TextComponent = () => {
   let features = [
@@ -35,6 +36,12 @@ const TextComponent = () => {
               <span> {item}</span>
             </p>
           ))}
+          <button className="book_a_meeting mb_hidden">
+            Book a call
+            <span>
+              <LessThen color={"white"} />
+            </span>
+          </button>
         </div>
       </div>
     </section>
