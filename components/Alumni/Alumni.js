@@ -13,7 +13,7 @@ const Alumni = () => {
         >
           Where Our Alumni Works
         </p>
-        <div></div>
+
         <hr
           style={{
             width: "300px",

@@ -11,8 +11,10 @@ const TextComponent = () => {
   return (
     <section>
       <div>
-        <h4 className="title">Bootcamp Students Failure Reasons</h4>
-        <p>
+        <h4 className="title">
+          Bootcamp Students <br /> Failure Reasons
+        </h4>
+        <p style={{ width: "90%", margin: "30px 0" }}>
           Some students may enter bootcamps expecting instant mastery without
           realizing the intensive effort required.
         </p>
