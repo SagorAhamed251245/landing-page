@@ -11,17 +11,21 @@ const SingleVideoCard = ({ url, id }) => {
   return (
     <div className="single_video">
       <div className="div">
-        <video
-          id={id}
+        <iframe
+          id="founder"
           style={{
             objectFit: "cover",
             width: "100%",
             height: "100%",
           }}
           className="video"
-        >
-          <source src={url} type="video/mp4" />
-        </video>
+          src="https://www.youtube.com/embed/hNVA_SemREU?si=sFW_n8OVxj7rp8de"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
       </div>
       <div className="video_relative"></div>
       <div className="play_button" onClick={playPause}>
