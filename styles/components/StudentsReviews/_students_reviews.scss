@@ -23,6 +23,12 @@
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(3, 1fr);
+    @include breakpoints (largeMobile){
+      display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 30px;
+    }
     .review_card {
       //   background-color: palegoldenrod;
       //   height: 436px;
