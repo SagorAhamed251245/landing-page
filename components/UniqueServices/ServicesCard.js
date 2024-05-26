@@ -13,12 +13,17 @@ const ServicesCard = ({ i, url, text, classNames }) => {
           <img src={url} alt={`Service ${i}`} />
         </div>
         <p>{text}</p>
-        <div className="large-vector">
-          <Vector color={i === 0 ? "#0065FF" : "#C0D1FE"} />
-        </div>
-        <div className="mobile-vector">
-          <Vector size={"35"} color={i === 0 ? "#0065FF" : "#C0D1FE"} />
-        </div>
+
+        <Vector
+          color={i === 0 ? "#0065FF" : "#C0D1FE"}
+          classNames="large-vector"
+        />
+
+        <Vector
+          size={"35"}
+          color={i === 0 ? "#0065FF" : "#C0D1FE"}
+          classNames="mobile-vector"
+        />
       </>
     </section>
   );

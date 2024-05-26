@@ -7,8 +7,24 @@
   justify-content: space-between;
   align-items: center;
   gap: 60px;
+  @include breakpoints(largeMobile) {
+    // flex-direction: column;
+    flex-direction: column-reverse;
+  }
   margin-bottom: 120px;
   .cercel_img {
     height: 404.75px;
+    @include breakpoints(largeMobile) {
+      margin: auto 0;
+      height: 269px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      > img {
+        height: 269px;
+        width: 305.05px;
+        margin: auto 0;
+      }
+    }
   }
 }
