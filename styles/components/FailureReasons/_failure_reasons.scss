@@ -2,7 +2,12 @@
   display: grid;
   // justify-content: space-around;
   // align-items: center;
-  grid-template-columns: repeat(3, 1fr);
+  // grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 120px;
   .cercel_img {
     height: 404.75px;
   }
