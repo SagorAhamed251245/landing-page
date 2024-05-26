@@ -8,12 +8,7 @@ const Intro = () => {
       }}
     >
       <h4 className="title">Students Experience in The Bootcamp</h4>
-      <p
-        style={{
-          width: "50%",
-
-          margin: "20px auto 60px auto ",
-        }}
+      <p className="bootcamp-p"
       >
         Bootcamp experiences vary widely among students, but common themes
         emerge. Many report intense immersion into the subject matter, with a

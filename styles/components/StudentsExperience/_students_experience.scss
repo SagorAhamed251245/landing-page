@@ -1,17 +1,32 @@
 .students_experience {
   margin-bottom: 120px;
+  .bootcamp-p{
+    width: 50%;
+    margin: 20px auto 60px auto; 
+    @include breakpoints(largeMobile){
+      width: 100%;
+    }
+  }
 }
 
 .videos_card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+  @include breakpoints(largeMobile){
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  }
   .single_video {
     height: 400px;
     width: 100%;
-    position: relative; /* Ensure positioning context for play button */
+    @include breakpoints(largeMobile){
+      height: 140px;
+    }
+    position: relative; 
     background-color: peachpuff;
-    overflow: hidden; /* Ensure video doesn't overflow the container */
+    overflow: hidden; 
     border-radius: 20px;
   }
 

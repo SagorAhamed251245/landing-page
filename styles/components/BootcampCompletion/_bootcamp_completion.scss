@@ -1,20 +1,38 @@
 .bootcamp_completion_container {
   background-color: #f7f5fe;
   // width: 1620px;
-  height: 575px;
-  // margin: auto;
+  height: 570px;
+  @include breakpoints(largeMobile){
+    height: 720px;
+  }
 
   > .bootcamp_completion {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;
+
+    @include breakpoints(largeMobile){
+      display: inline;
+      justify-content: left;
+      height: 100%;
+    }
     > .left_bootcamp {
-      width: 50%;
+      width: 40%;
       height: 240px;
+      @include breakpoints(largeMobile){
+        width: 100%;
+        padding: 40px;
+      }
     }
     .right_img {
       width: 420px;
       margin-top: 70px;
+      @include breakpoints(largeMobile){
+        width: 300px;
+        margin-left: 60px;
+        margin-top: 160px;
+      }
     }
   }
 }
