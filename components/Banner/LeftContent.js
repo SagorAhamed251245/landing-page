@@ -13,12 +13,14 @@ const LeftContent = () => {
         In this free training video, learn how I landed my dream career without
         a degree or certifications.
       </p>
-      <button className="contact_button">
-        Contact Me
-        <span>
-          <img src="/images/svg/lessdthen.svg" />
-        </span>
-      </button>
+      <div className="contact_button_div">
+        <button className="contact_button">
+          Contact Me
+          <span>
+            <img src="/images/svg/lessdthen.svg" />
+          </span>
+        </button>
+      </div>
     </section>
   );
 };

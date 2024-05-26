@@ -18,7 +18,7 @@ const LeftSide = () => {
         <p className="p1">Principal, TS4U</p>
 
         <button className="book_a_meeting">
-          Book a Call
+          Book a call
           <span>
             <LessThen color={"white"} />
           </span>{" "}

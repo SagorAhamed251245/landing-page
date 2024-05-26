@@ -16,7 +16,7 @@ const RightContent = () => {
         <div className="div">
           {/* <button onClick="playPause()">Play/Pause</button> */}
 
-          <video id="video1" width="420" height="100%" className="video">
+          <video id="video1" height="100%" className="video">
             <source
               src="https://videos.pexels.com/video-files/6771767/6771767-hd_1080_1920_30fps.mp4"
               type="video/mp4"

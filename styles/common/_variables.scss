@@ -9,3 +9,8 @@ $category_shape: #c0d1fe;
 $light_yellow: #ffcc80;
 $yellow: #ff9900;
 $text_color: #5c5958;
+
+@mixin mobile_container() {
+  width: 95%;
+  margin: 0, auto;
+}

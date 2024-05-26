@@ -7,10 +7,17 @@
   overflow-x: hidden;
   // border: 2px solid black;
   height: 800px;
+  @include breakpoints(largeMobile) {
+    height: 625px;
+    margin-bottom: 40px;
+  }
   .background_image {
     position: absolute;
     top: 0;
     z-index: -3;
+    @include breakpoints(largeMobile) {
+      height: 430px;
+    }
   }
 }
 .nav {
@@ -18,13 +25,23 @@
   justify-content: space-between;
   align-items: center;
   height: 80px;
+  @include breakpoints(largeMobile) {
+    @include mobile_container;
+    height: 70px;
+  }
   > section {
     > .logo {
       height: 50px;
+      @include breakpoints(largeMobile) {
+        height: 30px;
+      }
     }
     ul {
       display: flex;
       gap: 50px;
+      @include breakpoints(largeMobile) {
+        display: none;
+      }
       > li {
         list-style: none;
         font-size: 16px;
@@ -41,6 +58,12 @@
   justify-content: space-between;
   align-items: center;
   height: calc(100% - 80px);
+
+  @include breakpoints(largeMobile) {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
   // right_banner_section
   .right_banner_section {
     width: 50%;
@@ -50,6 +73,10 @@
     background-color: #0d2032;
     border-radius: 20px;
     position: relative;
+    @include breakpoints(largeMobile) {
+      width: 269px;
+      height: 261px;
+    }
 
     .video_relative {
       height: 596px;
@@ -61,6 +88,10 @@
       top: 10%;
       z-index: -1;
       right: -10%;
+      @include breakpoints(largeMobile) {
+        width: 269px;
+        height: 261px;
+      }
     }
     .play_button {
       position: absolute;
@@ -93,6 +124,9 @@
       font-weight: bolder;
       text-align: center;
       border-radius: 20px 20px 0px 0px;
+      @include breakpoints(largeMobile) {
+        font-size: 1rem;
+      }
     }
     .div {
       height: calc(100% - $sudo_size);
@@ -103,7 +137,16 @@
 
   // left_banner_section
   .left_banner_section {
+    @include breakpoints(largeMobile) {
+    }
     width: 50%;
+    @include breakpoints(largeMobile) {
+      width: 100%;
+      text-align: center;
+      > * {
+        margin: 0px 0;
+      }
+    }
     > * {
       margin: 30px 0;
     }
@@ -128,11 +171,31 @@
       font-size: 50px;
       font-weight: 700px;
       width: 80%;
+      @include breakpoints(largeMobile) {
+        font-size: 24px;
+        font-weight: 700px;
+        width: 95%;
+        margin: 0 auto;
+      }
     }
     .sub_p {
       font-size: 18px;
       font-weight: 500;
       width: 60%;
+      @include breakpoints(largeMobile) {
+        font-size: 14px;
+        font-weight: 700px;
+        width: 95%;
+        margin: 0 auto;
+      }
+    }
+    .contact_button_div {
+      @include breakpoints(largeMobile) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+      }
     }
     .contact_button {
       padding: 16px 30px;
@@ -142,6 +205,7 @@
       font-weight: bolder;
       border-radius: 10px;
       border: none;
+
       > span {
         margin-left: 10px;
       }
