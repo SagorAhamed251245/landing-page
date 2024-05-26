@@ -26,6 +26,7 @@ import CompareTable from "@/components/CompareTable/CompareTable";
 import FrontEnd from "@/components/FrontEnd/FrontEnd";
 import LatestNews from "@/components/LatestNews/LatestNews";
 import SuccessfulStudents from "@/components/SuccessfulStudents/SuccessfulStudents";
+import Podcast from "@/components/Podcast/Podcast";
 
 export default function Home() {
   return (
@@ -60,6 +61,7 @@ export default function Home() {
           <Finance />
           {/* <RecommendationForCourse />          */}
           {/* <BookCall /> */}
+          <Podcast />
           <Footer />
         </>
       </main>
