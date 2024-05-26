@@ -1,11 +1,11 @@
 import React from "react";
 
-const Vector = ({ color }) => {
+const Vector = ({ color,size }) => {
   return (
     <svg
       className="vector_relative"
-      width="112"
-      height="122"
+      width={size?size : "122"}
+      height={size?size : "122"}
       viewBox="0 0 112 122"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

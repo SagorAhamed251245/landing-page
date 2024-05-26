@@ -1,12 +1,8 @@
 .unique_service {
-  //   height: 800px;
+ 
   margin-bottom: 120px;
   .services_cards {
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // gap: 10px;
-    // flex-wrap: wrap;
+    
 
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -16,11 +12,12 @@
       height: 100%;
     }
   }
-  // background-color: aquamarine;
+ 
   .service_card {
     background-color: #5831f017;
     height: 242px;
     width: 235px;
+
 
     padding: 30px;
     border-radius: 30px;
@@ -29,6 +26,23 @@
     justify-content: center;
     gap: 25px;
     position: relative;
+
+    .mobile-vector{
+      display: none;
+      @include breakpoints(largeMobile){
+        display: inline;
+      }
+    }
+    .large-vector{
+      @include breakpoints(largeMobile){
+        display: none;
+      }
+    }
+
+    @include breakpoints(largeMobile){
+      height: 73px;
+    width: 75px;
+    }
     .vector_relative {
       position: absolute;
       bottom: 0;
