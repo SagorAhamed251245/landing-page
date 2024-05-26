@@ -2,18 +2,28 @@ import React from "react";
 
 const LastCard = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        height: "550px",
-        justifyContent: "space-between",
-      }}
-    >
-      <div style={{ display: "flex", alignItems: "flex-start" }}>
+    <div className="last_card">
+      <div className="div1">
         <img src="/images/svg/leady.png" />
       </div>
-      <div style={{ display: "flex", alignItems: "flex-end" }}>
-        <img src="/images/svg/leady.png" />
+      <div className="div2">
+        <div className="div">
+          <iframe
+            id="founder"
+            style={{
+              objectFit: "cover",
+              width: "100%",
+              height: "100%",
+            }}
+            className="video"
+            src="https://www.youtube.com/embed/hNVA_SemREU?si=sFW_n8OVxj7rp8de"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
     </div>
   );

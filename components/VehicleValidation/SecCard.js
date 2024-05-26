@@ -8,10 +8,13 @@ const SecCard = () => {
     "Months 6+",
   ];
   return (
-    <section style={{ color: "black", display: "flex", alignItems: "center" }}>
+    <section
+      className="sec_card"
+      style={{ color: "black", display: "flex", alignItems: "center" }}
+    >
       <div>
         <h4 className="title">Vehicle Validation Engineer</h4>
-        <p style={{ margin: "30px 0px", width: "80%" }}>
+        <p className="p">
           This course will equip aspiring engineers with the necessary skills
           and experience to become Vehicle Validation Engineer. The 5 to 7-month
           IT training course guarantees you a job as an OEM Infotainment Test
