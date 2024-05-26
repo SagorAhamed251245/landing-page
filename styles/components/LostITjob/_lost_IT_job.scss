@@ -5,6 +5,14 @@
   background-color: #f7f5fe;
   background-image: url("/images/svg/Rectangle.svg");
   background-repeat: no-repeat;
+  @include breakpoints(largeMobile) {
+    height: 301px;
+    background-image: url("/images/image/blueBackgroundMobile.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
   //   right
   .right_section {
     width: 50%;
@@ -12,11 +20,19 @@
     display: flex;
     align-items: center;
     padding-left: 100px;
+    @include breakpoints(largeMobile) {
+      padding-left: 0px;
+    }
+
     > div {
       > p {
         margin: 30px 0;
         width: 60%;
         color: #576363;
+        @include breakpoints(largeMobile) {
+          width: 100%;
+          font-size: 12px;
+        }
       }
       .button {
         padding: 16px 30px;
@@ -27,7 +43,7 @@
         border-radius: 10px;
         background-color: $primary_color;
         color: white;
-
+        @include mobile_button;
         border: none;
         > span {
           margin-left: 10px;
@@ -43,11 +59,20 @@
     justify-content: end;
     align-items: center;
     padding-right: 100px;
+    @include breakpoints(largeMobile) {
+      padding-right: 0px;
+      justify-content: start;
+    }
     > div {
       height: 548px;
       width: 526px;
       background: #000;
       border-radius: 10px;
+      @include breakpoints(largeMobile) {
+        width: 141px;
+        height: 203px;
+        display: flex;
+      }
     }
 
     > img {

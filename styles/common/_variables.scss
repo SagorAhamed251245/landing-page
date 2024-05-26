@@ -14,3 +14,8 @@ $text_color: #5c5958;
   width: 95%;
   margin: 0, auto;
 }
+@mixin mobile_button() {
+  font-size: 12px;
+  padding: 10px 15px;
+  margin-top: 0px;
+}

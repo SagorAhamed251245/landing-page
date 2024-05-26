@@ -60,12 +60,16 @@
         }
 
         .single_video {
-          // height: 519px;
+          height: 519px;
           position: relative; /* Ensure positioning context for play button */
           background-color: peachpuff;
           overflow: hidden; /* Ensure video doesn't overflow the container */
           border-radius: 20px;
           width: 482px;
+          @include breakpoints(largeMobile) {
+            height: 268.98px;
+            width: 192.08px;
+          }
         }
 
         .div {
@@ -73,7 +77,7 @@
           width: 100%;
           @include breakpoints(largeMobile) {
             width: 192.08px;
-            height: 206.82px;
+            height: 268.98px;
           }
         }
 
