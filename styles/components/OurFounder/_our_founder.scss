@@ -14,6 +14,19 @@
     }
   }
 }
+.yellowVector {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  @include breakpoints(largeMobile) {
+    height: 159.03px;
+    width: 155.26px;
+    // gap: 8px;
+    gap: 10px;
+    bottom: -25%;
+  }
+}
 .founder_info {
   display: flex;
   width: 100%;
@@ -27,12 +40,16 @@
   width: 50%;
   @include breakpoints(largeMobile) {
     width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
   }
 }
 .video_card {
   position: absolute;
-  bottom: 0;
+  bottom: -25%;
   z-index: 5;
+  left: 25%;
 }
 .single_video {
   height: 349px;
@@ -41,6 +58,10 @@
   background-color: peachpuff;
   overflow: hidden;
   border-radius: 20px;
+  @include breakpoints(largeMobile) {
+    height: 140px;
+    width: 180px;
+  }
 }
 .div {
   height: 100%;
@@ -75,6 +96,11 @@
   justify-content: center;
   overflow: hidden;
   border-radius: 45px;
+  @include breakpoints(largeMobile) {
+    width: 226px;
+    height: 188px;
+    border-radius: 15px;
+  }
 }
 .img_div > img {
   object-fit: cover;
