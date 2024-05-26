@@ -2,27 +2,25 @@ import React from "react";
 
 const LastCard = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "end",
-        paddingRight: "120px",
-        position: "relative",
-      }}
-    >
-      <img src="/images/svg/leady.png" />
-      <div
-        style={{
-          width: "300px",
-          height: " 300px",
-          backgroundColor: "#FFC700",
-          position: "absolute",
-          left: "30%",
-          zIndex: "-1",
-          bottom: "-70px",
-          borderRadius: "10px",
-        }}
-      ></div>
+    <div className="last_card">
+      <div className="div">
+        <iframe
+          id="founder"
+          style={{
+            objectFit: "cover",
+            width: "100%",
+            height: "100%",
+          }}
+          className="video"
+          src="https://www.youtube.com/embed/hNVA_SemREU?si=sFW_n8OVxj7rp8de"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div className="yellow_vector"></div>
     </div>
   );
 };

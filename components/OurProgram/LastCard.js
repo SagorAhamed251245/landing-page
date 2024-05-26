@@ -2,10 +2,7 @@ import React from "react";
 
 const LastCard = () => {
   return (
-    <div
-      className="lastCard"
-      style={{ display: "flex", justifyContent: "end" }}
-    >
+    <div className="lastCard">
       <div className="div">
         <iframe
           id="founder"

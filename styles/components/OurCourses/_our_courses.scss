@@ -5,72 +5,45 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 120px;
+    @include breakpoints(largeMobile) {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
-  //   first card_card
-  .first_card {
-    height: 390px;
-    width: 382px;
-    border: #00000033 solid 1px;
-    border-radius: 10px;
-    background-color: white;
-    padding: 15px;
-    // single_card_image
-    .single_card_img {
-      height: 219px;
-      width: 352px;
+  .last_card {
+    display: flex;
+    justify-content: end;
+    padding-right: 120px;
+    position: relative;
+
+    @include breakpoints(largeMobile) {
+      order: 2;
+      padding-right: 0px;
+    }
+    .yellow_vector {
+      width: 496px;
+      height: 447px;
+      background-color: #ffc700;
+      position: absolute;
+      left: 8%;
+      z-index: -1;
+      bottom: -70px;
       border-radius: 10px;
-      display: flex;
-      overflow: hidden;
-      //   background-color: $primary_color;
-      margin-bottom: 15px;
-      > img {
-        object-fit: cover;
-        width: 100%;
+      @include breakpoints(largeMobile) {
+        height: 225.32px;
+        width: 250.02px;
+        left: 20%;
+        z-index: -1;
+        bottom: -20%;
       }
     }
-    // single_card_info
-    .single_card_info {
-      //   display: flex;
-      //   height: calc(390px - 219px);
-      .div_1 {
-        height: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column; /* You might want to use 'row' depending on your layout needs */
-        align-items: stretch;
-        gap: 10px;
-        > p {
-          color: #00000099;
-          font-weight: 600px;
-          display: flex;
-          justify-content: start;
-          align-items: center;
-        }
-        .div_2 {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-
-          > button {
-            padding: 10px 20px;
-            background-color: white;
-            border-radius: 40px;
-            border: 1px solid $primary_color;
-            color: $primary_color;
-            font-weight: bold;
-            cursor: pointer;
-          }
-          > p {
-            font-size: 20px;
-            font-weight: bolder;
-            > span {
-              font-size: 16px;
-              color: #00000099;
-              font-weight: lighter;
-              text-decoration: line-through;
-            }
-          }
-        }
+    .div {
+      width: 535px;
+      height: 550px;
+      border-radius: 10px;
+      overflow: hidden;
+      @include breakpoints(largeMobile) {
+        height: 280px;
+        width: 269.68px;
       }
     }
   }
