@@ -9,7 +9,7 @@ const PodcastCard = () => {
       }
     return (
         <section>
-            <div className="single_video">
+            <div className="single_video podcast-card">
         <div className="div">
           <video
             id={"1"}

@@ -4,9 +4,9 @@ import DemandableBootcampCard from "./DemandableBootcampCard";
 const DemandableBootcamp = () => {
   return (
     <section className="demandable_bootcamp ">
-      <div style={{ textAlign: "center" }}>
-        <h4 className="title">Most Demandable Bootcamps</h4>
-        <p style={{ width: "40%", margin: "20px auto 60px auto" }}>
+      <div className="demand-text">
+        <h4 className="title" style={{marginBottom:"20px"}}>Most Demandable Bootcamps</h4>
+        <p>
           Recommended bootcamps offer comprehensive and high-quality programs
           designed to equip students with in-demand skills for today's job
           market.

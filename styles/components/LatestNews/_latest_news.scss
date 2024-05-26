@@ -1,12 +1,17 @@
 .latest_news {
   width: 100%;
   padding: 120px 0;
-
   background-image: url("/images/image/blueBackground.png");
   background-repeat: no-repeat;
+  background-size: cover;
   .latest_news_cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    @include breakpoints (largeMobile){
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      gap: 100px;
+    }
     .latest_news_card {
       height: 286px;
       position: relative;
