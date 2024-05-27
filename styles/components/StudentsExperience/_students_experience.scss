@@ -12,20 +12,24 @@
 .videos_card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  // gap: 30px;
+  column-gap: 30px;
+  row-gap: 0px;
   @include breakpoints(tablet) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    // gap: 10px;
   }
   .single_video {
     height: 400px;
+    margin-bottom: -70px;
     width: 100%;
     @include breakpoints(tablet) {
       height: 140px;
+      margin-bottom: -10px;
     }
     position: relative;
-    background-color: peachpuff;
+    // background-color: peachpuff;
     overflow: hidden;
     border-radius: 20px;
   }

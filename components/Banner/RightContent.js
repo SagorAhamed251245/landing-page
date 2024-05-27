@@ -24,7 +24,7 @@ const RightContent = () => {
                 height: "100%",
               }}
               className="video"
-              src="https://youtube.com/embed/hZ5wd00Yr3M?si=egRKC5uCOQr_876N"
+              src="https://www.youtube.com/embed/qeAe_iDSMbE?si=EFUdApfp_Wee86ei"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

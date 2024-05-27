@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SingleVideoCard from "./SingleVideoCard";
+import LessThen from "../SVG/LessThen";
 
 const VideoCard = () => {
   const [playing, isPlaying] = useState(true);

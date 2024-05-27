@@ -8,13 +8,40 @@
   padding-top: 120px;
   padding-bottom: 120px;
 
+  .lastCard {
+    display: flex;
+    width: 369px;
+    height: 402px;
+    margin-left: calc(100% - 369px);
+    justify-content: space-between;
+    @include breakpoints(tablet) {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+      gap: 30px;
+      margin-left: 0;
+    }
+    .div {
+      display: flex;
+      width: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+
+      @include breakpoints(tablet) {
+        height: 320px;
+        width: 100%;
+      }
+    }
+  }
+
   .front_end_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 120px;
-    @include breakpoints (tablet){
+    @include breakpoints(tablet) {
       display: grid;
-      grid-template-columns: repeat(1,1fr);
+      grid-template-columns: repeat(1, 1fr);
       gap: 40px;
     }
   }

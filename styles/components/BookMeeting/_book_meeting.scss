@@ -8,6 +8,7 @@
   @include breakpoints(tablet) {
     margin-bottom: 40px;
     height: auto;
+    padding: 40px 0 0 0;
   }
   .book_meeting {
     display: flex;

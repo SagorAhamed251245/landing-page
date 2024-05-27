@@ -52,7 +52,7 @@
 
       .user_info {
         display: flex;
-
+        // justify-content: space-between;
         align-items: center;
         gap: 15px;
         > img {
@@ -63,6 +63,7 @@
         > .div {
           display: flex;
           align-items: center;
+          width: calc(100% - 52px);
           justify-content: space-between;
           > div > .p {
             font-size: smaller;
