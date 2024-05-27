@@ -6,27 +6,27 @@ const VideoCard = () => {
   const [playing, isPlaying] = useState(true);
   const videos = [
     {
-      url: "https://videos.pexels.com/video-files/3700376/3700376-hd_1920_1080_25fps.mp4",
+      url: "https://player.vimeo.com/video/926785132?h=1f51fef31c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "1",
     },
     {
-      url: "https://videos.pexels.com/video-files/2461326/2461326-hd_1920_1080_30fps.mp4",
+      url: "https://player.vimeo.com/video/926990535?h=a15a1b73f3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "2",
     },
     {
-      url: "https://videos.pexels.com/video-files/2895837/2895837-hd_1920_1080_30fps.mp4",
+      url: "https://player.vimeo.com/video/926779712?h=e174f8f21c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "3",
     },
     {
-      url: "https://videos.pexels.com/video-files/2886841/2886841-hd_1920_1080_30fps.mp4",
+      url: "https://player.vimeo.com/video/927015929?h=1c3232c72c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "4",
     },
     {
-      url: "https://videos.pexels.com/video-files/2559159/2559159-hd_1920_1080_30fps.mp4",
+      url: "https://player.vimeo.com/video/926998311?h=f56ca873af&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "5",
     },
     {
-      url: "https://videos.pexels.com/video-files/3772809/3772809-hd_1920_1080_25fps.mp4",
+      url: "https://player.vimeo.com/video/927003712?h=86271e6086&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "6",
     },
   ];
