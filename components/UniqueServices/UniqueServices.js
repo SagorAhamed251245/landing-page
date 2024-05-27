@@ -28,7 +28,7 @@ const UniqueServices = () => {
                 }}
               >
                 <img src="\images\svg\Star.svg" />
-                <p> Michigan State Approved Trainer</p>
+                <p> Michigan State Approved Training Provider</p>
                 <img src="\images\svg\Star.svg" />
               </div>
               <h4
