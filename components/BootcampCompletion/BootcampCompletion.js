@@ -14,13 +14,13 @@ const BootcampCompletion = () => {
                 </p>
 
                <div style={{display:"flex", marginTop:"30px", marginBottom:"20px", gap:"10px"}}>
-               <img src='\images\svg\check-circle 4.svg'/> <p>Low Salary $5000</p>
+               <img className='green-tik' src='\images\svg\check-circle 4.svg'/> <p>Low Salary $5000</p>
                </div>
                <div style={{display:"flex", marginTop:"30px", marginBottom:"20px", gap:"10px"}}>
-               <img src='\images\svg\check-circle 4.svg'/> <p>Average Salary $10000</p>
+               <img className='green-tik' src='\images\svg\check-circle 4.svg'/> <p>Average Salary $10000</p>
                </div>
                <div style={{display:"flex", marginTop:"30px", marginBottom:"20px", gap:"10px"}}>
-               <img src='\images\svg\check-circle 4.svg'/> <p>Top Salary $15000</p>
+               <img className='green-tik' src='\images\svg\check-circle 4.svg'/> <p>Top Salary $15000</p>
                </div>
             </div>
 
