@@ -12,7 +12,7 @@ $text_color: #5c5958;
 
 @mixin mobile_container() {
   width: 95%;
-  margin: 0, auto;
+  margin: 0 auto;
 }
 @mixin mobile_button() {
   font-size: 12px;

@@ -50,6 +50,9 @@
   //   single_card
   .single_card {
     height: 390px;
+    @include breakpoints(tablet) {
+      width: 100%;
+    }
     width: 382px;
     border: #00000033 solid 1px;
     border-radius: 10px;
@@ -58,6 +61,9 @@
     // single_card_image
     .single_card_img {
       height: 219px;
+      @include breakpoints(tablet) {
+        width: 100%;
+      }
       width: 352px;
       border-radius: 10px;
       display: flex;
