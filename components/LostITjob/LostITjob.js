@@ -23,7 +23,7 @@ const LostITjob = () => {
           </p>
 
           <button className="button">
-            Book a Meeting
+            Book a call
             <span>
               <LessThen color={"white"} />
             </span>

@@ -23,7 +23,7 @@ const LeftBookMeeting = () => {
           and beyond.
         </p>
         <button className="book_button">
-          Contact Me
+          Book a call
           <span>
             <LessThen color={"white"} />
           </span>
