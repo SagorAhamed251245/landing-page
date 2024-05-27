@@ -19,7 +19,7 @@ const SingleVideoCard = () => {
             height: "100%",
           }}
           className="video"
-          src="https://www.youtube.com/embed/xXLTpazDgSo?si=E6PRxdJQz9xZN7Hx"
+          src="https://www.youtube.com/embed/k7PDCIxEirE?si=5s8IcNaSJc4ymIza"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

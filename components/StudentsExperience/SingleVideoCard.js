@@ -2,11 +2,11 @@ import React, { useState } from "react";
 
 const SingleVideoCard = ({ url, id }) => {
   //   const [playing, isPlaying] = useState(true);
-  function playPause() {
+  /* function playPause() {
     let myVideo = document.getElementById(id);
     if (myVideo.paused) myVideo.play();
     else myVideo.pause();
-  }
+  } */
 
   return (
     <div className="single_video">
@@ -28,11 +28,11 @@ const SingleVideoCard = ({ url, id }) => {
         ></iframe>
       </div>
       <div className="video_relative"></div>
-      <div className="play_button" onClick={playPause}>
+      {/* <div className="play_button" onClick={playPause}>
         <div>
           <img src="/images/svg/Polygon.svg" alt="Play/Pause" />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

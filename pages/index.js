@@ -27,12 +27,14 @@ import FrontEnd from "@/components/FrontEnd/FrontEnd";
 import LatestNews from "@/components/LatestNews/LatestNews";
 import SuccessfulStudents from "@/components/SuccessfulStudents/SuccessfulStudents";
 import Podcast from "@/components/Podcast/Podcast";
+import TogolTop from "@/components/Shared/TogolTop";
 
 export default function Home() {
   return (
     <>
-      <main className="">
+      <main id="top" className="">
         <>
+          <TogolTop />
           <Banner />
           <UniqueServices />
           <OurFounder />
