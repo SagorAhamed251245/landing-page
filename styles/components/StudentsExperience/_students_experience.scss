@@ -1,9 +1,9 @@
 .students_experience {
   margin-bottom: 120px;
-  .bootcamp-p{
+  .bootcamp-p {
     width: 50%;
-    margin: 20px auto 60px auto; 
-    @include breakpoints(largeMobile){
+    margin: 20px auto 60px auto;
+    @include breakpoints(tablet) {
       width: 100%;
     }
   }
@@ -13,20 +13,20 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  @include breakpoints(largeMobile){
+  @include breakpoints(tablet) {
     display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
   .single_video {
     height: 400px;
     width: 100%;
-    @include breakpoints(largeMobile){
+    @include breakpoints(tablet) {
       height: 140px;
     }
-    position: relative; 
+    position: relative;
     background-color: peachpuff;
-    overflow: hidden; 
+    overflow: hidden;
     border-radius: 20px;
   }
 

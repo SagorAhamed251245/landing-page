@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 60px;
-  @include breakpoints(largeMobile) {
+  @include breakpoints(tablet) {
     // flex-direction: column;
     flex-direction: column-reverse;
   }
@@ -23,7 +23,7 @@
     border: none;
     gap: 15px;
     margin-top: 30px;
-    @include breakpoints(largeMobile) {
+    @include breakpoints(tablet) {
       @include mobile_button;
       display: none;
     }
@@ -40,7 +40,7 @@
     border: none;
     gap: 15px;
     margin-top: 30px;
-    @include breakpoints(largeMobile) {
+    @include breakpoints(tablet) {
       @include mobile_button;
 
       display: flex;
@@ -49,7 +49,7 @@
   margin-bottom: 120px;
   .cercel_img {
     height: 404.75px;
-    @include breakpoints(largeMobile) {
+    @include breakpoints(tablet) {
       margin: auto 0;
       height: 269px;
       width: 100%;

@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 60px;
-    @include breakpoints(largeMobile) {
+    @include breakpoints(tablet) {
       grid-template-columns: repeat(1, 1fr);
     }
   }
@@ -22,7 +22,7 @@
     display: flex;
     height: 550px;
     justify-content: space-evenly;
-    @include breakpoints(largeMobile) {
+    @include breakpoints(tablet) {
       height: 220px;
     }
     .div2 {
@@ -30,7 +30,7 @@
       width: 50%;
       display: flex;
       align-items: flex-end;
-      @include breakpoints(largeMobile) {
+      @include breakpoints(tablet) {
         height: 220px;
       }
       .div {
@@ -39,7 +39,7 @@
         border-radius: 15px;
         // overflow: hidden;
 
-        @include breakpoints(largeMobile) {
+        @include breakpoints(tablet) {
           width: 100%;
           height: 200px;
         }
@@ -49,7 +49,7 @@
     .div1 {
       display: flex;
       align-items: flex-start;
-      @include breakpoints(largeMobile) {
+      @include breakpoints(tablet) {
         width: 50%;
         height: 200px;
       }

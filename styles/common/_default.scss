@@ -8,7 +8,7 @@
 .title {
   font-size: 42px;
   font-weight: bolder;
-  @include breakpoints(largeMobile) {
+  @include breakpoints(tablet) {
     font-size: 27px;
   }
 }

@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
-    @include breakpoints(largeMobile) {
+    @include breakpoints(tablet) {
       grid-template-columns: repeat(4, 1fr);
       height: 100%;
       // gap: 8px;
@@ -23,7 +23,7 @@
     justify-content: center;
     gap: 25px;
     position: relative;
-    @include breakpoints(largeMobile) {
+    @include breakpoints(tablet) {
       height: 40px;
       width: 40px;
       padding: 5px;
@@ -34,7 +34,7 @@
       }
       > div {
         > img {
-          @include breakpoints(largeMobile) {
+          @include breakpoints(tablet) {
             height: 15px;
             width: 15px;
           }
@@ -43,29 +43,29 @@
     }
     .mobile_slider {
       display: none;
-      @include breakpoints(largeMobile) {
+      @include breakpoints(tablet) {
         display: inline;
       }
     }
     .large_slider {
       display: inline;
-      @include breakpoints(largeMobile) {
+      @include breakpoints(tablet) {
         display: none;
       }
     }
     .mobile-vector {
       display: none;
-      @include breakpoints(largeMobile) {
+      @include breakpoints(tablet) {
         display: inline;
       }
     }
     .large-vector {
-      @include breakpoints(largeMobile) {
+      @include breakpoints(tablet) {
         display: none;
       }
     }
 
-    @include breakpoints(largeMobile) {
+    @include breakpoints(tablet) {
       height: 73px;
       width: 75px;
     }

@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 120px;
-    @include breakpoints(largeMobile) {
+    @include breakpoints(tablet) {
       grid-template-columns: repeat(1, 1fr);
     }
   }
@@ -15,7 +15,7 @@
     padding-right: 120px;
     position: relative;
 
-    @include breakpoints(largeMobile) {
+    @include breakpoints(tablet) {
       order: 2;
       padding-right: 0px;
     }
@@ -28,7 +28,7 @@
       z-index: -1;
       bottom: -70px;
       border-radius: 10px;
-      @include breakpoints(largeMobile) {
+      @include breakpoints(tablet) {
         height: 225.32px;
         width: 250.02px;
         left: 20%;
@@ -41,7 +41,7 @@
       height: 550px;
       border-radius: 10px;
       overflow: hidden;
-      @include breakpoints(largeMobile) {
+      @include breakpoints(tablet) {
         height: 280px;
         width: 269.68px;
       }

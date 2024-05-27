@@ -5,7 +5,7 @@
   background-color: #f7f5fe;
   background-image: url("/images/svg/Rectangle.svg");
   background-repeat: no-repeat;
-  @include breakpoints(largeMobile) {
+  @include breakpoints(tablet) {
     height: 301px;
     background-image: url("/images/image/blueBackgroundMobile.png");
     width: 100%;
@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     padding-left: 100px;
-    @include breakpoints(largeMobile) {
+    @include breakpoints(tablet) {
       padding-left: 0px;
     }
 
@@ -29,7 +29,7 @@
         margin: 30px 0;
         width: 60%;
         color: #576363;
-        @include breakpoints(largeMobile) {
+        @include breakpoints(tablet) {
           width: 100%;
           font-size: 12px;
         }
@@ -59,7 +59,7 @@
     justify-content: end;
     align-items: center;
     padding-right: 100px;
-    @include breakpoints(largeMobile) {
+    @include breakpoints(tablet) {
       padding-right: 0px;
       justify-content: start;
     }
@@ -68,7 +68,7 @@
       width: 526px;
       background: #000;
       border-radius: 10px;
-      @include breakpoints(largeMobile) {
+      @include breakpoints(tablet) {
         width: 141px;
         height: 203px;
         display: flex;

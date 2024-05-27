@@ -1,39 +1,39 @@
-.finance{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    @include breakpoints (largeMobile){
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        row-gap: 20px;
+.finance {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  @include breakpoints(tablet) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+  }
+  .finance_card {
+    width: 350px;
+    height: 250px;
+    background-color: #f7f5fe;
+    border: 1px solid #5831f080;
+    border-radius: 10px;
+    padding: 30px;
+
+    @include breakpoints(tablet) {
+      width: 180px;
+      height: 110px;
+      padding: 10px;
     }
-    .finance_card{
-       width: 350px;
-        height: 250px;
-        background-color: #F7F5FE;
-        border: 1px solid #5831F080;
-        border-radius: 10px;
-        padding: 30px;
 
-        @include breakpoints (largeMobile){
-            width: 180px;
-        height: 110px;
-        padding: 10px;
-        }
-
-        h3{
-            font-size: 30px;
-            color: #4B4A4D;
-            @include breakpoints (largeMobile){
-                font-size: 15px;
-            }
-        }
-
-        img{
-          width: 90px;  
-          @include breakpoints (largeMobile){
-            width: 50px;
-          }
-        }
+    h3 {
+      font-size: 30px;
+      color: #4b4a4d;
+      @include breakpoints(tablet) {
+        font-size: 15px;
+      }
     }
+
+    img {
+      width: 90px;
+      @include breakpoints(tablet) {
+        width: 50px;
+      }
+    }
+  }
 }

@@ -22,14 +22,14 @@
     gap: 30px;
     margin-top: 30px;
     grid-template-columns: repeat(4, 1fr);
-    @include breakpoints (largeMobile){
+    @include breakpoints(tablet) {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
     }
     > .single_video {
-      position: relative; 
+      position: relative;
       background-color: peachpuff;
-      overflow: hidden; 
+      overflow: hidden;
       border-radius: 20px;
       width: 100%;
     }
@@ -47,7 +47,7 @@
       width: 70px;
       height: 70px;
       border-radius: 50%;
-      background-color: rgba(238, 190, 190, 0.2); 
+      background-color: rgba(238, 190, 190, 0.2);
       display: flex;
       justify-content: center;
       align-items: center;
