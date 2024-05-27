@@ -41,6 +41,9 @@
     // single_card_image
     .single_card_img {
       height: 219px;
+      @include breakpoints(tablet) {
+        width: 100%;
+      }
       width: 352px;
       border-radius: 10px;
       display: flex;

@@ -1,4 +1,5 @@
 .front_end {
+  overflow: hidden;
   // background-color: rgba(0, 0, 0, 0.76);
   background-image: url("/images/image/Rectangle-41915.png");
   background-repeat: no-repeat;
@@ -21,6 +22,9 @@
   .first_card {
     height: 390px;
     width: 382px;
+    @include breakpoints(tablet) {
+      width: 100%;
+    }
     border: #00000033 solid 1px;
     border-radius: 10px;
     background-color: white;
@@ -29,6 +33,9 @@
     .single_card_img {
       height: 219px;
       width: 352px;
+      @include breakpoints(tablet) {
+        width: 100%;
+      }
       border-radius: 10px;
       display: flex;
       overflow: hidden;

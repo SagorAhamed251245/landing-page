@@ -1,5 +1,6 @@
 .bootcamp_completion_container {
   background-color: #f7f5fe;
+  overflow: hidden;
   // width: 1620px;
   height: 570px;
   @include breakpoints(tablet) {
