@@ -7,7 +7,7 @@ import RecommendationForCourse from "../RecommendationForCourse/RecommendationFo
 const OurProgram = () => {
   return (
     <>
-      <h4 className="title" style={{ margin: "120px 0", textAlign: "center" }}>
+      <h4 className="title" style={{ margin: "100px 0", textAlign: "center" }}>
         Our Program
       </h4>
       <section className="our_program ">
