@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const LeftContent = () => {
@@ -14,12 +15,14 @@ const LeftContent = () => {
         a degree or certifications.
       </p>
       <div className="contact_button_div">
-        <button className="contact_button">
-          Book a meeting
-          <span>
-            <img src="/images/svg/lessdthen.svg" />
-          </span>
-        </button>
+        <Link href={"https://calendly.com/ts4u"}>
+          <button className="contact_button">
+            Book a meeting
+            <span>
+              <img src="/images/svg/lessdthen.svg" />
+            </span>
+          </button>
+        </Link>
       </div>
     </section>
   );

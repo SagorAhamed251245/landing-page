@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
@@ -11,7 +12,7 @@ const Navbar = () => {
         <ul>
           <li>Program</li>
           <li>Testimonials</li>
-          <li>Book a Call</li>
+          <Link href={"https://calendly.com/ts4u"}>Book a Call</Link>
         </ul>
       </section>
     </nav>

@@ -1,5 +1,6 @@
 import React from "react";
 import LessThen from "../SVG/LessThen";
+import Link from "next/link";
 
 const LeftBookMeeting = () => {
   return (
@@ -22,12 +23,15 @@ const LeftBookMeeting = () => {
           technology sector, enhancing their employment prospects in the state
           and beyond.
         </p>
-        <button className="book_button">
-          Book a call
-          <span>
-            <LessThen color={"white"} />
-          </span>
-        </button>
+
+        <Link href={"https://calendly.com/ts4u"}>
+          <button className="book_button">
+            Book a meeting
+            <span>
+              <LessThen color={"white"} />
+            </span>
+          </button>
+        </Link>
       </div>
     </div>
   );
