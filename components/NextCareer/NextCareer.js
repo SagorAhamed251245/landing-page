@@ -3,8 +3,8 @@ import React from "react";
 const NextCareer = () => {
   return (
     <section className="bootcamp_completion_container book_meeting ">
-      <div style={{ gap: "40px" }} className="bootcamp_completion">
-        <div style={{ width: "30%" }} className="">
+      <div style={{ gap: "40px" }} className="bootcamp_completion container">
+        <div className="next-career">
           <h4 className="title">Next Career Opportunities</h4>
 
           <p style={{ marginTop: "30px" }}>
@@ -22,7 +22,6 @@ const NextCareer = () => {
         </div>
 
         <img
-          style={{ width: "700px", marginTop: "40px" }}
           src="\images\svg\Rectangle 41581.svg"
         />
       </div>
