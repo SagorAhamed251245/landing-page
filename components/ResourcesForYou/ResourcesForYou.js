@@ -1,6 +1,7 @@
 import React from "react";
 import VideoCard from "../StudentsExperience/VideoCard";
 import LessThen from "../SVG/LessThen";
+import Link from "next/link";
 
 const ResourcesForYou = () => {
   return (
@@ -11,12 +12,18 @@ const ResourcesForYou = () => {
       <div className="students_experience">
         <VideoCard />
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <button className={"book_a_meeting_1"}>
-            Book a meeting
-            <span>
-              <LessThen color={"white"} />
-            </span>
-          </button>
+          <Link
+            target="_blank"
+            className="linkBtn"
+            href="https://calendly.com/ts4u"
+          >
+            <button className={"book_a_meeting_1"}>
+              Book a meeting
+              <span>
+                <LessThen color={"white"} />
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </section>

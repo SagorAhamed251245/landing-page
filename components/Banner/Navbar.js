@@ -10,9 +10,16 @@ const Navbar = () => {
       </section>
       <section className="">
         <ul>
-          <li>Program</li>
-          <li>Testimonials</li>
-          <Link href={"https://calendly.com/ts4u"}>Book a Call</Link>
+          <li className="li">Program</li>
+          <li className="li">Testimonials</li>
+
+          <Link
+            target="_blank"
+            className="linkBtn li"
+            href={"https://calendly.com/ts4u"}
+          >
+            Book a meeting
+          </Link>
         </ul>
       </section>
     </nav>

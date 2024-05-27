@@ -115,6 +115,7 @@ const RecommendationForCourse = ({
         </div>
         <RecommendationVideos />
         <div
+          className="review_btn"
           style={{
             display: "flex",
             justifyContent: "center",

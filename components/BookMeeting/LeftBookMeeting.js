@@ -24,7 +24,11 @@ const LeftBookMeeting = () => {
           and beyond.
         </p>
 
-        <Link href={"https://calendly.com/ts4u"}>
+        <Link
+          target="_blank"
+          className="linkBtn"
+          href={"https://calendly.com/ts4u"}
+        >
           <button className="book_button">
             Book a meeting
             <span>

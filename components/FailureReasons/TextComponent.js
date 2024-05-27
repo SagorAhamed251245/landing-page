@@ -1,5 +1,6 @@
 import React from "react";
 import LessThen from "../SVG/LessThen";
+import Link from "next/link";
 
 const TextComponent = () => {
   let features = [
@@ -36,12 +37,18 @@ const TextComponent = () => {
               <span> {item}</span>
             </p>
           ))}
-          <button className="book_a_meeting mb_hidden">
-            Book a call
-            <span>
-              <LessThen color={"white"} />
-            </span>
-          </button>
+          <Link
+            target="_blank"
+            className="linkBtn"
+            href={"https://calendly.com/ts4u"}
+          >
+            <button className="book_a_meeting mb_hidden">
+              Book a meeting
+              <span>
+                <LessThen color={"white"} />
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </section>

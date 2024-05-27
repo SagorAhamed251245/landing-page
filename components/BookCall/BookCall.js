@@ -5,7 +5,11 @@ const BookCall = () => {
   return (
     <section className="book-call container">
       <div style={{ padding: "100px" }}>
-        <Link href={"https://calendly.com/ts4u"}>
+        <Link
+          target="_blank"
+          className="linkBtn"
+          href={"https://calendly.com/ts4u"}
+        >
           <h1 className="title">Book a meeting</h1>
         </Link>
         <form style={{ marginTop: "30px" }}>

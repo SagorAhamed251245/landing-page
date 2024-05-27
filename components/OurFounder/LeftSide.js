@@ -20,7 +20,11 @@ const LeftSide = () => {
             <h4 className="title">Shiblu Ahmad</h4>
             <p className="p1">Principal, TS4U</p>
           </div>
-          <Link href={"https://calendly.com/ts4u"} style={{textDecoration:"none"}}>
+          <Link
+            target="_blank"
+            className="linkBtn"
+            href={"https://calendly.com/ts4u"}
+          >
             <button className="book_a_meeting">
               Book a meeting
               <span>

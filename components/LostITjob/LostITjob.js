@@ -1,9 +1,10 @@
 import React from "react";
 import LessThen from "../SVG/LessThen";
+import Link from "next/link";
 
 const LostITjob = () => {
   return (
-    <section style={{marginTop:"120px"}} className="lost_IT_job">
+    <section style={{ marginTop: "120px" }} className="lost_IT_job">
       {/* right */}
       <div className="left_section">
         <div>
@@ -22,12 +23,18 @@ const LostITjob = () => {
             crafted to refine your presentation skills until you’re placed.
           </p>
 
-          <button className="button">
-            Book a call
-            <span>
-              <LessThen color={"white"} />
-            </span>
-          </button>
+          <Link
+            target="_blank"
+            className="linkBtn"
+            href={"https://calendly.com/ts4u"}
+          >
+            <button className="button">
+              Book a meeting
+              <span>
+                <LessThen color={"white"} />
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </section>
