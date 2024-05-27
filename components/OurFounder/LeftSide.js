@@ -1,6 +1,7 @@
 import React from "react";
 import LessThen from "../SVG/LessThen";
 import Tick from "./Tick";
+import Link from "next/link";
 
 const LeftSide = () => {
   const experiences = [
@@ -19,13 +20,14 @@ const LeftSide = () => {
             <h4 className="title">Shiblu Ahmad</h4>
             <p className="p1">Principal, TS4U</p>
           </div>
-
-          <button className="book_a_meeting">
-            Book a call
-            <span>
-              <LessThen color={"white"} />
-            </span>
-          </button>
+          <Link href={"https://calendly.com/ts4u"}>
+            <button className="book_a_meeting">
+              Book a meeting
+              <span>
+                <LessThen color={"white"} />
+              </span>
+            </button>
+          </Link>
         </div>
 
         <p className="into_p">
