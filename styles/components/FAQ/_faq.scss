@@ -1,65 +1,65 @@
 .faq {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-    margin-top: 120px;
-    
-    .div{
-        width: 50%;
-    }
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 120px;
+
+  .div {
+    width: 50%;
+  }
 }
 
 details {
-    border: 2px solid #ddd;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    padding: 0;
-    margin-bottom: 30px;
+  border: 2px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 0;
+  margin-bottom: 30px;
 }
 
 summary {
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #F7F5FE;
-    padding: 30px;
-    cursor: pointer;
-    outline: none;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f7f5fe;
+  padding: 30px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  position: relative;
 }
 
 summary::after {
-    content: '';
-    width: 0;
-    height: 0;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-    border-top: 6px solid black;
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: transform 0.2s ease;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid black;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.2s ease;
 }
 
 details[open] summary::after {
-    transform: translateY(-50%) rotate(180deg);
+  transform: translateY(-50%) rotate(180deg);
 }
 
 details[open] summary {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 details > div {
-    padding: 25px;
-    background-color: #F7F5FE;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+  padding: 25px;
+  background-color: #f7f5fe;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }

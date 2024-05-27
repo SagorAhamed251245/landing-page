@@ -2,14 +2,8 @@ import React from "react";
 
 const LastCard = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        height: "550px",
-        justifyContent: "space-between",
-      }}
-    >
-      <div style={{ display: "flex", alignItems: "flex-start" }}>
+    <div className="lastCard">
+      <div className="lastCard_div1">
         <div className="single_card">
           <div className="single_card_img">
             <img src="https://img.freepik.com/premium-photo/cardano-blockchain-platform_23-2150411956.jpg" />
@@ -35,8 +29,24 @@ const LastCard = () => {
           </div>
         </div>
       </div>
-      <div style={{ display: "flex", alignItems: "flex-end" }}>
-        <img src="/images/svg/leady.png" />
+      <div className="div">
+        <div>
+          <iframe
+            id="founder"
+            style={{
+              objectFit: "cover",
+              width: "100%",
+              height: "100%",
+            }}
+            className="video"
+            src="https://www.youtube.com/embed/xXLTpazDgSo?si=E6PRxdJQz9xZN7Hx"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
     </div>
   );
