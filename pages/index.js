@@ -47,11 +47,14 @@ export default function Home() {
           <LostITjob />
           <FailureReasons />
           <BootcampCompletion />
-          <OurProgram />
+
+          <MERN />
           <OurCourses />
+          <OurProgram />
+
           <VehicleValidation />
           <Agile />
-          <MERN />
+
           <FrontEnd />
           <NextCareer />
           <SuccessfulStudents />
