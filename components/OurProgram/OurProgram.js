@@ -20,7 +20,7 @@ const OurProgram = () => {
         <RecommendationForCourse
           titleColor={"white"}
           LessThenColor={"#5831f0"}
-          btnChildren={"Book A Meeting"}
+          btnChildren={"Book a meeting"}
           primaryBtn={false}
         />
       </section>
