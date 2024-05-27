@@ -15,7 +15,7 @@ const LeftContent = () => {
       </p>
       <div className="contact_button_div">
         <button className="contact_button">
-          Contact Me
+          Book a meeting
           <span>
             <img src="/images/svg/lessdthen.svg" />
           </span>

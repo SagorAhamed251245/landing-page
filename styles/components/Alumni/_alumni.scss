@@ -11,3 +11,16 @@
     display: inline-block;
   }
 }
+.alumni_section {
+  margin-bottom: 0px;
+  margin: 120px 0px;
+  > hr {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    height: 2px;
+    border: 0;
+    background-color: #cccccc;
+  }
+}

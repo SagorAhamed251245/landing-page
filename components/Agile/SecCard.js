@@ -9,7 +9,7 @@ const SecCard = () => {
   ];
   return (
     <section style={{ color: "white", display: "flex", alignItems: "center" }}>
-      <div>
+      <div className="container">
         <h4 className="title">Agile Product Owner</h4>
         <p style={{ margin: "30px 0px", width: "70%" }}>
           Transform your career in just 5 to 7 months with our IT training
