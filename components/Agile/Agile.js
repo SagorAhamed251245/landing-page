@@ -8,7 +8,10 @@ const Agile = () => {
     <section>
       <div className="agile">
         <div className="agile_top">
-          <SingleVideoCard />
+          <div className="agile_video">
+            <SingleVideoCard />
+          </div>
+
           <SecCard />
         </div>
       </div>

@@ -6,7 +6,17 @@
   .agile_top {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
+    @include breakpoints(tablet) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .agile_video {
+      @include breakpoints(tablet) {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        display: flex;
+      }
+    }
     .single_video {
       margin-top: -200px;
       height: 600px;
@@ -16,6 +26,12 @@
       border-radius: 20px;
       width: 600px;
       margin-left: 60px;
+      @include breakpoints(tablet) {
+        height: 205px;
+        width: 299px;
+        // margin-left: 13%;
+        margin-left: 0px;
+      }
     }
 
     .div {

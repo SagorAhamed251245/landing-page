@@ -9,6 +9,7 @@ import "swiper/css/pagination";
 // import required modules
 import { FreeMode, Autoplay } from "swiper/modules";
 import SingleSwiperCard from "./SingleSwiperCard";
+import Marquee from "react-fast-marquee";
 
 const logos = [
   "/images/companiLogo/Group 1171281534.png",
@@ -26,27 +27,11 @@ const logos = [
 const SwiperCard = () => {
   return (
     <div className="swiper-container container">
-      <Swiper
-        slidesPerView={6}
-        spaceBetween={30}
-        freeMode={true}
-        pagination={{
-          clickable: true,
-        }}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        loop={true}
-        modules={[Autoplay, FreeMode]}
-        className="mySwiper"
-      >
+      <Marquee>
         {logos.map((logo, index) => (
-          <SwiperSlide key={index}>
-            <SingleSwiperCard url={logo} />
-          </SwiperSlide>
+          <SingleSwiperCard key={index} url={logo} />
         ))}
-      </Swiper>
+      </Marquee>
     </div>
   );
 };

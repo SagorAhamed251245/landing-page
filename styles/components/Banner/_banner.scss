@@ -73,6 +73,7 @@
     background-color: #0d2032;
     border-radius: 20px;
     position: relative;
+
     @include breakpoints(tablet) {
       width: 269px;
       height: 261px;
@@ -88,35 +89,13 @@
       top: 10%;
       z-index: -1;
       right: -10%;
+
       @include breakpoints(tablet) {
         width: 269px;
         height: 261px;
       }
     }
-    .play_button {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      background-color: rgba(255, 255, 255, 0.5);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 1;
-      > div {
-        opacity: 100%;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        background-color: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-    }
+
     > p {
       background-color: #fff;
       height: $sudo_size;
@@ -129,11 +108,14 @@
       }
     }
     .div {
-      height: calc(100% - $sudo_size);
-
       overflow: hidden;
-      display: flex;
-      justify-content: center;
+      height: calc(100% - $sudo_size);
+      .video {
+        overflow: hidden;
+        height: calc(100%);
+        display: flex;
+        justify-content: center;
+      }
     }
   }
 
