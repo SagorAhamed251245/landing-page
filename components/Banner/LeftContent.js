@@ -15,7 +15,11 @@ const LeftContent = () => {
         a degree or certifications.
       </p>
       <div className="contact_button_div">
-        <Link href={"https://calendly.com/ts4u"}>
+        <Link
+          target="_blank"
+          className="linkBtn"
+          href={"https://calendly.com/ts4u"}
+        >
           <button className="contact_button">
             Book a meeting
             <span>
