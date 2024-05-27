@@ -3,6 +3,9 @@
     justify-content: center;
     background-color: #E7E1FC;
     padding: 80px;
+    @include breakpoints (tablet){
+        padding: 20px;
+    }
 }
 
 .compare-table {
@@ -33,5 +36,8 @@
     padding: 25px;
     text-align: left;
     width: 350px;
+    @include breakpoints (tablet){
+        padding: 20px;
+    }
     
 }

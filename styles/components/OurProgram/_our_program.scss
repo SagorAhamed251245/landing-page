@@ -1,6 +1,6 @@
 .our_program {
   background-color: $primary_color;
-  padding-top: 120px;
+  padding-top: 90px;
   padding-bottom: 120px;
   .our_program_cards {
     display: grid;
@@ -11,6 +11,7 @@
       gap: 30px;
       margin-bottom: 40px;
     }
+    
   }
   .lastCard {
     display: flex;

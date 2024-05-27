@@ -12,6 +12,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 120px;
+    @include breakpoints (tablet){
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      gap: 40px;
+    }
   }
   //   first card_card
   .first_card {

@@ -59,7 +59,7 @@ const RecommendationForCourse = ({
       <h4
         className="title"
         style={{
-          margin: "0px 0  30px 0",
+          margin: "90px 0  30px 0",
           textAlign: "center",
           color: titleColor ? titleColor : "black",
         }}
