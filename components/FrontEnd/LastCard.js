@@ -12,7 +12,7 @@ const LastCard = () => {
             height: "100%",
           }}
           className="video"
-          src="https://www.youtube.com/embed/hNVA_SemREU?si=sFW_n8OVxj7rp8de"
+          src="https://www.youtube.com/embed/lpvYygW9Cq8?si=jeVIaVZIxz34qCjA"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

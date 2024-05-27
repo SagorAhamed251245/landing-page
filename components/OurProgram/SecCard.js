@@ -10,7 +10,7 @@ const SecCard = () => {
   return (
     <section style={{ color: "white" }}>
       <div>
-        <h4 className="title">MERN Full-Stack Software Engineer</h4>
+        <h4 className="title">Software Quality Automation Engineer</h4>
         <p style={{ margin: "15px 0" }}>
           Embark on a 7-9 month journey to mastery as a MERN Full-Stack Software
           Engineer! Dive into hands-on learning, Agile Scrum projects, and
