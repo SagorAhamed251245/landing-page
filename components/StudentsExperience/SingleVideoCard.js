@@ -12,7 +12,7 @@ const SingleVideoCard = ({ url, id }) => {
     <div className="single_video">
       <div className="div">
         <iframe
-          id="founder"
+          id={id}
           style={{
             objectFit: "cover",
             width: "100%",
@@ -21,7 +21,7 @@ const SingleVideoCard = ({ url, id }) => {
           }}
           className="video"
           // src="https://www.youtube.com/embed/k7PDCIxEirE?si=5s8IcNaSJc4ymIza"
-          src="https://player.vimeo.com/video/927015929?h=1c3232c72c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          src={url}
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
