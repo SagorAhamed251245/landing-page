@@ -38,6 +38,7 @@ export default function Home() {
           <Banner />
           <UniqueServices />
           <OurFounder />
+          <CompareTable />
           <StudentsExperience />
           <BookMeeting />
           <Alumni />
@@ -54,7 +55,6 @@ export default function Home() {
           <FrontEnd />
           <NextCareer />
           <SuccessfulStudents />
-          <CompareTable />
           <FAQ />
           {/* <RecommendationForCourse /> */}
           <FreeCourses />
