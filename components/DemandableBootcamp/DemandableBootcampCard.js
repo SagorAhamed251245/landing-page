@@ -15,7 +15,44 @@ import { SwiperNavButtons } from "./SwiperNavButtons ";
 
 const DemandableBootcampCard = () => {
   let cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-  let bootCamps = [{}];
+  let bootCamps = [
+    {
+      course: "",
+      image: "",
+      timeLength: "",
+      averageRating: 0,
+      totalRatings: 0,
+      offerPrice: 0,
+      price: 0,
+    },
+    {
+      course: "",
+      image: "",
+      timeLength: "",
+      averageRating: 0,
+      totalRatings: 0,
+      offerPrice: 0,
+      price: 0,
+    },
+    {
+      course: "",
+      image: "",
+      timeLength: "",
+      averageRating: 0,
+      totalRatings: 0,
+      offerPrice: 0,
+      price: 0,
+    },
+    {
+      course: "",
+      image: "",
+      timeLength: "",
+      averageRating: 0,
+      totalRatings: 0,
+      offerPrice: 0,
+      price: 0,
+    },
+  ];
 
   return (
     <div>
@@ -57,9 +94,9 @@ const DemandableBootcampCard = () => {
           }}
           className="mySwiper"
         >
-          {cards.map((logo, index) => (
+          {bootCamps.map((bootCamp, index) => (
             <SwiperSlide key={index}>
-              <SingleCard />
+              <SingleCard bootCamp={bootCamp} />
             </SwiperSlide>
           ))}
           <SwiperNavButtons />

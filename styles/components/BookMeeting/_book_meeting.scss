@@ -63,7 +63,7 @@
         .single_video {
           height: 519px;
           position: relative; /* Ensure positioning context for play button */
-          background-color: peachpuff;
+          background-color: $body_text;
           overflow: hidden; /* Ensure video doesn't overflow the container */
           border-radius: 20px;
           width: 482px;
@@ -75,7 +75,8 @@
 
         .div {
           height: 100%;
-          width: 100%;
+          width: 60.8%;
+          margin: 0 auto;
           @include breakpoints(tablet) {
             width: 192.08px;
             height: 268.98px;
