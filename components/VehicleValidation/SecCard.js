@@ -13,7 +13,7 @@ const SecCard = () => {
       style={{ color: "black", display: "flex", alignItems: "center" }}
     >
       <div>
-        <h4 className="title">Vehicle Validation Engineer</h4>
+        <h4 className="title">Flex Vehicle Validation Engineer</h4>
         <p className="p">
           This course will equip aspiring engineers with the necessary skills
           and experience to become Vehicle Validation Engineer. The 5 to 7-month
