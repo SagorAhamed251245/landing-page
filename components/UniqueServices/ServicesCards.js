@@ -118,7 +118,7 @@ const ServicesCards = () => {
         />
       ))} */}
 
-      {cards2.map((card, index) => (
+      {cards.map((card, index) => (
         <ServicesCard
           classNames="mobile_slider"
           key={index}

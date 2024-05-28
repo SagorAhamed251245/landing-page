@@ -1,11 +1,14 @@
 import React from "react";
 
-const SingleCard = ({ review, name, occupation }) => {
+const SingleCard = ({ review, name, occupation, url }) => {
   return (
     <div className="review_card">
       {/* user info */}
       <div className="user_info">
-        <img src="/images/svg/user.png" />
+        <img
+          style={{ width: "40px", height: "40px", borderRadius: "50%" }}
+          src={url}
+        />
         <div className="div">
           <div>
             <p className="user_name">{name}</p>
