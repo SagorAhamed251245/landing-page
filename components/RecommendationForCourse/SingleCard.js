@@ -1,13 +1,16 @@
 import React from "react";
 import Vector from "../SVG/Vector";
 
-const SingleCard = ({ name, review }) => {
+const SingleCard = ({ name, review, image }) => {
   return (
     <div className="recommendation_card">
       {/* user info */}
 
       <div className="user_info">
-        <img src="/images/svg/user.png" />
+        <img
+          style={{ width: "40px", height: "40px", borderRadius: "50%" }}
+          src={image}
+        />
         <div className="div">
           <div>
             <p style={{ fontWeight: "800" }} className="user_name">
