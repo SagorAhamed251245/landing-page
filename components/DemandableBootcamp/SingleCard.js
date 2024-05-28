@@ -25,7 +25,7 @@ const SingleCard = ({ bootCamp }) => {
             <span style={{ display: "flex", alignItems: "center" }}>
               <img src="/images/svg/stars.svg" />
             </span>
-            <span>#{totalRatings}</span>
+            <span>#({totalRatings})</span>
           </p>
           <div className="div_2">
             <p>

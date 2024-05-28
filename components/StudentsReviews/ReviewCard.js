@@ -1,17 +1,21 @@
 import React from "react";
 import Vector from "../SVG/Vector";
 
-const ReviewCard = ({ review, name, image }) => {
+const ReviewCard = ({ review, name, image, platform }) => {
   return (
     <div className="review_card">
       {/* user info */}
 
       <div className="user_info">
-        <img src="/images/svg/user.png" />
+        <img
+          style={{ width: "40px", height: "40px", borderRadius: "50%" }}
+          src={image}
+        />
         <div className="div">
           <div>
             <p className="user_name">{name}</p>
             <p className="p">Students of TS4U</p>
+            <p className="p">{platform}</p>
           </div>
           <div>
             <img src="/images/svg/cotation.svg" />
