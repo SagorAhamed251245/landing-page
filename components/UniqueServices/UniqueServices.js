@@ -13,10 +13,15 @@ import { Pagination } from "swiper/modules";
 const UniqueServices = () => {
   let slider = [0, 1, 2];
   return (
-    <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+    <Swiper
+      pagination={{
+        clickable: true,
+      }}
+      modules={[Pagination]}
+      className="mySwiper"
+    >
       {slider.map((slider, idx) => (
         <SwiperSlide key={idx}>
-          {" "}
           <section className="unique_service container">
             <div>
               <div

@@ -1,9 +1,11 @@
+@import "swiper/css";
+@import "swiper/css/pagination";
 .unique_service {
   margin-bottom: 120px;
   .services_cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
     @include breakpoints(tablet) {
       grid-template-columns: repeat(4, 1fr);
       height: 100%;
@@ -11,7 +13,10 @@
       gap: 10px;
     }
   }
-
+  .swiper-pagination-bullet {
+    height: 30px;
+    width: 30px;
+  }
   .service_card {
     background-color: #5831f017;
     height: 242px;

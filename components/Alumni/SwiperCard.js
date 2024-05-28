@@ -27,11 +27,13 @@ const logos = [
 const SwiperCard = () => {
   return (
     <div className="swiper-container container">
-      <Marquee>
-        {logos.map((logo, index) => (
-          <SingleSwiperCard key={index} url={logo} />
-        ))}
-      </Marquee>
+      <div className="Marquee">
+        <Marquee>
+          {logos.map((logo, index) => (
+            <SingleSwiperCard key={index} url={logo} />
+          ))}
+        </Marquee>
+      </div>
     </div>
   );
 };
