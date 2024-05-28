@@ -30,7 +30,7 @@ const SingleCard = ({ review, name, occupation, url }) => {
         <img src="/images/svg/cotation.svg" />
         <svg
           width="107"
-          height="93"
+          height="80"
           viewBox="0 0 107 93"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
