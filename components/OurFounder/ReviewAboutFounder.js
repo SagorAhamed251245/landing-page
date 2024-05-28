@@ -27,7 +27,7 @@ const ReviewAboutFounder = () => {
       id: 1,
       occupation: "Senior Vice President at Integra Partners",
       review:
-        "It was my honor to work with Shiblu at Quicken Loans. He is one of the hardest working people I know. He’s a great thinker - always looking for new ways to do things better while learning and sharing with others. As technologist, he is second to none, as a co worker and team mate, he can always be counted on to contribute and lead in any way he can. I highly recommend him.",
+        "It was my honor to work with Shiblu at Quicken Loans. He is one of the hardest working people I know. He’s a great thinker- always looking for new ways to do things better while learning and sharing with others. As technologist, he is second to none, as a co worker and team mate, he can always be counted on to contribute and lead in any way he can. I highly recommend him.",
     },
     {
       name: "John Rackar",
