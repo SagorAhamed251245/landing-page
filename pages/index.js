@@ -49,10 +49,10 @@ export default function Home() {
           <BootcampCompletion />
           <OurProgram />
           <OurCourses />
-          <VehicleValidation />
           <Agile />
+          <VehicleValidation />
           <MERN />
-          <FrontEnd />
+          {/* <FrontEnd /> */}
           <NextCareer />
           <SuccessfulStudents />
           <FAQ />
