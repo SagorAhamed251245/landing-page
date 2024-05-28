@@ -11,7 +11,7 @@ const SecCard = () => {
     <section style={{ color: "black", display: "flex", alignItems: "center" }}>
       <div>
         <h4 className="title">
-          MERN Full-Stack <br /> Software Engineer
+          Flex MERN Full-Stack <br /> Software Engineer
         </h4>
         <p style={{ margin: "30px 0px", width: "80%" }}>
           Embark on a 7-9 month journey to mastery as a MERN Full-Stack Software

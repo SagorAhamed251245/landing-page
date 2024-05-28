@@ -32,7 +32,7 @@ const RecommendationForCourse = ({
           color: titleColor ? titleColor : "black",
         }}
       >
-        Recommendation for This Course
+        Students Recommendation for This Course
       </h4>
       <section className="recommendation_reviews container">
         <div className="recommendation_cards">

@@ -16,8 +16,8 @@ const Navbar = () => {
       </section>
       <section className="">
         <ul className="desktop_ul">
-          <li className="li">Program</li>
-          <li className="li">Testimonials</li>
+          {/* <li className="li">Program</li>
+          <li className="li">Testimonials</li> */}
           <Link
             target="_blank"
             className="linkBtn li"

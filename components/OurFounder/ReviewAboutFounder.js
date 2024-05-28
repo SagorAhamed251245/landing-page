@@ -42,7 +42,7 @@ const ReviewAboutFounder = () => {
 
   return (
     <div className="ReviewAboutFounder">
-      <h4 className="title">What Other Say About Our Principal</h4>
+      <h4 className="title">Testimonials About Our Principal</h4>
       <div className="review_about_founder_cards">
         {reviews.map((review, index) => (
           <SingleCard
