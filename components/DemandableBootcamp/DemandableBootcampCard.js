@@ -15,6 +15,8 @@ import { SwiperNavButtons } from "./SwiperNavButtons ";
 
 const DemandableBootcampCard = () => {
   let cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  let bootCamps = [{}];
+
   return (
     <div>
       <div className="swiper_parents">
