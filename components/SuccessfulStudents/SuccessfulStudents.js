@@ -57,7 +57,7 @@ const SuccessfulStudents = () => {
       className="successful-students container"
     >
       <div
-        style={{ marginBottom: "60px", marginTop: "80px" }}
+        style={{ marginBottom: "20px", marginTop: "80px" }}
         className="next-career"
       >
         <h1 style={{ marginBottom: "20px" }} className="title">

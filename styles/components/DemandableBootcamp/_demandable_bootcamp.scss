@@ -16,8 +16,8 @@
   }
   //   single_card
   .single_card {
-    height: 390px;
-    width: 382px;
+    height: 400px;
+    width: 390px;
     @include breakpoints(tablet) {
       width: 100%;
     }
@@ -64,6 +64,7 @@
           display: flex;
           justify-content: space-between;
           align-items: center;
+          padding-right: 7px;
 
           > button {
             padding: 10px 20px;
