@@ -10,9 +10,9 @@ const RightContent = () => {
   return (
     <>
       <section className="right_banner_section">
-        <p>
+        {/* <p>
           Join Revolutionary Private Bootcamp Today. Pay After Getting A Job
-        </p>
+        </p> */}
         <div className="div">
           {/* <button onClick="playPause()">Play/Pause</button> */}
           <div className="video">
