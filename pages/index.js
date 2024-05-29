@@ -58,7 +58,6 @@ export default function Home() {
 
           <VehicleValidation />
           <Agile />
-
           {/* <FrontEnd /> */}
           <NextCareer />
           <SuccessfulStudents />
