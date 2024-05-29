@@ -1,8 +1,12 @@
+.agile_section {
+  margin-bottom: 120px;
+}
 .agile {
   background-color: $primary_color;
   padding: 120px 0;
-  margin-top: 200px;
+  margin-top: 120px;
   margin-bottom: 60px;
+
   .agile_top {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

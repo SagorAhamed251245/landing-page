@@ -10,8 +10,10 @@ const FAQ = () => {
         Frequently Asked Questions
       </h2>
       <section className="faq container">
-        <div className="div">
-          <img src="\images\svg\FAQ.svg" />
+        <div className="div div1">
+          <div className="img">
+            <img src="\images\svg\FAQ.svg" />
+          </div>
         </div>
 
         <div className="div">

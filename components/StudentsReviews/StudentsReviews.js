@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import ReviewCard from "./ReviewCard";
+import Link from "next/link";
+import LessThen from "../SVG/LessThen";
 
 const StudentsReviews = () => {
   const [platform, setPlatform] = useState("Google");
@@ -114,6 +116,18 @@ const StudentsReviews = () => {
             />
           ))}
       </div>
+      <Link
+        target="_blank"
+        className="linkBtn center_btn"
+        href={"https://calendly.com/ts4u"}
+      >
+        <button className="book_a_meeting">
+          Book a meeting
+          <span>
+            <LessThen color={"white"} />
+          </span>
+        </button>
+      </Link>
     </section>
   );
 };

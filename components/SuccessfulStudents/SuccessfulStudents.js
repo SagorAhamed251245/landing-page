@@ -11,6 +11,8 @@ import "swiper/css/navigation";
 
 // import required modules
 import { FreeMode } from "swiper/modules";
+import Link from "next/link";
+import LessThen from "../SVG/LessThen";
 
 const SuccessfulStudents = () => {
   const videos = [
@@ -56,10 +58,7 @@ const SuccessfulStudents = () => {
       style={{ marginBottom: "120px" }}
       className="successful-students container"
     >
-      <div
-        style={{ marginBottom: "20px", marginTop: "80px" }}
-        className="next-career"
-      >
+      <div style={{ marginTop: "80px" }} className="next-career">
         <h1 style={{ marginBottom: "20px" }} className="title">
           Successful Students
         </h1>
@@ -112,6 +111,18 @@ const SuccessfulStudents = () => {
         ))}
         <SwiperNavButtons />
       </Swiper>
+      <Link
+        target="_blank"
+        className="linkBtn center_btn"
+        href={"https://calendly.com/ts4u"}
+      >
+        <button className="book_a_meeting">
+          Book a meeting
+          <span>
+            <LessThen color={"white"} />
+          </span>
+        </button>
+      </Link>
     </section>
   );
 };

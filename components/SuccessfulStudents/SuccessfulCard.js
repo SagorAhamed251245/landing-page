@@ -1,11 +1,11 @@
 import React from "react";
 
 const SuccessfulCard = ({ url, id }) => {
-  function playPause() {
+  /* function playPause() {
     let myVideo = document.getElementById(id);
     if (myVideo.paused) myVideo.play();
     else myVideo.pause();
-  }
+  } */
   return (
     <div className="single_video">
       <div className="div">

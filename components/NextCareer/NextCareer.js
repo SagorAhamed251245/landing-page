@@ -1,4 +1,6 @@
+import Link from "next/link";
 import React from "react";
+import LessThen from "../SVG/LessThen";
 
 const NextCareer = () => {
   return (
@@ -19,6 +21,18 @@ const NextCareer = () => {
             Schools Hub’s range of Python courses and learn how to code using
             this incredibly useful language
           </p>
+          <Link
+            target="_blank"
+            className="linkBtn"
+            href={"https://calendly.com/ts4u"}
+          >
+            <button className="book_a_meeting">
+              Book a meeting
+              <span>
+                <LessThen color={"white"} />
+              </span>
+            </button>
+          </Link>
         </div>
 
         <img src="\images\svg\Rectangle 41581.svg" />

@@ -1,6 +1,6 @@
 .bootcamp_completion_container {
   background-color: #f7f5fe;
-  overflow: hidden;
+  // overflow: hidden;/
   // width: 1620px;
   height: 570px;
   @include breakpoints(tablet) {
@@ -25,7 +25,7 @@
         width: 100%;
         padding: 40px;
       }
-      .green-tik{
+      .green-tik {
         width: 20px;
         margin-top: 2px;
       }

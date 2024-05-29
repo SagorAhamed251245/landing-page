@@ -1,4 +1,6 @@
+import Link from "next/link";
 import React from "react";
+import LessThen from "../SVG/LessThen";
 
 const CompareTable = () => {
   return (
@@ -82,6 +84,18 @@ const CompareTable = () => {
             </tbody>
           </table>
         </div>
+        <Link
+          target="_blank"
+          className="linkBtn center_btn"
+          href={"https://calendly.com/ts4u"}
+        >
+          <button className="book_a_meeting">
+            Book a meeting
+            <span>
+              <LessThen color={"white"} />
+            </span>
+          </button>
+        </Link>
       </div>
     </section>
   );

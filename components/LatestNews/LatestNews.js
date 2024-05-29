@@ -1,5 +1,7 @@
 import React from "react";
 import Cards from "./Cards";
+import Link from "next/link";
+import LessThen from "../SVG/LessThen";
 
 const LatestNews = () => {
   const latestNews = [
@@ -34,6 +36,19 @@ const LatestNews = () => {
           ))}
         </div>
       </div>
+      <Link
+        target="_blank"
+        className="linkBtn center_btn"
+        href={"https://calendly.com/ts4u"}
+        style={{ textDecoration: "none", marginTop: "120px" }}
+      >
+        <button className={"book_a_meeting_2"}>
+          Book a meeting
+          <span>
+            <LessThen color={"#5831f0"} />
+          </span>
+        </button>
+      </Link>
     </section>
   );
 };

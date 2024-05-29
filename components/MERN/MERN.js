@@ -70,7 +70,7 @@ const MERN = () => {
         </section>
         <RecommendationForCourse
           primaryBtn={true}
-          btnChildren={"Book a call"}
+          btnChildren={"Book a meeting"}
           LessThenColor={"white"}
           recommendation={recommendation}
           recommendationVideos={recommendationVideos}

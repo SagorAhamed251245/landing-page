@@ -56,7 +56,7 @@ const Agile = () => {
     },
   ];
   return (
-    <section>
+    <section className="agile_section">
       <div className="agile">
         <div className="agile_top">
           <div className="agile_video">

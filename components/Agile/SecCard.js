@@ -1,4 +1,6 @@
+import Link from "next/link";
 import React from "react";
+import LessThen from "../SVG/LessThen";
 
 const SecCard = () => {
   let features = [
@@ -55,6 +57,19 @@ const SecCard = () => {
               <span> {item}</span>
             </p>
           ))}
+          <Link
+            target="_blank"
+            className="linkBtn"
+            href={"https://calendly.com/ts4u"}
+            style={{ textDecoration: "none" }}
+          >
+            <button className={"book_a_meeting_2"}>
+              Book a meeting
+              <span>
+                <LessThen color={"#5831f0"} />
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </section>
