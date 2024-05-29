@@ -23,10 +23,10 @@ const NextCareer = () => {
           </p>
           <Link
             target="_blank"
-            className="linkBtn"
+            className=" linkBtn  center_btn  mb_hidden"
             href={"https://calendly.com/ts4u"}
           >
-            <button className="book_a_meeting">
+            <button className="book_a_meeting_btn ">
               Book a meeting
               <span>
                 <LessThen color={"white"} />
@@ -36,6 +36,18 @@ const NextCareer = () => {
         </div>
 
         <img src="\images\svg\Rectangle 41581.svg" />
+        <Link
+          target="_blank"
+          className="linkBtn lg_hidden center_btn"
+          href={"https://calendly.com/ts4u"}
+        >
+          <button className="book_a_meeting_btn">
+            Book a meeting
+            <span>
+              <LessThen color={"white"} />
+            </span>
+          </button>
+        </Link>
       </div>
     </section>
   );

@@ -9,7 +9,7 @@ const FailureReasons = () => {
   return (
     <section className="failure_reasons container">
       <button className="book_a_meeting_mobile ">
-        Book a call
+        Book a meeting
         <span>
           <LessThen color={"white"} />
         </span>

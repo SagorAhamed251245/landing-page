@@ -42,6 +42,25 @@
     display: none;
   }
 }
+.book_a_meeting_btn {
+  padding: 16px 30px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 10px;
+  background-color: $primary_color;
+  color: white;
+  border: none;
+  gap: 15px;
+  margin-top: 30px;
+  @include breakpoints(tablet) {
+    @include mobile_button;
+    // display: none;
+    margin-top: 30px;
+  }
+}
+
 .book_a_meeting_1 {
   padding: 16px 30px;
   display: flex;
@@ -54,6 +73,10 @@
   border: none;
   gap: 15px;
   margin-top: 30px;
+  @include breakpoints(tablet) {
+    @include mobile_button;
+    margin-top: 30px;
+  }
 }
 .book_a_meeting_2 {
   padding: 16px 30px;
@@ -67,6 +90,10 @@
   border: none;
   gap: 15px;
   margin-top: 30px;
+  @include breakpoints(tablet) {
+    @include mobile_button;
+    margin-top: 30px;
+  }
 }
 .linkBtn {
   text-decoration: none;
