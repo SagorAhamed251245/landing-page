@@ -44,16 +44,16 @@ const OurProgram = () => {
   ];
   const recommendationVideos = [
     {
-      url: "https://player.vimeo.com/video/930122590?h=d613d30a77&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/929774286?h=45f32c67cb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
     {
-      url: "https://player.vimeo.com/video/930120710?h=3fc66bd2fb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/929786461?h=a9305870cb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
     {
-      url: "https://player.vimeo.com/video/930119715?h=d3189c41b1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/929764398?h=1b7f7683b2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
     {
-      url: "https://player.vimeo.com/video/929785607?h=130f7dbd0a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/929773001?h=450f8e6f25&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
   ];
   return (

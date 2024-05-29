@@ -4,43 +4,41 @@ import DemandableBootcampCard from "../DemandableBootcamp/DemandableBootcampCard
 const FreeCourses = () => {
   let bootCamps = [
     {
-      course: "Flex: MERN Full-Stack Software Engineer",
-      image:
-        "https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1698481726898-MERN-Full-Stack",
+      course: "Practical AWS CloudOps Crash Course",
+      image: "https://www.schoolshub.ai/placeholder2.jpg",
       timeLength: "",
-      averageRating: 0,
-      totalRatings: 0,
-      offerPrice: 13999,
+      averageRating: 5,
+      totalRatings: "50+ Students",
+      offerPrice: "Free",
       price: 0,
     },
     {
-      course: "Flex: Software Quality Automation Engineer",
+      course: "5 Hours Practical QA Crash Course",
       image:
         "https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1698481098318-Software-Qualit",
       timeLength: "",
-      averageRating: 0,
-      totalRatings: 0,
-      offerPrice: 12999,
+      averageRating: 5,
+      totalRatings: "50+ Students",
+      offerPrice: "Free",
       price: 0,
     },
     {
-      course: "Flex: AWS DevOps and CloudOps Engineer",
+      course: "3 Hours Spoken English",
       image:
-        "https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1698481420303-AWS-Thumbnail.j",
+        "https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1662310598685-english-lesson.",
       timeLength: "",
-      averageRating: 0,
-      totalRatings: 0,
-      offerPrice: 17000,
+      averageRating: 5,
+      totalRatings: "50+ Students",
+      offerPrice: "Free",
       price: 0,
     },
     {
       course: "Flex-Product Manager",
-      image:
-        "https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1666179067143-Agile-PO.jpg",
+      image: "https://www.schoolshub.ai/placeholder2.jpg",
       timeLength: "",
-      averageRating: 0,
-      totalRatings: 0,
-      offerPrice: 9999,
+      averageRating: 5,
+      totalRatings: "50+ Students",
+      offerPrice: "Free",
       price: 0,
     },
   ];
