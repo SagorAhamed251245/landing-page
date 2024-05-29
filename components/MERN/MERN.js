@@ -6,39 +6,39 @@ import RecommendationForCourse from "../RecommendationForCourse/RecommendationFo
 const MERN = () => {
   const recommendation = [
     {
-      name: "Ibrahim Opu",
+      name: "Foysol Ahmed ",
       review:
-        "I am very happy to start my journey with TS4U to be a Software Quality Automation Engineer without a non-IT background student. Mr.Shiblu Ahmed is very dedicated and committed to making his student successful. his course outline, Teaching system, and real-life experience are amazing. I am confident, My IT career dream will be fulfilled Because I am a part of the TS4U community.",
+        "Be honest techserve4u is a best institute.I really appreciate their hard work for student.They maintain excellent schedule.Their tips and tricks for a class for a student is amazing.I did 2 months course in another institute,they did a broken class.I couldnt catch any concept about QA.Because they dont know hmmm ow to control and scheduled a student. But I am doing same course in techserve4u.Belive me it's an outstanding IT transformation course.From me I 100% recommended techserve4u for all of you guys.",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/401624928_3661268857444435_1220521312043024591_n.jpg?stp=dst-jpg_p200x200&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hZAjCrWVuN8Q7kNvgGxMEIx&_nc_ht=scontent.fdac23-1.fna&oh=00_AYCJjxXxh6jYkrZRKgjDmdtsBh135sZS-65i0ZF8NoAfCQ&oe=665C98B0",
+        "https://scontent-sin6-1.xx.fbcdn.net/v/t1.6435-1/124804770_109682797621525_1458276672414756454_n.jpg?stp=dst-jpg_s200x200&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1mV3OEdbSJcQ7kNvgHwzIps&_nc_ht=scontent-sin6-1.xx&oh=00_AYAd-csluYjAvdcpUUGcT_P3ZRQYYJz1BsuXtJitYzPogA&oe=667F145E",
     },
     {
-      name: "Madiha Atif Awais",
+      name: "Ferdoush Munni ",
       review:
-        "I joined TS4U with my friend's recommendation. As a non IT background I can share that TS4U has been accelerating my IT skills day by day with easy to understand workshops and 24/7 help.Their dedication toward their students, Sir shiblu’s hard work, his commitment toward all his students is incredible. They have a great team of mentors and they provide hands on knowledge that is up...",
+        "In my opinion, TechServe4U It's a very good place to you if someone want to build up his career transforming into IT. Most important things is, they are giving priority equally to all of member and push to do productive work. I learned more things from their team. so that I strongly recommend to join here and see what are they doing here actually. I hopefuls no one wouldn’t disappointed to join here. Thanks",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-6/252050433_10226449531649167_6742088909741305043_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9Nvy8f_GQkkQ7kNvgGBq2wX&_nc_ht=scontent.fdac23-1.fna&oh=00_AYDtDwL4O3Obl_SrlIeGqgSR6CV_wGZijMMjr6PS8r77kw&oe=665C98F2",
+        "https://scontent-sin6-4.xx.fbcdn.net/v/t1.6435-1/56375783_846091935745566_6046122889617342464_n.jpg?stp=dst-jpg_s200x200&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=AzuW5EyVupIQ7kNvgHAze_V&_nc_ht=scontent-sin6-4.xx&oh=00_AYB-nJThacvQiRhmnysK2E8P4ZeVHH8SYqq3fwaRDCzDGQ&oe=667F0D6C",
     },
     {
-      name: "Veranika Halouchyts",
+      name: "Iftekhar Uddin",
       review:
-        "I am so glad that I joined the SQA Automation Bootcamp. The team was incredibly supportive right from the start, checking in on me regularly to provide guidance and help whenever I needed it. The course content was presented in an easy-to-understand format, which made it quicker for me to grasp the concepts. It is impressive how the schedule was thoughtfully organized...",
+        "TechServe4U is more than just an IT learning outfit. They are highly focused, relentlessly fearless, future-oriented developers, engineers, visualizers, and strategists. They believe passionately in transforming learning experience to change lives, fuel innovation, push beyond boundaries and foster innovation. ",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/440425059_7794701627279463_6225908164677785654_n.jpg?stp=dst-jpg_s200x200&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9zQ5OCzAyrwQ7kNvgEQg23s&_nc_ht=scontent.fdac23-1.fna&oh=00_AYCMG9BfI0AQcr74fs0AMMokKGy3PzarHiN5aEOfuwZdOA&oe=665C9B74",
+        "https://scontent-sin6-1.xx.fbcdn.net/v/t39.30808-1/440362165_7477784528982797_8210442331030087565_n.jpg?stp=dst-jpg_p200x200&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=R-VXlMAMXLUQ7kNvgHHCoYA&_nc_ht=scontent-sin6-1.xx&oh=00_AYAspuwjHyUJ2IkxAIhIPWTLFqYYYNsFay76GD2E6gHudg&oe=665D7ACC",
     },
     {
-      name: "Shafiqul Islam",
+      name: "Sujoy Barua ",
       review:
-        "I am 100% satisfied with the course and its content. Techserve4U is very professional and explains every questions I have in regards to software testing. If I have any suggestions or advice I always send questions to Techserve4U, and they explain it very professionally. Please please please before you make your decision call to Techserve4U.",
+        "As a Bangladeshi, I am really amazed to see how a man (Shiblu Ahmad) from far away abroad is thinking of the future of his native siblings and making various plans to support Bengali Community. I am really proud to join in such journey under Techserv4u.llc. Specially the support and communication skills within team really amazing even where people work/learn remotely.",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/425348827_7312596792130025_1384975397528334323_n.jpg?stp=dst-jpg_p200x200&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RDL1PJ0vpzcQ7kNvgFMj9dH&_nc_ht=scontent.fdac23-1.fna&oh=00_AYBpTBLmORZGQP8R0fW24WshwSEi1IeukrgXtg42jwXBkA&oe=665CA420",
+        "https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-1/424705815_10228269108147000_5521562613359742285_n.jpg?stp=dst-jpg_p200x200&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=gWRORae8fIMQ7kNvgFXCVDo&_nc_ht=scontent-sin6-4.xx&oh=00_AYA1fCoYMZHdayI24dJtbpygr4inLPLMePFYlL30k88Tbw&oe=665D58D5",
     },
     {
-      name: "Sanjida Khan",
+      name: "Mohsin Bappy ",
       review:
-        "TS4U is a great IT learning platform. You can have zero knowledge about technology yet they will get you covered. The program itself is designed in such a way, you’ll never find it anywhere else. I have learned so much through this program. Not only that they have a well designed program for our success, they got great instructors as well. Shiblu bhai has always motivated me to keep going and so did Pranto and everyone else...",
+        "This is the best IT training center I've ever come across. They will not let you down instead hold your hand to bring you up on the right path to be an IT professional. I'm recommending everyone who wants to transform their career into IT, please have a talk to @Shiblu Ahmed before making any decision.",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/302188803_1729855404049000_5527677921144125063_n.jpg?stp=dst-jpg_p200x200&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vAcbpEclxAgQ7kNvgG5YLAP&_nc_ht=scontent.fdac23-1.fna&oh=00_AYArqwjEYHF8Bgp7SRtsUisMJYeZqIhRrPgh1t6xgIfoJg&oe=665C9755",
+        "https://scontent-sin6-3.xx.fbcdn.net/v/t39.30808-1/398749115_6816305198454479_4426443633923755220_n.jpg?stp=dst-jpg_s200x200&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=0Vb1Ufz3Z0EQ7kNvgFz8soH&_nc_ht=scontent-sin6-3.xx&oh=00_AYCUzFM_cy6MViyNk5N2Kb2U4gVtW2u-XYVUv4f0PHwhnQ&oe=665D68B3",
     },
   ];
   const recommendationVideos = [
