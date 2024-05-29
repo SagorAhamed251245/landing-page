@@ -52,12 +52,12 @@ export default function Home() {
           <OurCourses />
           <Agile />
           <VehicleValidation />
-          <MERN />
+          {/* <MERN /> */}
           {/* <FrontEnd /> */}
           <OurProgram />
 
           <VehicleValidation />
-          <Agile />
+          {/* <Agile /> */}
 
           {/* <FrontEnd /> */}
           <NextCareer />

@@ -6,11 +6,11 @@ const LastCard = () => {
       <div className="lastCard_div1">
         <div className="single_card">
           <div className="single_card_img">
-            <img src="https://img.freepik.com/premium-photo/cardano-blockchain-platform_23-2150411956.jpg" />
+            <img src="https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1698481726898-MERN-Full-Stack" />
           </div>
           <div className="single_card_info">
             <div className="div_1">
-              <h4>AWS CloudOps Engineer</h4>
+              <h4>Flex: MERN Full-Stack Software Engineer</h4>
               <p>Total hours: 100+h Video Lectures</p>
               <p>
                 5.0
