@@ -81,6 +81,33 @@ const StudentsReviews = () => {
       image:
         "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/307756850_10160063035295395_2289222722772136032_n.jpg?stp=cp6_dst-jpg_p200x200&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Xw7q_vAgIFUQ7kNvgFKZG2R&_nc_ht=scontent.fdac23-1.fna&oh=00_AYAzcGr1yOEPKVwmsmQvmo7Zc6oAae52Fj0ZY5SlJ9g0hw&oe=665CAC55",
     },
+    {
+      name: "Imran Nazir",
+      platform: "Facebook",
+
+      review:
+        "My experience at TS4U has been very positive. The instructors truly invested their time, knowledge, and effort to ready a learner for the IT industry. All types of resources, technological skills, hands-on practice, and presentations are mandatory to learn as needed to face any interviews or in the workplace. I'm highly recommended TS4U, who wants to pursue his/her career as an IT engineer.",
+      image:
+        "https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-1/426382681_7386154211407198_8029979901893813721_n.jpg?stp=dst-jpg_p200x200&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=BqgU7g52pQYQ7kNvgFibx1L&_nc_ht=scontent-sin6-4.xx&oh=00_AYBRxp3VlRrf_i2ElB9V8ar9GN75vQnrW7FkhEIbWZyK8w&oe=665D6C3E",
+    },
+    {
+      name: "Hasan Jamil ",
+      platform: "Facebook",
+
+      review:
+        "Highly recommended if your goal is IT career.They are doing tremendous job.",
+      image:
+        "https://scontent-sin6-1.xx.fbcdn.net/v/t39.30808-1/411176337_3741469226081622_844711040906122013_n.jpg?stp=dst-jpg_p200x200&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=pzG3uAUycHgQ7kNvgGx_t_c&_nc_ht=scontent-sin6-1.xx&oh=00_AYAm2VttFqbEyCK39LcHIhoIUJLeyZyGhWUuhiBtnnA1rw&oe=665D4B88",
+    },
+    {
+      name: "Adnan Rahman  ",
+      platform: "Facebook",
+
+      review:
+        "I believe Unique strategy of TechServe4u will help most of the students to achieve their goal. Constant push from the institute makes a student more motivated and committed for their course work. I am currently enrolled in the DevOps course offered by TechServe4u and simply loving it. Instructor has immense knowledge of computer science and software engineering. And the way whole course curriculum is designed, it will not only help any student overcome their weaknesses but will also help building clear concepts about the topics. Finally I would say, if you are looking to advance your career in IT sector and searching for any forum or institute to be connected to then give TechServe4u a try. I am confident you won't regret the decision.",
+      image:
+        "https://scontent-sin6-3.xx.fbcdn.net/v/t39.30808-1/375823094_2987689338031793_5203578125427946898_n.jpg?stp=cp6_dst-jpg_p200x200&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=fR8OSgmYHKYQ7kNvgGFLDbZ&_nc_ht=scontent-sin6-3.xx&oh=00_AYBAf6WbFTfWpvuKm6pi4fhhgcMManBsg6ZnqlZyk3Qlhg&oe=665D538F",
+    },
   ];
   return (
     <section className="students_reviews container">

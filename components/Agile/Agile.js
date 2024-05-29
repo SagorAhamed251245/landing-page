@@ -43,13 +43,13 @@ const Agile = () => {
   ];
   const recommendationVideos = [
     {
-      url: "https://player.vimeo.com/video/929764398?h=1b7f7683b2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/929437103?h=48fa32b1c6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
     {
       url: "https://player.vimeo.com/video/930117628?h=c9442cee5d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
     {
-      url: "https://player.vimeo.com/video/929774286?h=45f32c67cb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/929435634?h=693eb595d8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
     {
       url: "https://player.vimeo.com/video/929784444?h=4ce8e776c9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
