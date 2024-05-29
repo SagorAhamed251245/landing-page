@@ -1,5 +1,7 @@
 import React from "react";
 import DemandableBootcampCard from "./DemandableBootcampCard";
+import Link from "next/link";
+import LessThen from "../SVG/LessThen";
 
 const DemandableBootcamp = () => {
   let bootCamps = [
@@ -59,6 +61,18 @@ const DemandableBootcamp = () => {
       <div className="container">
         <DemandableBootcampCard bootCamps={bootCamps} />
       </div>
+      <Link
+        target="_blank"
+        className="linkBtn center_btn"
+        href={"https://calendly.com/ts4u"}
+      >
+        <button className="book_a_meeting">
+          Book a meeting
+          <span>
+            <LessThen color={"white"} />
+          </span>
+        </button>
+      </Link>
     </section>
   );
 };
