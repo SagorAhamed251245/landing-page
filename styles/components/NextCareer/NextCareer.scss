@@ -1,19 +1,19 @@
-.next-career{
-    width: 40%;
-    @include breakpoints(tablet){
-        width: 100%;
-        text-align: center;
-        padding-top: 50px;
-    }
+.next-career {
+  width: 40%;
+  @include breakpoints(tablet) {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+  }
 }
 
-.bootcamp_completion_container{
-    img{
-        width: 700px;
-        margin-top: 40px;
-        @include breakpoints (tablet){
-          width: 400px;
-          margin-left: 10px;  
-        }
+.bootcamp_completion_container {
+  img {
+    width: 700px;
+    margin-top: 40px;
+    @include breakpoints(tablet) {
+      width: 400px;
+      margin-left: 10px;
     }
+  }
 }

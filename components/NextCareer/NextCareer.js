@@ -21,9 +21,7 @@ const NextCareer = () => {
           </p>
         </div>
 
-        <img
-          src="\images\svg\Rectangle 41581.svg"
-        />
+        <img src="\images\svg\Rectangle 41581.svg" />
       </div>
     </section>
   );
