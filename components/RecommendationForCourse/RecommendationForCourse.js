@@ -21,6 +21,7 @@ const RecommendationForCourse = ({
   LessThenColor,
   btnChildren,
   recommendation,
+  recommendationVideos,
 }) => {
   return (
     <>
@@ -85,7 +86,7 @@ const RecommendationForCourse = ({
             <SwiperNavButtons />
           </Swiper>
         </div>
-        <RecommendationVideos />
+        <RecommendationVideos recommendationVideos={recommendationVideos} />
         <div
           className="review_btn"
           style={{
