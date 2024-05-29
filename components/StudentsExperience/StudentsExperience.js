@@ -15,7 +15,7 @@ const StudentsExperience = () => {
           className="linkBtn center_btn"
           href={"https://calendly.com/ts4u"}
         >
-          <button className="book_a_meeting">
+          <button className="book_a_meeting_btn">
             Book a meeting
             <span>
               <LessThen color={"white"} />
