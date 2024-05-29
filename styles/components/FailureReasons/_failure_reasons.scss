@@ -11,6 +11,13 @@
     // flex-direction: column;
     flex-direction: column-reverse;
   }
+  .failImg {
+    width: 450px;
+    border-radius: 10px;
+    @include breakpoints(tablet) {
+      width: 350px;
+    }
+  }
   .book_a_meeting {
     padding: 16px 30px;
     display: flex;

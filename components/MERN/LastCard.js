@@ -21,7 +21,7 @@ const LastCard = () => {
               </p>
               <div className="div_2">
                 <p>
-                  $10.50 <span>$50.50</span>
+                  $13999 <span>$17000</span>
                 </p>
                 <button>Learn More</button>
               </div>

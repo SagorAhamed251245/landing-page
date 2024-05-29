@@ -50,13 +50,14 @@ export default function Home() {
 
           <MERN />
           <OurCourses />
-          <Agile />
+          <OurProgram />
           <VehicleValidation />
+          <Agile />
+
           {/* <MERN /> */}
           {/* <FrontEnd /> */}
-          <OurProgram />
 
-          <VehicleValidation />
+          {/* <VehicleValidation /> */}
           {/* <Agile /> */}
 
           {/* <FrontEnd /> */}

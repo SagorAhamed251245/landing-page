@@ -19,7 +19,7 @@ const FirstCard = () => {
           </p>
           <div className="div_2">
             <p>
-              $10.50 <span>$50.50</span>
+              $12999 <span>$14999</span>
             </p>
             <button>Learn More</button>
           </div>

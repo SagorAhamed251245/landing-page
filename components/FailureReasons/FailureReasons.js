@@ -22,7 +22,7 @@ const FailureReasons = () => {
         <TextComponent />
       </div>
       <div style={{ display: "flex", justifyContent: "end" }}>
-        <img src="/images/svg/leady.png" />
+        <img className="failImg" src="/images/svg/fail.jpg" />
       </div>
     </section>
   );
