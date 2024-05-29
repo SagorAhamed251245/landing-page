@@ -6,27 +6,27 @@ const VideoCard = () => {
   const [playing, isPlaying] = useState(true);
   const videos = [
     {
-      url: "https://player.vimeo.com/video/926785132?h=1f51fef31c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/856181438?h=cf12ba8901&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "1",
     },
     {
-      url: "https://player.vimeo.com/video/926990535?h=a15a1b73f3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/858402012?h=cc6eedb6af&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "2",
     },
     {
-      url: "https://player.vimeo.com/video/926779712?h=e174f8f21c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/894053938?h=b59084e207&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "3",
     },
     {
-      url: "https://player.vimeo.com/video/927015929?h=1c3232c72c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/896441719?h=01d3d83751&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "4",
     },
     {
-      url: "https://player.vimeo.com/video/926998311?h=f56ca873af&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/827573223?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "5",
     },
     {
-      url: "https://player.vimeo.com/video/927003712?h=86271e6086&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/865453366?h=8e3c78691e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "6",
     },
   ];
