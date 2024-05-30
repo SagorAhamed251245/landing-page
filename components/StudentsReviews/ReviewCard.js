@@ -14,7 +14,7 @@ const ReviewCard = ({ review, name, image, platform }) => {
         <div className="div">
           <div>
             <p className="user_name">{name}</p>
-            <p className="p">Students of TS4U</p>
+            <p className="p">Student of TS4U</p>
             <p className="p">{platform}</p>
           </div>
           <div>
