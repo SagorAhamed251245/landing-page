@@ -9,6 +9,9 @@
   background-color: #07041b;
   margin-top: 120px;
   position: relative;
+  @include breakpoints(tablet) {
+    margin-top: 40px;
+  }
   .footer-icon {
     position: absolute;
     right: 10%;

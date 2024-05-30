@@ -1,12 +1,18 @@
 .agile_section {
   margin-bottom: 120px;
+  @include breakpoints(tablet) {
+    margin-bottom: 40px;
+  }
 }
 .agile {
   background-color: $primary_color;
   padding: 120px 0;
   margin-top: 120px;
   margin-bottom: 60px;
-
+  @include breakpoints(tablet) {
+    margin-bottom: 40px;
+    padding: 40px 0;
+  }
   .agile_top {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

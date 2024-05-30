@@ -117,7 +117,14 @@
     .left_book_meeting {
       width: 50%;
       // background-color: palegoldenrod;
-
+      @include breakpoints(tablet) {
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 30px;
+        }
+      }
       display: flex;
       align-items: center;
 

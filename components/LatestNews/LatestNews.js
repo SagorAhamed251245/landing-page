@@ -27,9 +27,7 @@ const LatestNews = () => {
   return (
     <section className="latest_news">
       <div className=" container">
-        <h4 className="title" style={{ color: "white", marginBottom: "60px" }}>
-          Latest News
-        </h4>
+        <h4 className="title">Latest News</h4>
         <div className="latest_news_cards">
           {latestNews.map((news, index) => (
             <Cards key={index} img={news.img} review={news.review} />

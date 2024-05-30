@@ -8,10 +8,10 @@ const SecCard = () => {
     "Months 6+",
   ];
   return (
-    <section style={{ color: "white" }}>
+    <section className="our_program_Flex" style={{ color: "white" }}>
       <div>
-        <h4 className="title">Flex Software Quality Automation Engineer</h4>
-        <p style={{ margin: "15px 0" }}>
+        <h4 className="title ">Flex Software Quality Automation Engineer</h4>
+        <p className="p_flex" style={{ margin: "15px 0" }}>
           Embark on a 7-9 month journey to mastery as a MERN Full-Stack Software
           Engineer! Dive into hands-on learning, Agile Scrum projects, and
           mentorship in a virtual environment. Build enterprise-grade apps, earn
