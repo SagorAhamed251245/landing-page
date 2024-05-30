@@ -1,5 +1,17 @@
 .successful-students {
   height: auto;
+  margin-bottom: 120px;
+  @include breakpoints(tablet) {
+    // margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .next-career1 {
+    margin-top: 80px;
+    @include breakpoints(tablet) {
+      margin-top: 0px;
+      // margin-bottom: 40px;
+    }
+  }
   .single_video {
     height: 320px;
     position: relative;
@@ -23,29 +35,4 @@
     height: 100%;
     width: 100%;
   }
-  /* .play_button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color: rgba(238, 190, 190, 0.2); 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-  } */
-
-  /* .play_button  div {
-    opacity: 100%;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
 }

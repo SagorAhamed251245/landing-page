@@ -8,14 +8,14 @@
   .sec_card_section {
     h4 {
       @include breakpoints(tablet) {
-        text-align: center;
+        // text-align: center;
       }
     }
     .sec_card_p {
       margin: 30px 0px;
       width: 80%;
       @include breakpoints(tablet) {
-        text-align: center;
+        // text-align: center;
         // margin: 30px 0px;
         width: 100%;
       }

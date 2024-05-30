@@ -5,6 +5,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   // padding-bottom: 200px;
+  @include breakpoints(tablet) {
+    padding: 40px 0;
+  }
+  .title {
+    color: white;
+    margin-bottom: 60px;
+    @include breakpoints(tablet) {
+      margin-bottom: 40px;
+    }
+  }
   .latest_news_cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

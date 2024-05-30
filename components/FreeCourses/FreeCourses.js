@@ -46,7 +46,7 @@ const FreeCourses = () => {
   ];
   return (
     <div>
-      <section style={{ marginTop: "120px" }} className="demandable_bootcamp ">
+      <section className="demandable_bootcamp ">
         <div className="demand-text" style={{ textAlign: "center" }}>
           <h4 className="title" style={{ marginBottom: "20px" }}>
             Our Free Courses

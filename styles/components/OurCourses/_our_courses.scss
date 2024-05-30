@@ -54,14 +54,14 @@
 .aws_title {
   @include breakpoints(tablet) {
     .title {
-      text-align: center;
+      // text-align: center;
     }
   }
 }
 .p_aws {
   @include breakpoints(tablet) {
     margin: 30px 0px;
-    text-align: center;
+    // text-align: center;
     width: 100%;
   }
 }

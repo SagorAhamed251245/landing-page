@@ -7,12 +7,7 @@ const Podcast = () => {
   return (
     <section className="podcast">
       <div>
-        <h1
-          style={{ textAlign: "center", marginBottom: "60px" }}
-          className="title"
-        >
-          Podcast of TS4U's Innovative Bootcamp
-        </h1>
+        <h4 className="title">Podcast of TS4U's Innovative Bootcamp</h4>
         <PodcastCard />
 
         <div style={{ display: "flex", justifyContent: "center" }}>

@@ -12,12 +12,12 @@
   .our_program_Flex {
     h4 {
       @include breakpoints(tablet) {
-        text-align: center;
+        // text-align: center;
       }
     }
     .p_flex {
       @include breakpoints(tablet) {
-        text-align: center;
+        // text-align: center;
       }
     }
   }

@@ -54,11 +54,8 @@ const SuccessfulStudents = () => {
     },
   ];
   return (
-    <section
-      style={{ marginBottom: "120px" }}
-      className="successful-students container"
-    >
-      <div style={{ marginTop: "80px" }} className="next-career">
+    <section className="successful-students container">
+      <div className="next-career next-career1">
         <h1 style={{ marginBottom: "20px" }} className="title">
           Successful Students
         </h1>

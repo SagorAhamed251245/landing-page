@@ -4,6 +4,17 @@
   justify-content: center;
   background-color: #f7f5fe;
   padding: 80px;
+  @include breakpoints(tablet) {
+    margin-top: 40px;
+    padding: 40px;
+  }
+  > div > h4 {
+    text-align: center;
+    margin-bottom: 60px;
+    @include breakpoints(tablet) {
+      margin-bottom: 40px;
+    }
+  }
   .single_video {
     height: 600px;
     background-color: peachpuff;
