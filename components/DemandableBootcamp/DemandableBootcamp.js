@@ -10,40 +10,32 @@ const DemandableBootcamp = () => {
       image:
         "https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1698481726898-MERN-Full-Stack",
       timeLength: "",
-      averageRating: 0,
-      totalRatings: 0,
-      offerPrice: 13999,
-      price: 0,
+      averageRating: 5,
+      totalRatings: "50+",
     },
     {
       course: "Flex: Software Quality Automation Engineer",
       image:
         "https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1698481098318-Software-Qualit",
       timeLength: "",
-      averageRating: 0,
-      totalRatings: 0,
-      offerPrice: 12999,
-      price: 0,
+      averageRating: 5,
+      totalRatings: "50+",
     },
     {
       course: "Flex: AWS DevOps and CloudOps Engineer",
       image:
         "https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1698481420303-AWS-Thumbnail.j",
       timeLength: "",
-      averageRating: 0,
-      totalRatings: 0,
-      offerPrice: 17000,
-      price: 0,
+      averageRating: 5,
+      totalRatings: "50+",
     },
     {
       course: "Flex-Product Manager",
       image:
         "https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1666179067143-Agile-PO.jpg",
       timeLength: "",
-      averageRating: 0,
-      totalRatings: 0,
-      offerPrice: 9999,
-      price: 0,
+      averageRating: 4.5,
+      totalRatings: "50+",
     },
   ];
   return (

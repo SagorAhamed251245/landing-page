@@ -6,27 +6,27 @@ import Link from "next/link";
 const ResourcesForYou = () => {
   const videos = [
     {
-      url: "https://player.vimeo.com/video/927015929?h=1c3232c72c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/855320786?h=8a49da35b6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "1",
     },
     {
-      url: "https://player.vimeo.com/video/927006255?h=93081ed14e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/856180583?h=bf2a5ca8d4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "2",
     },
     {
-      url: "https://player.vimeo.com/video/927010846?h=fa6894ce55&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/858150964?h=5ab3848847&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "3",
     },
     {
-      url: "https://player.vimeo.com/video/926990535?h=a15a1b73f3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/858402561?h=40fd24e9be&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "4",
     },
     {
-      url: "https://player.vimeo.com/video/927000565?h=de7f14aa2f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/851135170?h=875b804b32&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "5",
     },
     {
-      url: "https://player.vimeo.com/video/926998311?h=f56ca873af&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      url: "https://player.vimeo.com/video/856181438?h=cf12ba8901&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "6",
     },
   ];

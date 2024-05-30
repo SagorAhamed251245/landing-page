@@ -29,7 +29,7 @@ const SingleCard = ({ bootCamp }) => {
           </p>
           <div className="div_2">
             <p>
-              ${offerPrice} <span>${price}</span>
+              {offerPrice} <span>{price}</span>
             </p>
             <button>Learn More</button>
           </div>
