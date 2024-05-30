@@ -7,39 +7,39 @@ import LastCard from "./LastCard";
 const OurCourses = () => {
   const recommendation = [
     {
-      name: "Ibrahim Opu",
+      name: "Enamul Hoque",
       review:
-        "I am very happy to start my journey with TS4U to be a Software Quality Automation Engineer without a non-IT background student. Mr.Shiblu Ahmed is very dedicated and committed to making his student successful. his course outline, Teaching system, and real-life experience are amazing. I am confident, My IT career dream will be fulfilled Because I am a part of the TS4U community.",
+        "I think I  should say something about ts4u from my tech professional pathway, I have worked with a number of tech organizations as well as I have taken some tech training and certification from various institutions, but I would say that was training just training. ts4u experience says this is not a tech training institution it’s an excellent format and path from the beginning to the end, well-structured and many practical examples make this a tangible experience, there every module is very engaging, which stimulated to trainees to continue on to learn more to build a great career.",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/401624928_3661268857444435_1220521312043024591_n.jpg?stp=dst-jpg_p200x200&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hZAjCrWVuN8Q7kNvgGxMEIx&_nc_ht=scontent.fdac23-1.fna&oh=00_AYCJjxXxh6jYkrZRKgjDmdtsBh135sZS-65i0ZF8NoAfCQ&oe=665C98B0",
+        "https://ts4u.us/_next/image?url=https%3A%2F%2Fts4uportal-all-files-upload.nyc3.digitaloceanspaces.com%2Fprogram-user-image%2F1649958410736-Enamul-Profile.&w=384&q=75",
     },
     {
-      name: "Madiha Atif Awais",
+      name: "Kukon Miah",
       review:
-        "I joined TS4U with my friend's recommendation. As a non IT background I can share that TS4U has been accelerating my IT skills day by day with easy to understand workshops and 24/7 help.Their dedication toward their students, Sir shiblu’s hard work, his commitment toward all his students is incredible. They have a great team of mentors and they provide hands on knowledge that is up...",
+        "I am satisfied with this course.it is the best to place to learn, if you want to build your career, this is the place for you the TechServe4U, this is really trusty and solid, they have well-experienced mentors who are currently in the IT field. The workshops are a lot of practice with real projects. Most importantl",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-6/252050433_10226449531649167_6742088909741305043_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9Nvy8f_GQkkQ7kNvgGBq2wX&_nc_ht=scontent.fdac23-1.fna&oh=00_AYDtDwL4O3Obl_SrlIeGqgSR6CV_wGZijMMjr6PS8r77kw&oe=665C98F2",
+        "https://ts4u.us/_next/image?url=https%3A%2F%2Fts4uportal-all-files-upload.nyc3.digitaloceanspaces.com%2Fprogram-user-image%2F1649959196810-kukhon-mia.png&w=384&q=75",
     },
     {
-      name: "Veranika Halouchyts",
+      name: "Fuad Ahmed",
       review:
-        "I am so glad that I joined the SQA Automation Bootcamp. The team was incredibly supportive right from the start, checking in on me regularly to provide guidance and help whenever I needed it. The course content was presented in an easy-to-understand format, which made it quicker for me to grasp the concepts. It is impressive how the schedule was thoughtfully organized...",
+        "For me, communication is the key and they nailed it. I like to thank specially @Shiblu Ahmad for his professionalism and communication. Because of the experience that I gained with Techserve4u and the advanced knowledge I attained through their project I was able to successfully gain the confidence I needed.",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/440425059_7794701627279463_6225908164677785654_n.jpg?stp=dst-jpg_s200x200&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9zQ5OCzAyrwQ7kNvgEQg23s&_nc_ht=scontent.fdac23-1.fna&oh=00_AYCMG9BfI0AQcr74fs0AMMokKGy3PzarHiN5aEOfuwZdOA&oe=665C9B74",
+        "https://ts4u.us/_next/image?url=https%3A%2F%2Fts4uportal-all-files-upload.nyc3.digitaloceanspaces.com%2Fprogram-user-image%2F1649960145921-Fuad-Ahmed.png&w=384&q=75",
     },
     {
-      name: "Shafiqul Islam",
+      name: "Kaiser Rashid",
       review:
-        "I am 100% satisfied with the course and its content. Techserve4U is very professional and explains every questions I have in regards to software testing. If I have any suggestions or advice I always send questions to Techserve4U, and they explain it very professionally. Please please please before you make your decision call to Techserve4U.",
+        "Definitely recommend TS4U for those who want to transform their career in the IT industry. Their transformation structure will give you a smooth landing in this sector. Their professional website is well organized and is going through more changes to make the best out of it. The support staff is really helpful and i",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/425348827_7312596792130025_1384975397528334323_n.jpg?stp=dst-jpg_p200x200&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RDL1PJ0vpzcQ7kNvgFMj9dH&_nc_ht=scontent.fdac23-1.fna&oh=00_AYBpTBLmORZGQP8R0fW24WshwSEi1IeukrgXtg42jwXBkA&oe=665CA420",
+        "https://ts4u.us/_next/image?url=https%3A%2F%2Fts4uportal-all-files-upload.nyc3.digitaloceanspaces.com%2Fprogram-user-image%2F1649957483151-1646595653879-m&w=384&q=75",
     },
     {
-      name: "Sanjida Khan",
+      name: "Zannatul Ferdosh",
       review:
-        "TS4U is a great IT learning platform. You can have zero knowledge about technology yet they will get you covered. The program itself is designed in such a way, you’ll never find it anywhere else. I have learned so much through this program. Not only that they have a well designed program for our success, they got great instructors as well. Shiblu bhai has always motivated me to keep going and so did Pranto and everyone else...",
+        "If you are looking for the best IT training company you are in the right place. I highly recommend TS4U  if you really want to start your career in the IT field. It is the place where you will get the real-life experience of the IT corporate world. It is the journey of transformation and grooming yourself for the IT",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/302188803_1729855404049000_5527677921144125063_n.jpg?stp=dst-jpg_p200x200&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vAcbpEclxAgQ7kNvgG5YLAP&_nc_ht=scontent.fdac23-1.fna&oh=00_AYArqwjEYHF8Bgp7SRtsUisMJYeZqIhRrPgh1t6xgIfoJg&oe=665C9755",
+        "https://ts4u.us/_next/image?url=https%3A%2F%2Fts4uportal-all-files-upload.nyc3.digitaloceanspaces.com%2Fprogram-user-image%2F1649957780682-1647665114908-2&w=384&q=75",
     },
   ];
   const recommendationVideos = [

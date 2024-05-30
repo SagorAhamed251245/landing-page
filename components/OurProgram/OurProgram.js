@@ -7,39 +7,39 @@ import RecommendationForCourse from "../RecommendationForCourse/RecommendationFo
 const OurProgram = () => {
   const recommendation = [
     {
-      name: "Ibrahim Opu",
+      name: "Mahmud Fahim",
       review:
-        "I am very happy to start my journey with TS4U to be a Software Quality Automation Engineer without a non-IT background student. Mr.Shiblu Ahmed is very dedicated and committed to making his student successful. his course outline, Teaching system, and real-life experience are amazing. I am confident, My IT career dream will be fulfilled Because I am a part of the TS4U community.",
+        "TS4U has all the resources I need. They are so helpful and also dedicated. Happy to work with TS4U. I highly recommend it to those who want to land in IT Industry.",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/401624928_3661268857444435_1220521312043024591_n.jpg?stp=dst-jpg_p200x200&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hZAjCrWVuN8Q7kNvgGxMEIx&_nc_ht=scontent.fdac23-1.fna&oh=00_AYCJjxXxh6jYkrZRKgjDmdtsBh135sZS-65i0ZF8NoAfCQ&oe=665C98B0",
+        "https://ts4u.us/_next/image?url=https%3A%2F%2Fts4uportal-all-files-upload.nyc3.digitaloceanspaces.com%2Fprogram-user-image%2F1649958695415-fahim.png&w=384&q=75",
     },
     {
-      name: "Madiha Atif Awais",
+      name: "Mohammed Hossain",
       review:
-        "I joined TS4U with my friend's recommendation. As a non IT background I can share that TS4U has been accelerating my IT skills day by day with easy to understand workshops and 24/7 help.Their dedication toward their students, Sir shiblu’s hard work, his commitment toward all his students is incredible. They have a great team of mentors and they provide hands on knowledge that is up...",
+        "Great place to learn, everyone is very devoted to helping each other. I am glad that I signed up &amp; recommend people who are interested in IT to start with them. We get to learn about the latest software, gadgets &amp; tools that are very much needed in today's job market. I am already midway through the program ",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-6/252050433_10226449531649167_6742088909741305043_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9Nvy8f_GQkkQ7kNvgGBq2wX&_nc_ht=scontent.fdac23-1.fna&oh=00_AYDtDwL4O3Obl_SrlIeGqgSR6CV_wGZijMMjr6PS8r77kw&oe=665C98F2",
+        "https://ts4u.us/_next/image?url=https%3A%2F%2Fts4uportal-all-files-upload.nyc3.digitaloceanspaces.com%2Fprogram-user-image%2F1649959782663-profilemd-pic.j&w=384&q=75",
     },
     {
-      name: "Veranika Halouchyts",
+      name: "Md Maher Alam",
       review:
-        "I am so glad that I joined the SQA Automation Bootcamp. The team was incredibly supportive right from the start, checking in on me regularly to provide guidance and help whenever I needed it. The course content was presented in an easy-to-understand format, which made it quicker for me to grasp the concepts. It is impressive how the schedule was thoughtfully organized...",
+        "I would recommend this institution.Very friendly environment.Mr.Shiblu and his teams are very skilled and professional and exactly know how to land anyone with an IT job.Also, provide Job support and make sure you are top of your game.",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/440425059_7794701627279463_6225908164677785654_n.jpg?stp=dst-jpg_s200x200&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9zQ5OCzAyrwQ7kNvgEQg23s&_nc_ht=scontent.fdac23-1.fna&oh=00_AYCMG9BfI0AQcr74fs0AMMokKGy3PzarHiN5aEOfuwZdOA&oe=665C9B74",
+        "https://ts4u.us/_next/image?url=https%3A%2F%2Fts4uportal-all-files-upload.nyc3.digitaloceanspaces.com%2Fprogram-user-image%2F1649958292334-unnamed.jpg&w=384&q=75",
     },
     {
-      name: "Shafiqul Islam",
+      name: "MD Abu Ahsan",
       review:
-        "I am 100% satisfied with the course and its content. Techserve4U is very professional and explains every questions I have in regards to software testing. If I have any suggestions or advice I always send questions to Techserve4U, and they explain it very professionally. Please please please before you make your decision call to Techserve4U.",
+        "The teachers are amazing, a Great place to learn, The CEO Mr. Shiblu is very friendly and a quick problem solver,  I recommend everyone.",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/425348827_7312596792130025_1384975397528334323_n.jpg?stp=dst-jpg_p200x200&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RDL1PJ0vpzcQ7kNvgFMj9dH&_nc_ht=scontent.fdac23-1.fna&oh=00_AYBpTBLmORZGQP8R0fW24WshwSEi1IeukrgXtg42jwXBkA&oe=665CA420",
+        "https://ts4u.us/_next/image?url=https%3A%2F%2Fts4uportal-all-files-upload.nyc3.digitaloceanspaces.com%2Fprogram-user-image%2F1649958093683-unnamed.png&w=384&q=75",
     },
     {
-      name: "Sanjida Khan",
+      name: "Jannatul Retu",
       review:
-        "TS4U is a great IT learning platform. You can have zero knowledge about technology yet they will get you covered. The program itself is designed in such a way, you’ll never find it anywhere else. I have learned so much through this program. Not only that they have a well designed program for our success, they got great instructors as well. Shiblu bhai has always motivated me to keep going and so did Pranto and everyone else...",
+        "I should recommend everyone this platform. they are very friendly and open always to help.",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/302188803_1729855404049000_5527677921144125063_n.jpg?stp=dst-jpg_p200x200&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vAcbpEclxAgQ7kNvgG5YLAP&_nc_ht=scontent.fdac23-1.fna&oh=00_AYArqwjEYHF8Bgp7SRtsUisMJYeZqIhRrPgh1t6xgIfoJg&oe=665C9755",
+        "https://ts4u.us/_next/image?url=https%3A%2F%2Fts4uportal-all-files-upload.nyc3.digitaloceanspaces.com%2Fprogram-user-image%2F1649960015414-jannatul.png&w=384&q=75",
     },
   ];
   const recommendationVideos = [

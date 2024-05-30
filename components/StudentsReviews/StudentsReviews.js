@@ -15,12 +15,12 @@ const StudentsReviews = () => {
         "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/401624928_3661268857444435_1220521312043024591_n.jpg?stp=dst-jpg_p200x200&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hZAjCrWVuN8Q7kNvgGxMEIx&_nc_ht=scontent.fdac23-1.fna&oh=00_AYCJjxXxh6jYkrZRKgjDmdtsBh135sZS-65i0ZF8NoAfCQ&oe=665C98B0",
     },
     {
-      name: "Madiha Atif Awais",
+      name: "Sabbin Islam",
       platform: "Google",
       review:
-        "I joined TS4U with my friends recommendation. As a non IT background I can share that TS4U has been accelerating my IT skills day by day with easy to understand workshops and 24/7 help.Their dedication toward their students, Sir shiblu’s hard work, his commitment toward all his students is incredible. They have great team of mentors and they provide hands on knowledge that is up...",
+        "Having been a part of the TS4U family for almost a year, I've personally witnessed the unparalleled dedication this team has towards nurturing IT Engineering Bootcamp students. The office boasts a conducive environment that fosters learning, collaboration, and innovation. It's refreshing to see such a strong commitment to the students' success. Every member of the team is passionate, professional, and committed to providing the best resources and guidance. Kudos to TS4U for being a beacon of excellence in IT education!",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-6/252050433_10226449531649167_6742088909741305043_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9Nvy8f_GQkkQ7kNvgGBq2wX&_nc_ht=scontent.fdac23-1.fna&oh=00_AYDtDwL4O3Obl_SrlIeGqgSR6CV_wGZijMMjr6PS8r77kw&oe=665C98F2",
+        "https://lh3.googleusercontent.com/a-/ALV-UjVYhruSE6sJQBRUr9GlC52pUi24kUUCD3TikAC55waOqyjwbf0=w60-h60-p-rp-mo-br100",
     },
     {
       name: "Veranika Halouchyts",
@@ -32,46 +32,46 @@ const StudentsReviews = () => {
         "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/440425059_7794701627279463_6225908164677785654_n.jpg?stp=dst-jpg_s200x200&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9zQ5OCzAyrwQ7kNvgEQg23s&_nc_ht=scontent.fdac23-1.fna&oh=00_AYCMG9BfI0AQcr74fs0AMMokKGy3PzarHiN5aEOfuwZdOA&oe=665C9B74",
     },
     {
-      name: "Shafiqul Islam ",
+      name: "Mdk Hassan  ",
       platform: "Facebook",
 
       review:
-        "I am 100% satisfied with the course and its content. Techserve4U is very professional and explains every questions I have in regards to software testing. If I have any suggestions or advice I always send questions to Techserve4U, and they explain it very professionally. Please please please before you make your decision call to Techserve4U.",
+        "I specially recommend TS4U because Shiblu Ahmmed is so generous and very helpful. Secondly they have their own Application which they develop, test, deploy live in front you and they have support for you 24/7.",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/425348827_7312596792130025_1384975397528334323_n.jpg?stp=dst-jpg_p200x200&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RDL1PJ0vpzcQ7kNvgFMj9dH&_nc_ht=scontent.fdac23-1.fna&oh=00_AYBpTBLmORZGQP8R0fW24WshwSEi1IeukrgXtg42jwXBkA&oe=665CA420",
+        "https://scontent-sin6-4.xx.fbcdn.net/v/t1.18169-1/421020_118566554938754_215803118_n.jpg?stp=c0.28.195.195a_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Hv_zkd4UQJgQ7kNvgE2S5Bq&_nc_ht=scontent-sin6-4.xx&oh=00_AYCSQ4Ieg7_eBwxvjaqic4sj-vj54__CAgHcDLHNT2Q-Mw&oe=667FEE4D",
     },
     {
-      name: "Sanjida Khan",
+      name: "Mizanur Rahman Ridoy",
       platform: "Google",
 
       review:
-        "TS4U is a great IT learning platform. You can have zero knowledge about technology yet they will get you covered. The program itself is designed in such a way, you’ll never find it anywhere else. I have learned so much through this program. Not only that they have a well designed program for our success, they got great instructors as well. Shiblu bhai has always motivated me to keep going and so did Pranto and everyone else...",
+        "Tech Serve for You known as TS4U is It Training centre and Software development company. TS4U provides a better work environment for the developers like us. Helps students 24/7 and provides documents and Information  as needed.",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/302188803_1729855404049000_5527677921144125063_n.jpg?stp=dst-jpg_p200x200&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vAcbpEclxAgQ7kNvgG5YLAP&_nc_ht=scontent.fdac23-1.fna&oh=00_AYArqwjEYHF8Bgp7SRtsUisMJYeZqIhRrPgh1t6xgIfoJg&oe=665C9755",
+        "https://lh3.googleusercontent.com/a-/ALV-UjV9s3bwN6glGrlyOrZtP7rKvEkBqdh-Fgnay_lVTZbD5OZN7Fqhig=w60-h60-p-rp-mo-br100",
     },
     {
-      name: "Samad Chowdhury",
+      name: "Mitul Das",
       platform: "Google",
       review:
-        "Best place to learn IT. TS4U have a lot of variety of courses and the courses are designed to help people with no IT background.",
+        "I recently enrolled in the SQA course on TS4U's IT Engineering Bootcamp. The curriculum is top-notch, and the instructors have real-world experience. A transformative learning journey that's setting me up for a successful career in IT. Highly recommended!",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/324666854_1854438831570668_2771090768778664050_n.jpg?stp=dst-jpg_p200x200&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wEmNs265pZcQ7kNvgGw6fyX&_nc_ht=scontent.fdac23-1.fna&oh=00_AYCjfxdmdtHjWKeBvVVY_BZbqStx3TrmQdQV5eJ02zzk1g&oe=665CA3C1",
+        "https://media.licdn.com/dms/image/D4D03AQHAk7Grqo4oZA/profile-displayphoto-shrink_200_200/0/1697690671363?e=1722470400&v=beta&t=yJUweJIEiHAmSMhlVjrKmbnL04VE2Xisco8T9KYSRHE",
     },
     {
-      name: "Inshira Anwar ",
+      name: "Tanjin Mitul ",
       platform: "Google",
       review:
-        "The best thing about TS4U is it’s community.It is rare to find a community that is this supportive, motivating, resourceful, professional and excellently designed to ensure your growth and success.It is highly admirable how every one in the company is so sincere and dedicated, and they work tirelessly to serve all members Especially for me, I appreciate how TS4U is patient with me, allows me to learn at a pace that works for me, continues to include and encourage me- which is very precious to me. This flexibility and inclusion is not found in all IT companies, and this makes TS4U all the more unique on top of their already amazing support, resources and services.",
+        "The AWS CloudOps course offered by TS4U, which I recently finished, was simply excellent. The knowledgeable lecturers made difficult AWS concepts simple to understand. My understanding has greatly improved as a result of my practical experience and access to AWS resources. Collaboration and development were promoted by the welcoming community. The career services provided by TS4U were very helpful in developing resumes and preparing for interviews. In general, TS4U sets a high bar for IT education and did a great job of preparing me for AWS certifications and practical applications. TS4U is the place to be if you want to succeed in AWS CloudOps. highly advisable",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/379462420_2053797658305177_7147587178995413533_n.jpg?stp=dst-jpg_p200x200&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=fqKInakeFz8Q7kNvgGzNu34&_nc_ht=scontent.fdac23-1.fna&oh=00_AYBRT8HBuYeIJLsiFQg2VOXiVHyJGaIFM74i2SQ1yxGbDg&oe=665CA148",
+        "https://lh3.googleusercontent.com/a-/ALV-UjUeIA9ix9wiWwDz5551RcRTA-DFw-ftwAmBjhnLH_NatdhBI50Z=w60-h60-p-rp-mo-br100",
     },
     {
-      name: "Alzaber Tasnim",
+      name: "Israk Zahan",
       platform: "Google",
       review:
-        "Fully understood the SDLC, and gained experience on the latest tools and technologies by working on a live project.",
+        "The Software Quality Automation Engineer bootcamp added valuable hands-on experience .The course content is excellent. The Instructor gives unbelievable support to each of the students. My overall experience is excellent.",
       image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/294749339_5421868191209645_1533491236120527297_n.jpg?stp=dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=UWjKdFsv8cgQ7kNvgFM8ku-&_nc_ht=scontent.fdac23-1.fna&oh=00_AYCFsiWTDm6SIOKJoUWOEWmC92aCZzGumHcKFFh2z3xu5g&oe=665CC112",
+        "https://lh3.googleusercontent.com/a-/ALV-UjXxxdmMsQyvwQdV7nprhF6CsPTq9FIzXmIR6o0SbuvhgcwRN7p1=w60-h60-p-rp-mo-br100",
     },
     {
       name: "Mahabub Ashrafy ",
