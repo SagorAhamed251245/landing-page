@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const SingleCard = ({ bootCamp }) => {
@@ -31,7 +32,9 @@ const SingleCard = ({ bootCamp }) => {
             <p>
               {offerPrice} <span>{price}</span>
             </p>
-            <button>Learn More</button>
+            <Link target="_blank" href={"https://calendly.com/ts4u"}>
+              <button className="button-cal">Learn More</button>
+            </Link>
           </div>
         </div>
       </div>

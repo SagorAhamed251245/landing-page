@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const LastCard = () => {
@@ -21,7 +22,9 @@ const LastCard = () => {
               </p>
               <div className="div_2">
                 <p></p>
-                <button>Learn More</button>
+                <Link target="_blank" href={"https://calendly.com/ts4u"}>
+                  <button className="button-cal">Learn More</button>
+                </Link>
               </div>
             </div>
           </div>

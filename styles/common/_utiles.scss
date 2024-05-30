@@ -11,3 +11,13 @@
     display: flex;
   }
 }
+
+.button-cal {
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 40px;
+  border: 1px solid $primary_color;
+  color: $primary_color;
+  font-weight: bold;
+  cursor: pointer;
+}
