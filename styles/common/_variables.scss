@@ -11,8 +11,8 @@ $yellow: #ff9900;
 $text_color: #5c5958;
 
 @mixin mobile_container() {
-  width: 95%;
-  margin: 0 auto;
+  width: 100%;
+  padding: 0px 16px;
 }
 @mixin mobile_button() {
   font-size: 12px;

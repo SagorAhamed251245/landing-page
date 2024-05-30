@@ -1,8 +1,10 @@
 .mern_stack {
   padding-top: 120px;
   background-color: #efebfe;
-  margin-top: 120px;
-
+  // margin-top: 120px;
+  @include breakpoints(tablet) {
+    padding-top: 40px;
+  }
   .mern_stack_cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -36,6 +38,7 @@
       height: auto;
       width: 100%;
       gap: 30px;
+      margin-top: 10px;
     }
   }
   .lastCard_div1 {
@@ -120,5 +123,13 @@
         }
       }
     }
+  }
+}
+
+.ourProgramTitle {
+  margin: 100px 0;
+  text-align: center;
+  @include breakpoints(tablet) {
+    margin: 40px 0;
   }
 }

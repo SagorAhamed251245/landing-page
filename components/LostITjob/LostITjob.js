@@ -4,26 +4,26 @@ import Link from "next/link";
 
 const LostITjob = () => {
   return (
-    <section style={{ marginTop: "120px" }} className="lost_IT_job">
+    <section className="lost_IT_job">
       {/* right */}
       <div className="left_section">
-      <div className="video">
-            <iframe
-              id="founder"
-              style={{
-                objectFit: "cover",
-                width: "100%",
-                height: "100%",
-              }}
-              className="video"
-              src="https://www.youtube.com/embed/A4AGAM4sijo?si=eOnjONf_ck86pdTs"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </div>
+        <div className="video">
+          <iframe
+            id="founder"
+            style={{
+              objectFit: "cover",
+              width: "100%",
+              height: "100%",
+            }}
+            className="video"
+            src="https://www.youtube.com/embed/A4AGAM4sijo?si=eOnjONf_ck86pdTs"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
       {/* left  */}
       <div className="right_section">

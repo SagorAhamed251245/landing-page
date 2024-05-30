@@ -1,5 +1,8 @@
 .students_reviews {
   margin-bottom: 120px;
+  @include breakpoints(tablet) {
+    margin-bottom: 40px;
+  }
   .reviews_buttons {
     margin-top: 15px;
     display: flex;
@@ -25,7 +28,7 @@
     grid-template-columns: repeat(3, 1fr);
     @include breakpoints(tablet) {
       display: grid;
-      gap: 30px;
+      gap: 16px;
       grid-template-columns: repeat(1, 1fr);
       margin-top: 30px;
     }

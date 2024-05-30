@@ -1,6 +1,9 @@
 .alumni_section {
   margin-bottom: 0px;
   margin: 120px 0px;
+  @include breakpoints(tablet) {
+    margin: 40px 0px 0px 0px;
+  }
   > hr {
     width: 300px;
     margin: 0 auto;

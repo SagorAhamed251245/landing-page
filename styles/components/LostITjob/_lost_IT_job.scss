@@ -1,16 +1,18 @@
 .lost_IT_job {
   height: 695px;
   display: flex;
-  margin-bottom: 120px;
+  margin: 120px 0px;
+
   background-color: #f7f5fe;
   background-image: url("/images/svg/Rectangle.svg");
   background-repeat: no-repeat;
   @include breakpoints(tablet) {
-    height: 301px;
+    height: 350px;
     background-image: url("/images/image/blueBackgroundMobile.png");
     width: 100%;
     background-repeat: no-repeat;
     background-size: contain;
+    margin: 40px 0;
   }
 
   //   right
@@ -32,6 +34,7 @@
         @include breakpoints(tablet) {
           width: 100%;
           font-size: 12px;
+          padding-right: 16px;
         }
       }
       .button {
@@ -62,8 +65,8 @@
     align-items: center;
     padding-right: 100px;
     @include breakpoints(tablet) {
-      padding-right: 0px;
       justify-content: start;
+      padding-right: 50px;
     }
     > div {
       height: 548px;
@@ -71,9 +74,10 @@
       background: #000;
       border-radius: 10px;
       @include breakpoints(tablet) {
-        width: 141px;
+        width: 300px;
         height: 203px;
         display: flex;
+        margin-left: 16px;
       }
     }
 

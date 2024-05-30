@@ -26,10 +26,8 @@ const RecommendationForCourse = ({
   return (
     <>
       <h4
-        className="title"
+        className="title recommendation_cards_title"
         style={{
-          margin: "90px 0  30px 0",
-          textAlign: "center",
           color: titleColor ? titleColor : "black",
         }}
       >

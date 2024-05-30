@@ -1,5 +1,6 @@
 .failure_reasons {
   display: grid;
+  margin-bottom: 120px;
   // justify-content: space-around;
   // align-items: center;
   // grid-template-columns: repeat(3, 1fr);
@@ -10,12 +11,15 @@
   @include breakpoints(tablet) {
     // flex-direction: column;
     flex-direction: column-reverse;
+    margin-bottom: 30px;
+    gap: 30px;
   }
   .failImg {
     width: 500px;
     border-radius: 10px;
     @include breakpoints(tablet) {
-      width: 350px;
+      // width: 350px;s
+      width: 100%;
     }
   }
   .book_a_meeting {
@@ -53,7 +57,7 @@
       display: flex;
     }
   }
-  margin-bottom: 120px;
+
   .cercel_img {
     height: 404.75px;
     @include breakpoints(tablet) {

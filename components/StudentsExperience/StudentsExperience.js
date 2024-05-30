@@ -32,7 +32,7 @@ const StudentsExperience = () => {
     },
   ];
   return (
-    <section style={{ marginTop: "120px" }} className="container">
+    <section className="container students_experience_section">
       <div className="students_experience">
         <Intro />
         <VideoCard videos={videos} />

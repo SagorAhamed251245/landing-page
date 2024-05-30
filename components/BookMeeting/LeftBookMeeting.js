@@ -6,7 +6,7 @@ const LeftBookMeeting = () => {
   return (
     <div className="left_book_meeting">
       <div>
-        <h4 className="title">MI State Approved IT Training Provider</h4>
+        <h4 className="title ">MI State Approved IT Training Provider</h4>
         <p className="">
           Michigan State-approved IT training providers offer a range of
           programs tailored to meet industry standards and workforce demands.
