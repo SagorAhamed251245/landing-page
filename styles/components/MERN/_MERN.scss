@@ -5,11 +5,28 @@
   @include breakpoints(tablet) {
     padding-top: 40px;
   }
+  .sec_card_section {
+    h4 {
+      @include breakpoints(tablet) {
+        text-align: center;
+      }
+    }
+    .sec_card_p {
+      margin: 30px 0px;
+      width: 80%;
+      @include breakpoints(tablet) {
+        text-align: center;
+        // margin: 30px 0px;
+        width: 100%;
+      }
+    }
+  }
   .mern_stack_cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     @include breakpoints(tablet) {
       grid-template-columns: repeat(1, 1fr);
+      margin-bottom: 0px;
     }
     margin-bottom: 60px;
   }
@@ -125,7 +142,13 @@
     }
   }
 }
-
+.ourProgramTitle_mern {
+  background-color: #efebfe;
+  padding: 0 0 120px 0;
+  @include breakpoints(tablet) {
+    padding: 0 0 40px 0;
+  }
+}
 .ourProgramTitle {
   margin: 100px 0;
   text-align: center;

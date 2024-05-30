@@ -15,11 +15,11 @@ const SecCard = () => {
         alignItems: "center",
       }}
     >
-      <div>
+      <div className="aws_title">
         <h4 className="title">
           MERN+AWS DevOps and <br /> CloudOps Engineer
         </h4>
-        <p style={{ margin: "30px 0px", width: "80%" }}>
+        <p className="p_aws">
           Become an AWS CloudOps Engineer in just 7 to 9 months! No prior
           programming experience needed. Dive into hands-on projects and
           enterprise applications. Work in an agile scrum setup and collaborate

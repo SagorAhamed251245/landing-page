@@ -3,6 +3,24 @@
   padding-top: 90px;
   padding-bottom: 120px;
   margin-top: 120px;
+  @include breakpoints(tablet) {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-top: 40px;
+  }
+
+  .our_program_Flex {
+    h4 {
+      @include breakpoints(tablet) {
+        text-align: center;
+      }
+    }
+    .p_flex {
+      @include breakpoints(tablet) {
+        text-align: center;
+      }
+    }
+  }
   .our_program_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
