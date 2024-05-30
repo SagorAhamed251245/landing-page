@@ -15,12 +15,10 @@ const FirstCard = () => {
             <span style={{ display: "flex", alignItems: "center" }}>
               <img src="/images/svg/stars.svg" />
             </span>{" "}
-            <span>(#0,765)</span>
+            <span>(50+)</span>
           </p>
           <div className="div_2">
-            <p>
-              $12999 <span>$14999</span>
-            </p>
+            <p></p>
             <button>Learn More</button>
           </div>
         </div>

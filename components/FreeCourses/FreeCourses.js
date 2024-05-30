@@ -11,8 +11,8 @@ const FreeCourses = () => {
       timeLength: "",
       averageRating: 5,
       totalRatings: "50+ Students",
-      offerPrice: "Free",
-      price: 0,
+      offerPrice: "",
+      price: "",
     },
     {
       course: "5 Hours Practical QA Crash Course",
@@ -21,8 +21,8 @@ const FreeCourses = () => {
       timeLength: "",
       averageRating: 5,
       totalRatings: "40+ Students",
-      offerPrice: "Free",
-      price: 0,
+      offerPrice: "",
+      price: "",
     },
     {
       course: "3 Hours Spoken English",
@@ -31,8 +31,8 @@ const FreeCourses = () => {
       timeLength: "",
       averageRating: 5,
       totalRatings: "30+ Students",
-      offerPrice: "Free",
-      price: 0,
+      offerPrice: "",
+      price: "",
     },
     {
       course: "Flex-Product Manager",
@@ -40,8 +40,8 @@ const FreeCourses = () => {
       timeLength: "",
       averageRating: 5,
       totalRatings: "40+ Students",
-      offerPrice: "Free",
-      price: 0,
+      offerPrice: "",
+      price: "",
     },
   ];
   return (
