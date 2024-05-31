@@ -11,7 +11,7 @@ pipeline {
             steps{
                 script{
                     if(BRANCH == 'production'){
-                         dockerImage = docker.build("${IMAGE}","-f Dockerfile.staging .")
+                         dockerImage = docker.build("${IMAGE}","-f Dockerfile .")
                      }
                 }
 
