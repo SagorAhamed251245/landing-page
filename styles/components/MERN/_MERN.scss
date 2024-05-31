@@ -1,0 +1,158 @@
+.mern_stack {
+  padding-top: 120px;
+  background-color: #efebfe;
+  // margin-top: 120px;
+  @include breakpoints(tablet) {
+    padding-top: 40px;
+  }
+  .sec_card_section {
+    h4 {
+      @include breakpoints(tablet) {
+        // text-align: center;
+      }
+    }
+    .sec_card_p {
+      margin: 30px 0px;
+      width: 80%;
+      @include breakpoints(tablet) {
+        // text-align: center;
+        // margin: 30px 0px;
+        width: 100%;
+      }
+    }
+  }
+  .mern_stack_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    @include breakpoints(tablet) {
+      grid-template-columns: repeat(1, 1fr);
+      margin-bottom: 0px;
+    }
+    margin-bottom: 60px;
+  }
+  .div {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    > div {
+      height: 390px;
+      width: 382px;
+
+      @include breakpoints(tablet) {
+        height: 390px;
+        width: 382px;
+      }
+    }
+  }
+  .lastCard {
+    display: flex;
+    height: 550px;
+    justify-content: space-between;
+    @include breakpoints(tablet) {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+      gap: 30px;
+      margin-top: 10px;
+    }
+  }
+  .lastCard_div1 {
+    display: flex;
+    align-items: flex-start;
+    @include breakpoints(tablet) {
+      justify-content: center;
+      width: 100%;
+    }
+  }
+  //   single_card
+  .single_card {
+    height: 390px;
+    @include breakpoints(tablet) {
+      width: 100%;
+    }
+    width: 382px;
+    border: #00000033 solid 1px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    // single_card_image
+    .single_card_img {
+      height: 219px;
+      @include breakpoints(tablet) {
+        width: 100%;
+      }
+      width: 352px;
+      border-radius: 10px;
+      display: flex;
+      overflow: hidden;
+      background-color: $primary_color;
+      margin-bottom: 15px;
+      > img {
+        object-fit: cover;
+        width: 100%;
+      }
+    }
+
+    // single_card_info
+    .single_card_info {
+      //   display: flex;
+      //   height: calc(390px - 219px);
+      .div_1 {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column; /* You might want to use 'row' depending on your layout needs */
+        align-items: stretch;
+        gap: 10px;
+        > p {
+          color: #00000099;
+          font-weight: 600px;
+          display: flex;
+          justify-content: start;
+          align-items: center;
+        }
+        .div_2 {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          > button {
+            padding: 10px 20px;
+            background-color: white;
+            border-radius: 40px;
+            border: 1px solid $primary_color;
+            color: $primary_color;
+            font-weight: bold;
+            cursor: pointer;
+          }
+          > p {
+            font-size: 20px;
+            font-weight: bolder;
+            > span {
+              font-size: 16px;
+              color: #00000099;
+              font-weight: lighter;
+              text-decoration: line-through;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.ourProgramTitle_mern {
+  background-color: #efebfe;
+  padding: 0 0 120px 0;
+  @include breakpoints(tablet) {
+    padding: 0 0 40px 0;
+  }
+}
+.ourProgramTitle {
+  margin: 100px 0;
+  text-align: center;
+  @include breakpoints(tablet) {
+    margin: 40px 0;
+  }
+}

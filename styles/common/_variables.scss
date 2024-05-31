@@ -1,0 +1,21 @@
+$primary_color: #5831f0;
+// $primary_font: 16px;
+$sudo_size: 60px;
+$back_ground: #f7f5fe;
+$title_text: #010813;
+$body_text: #676b71;
+$line_color: #c6c4cb;
+$category_shape: #c0d1fe;
+$light_yellow: #ffcc80;
+$yellow: #ff9900;
+$text_color: #5c5958;
+
+@mixin mobile_container() {
+  width: 100%;
+  padding: 0px 16px;
+}
+@mixin mobile_button() {
+  font-size: 12px;
+  padding: 10px 15px;
+  margin-top: 0px;
+}

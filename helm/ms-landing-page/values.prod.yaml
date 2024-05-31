@@ -1,0 +1,25 @@
+# Default values for ts4u-backend.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+namespace: ms-production
+
+limits:
+  cpu: "500m"
+  memory: "512Mi"
+
+requests:
+  cpu: "250m"
+  memory: "256Mi"
+
+host: inquiry.ts4u.us
+
+image:
+  name: ms-landing-page
+  repository: ts4udocker/ms-landing-page
+  tag: staging-latest
+  pullPolicy: IfNotPresent
+imagePullSecrets:
+  name: regcred

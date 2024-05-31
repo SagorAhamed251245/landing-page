@@ -1,0 +1,76 @@
+.failure_reasons {
+  display: grid;
+  margin-bottom: 120px;
+  // justify-content: space-around;
+  // align-items: center;
+  // grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  @include breakpoints(tablet) {
+    // flex-direction: column;
+    flex-direction: column-reverse;
+    margin-bottom: 30px;
+    gap: 30px;
+  }
+  .failImg {
+    width: 500px;
+    border-radius: 10px;
+    @include breakpoints(tablet) {
+      // width: 350px;s
+      width: 100%;
+    }
+  }
+  .book_a_meeting {
+    padding: 16px 30px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: $primary_color;
+    color: white;
+    border: none;
+    gap: 15px;
+    margin-top: 30px;
+    @include breakpoints(tablet) {
+      @include mobile_button;
+      display: none;
+    }
+  }
+  .book_a_meeting_mobile {
+    padding: 16px 30px;
+    display: none;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: $primary_color;
+    color: white;
+    border: none;
+    gap: 15px;
+    margin-top: 30px;
+    @include breakpoints(tablet) {
+      @include mobile_button;
+
+      display: flex;
+    }
+  }
+
+  .cercel_img {
+    height: 404.75px;
+    @include breakpoints(tablet) {
+      margin: auto 0;
+      height: 269px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      > img {
+        height: 269px;
+        width: 305.05px;
+        margin: auto 0;
+      }
+    }
+  }
+}

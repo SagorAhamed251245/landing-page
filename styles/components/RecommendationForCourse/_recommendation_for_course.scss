@@ -1,0 +1,138 @@
+.recommendation_cards_title {
+  margin: 90px 0 30px 0;
+  text-align: center;
+  @include breakpoints(tablet) {
+    margin: 40px 0 40px 0;
+    // padding: 0px 14px;
+  }
+}
+.recommendation_reviews {
+  .review_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    @include breakpoints(tablet) {
+      margin-top: 20px;
+    }
+  }
+  .reviews_buttons {
+    margin-top: 15px;
+    display: flex;
+
+    align-items: center;
+    > button {
+      padding: 10px 30px;
+      margin-right: 10px;
+      background-color: #fff;
+      border: $primary_color 1px solid;
+      border-radius: 15px;
+      font-weight: bolder;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+  .recommendation_videos {
+    display: grid;
+    gap: 30px;
+    margin-top: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    @include breakpoints(tablet) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 0px;
+    }
+    > .single_video {
+      position: relative;
+      // background-color: peachpuff;
+      overflow: hidden;
+      border-radius: 20px;
+      height: 300px;
+      width: 100%;
+      @include breakpoints(tablet) {
+        height: auto;
+        margin-bottom: -50px;
+      }
+    }
+
+    .div {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .recommendation_cards {
+    margin-top: 60px;
+    @include breakpoints(tablet) {
+      // padding: 0px;
+      margin-top: 0px;
+    }
+    .recommendation_card {
+      position: relative;
+      background-color: #fff;
+      min-height: 235px;
+      width: 100%;
+      overflow: hidden;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.11);
+      border: 1px solid rgba(0, 0, 0, 0.11);
+
+      .vector_relative {
+        position: absolute;
+        bottom: -10px;
+        right: -10px;
+      }
+      .ab_image {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(-50, -50);
+      }
+
+      > .p1 {
+        margin-top: 30px;
+        padding: 10px 15px;
+        background-color: rgba(88, 49, 240, 0.1);
+        display: inline-block;
+        color: $primary_color;
+        border-radius: 9px;
+      }
+      .reviews > p {
+        word-spacing: 0.1rem;
+        line-height: 1.7rem;
+        margin: 10px 0;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 8;
+        min-height: 217.5px;
+      }
+
+      .user_info {
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        > img {
+          width: 52px;
+          height: 52px;
+          border-radius: 50%;
+        }
+        > .div {
+          display: flex;
+          align-items: center;
+          width: calc(100% - 52px);
+          justify-content: space-between;
+          > div > .p {
+            font-size: smaller;
+            color: #1c1c1e;
+          }
+          > .user_name {
+            font-weight: bolder;
+          }
+        }
+      }
+    }
+  }
+}

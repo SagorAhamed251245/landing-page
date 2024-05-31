@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ms-landing-page
+  namespace: {{ .Values.namespace }}
+spec:
+  selector:
+    app: ms-landing-page
+  type: NodePort
+  ports:
+    - name: http
+      port: 3000
+      targetPort: 3000
+      protocol: TCP

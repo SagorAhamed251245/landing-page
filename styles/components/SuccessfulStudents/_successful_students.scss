@@ -1,0 +1,38 @@
+.successful-students {
+  height: auto;
+  margin-bottom: 120px;
+  @include breakpoints(tablet) {
+    // margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .next-career1 {
+    margin-top: 80px;
+    @include breakpoints(tablet) {
+      margin-top: 0px;
+      // margin-bottom: 40px;
+    }
+  }
+  .single_video {
+    height: 320px;
+    position: relative;
+    // background-color: peachpuff;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 400px;
+    .blur {
+      width: 310px;
+      height: 90px;
+      border-radius: 15px;
+      overflow: hidden;
+      backdrop-filter: blur(10px);
+      position: absolute;
+      top: 75%;
+      left: 10%;
+      color: #fff;
+    }
+  }
+  .div {
+    height: 100%;
+    width: 100%;
+  }
+}

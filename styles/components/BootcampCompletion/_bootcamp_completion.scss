@@ -1,0 +1,45 @@
+.bootcamp_completion_container {
+  background-color: #f7f5fe;
+  // overflow: hidden;/
+  // width: 1620px;
+  height: 570px;
+  @include breakpoints(tablet) {
+    height: auto;
+    padding: 0px 16px 40px 16px;
+    // padding: ;
+  }
+
+  > .bootcamp_completion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    @include breakpoints(tablet) {
+      display: inline;
+      justify-content: left;
+      height: 100%;
+    }
+    > .left_bootcamp {
+      width: 40%;
+      height: 240px;
+      @include breakpoints(tablet) {
+        width: 100%;
+        padding: 40px 0px 0px 0px;
+      }
+      .green-tik {
+        width: 20px;
+        margin-top: 2px;
+      }
+    }
+    .right_img {
+      width: 420px;
+      margin-top: 70px;
+      @include breakpoints(tablet) {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 160px;
+      }
+    }
+  }
+}

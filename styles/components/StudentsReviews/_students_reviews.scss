@@ -1,0 +1,82 @@
+.students_reviews {
+  margin-bottom: 120px;
+  @include breakpoints(tablet) {
+    margin-bottom: 40px;
+  }
+  .reviews_buttons {
+    margin-top: 15px;
+    display: flex;
+
+    align-items: center;
+    > button {
+      padding: 10px 30px;
+      margin-right: 10px;
+      background-color: #fff;
+      border: $primary_color 1px solid;
+      border-radius: 15px;
+      font-weight: bolder;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+  .review_cards {
+    margin-top: 60px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    @include breakpoints(tablet) {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 30px;
+    }
+    .review_card {
+      //   background-color: palegoldenrod;
+      //   height: 436px;
+      min-height: 235px;
+      //   max-height: 235px;
+      width: 100%;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0px 0px 32px 0px #6c3beb1c;
+
+      > .reviews > p {
+        word-spacing: 0.1rem;
+        line-height: 1.7rem;
+        margin: 10px 0;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 8;
+        min-height: 217.5px;
+      }
+
+      .user_info {
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        > img {
+          width: 52px;
+          height: 52px;
+          border-radius: 50%;
+        }
+        > .div {
+          display: flex;
+          align-items: center;
+          width: calc(100% - 52px);
+          justify-content: space-between;
+          > div > .p {
+            font-size: smaller;
+            color: #1c1c1e;
+          }
+          .user_name {
+            font-weight: bolder;
+          }
+        }
+      }
+    }
+  }
+}

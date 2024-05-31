@@ -1,0 +1,87 @@
+@import "swiper/css";
+@import "swiper/css/pagination";
+.unique_service {
+  margin-bottom: 120px;
+  .services_cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+    @include breakpoints(tablet) {
+      grid-template-columns: repeat(4, 1fr);
+      height: 100%;
+      // gap: 8px;
+      gap: 10px;
+    }
+  }
+  .swiper-pagination-bullet {
+    height: 30px;
+    width: 30px;
+  }
+  .service_card {
+    background-color: #5831f017;
+    height: 242px;
+    width: 235px;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    position: relative;
+    @include breakpoints(tablet) {
+      height: 40px;
+      width: 40px;
+      padding: 5px;
+      border-radius: 9px;
+      gap: 10px;
+      > p {
+        font-size: 6px;
+      }
+      > div {
+        > img {
+          @include breakpoints(tablet) {
+            height: 15px;
+            width: 15px;
+          }
+        }
+      }
+    }
+    .mobile_slider {
+      display: none;
+      @include breakpoints(tablet) {
+        display: inline;
+      }
+    }
+    .large_slider {
+      display: inline;
+      @include breakpoints(tablet) {
+        display: none;
+      }
+    }
+    .mobile-vector {
+      display: none;
+      @include breakpoints(tablet) {
+        display: inline;
+      }
+    }
+    .large-vector {
+      @include breakpoints(tablet) {
+        display: none;
+      }
+    }
+
+    @include breakpoints(tablet) {
+      height: 73px;
+      width: 75px;
+    }
+    .vector_relative {
+      position: absolute;
+      bottom: 0;
+      right: -3px;
+      z-index: 0;
+    }
+    > p {
+      font-weight: 700;
+    }
+  }
+}
