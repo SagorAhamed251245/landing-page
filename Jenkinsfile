@@ -45,7 +45,7 @@ pipeline {
                            
                                 sh '''
                                 doctl auth init --access-token $DO_API_KEY && \
-                                doctl kubernetes cluster kubeconfig save ts4u-staging --set-current-context && \
+                                doctl kubernetes cluster kubeconfig save ts4u-k8s --set-current-context && \
                                 helm upgrade --install ms-landing-page ./helm/ms-landing-page -f ./helm/ms-landing-page/values.prod.yaml --set image.tag=${BRANCH}-${VERSION}
                                 '''
                             }
