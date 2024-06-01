@@ -108,12 +108,13 @@
         gap: 10px;
         div {
           display: flex;
+          flex-direction: column;
 
           gap: 10px;
           @include breakpoints(tablet) {
             display: flex;
             justify-content: space-between;
-            // flex-direction: column;
+            flex-direction: row;
             gap: 0px;
           }
           p {

@@ -90,12 +90,13 @@
         gap: 10px;
         div {
           display: flex;
-          // flex-direction: column;
+          flex-direction: column;
           gap: 10px;
           @include breakpoints(tablet) {
             display: flex;
             justify-content: space-between;
             gap: 0px;
+            flex-direction: row;
           }
           p {
             color: #00000099;

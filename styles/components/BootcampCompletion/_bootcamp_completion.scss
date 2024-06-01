@@ -36,6 +36,7 @@
     .right_img {
       width: 50%;
       // margin-top: 70px;
+      // height: 400px;
       @include breakpoints(tablet) {
         width: 100%;
         margin-left: 0px;
