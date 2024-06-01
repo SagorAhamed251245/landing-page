@@ -10,18 +10,20 @@ const FirstCard = () => {
       <div className="single_card_info">
         <div className="div_1">
           <h4>Flex: Software Quality Automation Engineer</h4>
-          <p>Total hours: 100+h Video Lectures</p>
-          <p>
-            5.0
-            <span style={{ display: "flex", alignItems: "center" }}>
-              <img src="/images/svg/stars.svg" />
-            </span>{" "}
-            <span>(50+)</span>
-          </p>
+          <div>
+            <p>Total hours: 100+h Video Lectures</p>
+            <p>
+              5.0
+              <span style={{ display: "flex", alignItems: "center" }}>
+                <img src="/images/svg/stars.svg" />
+              </span>{" "}
+              <span>(50+)</span>
+            </p>
+          </div>
           <div className="div_2">
             <p></p>
             <Link target="_blank" href={"https://calendly.com/ts4u"}>
-              <button className="button-cal">Learn More</button>
+              Learn More
             </Link>
           </div>
         </div>

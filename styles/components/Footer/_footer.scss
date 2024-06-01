@@ -10,7 +10,7 @@
   margin-top: 100px;
   position: relative;
   @include breakpoints(tablet) {
-    margin-top: 40px;
+    margin-top: 0px;
   }
   .footer-icon {
     position: absolute;

@@ -40,6 +40,7 @@
         width: 482px;
         display: flex;
         // background-image: url("/images/image/MIState.jpg");
+
         > img {
           object-fit: cover;
           width: 100%;
@@ -47,11 +48,12 @@
         }
         @include breakpoints(tablet) {
           height: 221.96px;
-          width: 192.08px;
+          width: 100%;
           top: -20%;
-          right: 25%;
+          left: 0;
           z-index: -1;
           border-radius: 20px;
+          border: 1px solid rgba(46, 46, 46, 0.274);
         }
       }
       > div {
@@ -61,7 +63,7 @@
         height: 100%;
         @include breakpoints(tablet) {
           align-items: start;
-          // height: 268.98px;
+          height: 350px;
           width: 192.08px;
           // justify-content: end;
           padding-bottom: 40px;
@@ -80,7 +82,7 @@
             overflow: hidden;
             overflow-y: hidden;
             height: 268.98px;
-            width: 192.08px;
+            width: 350px;
           }
         }
 
@@ -89,9 +91,10 @@
           width: 60.8%;
           margin: 0 auto;
           @include breakpoints(tablet) {
-            width: 192.08px;
+            width: 100%;
             overflow: hidden;
-            height: 268.98px;
+            // height: 268.98px;
+            height: 350px;
           }
         }
 
