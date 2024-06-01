@@ -1,14 +1,14 @@
 .mb_hidden {
   display: inline;
   @include breakpoints(tablet) {
-    display: none;
+    display: none !important;
   }
 }
 .lg_hidden {
   // display: inline;
-  display: none;
+  display: none !important;
   @include breakpoints(tablet) {
-    display: flex;
+    display: flex !important;
   }
 }
 

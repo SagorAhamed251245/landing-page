@@ -33,15 +33,12 @@ const UniqueServices = () => {
                 }}
               >
                 <img src="\images\svg\Star.svg" />
-                <p> Michigan State Approved Training Provider</p>
+                <p className="mi_P">
+                  Michigan State Approved Training Provider
+                </p>
                 <img src="\images\svg\Star.svg" />
               </div>
-              <h4
-                style={{ textAlign: "center", marginBottom: "60px" }}
-                className="title"
-              >
-                What Makes Us Unique
-              </h4>
+              <h4 className="title">What Makes Us Unique</h4>
             </div>
             <ServicesCards />
           </section>

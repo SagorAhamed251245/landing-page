@@ -1,7 +1,17 @@
 @import "swiper/css";
 @import "swiper/css/pagination";
 .unique_service {
-  margin-bottom: 100px;
+  margin-bottom: 0px;
+  .mi_P {
+    @include breakpoints(tablet) {
+      text-align: center;
+      font-size: 10px;
+    }
+  }
+  h4 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
   .services_cards {
     display: grid;
     grid-template-columns: repeat(6, 1fr);

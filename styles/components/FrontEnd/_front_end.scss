@@ -97,14 +97,19 @@
           justify-content: space-between;
           align-items: center;
 
-          > button {
+          a {
+            width: 100%;
+            flex-grow: 1; /* This makes the button take the remaining space */
             padding: 10px 20px;
+            /* width: 100%; Remove this line */
             background-color: white;
             border-radius: 40px;
             border: 1px solid $primary_color;
             color: $primary_color;
             font-weight: bold;
             cursor: pointer;
+            text-decoration: none;
+            text-align: center;
           }
           > p {
             font-size: 20px;

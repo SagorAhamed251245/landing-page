@@ -2,7 +2,7 @@ import React from "react";
 
 const SingleCard = ({ review, name, occupation, url }) => {
   return (
-    <div className="review_card">
+    <div className="review_card ">
       {/* user info */}
       <div className="user_info">
         <img

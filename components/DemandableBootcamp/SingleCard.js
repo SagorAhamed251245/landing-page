@@ -20,20 +20,23 @@ const SingleCard = ({ bootCamp }) => {
       <div className="single_card_info">
         <div className="div_1">
           <h4>{course}</h4>
-          <p>Total hours: {timeLength}+h Video Lectures</p>
-          <p>
-            {averageRating}
-            <span style={{ display: "flex", alignItems: "center" }}>
-              <img src="/images/svg/stars.svg" />
-            </span>
-            <span>#({totalRatings})</span>
-          </p>
-          <div className="div_2">
+          <div className="">
+            <p>Total hours: {timeLength}+h Video Lectures</p>
             <p>
-              {offerPrice} <span>{price}</span>
+              {averageRating}
+              <span style={{ display: "flex", alignItems: "center" }}>
+                <img src="/images/svg/stars.svg" />
+              </span>
+              <span>#({totalRatings})</span>
             </p>
+          </div>
+
+          <div className="div_2">
+            {/* <p>
+              {offerPrice} <span>{price}</span>
+            </p> */}
             <Link target="_blank" href={"https://calendly.com/ts4u"}>
-              <button className="button-cal">Learn More</button>
+              Learn More
             </Link>
           </div>
         </div>

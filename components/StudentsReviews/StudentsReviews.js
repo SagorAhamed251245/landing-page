@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ReviewCard from "./ReviewCard";
 import Link from "next/link";
 import LessThen from "../SVG/LessThen";
+import SwiperReview from "./SwiperReview";
 
 const StudentsReviews = () => {
   const [platform, setPlatform] = useState("Google");
@@ -130,7 +131,7 @@ const StudentsReviews = () => {
         </div>
       </div>
       {/* review content */}
-      <div className="review_cards">
+      <div className="review_cards mb_hidden">
         {reviews
           .filter((review) => review.platform === platform)
           .map((review, index) => (
@@ -143,6 +144,7 @@ const StudentsReviews = () => {
             />
           ))}
       </div>
+      <SwiperReview reviews={reviews} platform={platform} />
       <Link
         target="_blank"
         className="linkBtn center_btn"

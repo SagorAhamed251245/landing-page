@@ -41,6 +41,10 @@
       border-radius: 15px;
       padding: 30px;
       box-shadow: 0px 0px 32px 0px #6c3beb1c;
+      @include breakpoints(tablet) {
+        border: 1px solid rgba(108, 59, 235, 0.1098039216);
+        box-shadow: 0px 0px 0px 0px #6c3beb1c;
+      }
 
       > .reviews > p {
         word-spacing: 0.1rem;

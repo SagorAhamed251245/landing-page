@@ -1,43 +1,46 @@
-.table-box{
-    display: flex;
-    justify-content: center;
-    background-color: #E7E1FC;
-    padding: 80px;
-    @include breakpoints (tablet){
-        padding: 20px;
-    }
+.table-box {
+  display: flex;
+  justify-content: center;
+  background-color: #e7e1fc;
+  padding: 80px;
+  @include breakpoints(tablet) {
+    padding: 40px 16px;
+  }
 }
 
 .compare-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 60px;
-    border-radius: 15px;
-    overflow: hidden;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 60px;
+  border-radius: 15px;
+  overflow: hidden;
+  @include breakpoints(table) {
+    margin-top: 40px;
+  }
 
-    thead{
-        background-color: #5831F0;
-    color: #fff; 
-    }
+  thead {
+    background-color: #5831f0;
+    color: #fff;
+  }
 
-    .white-row{
-        background-color: #fff;
-        text-align: left;
-    }
+  .white-row {
+    background-color: #fff;
+    text-align: left;
+  }
 
-    .blue-row{
-        background-color: #CBBEFA;
-        text-align: center;
-    }
+  .blue-row {
+    background-color: #cbbefa;
+    text-align: center;
+  }
 }
 
-.compare-table th, .compare-table td {
-    border-top: 1px solid #C6C4CB;
-    padding: 25px;
-    text-align: left;
-    width: 350px;
-    @include breakpoints (tablet){
-        padding: 20px;
-    }
-    
+.compare-table th,
+.compare-table td {
+  border-top: 1px solid #c6c4cb;
+  padding: 25px;
+  text-align: left;
+  width: 350px;
+  @include breakpoints(tablet) {
+    padding: 20px;
+  }
 }
