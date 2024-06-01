@@ -11,7 +11,7 @@ const SecCard = () => {
   ];
   return (
     <section style={{ color: "white", display: "flex", alignItems: "center" }}>
-      <div className="container">
+      <div className="container  ">
         <h4 className="title">Flex Agile Product Owner</h4>
         <p style={{ margin: "30px 0px", width: "70%" }}>
           Transform your career in just 5 to 7 months with our IT training
@@ -19,7 +19,7 @@ const SecCard = () => {
           teams. Dive into hands-on learning and real-world problem-solving,
           mastering enterprise-grade applications.
         </p>
-        <div className="features">
+        <div className="features features_p">
           {features.map((item, index) => (
             <p
               key={index}
@@ -57,20 +57,20 @@ const SecCard = () => {
               <span> {item}</span>
             </p>
           ))}
-          <Link
-            target="_blank"
-            className="linkBtn"
-            href={"https://calendly.com/ts4u"}
-            style={{ textDecoration: "none" }}
-          >
-            <button className={"book_a_meeting_2"}>
-              Book a meeting
-              <span>
-                <LessThen color={"#5831f0"} />
-              </span>
-            </button>
-          </Link>
         </div>
+        <Link
+          target="_blank"
+          className="linkBtn"
+          href={"https://calendly.com/ts4u"}
+          style={{ textDecoration: "none" }}
+        >
+          <button className={"book_a_meeting_2"}>
+            Book a meeting
+            <span>
+              <LessThen color={"#5831f0"} />
+            </span>
+          </button>
+        </Link>
       </div>
     </section>
   );

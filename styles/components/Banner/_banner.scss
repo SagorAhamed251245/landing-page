@@ -3,13 +3,13 @@
   position: relative;
   background-position: bottom;
   background-repeat: no-repeat;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   overflow-x: hidden;
   // border: 2px solid black;
   height: 800px;
   @include breakpoints(tablet) {
-    height: 630px;
-    margin-bottom: 40px;
+    height: 700px;
+    margin-bottom: 30px;
   }
   .background_image {
     position: absolute;
@@ -238,6 +238,10 @@
 
       > span {
         margin-left: 10px;
+      }
+      @include breakpoints(tablet) {
+        padding: 10px 12px;
+        font-size: 12px;
       }
     }
   }

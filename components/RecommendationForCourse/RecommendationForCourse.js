@@ -42,7 +42,7 @@ const RecommendationForCourse = ({
             pagination={{
               clickable: true,
             }}
-            loop={true}
+            // loop={true}
             modules={[FreeMode]}
             breakpoints={{
               // when window width is >= 320px

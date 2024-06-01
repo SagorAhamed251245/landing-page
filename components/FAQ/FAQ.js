@@ -3,10 +3,7 @@ import React from "react";
 const FAQ = () => {
   return (
     <section>
-      <h2
-        style={{ textAlign: "center", marginBottom: "-60px" }}
-        className="title"
-      >
+      <h2 style={{ textAlign: "center" }} className="title">
         Frequently Asked Questions
       </h2>
       <section className="faq container">

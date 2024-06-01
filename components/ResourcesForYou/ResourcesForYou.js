@@ -32,12 +32,10 @@ const ResourcesForYou = () => {
   ];
   return (
     <section className="container">
-      <h1 style={{ marginBottom: "50px" }} className="title">
-        Resources For You
-      </h1>
+      <h1 className="title">Resources For You</h1>
       <div className="students_experience">
         <VideoCard videos={videos} />
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        {/* <div style={{ display: "flex", justifyContent: "center" }}>
           <Link
             target="_blank"
             className="linkBtn"
@@ -50,7 +48,7 @@ const ResourcesForYou = () => {
               </span>
             </button>
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   );

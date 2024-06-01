@@ -5,13 +5,14 @@
   background-repeat: no-repeat;
   // background-position: c;
   background-size: cover;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
   .lastCard {
     display: flex;
     width: 369px;
-    height: 402px;
+    // height: 402px;
+    height: auto;
     margin-left: calc(100% - 369px);
     justify-content: space-between;
     @include breakpoints(tablet) {
@@ -38,7 +39,7 @@
   .front_end_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 120px;
+    margin-bottom: 100px;
     @include breakpoints(tablet) {
       display: grid;
       grid-template-columns: repeat(1, 1fr);

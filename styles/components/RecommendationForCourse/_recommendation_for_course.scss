@@ -1,5 +1,5 @@
 .recommendation_cards_title {
-  margin: 90px 0 30px 0;
+  margin: 100px 0 100px 0;
   text-align: center;
   @include breakpoints(tablet) {
     margin: 40px 0 40px 0;
@@ -36,7 +36,7 @@
   .recommendation_videos {
     display: grid;
     gap: 30px;
-    margin-top: 30px;
+    // margin-top: 30px;
     grid-template-columns: repeat(4, 1fr);
     @include breakpoints(tablet) {
       display: grid;

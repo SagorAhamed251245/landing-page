@@ -36,7 +36,9 @@ const RightBookMeeting = () => {
           </div> */}
         </div>
       </div>
-      <div className="absolute_image"></div>
+      <div className="absolute_image">
+        <img src="/images/image/MIState.jpg" />
+      </div>
     </div>
   );
 };

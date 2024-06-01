@@ -1,7 +1,7 @@
 .mern_stack {
-  padding-top: 120px;
+  padding-top: 100px;
   background-color: #efebfe;
-  // margin-top: 120px;
+  // margin-top: 100px;
   @include breakpoints(tablet) {
     padding-top: 40px;
   }
@@ -41,13 +41,13 @@
 
       @include breakpoints(tablet) {
         height: 390px;
-        width: 382px;
+        width: 100%;
       }
     }
   }
   .lastCard {
     display: flex;
-    height: 550px;
+    height: auto;
     justify-content: space-between;
     @include breakpoints(tablet) {
       display: flex;
@@ -144,7 +144,7 @@
 }
 .ourProgramTitle_mern {
   background-color: #efebfe;
-  padding: 0 0 120px 0;
+  padding: 0 0 100px 0;
   @include breakpoints(tablet) {
     padding: 0 0 40px 0;
   }

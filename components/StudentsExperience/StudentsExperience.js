@@ -36,18 +36,6 @@ const StudentsExperience = () => {
       <div className="students_experience">
         <Intro />
         <VideoCard videos={videos} />
-        <Link
-          target="_blank"
-          className="linkBtn center_btn"
-          href={"https://calendly.com/ts4u"}
-        >
-          <button className="book_a_meeting_btn">
-            Book a meeting
-            <span>
-              <LessThen color={"white"} />
-            </span>
-          </button>
-        </Link>
       </div>
     </section>
   );

@@ -4,8 +4,8 @@ import LessThen from "../SVG/LessThen";
 
 const BootcampCompletion = () => {
   return (
-    <section className="bootcamp_completion_container container">
-      <div className="bootcamp_completion">
+    <section className="bootcamp_completion_container ">
+      <div className="bootcamp_completion container">
         <div className="left_bootcamp">
           <h4 className="title">Salary for this role</h4>
 

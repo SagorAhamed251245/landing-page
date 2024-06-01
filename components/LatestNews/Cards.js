@@ -6,7 +6,9 @@ import Views from "../SVG/Views";
 const Cards = ({ img, review }) => {
   return (
     <div className="latest_news_card">
-      <img src={img} />
+      <div className="img_card">
+        <img src={img} />
+      </div>
 
       <div className="div">
         <div className="div2">
@@ -21,12 +23,22 @@ const Cards = ({ img, review }) => {
             <Comments /> <span>200 Comments</span>
           </p>
         </div>
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <div
+          style={{ display: "flex", justifyContent: "center" }}
+          className="blog_user"
+        >
           <img src="/images/svg/active.svg" />
+
+          {/*  <div>
+            <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_640.png" />
+          </div>
+          <div>
+            <p>
+              shibluahmad <span>Read More</span>
+            </p>
+          </div> */}
         </div>
-        <p style={{ marginTop: "15px", fontWeight: "bold", fontSize: "14px" }}>
-          {review}
-        </p>
+        <p className="news_p">{review}</p>
       </div>
     </div>
   );

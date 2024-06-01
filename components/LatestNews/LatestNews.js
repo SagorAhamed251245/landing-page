@@ -38,7 +38,7 @@ const LatestNews = () => {
         target="_blank"
         className="linkBtn center_btn"
         href={"https://calendly.com/ts4u"}
-        style={{ textDecoration: "none", marginTop: "120px" }}
+        style={{ textDecoration: "none", marginTop: "100px" }}
       >
         <button className={"book_a_meeting_2"}>
           Book a meeting

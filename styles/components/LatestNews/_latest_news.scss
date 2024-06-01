@@ -1,6 +1,6 @@
 .latest_news {
   width: 100%;
-  padding: 120px 0;
+  padding: 100px 0;
   background-image: url("/images/image/blueBackground.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,6 +18,7 @@
   .latest_news_cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
     @include breakpoints(tablet) {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
@@ -26,17 +27,48 @@
     .latest_news_card {
       height: 286px;
       position: relative;
+      .img_card {
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        > img {
+          object-fit: cover;
+          width: 100%;
+        }
+      }
+      .news_p {
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 14px;
+        @include breakpoints(tablet) {
+          font-size: 12px;
+        }
+      }
       .div {
         height: 160px;
-        width: 342px;
+        width: 340px;
         background-color: #fff;
         position: absolute;
-        //
         bottom: -25%;
         padding: 15px;
-
-        left: 5%;
         border-radius: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        /* Other properties... */
+
+        @include breakpoints(tablet) {
+          width: calc(100% - 10%);
+          left: 50%;
+          transform: translateX(-50%);
+          height: 150px;
+        }
+        .blog_user {
+          /*  img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+          } */
+        }
         > .div2 {
           display: flex;
           justify-content: space-between;
@@ -52,6 +84,10 @@
             align-items: center;
             border-radius: 5px;
             gap: 6px;
+            @include breakpoints(tablet) {
+              font-size: 9px;
+              padding: 4px 4px;
+            }
           }
         }
       }
