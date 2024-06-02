@@ -23,7 +23,7 @@ const LeftSide = () => {
           <Link
             target="_blank"
             className="linkBtn"
-            href={"https://calendly.com/ts4u"}
+            href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
           >
             <button className="book_a_meeting">
               Book a meeting

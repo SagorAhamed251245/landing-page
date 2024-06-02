@@ -22,7 +22,12 @@ const FirstCard = () => {
           </div>
           <div className="div_2">
             <p></p>
-            <Link target="_blank" href={"https://calendly.com/ts4u"}>
+            <Link
+              target="_blank"
+              href={
+                "https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"
+              }
+            >
               Learn More
             </Link>
           </div>

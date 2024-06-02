@@ -35,7 +35,12 @@ const SingleCard = ({ bootCamp }) => {
             {/* <p>
               {offerPrice} <span>{price}</span>
             </p> */}
-            <Link target="_blank" href={"https://calendly.com/ts4u"}>
+            <Link
+              target="_blank"
+              href={
+                "https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"
+              }
+            >
               Learn More
             </Link>
           </div>

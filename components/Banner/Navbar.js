@@ -21,7 +21,7 @@ const Navbar = () => {
           <Link
             target="_blank"
             className="linkBtn li"
-            href="https://calendly.com/ts4u"
+            href="https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"
           >
             Book a meeting
           </Link>
@@ -39,7 +39,7 @@ const Navbar = () => {
               <Link
                 target="_blank"
                 className="linkBtn li"
-                href="https://calendly.com/ts4u"
+                href="https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"
               >
                 Book a meeting
               </Link>

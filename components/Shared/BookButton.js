@@ -6,7 +6,7 @@ const BookButton = ({ Children, LessThenColor, primary }) => {
     <Link
       target="_blank"
       className="linkBtn"
-      href={"https://calendly.com/ts4u"}
+      href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
       style={{ textDecoration: "none" }}
     >
       <button className={primary ? "book_a_meeting_1" : "book_a_meeting_2"}>

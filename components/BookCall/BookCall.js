@@ -8,7 +8,7 @@ const BookCall = () => {
         <Link
           target="_blank"
           className="linkBtn"
-          href={"https://calendly.com/ts4u"}
+          href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
         >
           <h1 className="title">Book a meeting</h1>
         </Link>

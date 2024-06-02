@@ -52,7 +52,7 @@ const BootcampCompletion = () => {
           <Link
             target="_blank"
             className=" linkBtn  center_btn  mb_hidden"
-            href={"https://calendly.com/ts4u"}
+            href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
           >
             <button className="book_a_meeting_btn ">
               Book a meeting
@@ -67,7 +67,7 @@ const BootcampCompletion = () => {
         <Link
           target="_blank"
           className="linkBtn lg_hidden center_btn"
-          href={"https://calendly.com/ts4u"}
+          href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
         >
           <button className="book_a_meeting_btn">
             Book a meeting
