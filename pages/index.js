@@ -28,6 +28,7 @@ import LatestNews from "@/components/LatestNews/LatestNews";
 import SuccessfulStudents from "@/components/SuccessfulStudents/SuccessfulStudents";
 import Podcast from "@/components/Podcast/Podcast";
 import TogolTop from "@/components/Shared/TogolTop";
+import BookAMeeting from "@/components/Shared/BookAMeeting";
 
 export default function Home() {
   return (
@@ -72,6 +73,7 @@ export default function Home() {
           {/* <RecommendationForCourse />          */}
           {/* <BookCall /> */}
           <Podcast />
+          <BookAMeeting />
           <Footer />
         </>
       </main>
