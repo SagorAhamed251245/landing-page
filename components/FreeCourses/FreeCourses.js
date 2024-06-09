@@ -8,7 +8,7 @@ const FreeCourses = () => {
     {
       course: "Practical AWS CloudOps Crash Course",
       image: "https://www.schoolshub.ai/placeholder2.jpg",
-      timeLength: "",
+      timeLength: "104",
       averageRating: 5,
       totalRatings: "50+ Students",
       offerPrice: "",
@@ -18,7 +18,7 @@ const FreeCourses = () => {
       course: "5 Hours Practical QA Crash Course",
       image:
         "https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1698481098318-Software-Qualit",
-      timeLength: "",
+      timeLength: "108",
       averageRating: 5,
       totalRatings: "40+ Students",
       offerPrice: "",
@@ -28,7 +28,7 @@ const FreeCourses = () => {
       course: "3 Hours Spoken English",
       image:
         "https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1662310598685-english-lesson.",
-      timeLength: "",
+      timeLength: "103",
       averageRating: 5,
       totalRatings: "30+ Students",
       offerPrice: "",
@@ -37,7 +37,7 @@ const FreeCourses = () => {
     {
       course: "Flex-Product Manager",
       image: "https://www.schoolshub.ai/placeholder2.jpg",
-      timeLength: "",
+      timeLength: "107",
       averageRating: 5,
       totalRatings: "40+ Students",
       offerPrice: "",
