@@ -71,9 +71,17 @@
   .blue-row {
     background-color: white;
     text-align: center;
-    width: 5%;
+    width: 15%;
+    .rating_icon {
+      width: 30px;
+      height: 30px;
+    }
     @include breakpoints(tablet) {
-      width: 5%;
+      width: 7.5%;
+      .rating_icon {
+        width: 15px;
+        height: 15px;
+      }
     }
   }
 }

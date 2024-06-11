@@ -3,6 +3,7 @@ import React from "react";
 import LessThen from "../SVG/LessThen";
 import { comparisonData } from "@/data/comparisonData";
 import RoundedCorrect from "../SVG/RoundedCorrect";
+import Rating from "react-rating";
 
 const CompareTable = () => {
   return (
@@ -16,9 +17,9 @@ const CompareTable = () => {
             <thead>
               <tr>
                 <th style={{ textAlign: "center" }}>Other Bootcamp</th>
-                <th style={{ textAlign: "center" }}>Outcome</th>
+                <th style={{ textAlign: "center" }}>Other Bootcamp Outcome</th>
                 <th style={{ textAlign: "center" }}>TS4U IT Bootcamp</th>
-                <th style={{ textAlign: "center" }}>Outcome</th>
+                <th style={{ textAlign: "center" }}>TS4U Bootcamp Outcome</th>
               </tr>
             </thead>
             <tbody>
@@ -33,6 +34,29 @@ const CompareTable = () => {
                   </td>
                   <td className="blue-row">
                     <RoundedCorrect color={"red"} isCorrect={false} />
+                    <br />
+                    <Rating
+                      initialRating={item?.otherRating ? item?.otherRating : 0}
+                      readonly
+                      placeholderSymbol={
+                        <img
+                          src="/images/svg/halfStar.svg"
+                          className="rating_icon"
+                        />
+                      }
+                      emptySymbol={
+                        <img
+                          src="/images/svg/emptyStar.svg"
+                          className="rating_icon"
+                        />
+                      }
+                      fullSymbol={
+                        <img
+                          src="/images/svg/fullStar.svg"
+                          className="rating_icon"
+                        />
+                      }
+                    />
                   </td>
                   <td className="white-row">
                     <p>
@@ -44,6 +68,29 @@ const CompareTable = () => {
                   <td style={{ textAlign: "center" }} className="blue-row">
                     {/* <img src="\images\svg\tabtik\vuesax\linear\vuesax\linear\tick-circle.svg" /> */}
                     <RoundedCorrect color={"green"} isCorrect={true} />
+                    <br />
+                    <Rating
+                      initialRating={item?.ts4uRating ? item?.ts4uRating : 0}
+                      readonly
+                      placeholderSymbol={
+                        <img
+                          src="/images/svg/halfStar.svg"
+                          className="rating_icon"
+                        />
+                      }
+                      emptySymbol={
+                        <img
+                          src="/images/svg/emptyStar.svg"
+                          className="rating_icon"
+                        />
+                      }
+                      fullSymbol={
+                        <img
+                          src="/images/svg/fullStar.svg"
+                          className="rating_icon"
+                        />
+                      }
+                    />
 
                     {/* <img src="\images\svg\Ads Landing page\vuesax\linear\vuesax\linear\blacktik.svg" /> */}
                   </td>
