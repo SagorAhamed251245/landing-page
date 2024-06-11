@@ -2,7 +2,7 @@ export const paymentAndFinancingOptions = [
   {
     option: "State Funds",
     eligibility:
-      "Michigan resident can be eligible based on Michigan works criteria, Michigan works can pay $4000 to $9300 after approval to student to join TS4u”s bootcamp",
+      "Michigan residents may be eligible for significant financial assistance based on Michigan Works criteria. Approved students can receive between $4,000 to $9,300 to join TS4U’s bootcamp.",
     benefits: [
       "Free funds available to help residents.",
       "Ideal for graduates stuck in odd jobs.",
@@ -14,7 +14,7 @@ export const paymentAndFinancingOptions = [
   {
     option: "Climb Credit",
     eligibility:
-      "Climb is our partner to fund students long and short term, with or without interest. Application takes only 5 min.",
+      "Climb is our partner for student funding, offering both long and short-term options, with or without interest. The application process takes only 5 minutes.",
     benefits: [
       "No early payment penalties.",
       "Low monthly payment options over 15 months.",
