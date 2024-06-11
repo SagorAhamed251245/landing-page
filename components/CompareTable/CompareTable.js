@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import LessThen from "../SVG/LessThen";
+import { comparisonData } from "@/data/comparisonData";
+import RoundedCorrect from "../SVG/RoundedCorrect";
 
 const CompareTable = () => {
   return (
@@ -13,74 +15,40 @@ const CompareTable = () => {
           <table>
             <thead>
               <tr>
-                <th style={{ textAlign: "center" }}>Feature</th>
-                <th style={{ textAlign: "center" }}>TS4U</th>
                 <th style={{ textAlign: "center" }}>Other Bootcamp</th>
+                <th style={{ textAlign: "center" }}>Outcome</th>
+                <th style={{ textAlign: "center" }}>TS4U IT Bootcamp</th>
+                <th style={{ textAlign: "center" }}>Outcome</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td className="white-row">1. 2 Weeks Free Trial</td>
-                <td className="blue-row">
-                  <img src="\images\svg\tabtik\vuesax\linear\vuesax\linear\tick-circle.svg" />
-                </td>
-                <td style={{ textAlign: "center" }} className="white-row">
-                  <img src="\images\svg\Ads Landing page\vuesax\linear\vuesax\linear\blacktik.svg" />
-                </td>
-              </tr>
-              <tr>
-                <td className="white-row">2. Online Learning Platform</td>
-                <td className="blue-row">
-                  <img src="\images\svg\tabtik\vuesax\linear\vuesax\linear\tick-circle.svg" />
-                </td>
-                <td style={{ textAlign: "center" }} className="white-row">
-                  <img src="\images\svg\Ads Landing page\vuesax\linear\vuesax\linear\blacktik.svg" />
-                </td>
-              </tr>
-              <tr>
-                <td className="white-row">3. Affordable Student Loan</td>
-                <td className="blue-row">
-                  <img src="\images\svg\tabtik\vuesax\linear\vuesax\linear\tick-circle.svg" />
-                </td>
-                <td style={{ textAlign: "center" }} className="white-row">
-                  <img src="\images\svg\Ads Landing page\vuesax\linear\vuesax\linear\blacktik.svg" />
-                </td>
-              </tr>
-              <tr>
-                <td className="white-row">4. Follow Agile Methodology</td>
-                <td className="blue-row">
-                  <img src="\images\svg\tabtik\vuesax\linear\vuesax\linear\tick-circle.svg" />
-                </td>
-                <td className="white-row"></td>
-              </tr>
-              <tr>
-                <td className="white-row">5. 24*7 - 1 to 1 Support</td>
-                <td className="blue-row">
-                  <img src="\images\svg\tabtik\vuesax\linear\vuesax\linear\tick-circle.svg" />
-                </td>
-                <td className="white-row"></td>
-              </tr>
-              <tr>
-                <td className="white-row">6. Weekly Technical Interview</td>
-                <td className="blue-row">
-                  <img src="\images\svg\tabtik\vuesax\linear\vuesax\linear\tick-circle.svg" />
-                </td>
-                <td className="white-row"></td>
-              </tr>
-              <tr>
-                <td className="white-row">7. Weekly Show & Tel</td>
-                <td className="blue-row">
-                  <img src="\images\svg\tabtik\vuesax\linear\vuesax\linear\tick-circle.svg" />
-                </td>
-                <td className="white-row"></td>
-              </tr>
-              <tr>
-                <td className="white-row">8. Career Counselling</td>
-                <td className="blue-row">
-                  <img src="\images\svg\tabtik\vuesax\linear\vuesax\linear\tick-circle.svg" />
-                </td>
-                <td className="white-row"></td>
-              </tr>
+              {comparisonData.map((item, index) => (
+                <tr key={index}>
+                  <td className="white-row">
+                    <p>
+                      {item?.otherBootcampTitle}
+                      <br />
+                      <span>{item?.otherBootcampDetails}</span>
+                    </p>
+                  </td>
+                  <td className="blue-row">
+                    <RoundedCorrect color={"red"} isCorrect={false} />
+                  </td>
+                  <td className="white-row">
+                    <p>
+                      {item?.ts4uBootcampTitle}
+                      <br />
+                      <span>{item?.ts4uBootcampDetails}</span>
+                    </p>
+                  </td>
+                  <td style={{ textAlign: "center" }} className="blue-row">
+                    {/* <img src="\images\svg\tabtik\vuesax\linear\vuesax\linear\tick-circle.svg" /> */}
+                    <RoundedCorrect color={"green"} isCorrect={true} />
+
+                    {/* <img src="\images\svg\Ads Landing page\vuesax\linear\vuesax\linear\blacktik.svg" /> */}
+                  </td>
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>
