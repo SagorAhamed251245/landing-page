@@ -29,6 +29,7 @@ import SuccessfulStudents from "@/components/SuccessfulStudents/SuccessfulStuden
 import Podcast from "@/components/Podcast/Podcast";
 import TogolTop from "@/components/Shared/TogolTop";
 import BookAMeeting from "@/components/Shared/BookAMeeting";
+import Payment from "@/components/Payment/Payment";
 
 export default function Home() {
   return (
@@ -39,14 +40,16 @@ export default function Home() {
           <Banner />
           <UniqueServices />
           <OurFounder />
-          <CompareTable />
+          {/* <CompareTable /> */}
           <StudentsExperience />
           <BookMeeting />
           <Alumni />
           <DemandableBootcamp />
           <StudentsReviews />
           <LostITjob />
-          <FailureReasons />
+          {/* <FailureReasons /> */}
+          <CompareTable />
+          <Payment />
           <BootcampCompletion />
 
           <MERN />
