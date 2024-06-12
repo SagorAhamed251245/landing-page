@@ -1,4 +1,4 @@
-.table-box {
+.payment-table-box {
   display: flex;
   justify-content: center;
   background-color: #e7e1fc;
@@ -71,6 +71,12 @@
     ul > li {
       margin-bottom: 15px;
       margin-left: 15px;
+      color: $primary_color;
+      font-weight: bold;
+      > span {
+        color: black;
+        font-weight: normal;
+      }
     }
 
     span {
@@ -106,7 +112,7 @@
   border-top: 1px solid #c6c4cb;
   padding: 25px;
   text-align: left;
-  width: 350px;
+  width: 460px;
 
   @include breakpoints(tablet) {
     padding: 5px;

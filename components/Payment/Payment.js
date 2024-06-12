@@ -5,7 +5,7 @@ import { paymentAndFinancingOptions } from "@/data/pamentData";
 
 const Payment = () => {
   return (
-    <section className="table-box">
+    <section className="payment-table-box">
       <div>
         <h1 style={{ textAlign: "center" }} className="title">
           Payment and Financing:
@@ -14,21 +14,23 @@ const Payment = () => {
           <table>
             <thead>
               <tr>
-                {paymentAndFinancingOptions.map((option, index) => (
+                {paymentAndFinancingOptions?.map((option, index) => (
                   <th key={index} style={{ textAlign: "center" }}>
-                    {option.option}
+                    {option?.option}
                   </th>
                 ))}
               </tr>
             </thead>
             <tbody>
               <tr>
-                {paymentAndFinancingOptions.map((option, index) => (
+                {paymentAndFinancingOptions?.map((option, index) => (
                   <td key={index} className="white-row">
-                    <p>{option.eligibility}</p>
+                    <p>{option?.eligibility}</p>
                     <ul>
-                      {option.benefits.map((detail, i) => (
-                        <li key={i}>{detail}</li>
+                      {option.benefitDetails.map((detail, i) => (
+                        <li key={i}>
+                          {detail?.title}: <span>{detail?.details}</span>
+                        </li>
                       ))}
                     </ul>
                   </td>

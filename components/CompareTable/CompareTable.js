@@ -7,7 +7,7 @@ import Rating from "react-rating";
 
 const CompareTable = () => {
   return (
-    <section className="table-box">
+    <section className="compare-table-box">
       <div>
         <h1 style={{ textAlign: "center" }} className="title">
           Compare With Other Bootcamps
