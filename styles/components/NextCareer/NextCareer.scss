@@ -5,7 +5,21 @@
     text-align: center;
     padding-top: 40px;
   }
-  
+  .bullet-style {
+    margin-top: 0;
+    padding: 0;
+    display: inline-block;
+    .heading {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+  .bullet {
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    // bottom: 5px;
+  }
 }
 
 .bootcamp_completion_container {

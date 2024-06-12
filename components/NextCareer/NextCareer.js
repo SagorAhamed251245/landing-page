@@ -3,6 +3,34 @@ import React from "react";
 import LessThen from "../SVG/LessThen";
 
 const NextCareer = () => {
+  const nextCareer = [
+    {
+      title: "Career Advancement",
+      description:
+        "Gain the skills needed for senior, principal, and architectural positions.",
+    },
+    {
+      title: "Leadership Preparation",
+      description: "Easily transition to leadership roles.",
+    },
+    {
+      title: "Industry Mastery",
+      description: "Become an expert in the latest technologies and tools.",
+    },
+    {
+      title: "Enhanced Communication Skills",
+      description: "Improve your ability to communicate effectively.",
+    },
+    {
+      title: "Leadership Development",
+      description: "Learn how to be an effective leader in your field.",
+    },
+    {
+      title: "Transformative Impact",
+      description: "Significantly change your financial and social status.",
+    },
+  ];
+
   return (
     <section className="bootcamp_completion_container book_meeting ">
       <div style={{ gap: "40px" }} className="bootcamp_completion container">
@@ -10,17 +38,25 @@ const NextCareer = () => {
           <h4 className="title">Next Career Opportunities</h4>
 
           <p style={{ marginTop: "30px" }}>
-            Take one of Schools Hub’s range of Python courses and learn how to
-            code using this incredibly useful language. Its simple syntax and
-            readability makes Python perfect for Flask, Django, data science,
-            and machine learning
+            Joining any of TS4U's Bootcamps can transform your financial and
+            social status. Each Bootcamp equips you for senior, principal, and
+            architectural positions. Transitioning to leadership roles becomes
+            easier with TS4U’s Bootcamp journey, as you’ll master industry
+            technologies, tools, communication, and leadership skills. Here’s
+            our promise:
           </p>
-          <p style={{ marginTop: "30px" }}>
-            You’ll learn how to build everything from games to sites to apps.
-            Choose from a range of courses that will appeal to Take one of
-            Schools Hub’s range of Python courses and learn how to code using
-            this incredibly useful language
-          </p>
+
+          <div style={{ marginTop: "px" }}>
+            {nextCareer.map((item, index) => (
+              <div key={index} className="bullet-style">
+                <p style={{margin:"0", padding:"0"}}>
+                  <span className="bullet">.</span>
+                  <span className="heading">{item?.title}</span>:{item?.description}
+                </p>
+              </div>
+            ))}
+          </div>
+
           <Link
             target="_blank"
             className=" linkBtn  center_btn  mb_hidden"
