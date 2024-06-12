@@ -12,7 +12,7 @@ const LeftContent = ({ benefits }) => {
       </h3>
       {benefits?.map((item, index) => (
         <p className="sub_p mb-hidden" key={index}>
-          {item.title}:
+          {item.title}:{" "}
           <span dangerouslySetInnerHTML={{ __html: item.details }} />
         </p>
       ))}

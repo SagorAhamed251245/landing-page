@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
-
-import { paymentAndFinancingOptions } from "@/data/pamentData";
+import { paymentAndFinancingOptions } from "@/data/paymentData";
+import LessThen from "../SVG/LessThen";
 
 const Payment = () => {
   return (
@@ -11,33 +11,24 @@ const Payment = () => {
           Payment and Financing:
         </h1>
         <div className="payment-table">
-          <table>
-            <thead>
-              <tr>
-                {paymentAndFinancingOptions?.map((option, index) => (
-                  <th key={index} style={{ textAlign: "center" }}>
-                    {option?.option}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                {paymentAndFinancingOptions?.map((option, index) => (
-                  <td key={index} className="white-row">
-                    <p>{option?.eligibility}</p>
-                    <ul>
-                      {option.benefitDetails.map((detail, i) => (
-                        <li key={i}>
-                          {detail?.title}: <span>{detail?.details}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </td>
-                ))}
-              </tr>
-            </tbody>
-          </table>
+          {paymentAndFinancingOptions?.map((option, index) => (
+            <div key={index} className="payment-option">
+              <h2>
+                {option?.option}{" "}
+                <img src="https://images.squarespace-cdn.com/content/v1/5ccc49ee348cd92c42de2bb7/1586541039482-9G1PXKOFORFB1LM3R7L4/MIWorks_logo_color.jpg" />
+              </h2>
+              <div className="white-row">
+                <p>{option?.eligibility}</p>
+                <ul>
+                  {option.benefitDetails.map((detail, i) => (
+                    <li key={i}>
+                      {detail?.title}: <span>{detail?.details}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ))}
         </div>
         <Link
           target="_blank"
@@ -49,7 +40,7 @@ const Payment = () => {
             Book a meeting
             <span>
               {/* Assuming this is an icon */}
-              {/* <LessThan color={"white"} /> */}
+              <LessThen color={"white"} />
             </span>
           </button>
         </Link>
