@@ -14,8 +14,7 @@ const Payment = () => {
           {paymentAndFinancingOptions?.map((option, index) => (
             <div key={index} className="payment-option">
               <h2>
-                {option?.option}{" "}
-                <img src="https://images.squarespace-cdn.com/content/v1/5ccc49ee348cd92c42de2bb7/1586541039482-9G1PXKOFORFB1LM3R7L4/MIWorks_logo_color.jpg" />
+                {option?.option} <img src={option?.logo} />
               </h2>
               <div className="white-row">
                 <p>{option?.eligibility}</p>

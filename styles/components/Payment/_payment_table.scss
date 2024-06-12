@@ -47,12 +47,18 @@
 
     h2 {
       text-align: center;
-      background-color: #5831f0;
-      color: #fff;
+      // background-color: #5831f0;
+      color: black;
       padding: 10px;
       border-radius: 5px;
       margin-bottom: 15px;
-
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      > img {
+        // width: 200px;
+        height: 30px;
+      }
       @include breakpoints(tablet) {
         padding: 8px;
         font-size: 14px;
@@ -63,7 +69,14 @@
         font-size: 12px;
       }
     }
-
+    .book_a_meeting_btn {
+      background-color: $primary_color;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
     .white-row {
       background-color: #f9f9f9;
       padding: 10px;
@@ -72,6 +85,7 @@
       p {
         font-weight: bold;
         margin-bottom: 15px;
+        width: 70%;
       }
 
       ul > li {
@@ -102,13 +116,4 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-}
-
-.book_a_meeting_btn {
-  background-color: $primary_color;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
 }
