@@ -51,7 +51,7 @@ const NextCareer = () => {
               <div key={index} className="bullet-style">
                 <p style={{margin:"0", padding:"0"}}>
                   <span className="bullet">.</span>
-                  <span className="heading">{item?.title}</span>:{item?.description}
+                  <span className="heading">{item?.title}:</span> {item?.description}
                 </p>
               </div>
             ))}

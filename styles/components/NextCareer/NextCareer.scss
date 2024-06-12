@@ -2,9 +2,21 @@
   width: 40%;
   @include breakpoints(tablet) {
     width: 100%;
-    text-align: center;
+    text-align: left;
     padding-top: 40px;
+     
+    h4{
+      text-align: center;
+    }
+    p{
+      font-size: 16px;
+    }
+    .heading{
+      font-size: 16px;
+    }
+
   }
+
   .bullet-style {
     margin-top: 0;
     padding: 0;
@@ -14,13 +26,15 @@
       font-weight: bold;
     }
   }
+
   .bullet {
     font-size: 40px;
     font-weight: bold;
     position: relative;
-    // bottom: 5px;
+    bottom: 5px;
   }
 }
+
 
 .bootcamp_completion_container {
   img {
