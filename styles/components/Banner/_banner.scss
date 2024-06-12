@@ -8,7 +8,7 @@
   // border: 2px solid black;
   height: 800px;
   @include breakpoints(tablet) {
-    height: 700px;
+    height: auto;
     margin-bottom: 30px;
   }
   .background_image {
@@ -108,6 +108,61 @@
     flex-direction: column;
     height: auto;
   }
+  .contact_button_div {
+    display: inline-block;
+    @include breakpoints(tablet) {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+  }
+
+  .linkBtn {
+    // color: blue;
+    background-color: $primary_color;
+    border-radius: 10px !important;
+  }
+  .contact_button {
+    padding: 16px 30px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+    @include breakpoints(tablet) {
+      justify-content: center;
+      background-color: $primary_color;
+      color: white;
+      border-radius: 10px !important;
+    }
+
+    > span {
+      margin-left: 10px;
+    }
+    @include breakpoints(tablet) {
+      padding: 10px 12px;
+      font-size: 12px;
+    }
+  }
+  .sub_p {
+    font-size: 14px;
+    font-weight: 500;
+    width: 75%;
+    font-weight: bold;
+    text-align: start;
+    > span {
+      font-weight: normal;
+    }
+    @include breakpoints(tablet) {
+      font-size: 12px;
+      font-weight: 700px;
+      width: 95%;
+      margin: 0 auto;
+      text-align: start;
+    }
+  }
   // right_banner_section
   .right_banner_section {
     width: 50%;
@@ -121,6 +176,8 @@
     @include breakpoints(tablet) {
       width: 269px;
       height: 261px;
+      margin-top: 30px;
+      margin-bottom: 30px;
     }
 
     .video_relative {
@@ -155,6 +212,7 @@
       overflow: hidden;
       // height: calc(90% - $sudo_size);
       height: 100%;
+
       .video {
         overflow: hidden;
         height: calc(100%);
@@ -166,18 +224,16 @@
 
   // left_banner_section
   .left_banner_section {
-    @include breakpoints(tablet) {
-    }
-    width: 50%;
+    width: 75%;
     @include breakpoints(tablet) {
       width: 100%;
-      text-align: center;
+
       > * {
         margin: 0px 0;
       }
     }
     > * {
-      margin: 30px 0;
+      margin: 10px 0;
     }
     *:first-child {
       margin-bottom: 0px;
@@ -195,53 +251,40 @@
       font-weight: bold;
       width: auto;
       display: inline-block;
+      @include breakpoints(tablet) {
+        display: block;
+        text-align: center;
+      }
     }
     .h3 {
-      font-size: 50px;
+      font-size: 40px;
       font-weight: 700px;
       width: 80%;
+      text-align: start;
       @include breakpoints(tablet) {
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 700px;
         width: 95%;
         margin: 0 auto;
         margin: 15px 0;
+        text-align: center;
       }
     }
     .sub_p {
-      font-size: 18px;
+      font-size: 14px;
       font-weight: 500;
-      width: 60%;
+      width: 75%;
+      font-weight: bold;
+      text-align: start;
+      > span {
+        font-weight: normal;
+      }
       @include breakpoints(tablet) {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 700px;
         width: 95%;
         margin: 0 auto;
-      }
-    }
-    .contact_button_div {
-      @include breakpoints(tablet) {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 30px;
-      }
-    }
-    .contact_button {
-      padding: 16px 30px;
-      display: flex;
-      align-items: center;
-      font-size: 20px;
-      font-weight: bolder;
-      border-radius: 10px;
-      border: none;
-
-      > span {
-        margin-left: 10px;
-      }
-      @include breakpoints(tablet) {
-        padding: 10px 12px;
-        font-size: 12px;
+        text-align: start;
       }
     }
   }

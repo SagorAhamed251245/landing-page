@@ -21,3 +21,23 @@
   font-weight: bold;
   cursor: pointer;
 }
+
+.mb-hidden {
+  @include breakpoints(tablet) {
+    display: none !important;
+  }
+}
+.lg-hidden {
+  display: none !important;
+  @include breakpoints(tablet) {
+    display: inline-block !important;
+  }
+}
+.d-flex-lg-hidden {
+  display: none !important;
+  @include breakpoints(tablet) {
+    display: flex !important;
+    overflow: hidden;
+    border-radius: 10px !important;
+  }
+}
