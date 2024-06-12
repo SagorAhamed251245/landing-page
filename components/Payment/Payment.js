@@ -8,7 +8,7 @@ const Payment = () => {
     <section className="payment-table-box">
       <div>
         <h1 style={{ textAlign: "center" }} className="title">
-          Payment and Financing:
+          Payment and Financing
         </h1>
         <div className="payment-table">
           {paymentAndFinancingOptions?.map((option, index) => (
