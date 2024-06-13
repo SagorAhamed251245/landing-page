@@ -1,4 +1,3 @@
-
 const OneOnOneBootcamp = () => {
   const data = [
     {
@@ -26,6 +25,9 @@ const OneOnOneBootcamp = () => {
       details:
         "Coaches unlock and assign tailored content, customized to each student’s learning trajectory.",
     },
+  ];
+
+  const data2 = [
     {
       title: "Agile Methodology",
       details:
@@ -64,37 +66,55 @@ const OneOnOneBootcamp = () => {
   ];
 
   return (
-    <section className="one-on-one-box">
-      <div>
-        <h1 className="title">One-On-One Bootcamp Week</h1>
-        <p className="description">
-          This one-on-one private coaching model is central to TS4U's commitment
-          to maximizing student outcomes, providing a comprehensive,
-          personalized educational experience that is directly aligned with
-          industry demands and individual growth objectives.
-        </p>
+    <section className="one-on-one">
+      <div className="one-on-one-box">
+        <div>
+          <h1 className="title">One-On-One Bootcamp Week</h1>
+          <p className="description">
+            This one-on-one private coaching model is central to TS4U's
+            commitment to maximizing student outcomes, providing a
+            comprehensive, personalized educational experience that is directly
+            aligned with industry demands and individual growth objectives.
+          </p>
 
-        {/* main container  */}
-        <div className="container">
-          {/* content  */}
-          <div className="one-on-container">
-            {data?.map((item, index) => (
-              <div key={index} className="bullet-style">
-                <p>
-                  <span className="one-on-bullet">.</span>
-                  <span className="one-on-heading">{item?.title}:</span>{" "}
-                  {item?.details}
-                </p>
-              </div>
-            ))}
-          </div>
+          {/* main container  */}
+          <div className="container">
+            {/* text content 1 */}
+            <div className="text-container">
+              {data?.map((item, index) => (
+                <ul key={index} className="bullet-style">
+                  <li>
+                    {/* <span className="one-on-bullet">.</span> */}
+                    <span className="one-on-heading">{item?.title}:</span>
+                    {item?.details}
+                  </li>
+                </ul>
+              ))}
+            </div>
 
-          {/* image  */}
-          <div className="img">
-            <img src="https://i.postimg.cc/CxWYHsHh/one-on-one-pic.jpg" alt="OneOnOneBootcamp" />
+            {/* image  */}
+            <div className="img">
+              <img
+                src="https://i.postimg.cc/CxWYHsHh/one-on-one-pic.jpg"
+                alt="OneOnOneBootcamp"
+              />
+            </div>
+
+            {/* text content 2 */}
+            <div className="text-container">
+              {data2?.map((item, index) => (
+                <ul key={index} className="bullet-style">
+                  <li>
+                    {/* <span className="one-on-bullet">.</span> */}
+                    <span className="one-on-heading">{item?.title}:</span>
+                    {item?.details}
+                  </li>
+                </ul>
+              ))}
+            </div>
           </div>
+          {/* main container ends  */}
         </div>
-        {/* main container ends  */}
       </div>
     </section>
   );

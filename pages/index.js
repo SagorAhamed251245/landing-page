@@ -50,7 +50,7 @@ export default function Home() {
           <LostITjob />
           {/* <FailureReasons /> */}
           <CompareTable />
-          <Payment />
+          {/* <Payment /> */}
           <OneOnOneBootcamp />
           <BootcampCompletion />
 
@@ -74,7 +74,8 @@ export default function Home() {
           <FreeCourses />
           <ResourcesForYou />
           <LatestNews />
-          <Finance />
+          <Payment />
+          {/* <Finance /> */}
           {/* <RecommendationForCourse />          */}
           {/* <BookCall /> */}
           <Podcast />

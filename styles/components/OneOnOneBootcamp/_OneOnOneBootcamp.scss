@@ -1,13 +1,23 @@
+.one-on-one{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .one-on-one-box {
-    display: flex;
-    justify-content: center;
-    background-color: #e7e1fc;
-    padding: 80px;
-    padding-top: 0px;
-  
-    @include breakpoints(tablet) {
-      padding: 40px 16px;
-    }
+  display: flex;
+  justify-content: center;
+  background-color: #e7e1fc;
+  padding: 80px;
+  padding-top: 0px;
+
+
+  @include breakpoints(tablet) {
+    padding: 40px 16px;
+  }
+
+  @include breakpoints(mobile) {
+    padding: 20px 8px;
+  }
 
     .title{
        text-align: center;
@@ -16,25 +26,29 @@
     .description{
         width: 50%;
         text-align: center;
-        margin: 20px auto 0px auto;
+        margin: 20px auto 40px;
         @include breakpoints(tablet) {
           width: 100%;
+          font-size: 14px;
         }
       }
-    
-    .one-on-container{
-        margin: 40px 0;
-        background-color: white;
-        padding: 25px;
-        width: 50%;
 
-        @include breakpoints(tablet) {
-         width: 100%;
-        }
+      .bullet-style{
+        padding-left: 20px;
+        margin-bottom: 10px;
+      }
+    
+    .text-container{
+        background-color: white;
+        padding: 25px ;
 
         p{
             margin:0;
             padding:5px;
+        }
+        @include breakpoints(tablet) {
+          font-size: 14px;
+          padding: 10px;
         }
     }
 
@@ -42,35 +56,31 @@
         font-weight: bold;
         font-size: 20px;
         color: #5831f0;
+        padding-right: 5px;
+        @include breakpoints(tablet) {
+          font-size: 16px;
+        }
     }
 
     .one-on-bullet {
+        padding: 2px;
         font-size: 40px;
         font-weight: bold;
         position: relative;
         bottom: 3px;
+        color: #5831f0;
       }
 
       .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        @include breakpoints(tablet) {
-          flex-direction: column;
-        }
+        border: solid rgb(223, 218, 218) 1px;
+        border-radius: 15px;
       }
       .img{
-        width: 50%;
         height: 100%;
-        @include breakpoints(tablet) {
-          width : 100%;
-        }
-
+        
         img{
           width: 100%;
           min-height: 80vh;
-
         }
       }
 

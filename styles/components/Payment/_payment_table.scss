@@ -3,7 +3,7 @@
   justify-content: center;
   background-color: #e7e1fc;
   padding: 80px;
-  padding-top: 0px;
+
 
   @include breakpoints(tablet) {
     padding: 40px 16px;
@@ -56,8 +56,11 @@
       justify-content: space-between;
       align-items: center;
       > img {
-        // width: 200px;
+        width: 100px;
         height: 30px;
+        @include breakpoints(tablet) {
+          width: 50px;
+        }
       }
       @include breakpoints(tablet) {
         padding: 8px;
@@ -86,17 +89,39 @@
         font-weight: bold;
         margin-bottom: 15px;
         width: 70%;
+        font-size: 20px;
+        @include breakpoints(tablet) {
+          font-size: 16px;
+          width: 100%;
+        }
       }
 
       ul > li {
-        margin-bottom: 15px;
-        margin-left: 15px;
-        color: $primary_color;
-        font-weight: bold;
+        margin-left: 20px;
+        margin-bottom: 10px;
+
+        @include breakpoints(tablet) {
+          margin: 5px;
+        }
+
+        .list-heading{
+          font-size: 20px;
+          color: $primary_color;
+          font-weight: bold;
+
+          @include breakpoints(tablet) {
+            font-size: 16px;
+          }
+        }
 
         > span {
           color: black;
           font-weight: normal;
+          font-size: 16px;
+
+          @include breakpoints(tablet) {
+            font-size: 14px;
+          }
         }
       }
 
