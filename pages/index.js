@@ -52,7 +52,7 @@ export default function Home() {
           <CompareTable />
           {/* <Payment /> */}
           <OneOnOneBootcamp />
-          <BootcampCompletion />
+          {/* <BootcampCompletion /> */}
 
           <MERN />
           <OurCourses />
