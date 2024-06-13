@@ -85,6 +85,7 @@
       p {
         font-weight: bold;
         margin-bottom: 15px;
+        font-size: 22px;
         width: 70%;
       }
 
@@ -93,10 +94,12 @@
         margin-left: 15px;
         color: $primary_color;
         font-weight: bold;
+        font-size: 20px;
 
         > span {
           color: black;
           font-weight: normal;
+          font-size: 16px;
         }
       }
 

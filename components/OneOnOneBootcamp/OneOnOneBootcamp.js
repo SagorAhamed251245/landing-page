@@ -1,4 +1,3 @@
-
 const OneOnOneBootcamp = () => {
   const data = [
     {
@@ -75,7 +74,7 @@ const OneOnOneBootcamp = () => {
         </p>
 
         {/* main container  */}
-        <div className="container">
+        <div className="new_container">
           {/* content  */}
           <div className="one-on-container">
             {data?.map((item, index) => (
@@ -91,7 +90,10 @@ const OneOnOneBootcamp = () => {
 
           {/* image  */}
           <div className="img">
-            <img src="https://i.postimg.cc/CxWYHsHh/one-on-one-pic.jpg" alt="OneOnOneBootcamp" />
+            <img
+              src="https://i.postimg.cc/CxWYHsHh/one-on-one-pic.jpg"
+              alt="OneOnOneBootcamp"
+            />
           </div>
         </div>
         {/* main container ends  */}
