@@ -30,6 +30,7 @@ import Podcast from "@/components/Podcast/Podcast";
 import TogolTop from "@/components/Shared/TogolTop";
 import BookAMeeting from "@/components/Shared/BookAMeeting";
 import Payment from "@/components/Payment/Payment";
+import OneOnOneBootcamp from "@/components/OneOnOneBootcamp/OneOnOneBootcamp";
 
 export default function Home() {
   return (
@@ -50,6 +51,7 @@ export default function Home() {
           {/* <FailureReasons /> */}
           <CompareTable />
           <Payment />
+          <OneOnOneBootcamp />
           <BootcampCompletion />
 
           <MERN />

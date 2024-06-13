@@ -1,0 +1,49 @@
+.one-on-one-box {
+    display: flex;
+    justify-content: center;
+    background-color: #e7e1fc;
+    padding: 80px;
+    padding-top: 0px;
+  
+    @include breakpoints(tablet) {
+      padding: 40px 16px;
+    }
+
+    .title{
+       text-align: center;
+      }
+
+    .description{
+        width: 50%;
+        text-align: center;
+        margin: 20px auto 0px auto;
+        @include breakpoints(tablet) {
+          width: 100%;
+        }
+      }
+    
+    .one-on-container{
+        margin: 40px 0;
+        background-color: white;
+        padding: 25px;
+
+        p{
+            margin:0;
+            padding:5px;
+        }
+    }
+
+    .one-on-heading{
+        font-weight: bold;
+        font-size: 20px;
+        color: #5831f0;
+    }
+
+    .one-on-bullet {
+        font-size: 40px;
+        font-weight: bold;
+        position: relative;
+        bottom: 3px;
+      }
+
+  }

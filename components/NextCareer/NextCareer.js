@@ -46,7 +46,7 @@ const NextCareer = () => {
             our promise:
           </p>
 
-          <div style={{ marginTop: "px" }}>
+          <div>
             {nextCareer.map((item, index) => (
               <div key={index} className="bullet-style">
                 <p style={{margin:"0", padding:"0"}}>
