@@ -26,6 +26,11 @@
         margin: 40px 0;
         background-color: white;
         padding: 25px;
+        width: 50%;
+
+        @include breakpoints(tablet) {
+         width: 100%;
+        }
 
         p{
             margin:0;
@@ -44,6 +49,29 @@
         font-weight: bold;
         position: relative;
         bottom: 3px;
+      }
+
+      .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        @include breakpoints(tablet) {
+          flex-direction: column;
+        }
+      }
+      .img{
+        width: 50%;
+        height: 100%;
+        @include breakpoints(tablet) {
+          width : 100%;
+        }
+
+        img{
+          width: 100%;
+          min-height: 80vh;
+
+        }
       }
 
   }
