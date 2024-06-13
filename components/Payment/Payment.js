@@ -5,8 +5,8 @@ import LessThen from "../SVG/LessThen";
 
 const Payment = () => {
   return (
-    <section className="payment-table-box">
-      <div>
+    <section className="payment-table-box ">
+      <div className="container">
         <h1 style={{ textAlign: "center" }} className="title">
           Payment and Financing
         </h1>
