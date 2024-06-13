@@ -1,6 +1,7 @@
 export const paymentAndFinancingOptions = [
   {
     option: "State Funds",
+    logo: "/images/companiLogo/michigan_Logo.jpg",
     eligibility:
       "Michigan residents may be eligible for significant financial assistance based on Michigan Works criteria. Approved students can receive between $4,000 to $9,300 to join TS4U’s bootcamp.",
     benefits: [
@@ -60,6 +61,7 @@ export const paymentAndFinancingOptions = [
   },
   {
     option: "Climb Credit",
+    logo: "/images/companiLogo/Climb_Credit_Logo.jpg",
     eligibility:
       "Climb is our partner for student funding, offering both long and short-term options, with or without interest. The application process takes only 5 minutes.",
     benefits: [
@@ -120,6 +122,7 @@ export const paymentAndFinancingOptions = [
   },
   {
     option: "Self-Funding (Mia Share)",
+    logo: "/images/companiLogo/Mia-Share+Logo.jpg",
     eligibility:
       "Mia Share offers students the ability to pay monthly, with several key benefits.",
     benefits: [
