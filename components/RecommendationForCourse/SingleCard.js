@@ -8,6 +8,7 @@ const SingleCard = ({ name, review, image }) => {
 
       <div className="user_info">
         <img
+          loading="lazy"
           style={{ width: "40px", height: "40px", borderRadius: "50%" }}
           src={image}
         />
@@ -26,12 +27,16 @@ const SingleCard = ({ name, review, image }) => {
         <p style={{ marginTop: "20px" }}>{review}</p>
         {/* ratings */}
 
-        <img src="/images/svg/stars.svg" style={{ width: "150px" }} />
+        <img
+          loading="lazy"
+          src="/images/svg/stars.svg"
+          style={{ width: "150px" }}
+        />
       </div>
 
       <Vector color={"#0065FF"} />
       <div className="ab_image">
-        <img src="/images/svg/cotation.svg" />
+        <img loading="lazy" src="/images/svg/cotation.svg" />
       </div>
     </div>
   );

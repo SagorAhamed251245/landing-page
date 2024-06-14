@@ -7,7 +7,10 @@ const LastCard = () => {
       <div className="lastCard_div1">
         <div className="single_card">
           <div className="single_card_img">
-            <img src="https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1698481726898-MERN-Full-Stack" />
+            <img
+              loading="lazy"
+              src="https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1698481726898-MERN-Full-Stack"
+            />
           </div>
 
           <div className="single_card_info">
@@ -18,7 +21,7 @@ const LastCard = () => {
                 <p>
                   5.0
                   <span style={{ display: "flex", alignItems: "center" }}>
-                    <img src="/images/svg/stars.svg" />
+                    <img loading="lazy" src="/images/svg/stars.svg" />
                   </span>{" "}
                   <span>(50+)</span>
                 </p>
@@ -41,6 +44,7 @@ const LastCard = () => {
       <div className="div">
         <div>
           <iframe
+            loading="lazy"
             id="founder"
             style={{
               objectFit: "cover",

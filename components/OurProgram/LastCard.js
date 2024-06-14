@@ -5,6 +5,7 @@ const LastCard = () => {
     <div className="lastCard">
       <div className="div">
         <iframe
+          loading="lazy"
           id="founder"
           style={{
             objectFit: "cover",

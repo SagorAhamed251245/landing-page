@@ -7,7 +7,10 @@ const RecommendationCard = ({ review, name, image }) => {
       {/* user info */}
       <>
         <div className="user_info">
-          <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D" />
+          <img
+            loading="lazy"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
+          />
           <div className="div">
             <div>
               <p className="user_name">{name}</p>
@@ -15,7 +18,7 @@ const RecommendationCard = ({ review, name, image }) => {
               {/* <Vector color={"#0065FF"} /> */}
             </div>
             <div>
-              <img src="/images/svg/cotation.svg" />
+              <img loading="lazy" src="/images/svg/cotation.svg" />
             </div>
           </div>
         </div>
@@ -24,7 +27,11 @@ const RecommendationCard = ({ review, name, image }) => {
           <p>{review}</p>
           {/* ratings */}
 
-          <img src="/images/svg/stars.svg" style={{ width: "200px" }} />
+          <img
+            loading="lazy"
+            src="/images/svg/stars.svg"
+            style={{ width: "200px" }}
+          />
         </div>
       </>
     </div>

@@ -12,16 +12,17 @@ const Payment = () => {
         </h1>
         <div className="payment-table">
           {paymentAndFinancingOptions?.map((option, index) => (
-            <div key={index} className="payment-option" >
+            <div key={index} className="payment-option">
               <h2>
-                {option?.option} <img src={option?.logo} />
+                {option?.option} <img loading="lazy" src={option?.logo} />
               </h2>
               <div className="white-row">
                 <p>{option?.eligibility}</p>
                 <ul>
                   {option.benefitDetails.map((detail, i) => (
                     <li key={i}>
-                      <span className="list-heading">{detail?.title}:</span> <span>{detail?.details}</span>
+                      <span className="list-heading">{detail?.title}:</span>{" "}
+                      <span>{detail?.details}</span>
                     </li>
                   ))}
                 </ul>

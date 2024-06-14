@@ -60,7 +60,9 @@ const BannerContent = () => {
           <button className="contact_button">
             Book a meeting
             <span>
-              {/* <img src="/images/svg/lessdthen.svg" /> */}
+              {/* <img 
+loading="lazy" 
+ src="/images/svg/lessdthen.svg" /> */}
               <LessThen color={"white"} />
             </span>
           </button>

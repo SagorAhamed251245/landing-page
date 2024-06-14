@@ -6,6 +6,7 @@ const SingleCard = ({ review, name, occupation, url }) => {
       {/* user info */}
       <div className="user_info">
         <img
+          loading="lazy"
           style={{ width: "40px", height: "40px", borderRadius: "50%" }}
           src={url}
         />
@@ -23,11 +24,15 @@ const SingleCard = ({ review, name, occupation, url }) => {
         <p style={{ marginTop: "20px" }}>{review}</p>
         {/* ratings */}
 
-        <img src="/images/svg/stars.svg" style={{ width: "150px" }} />
+        <img
+          loading="lazy"
+          src="/images/svg/stars.svg"
+          style={{ width: "150px" }}
+        />
       </div>
 
       <div className="absolute_icons">
-        <img src="/images/svg/cotation.svg" />
+        <img loading="lazy" src="/images/svg/cotation.svg" />
         <svg
           width="107"
           height="80"

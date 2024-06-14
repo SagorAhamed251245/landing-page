@@ -49,9 +49,10 @@ const NextCareer = () => {
           <div>
             {nextCareer.map((item, index) => (
               <div key={index} className="bullet-style">
-                <p style={{margin:"0", padding:"0"}}>
+                <p style={{ margin: "0", padding: "0" }}>
                   <span className="bullet">.</span>
-                  <span className="heading">{item?.title}:</span> {item?.description}
+                  <span className="heading">{item?.title}:</span>{" "}
+                  {item?.description}
                 </p>
               </div>
             ))}
@@ -71,7 +72,7 @@ const NextCareer = () => {
           </Link>
         </div>
 
-        <img src="\images\svg\Rectangle 41581.svg" />
+        <img loading="lazy" src="\images\svg\Rectangle 41581.svg" />
         <Link
           target="_blank"
           className="linkBtn lg_hidden center_btn"

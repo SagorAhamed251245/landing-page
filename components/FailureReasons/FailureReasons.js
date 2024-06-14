@@ -15,14 +15,14 @@ const FailureReasons = () => {
         </span>
       </button>
       <div className="cercel_img">
-        <img src="/images/svg/Group 1171283242.png" />
+        <img loading="lazy" src="/images/svg/Group 1171283242.png" />
       </div>
 
       <div>
         <TextComponent />
       </div>
       <div style={{ display: "flex", justifyContent: "end" }}>
-        <img className="failImg" src="/images/svg/fail.jpg" />
+        <img loading="lazy" className="failImg" src="/images/svg/fail.jpg" />
       </div>
     </section>
   );
