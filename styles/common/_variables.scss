@@ -9,6 +9,16 @@ $category_shape: #c0d1fe;
 $light_yellow: #ffcc80;
 $yellow: #ff9900;
 $text_color: #5c5958;
+$mobile-min: 0px;
+$mdMobile-min: 321px;
+$largeMobile-min: 387px;
+$smTablet-min: 426px;
+$tablet-min: 577px;
+$semiTablet-min: 769px;
+$smLaptop-min: 841px;
+$laptop-min: 992px;
+$largeLaptop-min: 1025px;
+$extraLargeLaptop-min: 1300px;
 
 @mixin mobile_container() {
   width: 100%;

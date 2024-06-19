@@ -1,42 +1,42 @@
-@mixin breakpoints($size) {
+@mixin breakpoints($size, $min-width: 0px) {
   @if $size == mobile {
-    @media screen and (max-width: 320px) {
+    @media (min-width: $min-width) and (max-width: 320px) {
       @content;
     }
-  } @else if $size == mdMobile {
-    @media screen and (max-width: 386px) {
+  } @else if ($size == mdMobile) {
+    @media (min-width: $min-width) and (max-width: 386px) {
       @content;
     }
-  } @else if $size == largeMobile {
-    @media screen and (max-width: 425px) {
+  } @else if ($size == largeMobile) {
+    @media (min-width: $min-width) and (max-width: 425px) {
       @content;
     }
-  } @else if $size == smTablet {
-    @media screen and (max-width: 576px) {
+  } @else if ($size == smTablet) {
+    @media (min-width: $min-width) and (max-width: 576px) {
       @content;
     }
-  } @else if $size == tablet {
-    @media screen and (max-width: 768px) {
+  } @else if ($size == tablet) {
+    @media (min-width: $min-width) and (max-width: 768px) {
       @content;
     }
-  } @else if $size == semiTablet {
-    @media screen and (max-width: 840px) {
+  } @else if ($size == semiTablet) {
+    @media (min-width: $min-width) and (max-width: 840px) {
       @content;
     }
-  } @else if $size == smLaptop {
-    @media screen and (max-width: 991px) {
+  } @else if ($size == smLaptop) {
+    @media (min-width: $min-width) and (max-width: 991px) {
       @content;
     }
-  } @else if $size == laptop {
-    @media screen and (max-width: 1024px) {
+  } @else if ($size == laptop) {
+    @media (min-width: $min-width) and (max-width: 1024px) {
       @content;
     }
-  } @else if $size == largeLaptop {
-    @media screen and (max-width: 1200px) {
+  } @else if ($size == largeLaptop) {
+    @media (min-width: $min-width) and (max-width: 1200px) {
       @content;
     }
-  } @else if $size == extraLargeLaptop {
-    @media screen and (min-width: 1300px) {
+  } @else if ($size == extraLargeLaptop) {
+    @media (min-width: 1300px) {
       @content;
     }
   }

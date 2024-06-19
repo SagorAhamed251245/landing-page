@@ -24,10 +24,14 @@
     overflow: hidden;
     border-radius: 20px;
     width: 1200px;
+
     @include breakpoints(tablet) {
       width: 350px;
       height: 220px;
     }
+    /*  @include breakpoints(extraLargeLaptop) {
+      width: 100%;
+    } */
   }
 
   .div {
