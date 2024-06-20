@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const SingleCard = ({ review, name, occupation, url }) => {
@@ -32,10 +33,11 @@ const SingleCard = ({ review, name, occupation, url }) => {
       </div>
 
       <div className="absolute_icons">
-        <img
-          height="auto"
-          width="auto"
+        <Image
+          height={80}
+          width={80}
           loading="lazy"
+          alt="cotation"
           src="/images/svg/cotation.svg"
         />
         <svg

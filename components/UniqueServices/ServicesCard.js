@@ -1,5 +1,6 @@
 import React from "react";
 import Vector from "../SVG/Vector";
+import Image from "next/image";
 
 const ServicesCard = ({ i, url, text, classNames }) => {
   const position = (i !== 0 && i % 2) === 1 ? "down" : "up";
@@ -10,9 +11,9 @@ const ServicesCard = ({ i, url, text, classNames }) => {
     <section className={`service_card ${classNames}`} style={sectionStyle}>
       <>
         <div>
-          <img
-            height="auto"
-            width="auto"
+          <Image
+            height={80}
+            width={80}
             loading="lazy"
             src={url}
             alt={`Service ${i}`}

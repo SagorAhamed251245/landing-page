@@ -1,14 +1,17 @@
+import Image from "next/image";
 import React from "react";
 
 const RightSide = () => {
   return (
     <div className="founder_info_right">
       <div className="img_div">
-        <img
+        <Image
           loading="lazy"
           src="/images/image/founder.png"
-          height="auto"
-          width="auto"
+          height={500}
+          width={500}
+          alt="founder image"
+          objectFit="cover"
         />
       </div>
       <div className="video_card">

@@ -34,10 +34,12 @@
 
   > section {
     .logo {
-      height: 50px;
+      height: 50px !important;
 
+      position: relative !important;
+      object-fit: cover;
       @include breakpoints(tablet) {
-        height: 30px;
+        height: 30px !important;
       }
     }
 

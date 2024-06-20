@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -12,11 +13,12 @@ const Navbar = () => {
     <nav className="container nav">
       {/* left nav bar */}
       <section className="">
-        <img
+        <Image
           loading="lazy"
           className="logo"
           src="/images/svg/logo.svg"
           alt="Logo"
+          layout="fill"
         />
       </section>
       <section className="">

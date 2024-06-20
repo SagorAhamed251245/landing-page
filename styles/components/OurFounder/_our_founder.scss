@@ -103,6 +103,7 @@
     justify-content: center;
     overflow: hidden;
     border-radius: 45px;
+
     @include breakpoints(tablet) {
       width: 226px;
       height: 188px;
@@ -111,6 +112,8 @@
   }
   .img_div > img {
     object-fit: cover;
+    height: 100%;
+    width: 100%;
   }
   .founder_info_left {
     padding-right: 100px;
@@ -203,6 +206,8 @@
         position: absolute;
         top: 50%;
         left: 50%;
+        height: 80px;
+        width: 80px;
         transform: translate(-50%, -50%);
       }
       svg {

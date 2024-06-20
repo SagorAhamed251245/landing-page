@@ -50,6 +50,8 @@
       }
       > div {
         > img {
+          height: 100px;
+          width: 80px;
           @include breakpoints(tablet) {
             height: 15px;
             width: 15px;

@@ -1,5 +1,6 @@
 import React from "react";
 import Vector from "../SVG/Vector";
+import Image from "next/image";
 
 const RecommendationCard = ({ review, name, image }) => {
   return (
@@ -18,10 +19,11 @@ const RecommendationCard = ({ review, name, image }) => {
               {/* <Vector color={"#0065FF"} /> */}
             </div>
             <div>
-              <img
-                height="auto"
-                width="auto"
+              <Image
+                height={80}
+                width={80}
                 loading="lazy"
+                alt="cotation"
                 src="/images/svg/cotation.svg"
               />
             </div>
