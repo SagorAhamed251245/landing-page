@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -25,11 +26,12 @@ const SingleCard = ({ bootCamp }) => {
             <p>
               {averageRating}
               <span style={{ display: "flex", alignItems: "center" }}>
-                <img
-                  height="auto"
-                  width="auto"
+                <Image
+                  height={30}
+                  width={150}
                   loading="lazy"
                   src="/images/svg/stars.svg"
+                  alt="star image"
                 />
               </span>
               <span>#({totalRatings})</span>

@@ -34,10 +34,12 @@ const RecommendationCard = ({ review, name, image }) => {
           <p>{review}</p>
           {/* ratings */}
 
-          <img
+          <Image
+            height={30}
+            width={150}
             loading="lazy"
             src="/images/svg/stars.svg"
-            style={{ width: "200px" }}
+            alt="star image"
           />
         </div>
       </>

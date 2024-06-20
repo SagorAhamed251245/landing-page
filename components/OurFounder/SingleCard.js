@@ -25,10 +25,12 @@ const SingleCard = ({ review, name, occupation, url }) => {
         <p style={{ marginTop: "20px" }}>{review}</p>
         {/* ratings */}
 
-        <img
+        <Image
+          height={30}
+          width={150}
           loading="lazy"
           src="/images/svg/stars.svg"
-          style={{ width: "150px" }}
+          alt="star image"
         />
       </div>
 

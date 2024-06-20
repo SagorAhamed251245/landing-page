@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -21,11 +22,12 @@ const LastCard = () => {
                 <p>
                   5.0
                   <span style={{ display: "flex", alignItems: "center" }}>
-                    <img
-                      height="auto"
-                      width="auto"
+                    <Image
+                      height={30}
+                      width={150}
                       loading="lazy"
                       src="/images/svg/stars.svg"
+                      alt="star image"
                     />
                   </span>{" "}
                   <span>(50+)</span>
