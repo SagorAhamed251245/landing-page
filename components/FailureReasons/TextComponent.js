@@ -32,7 +32,12 @@ const TextComponent = () => {
               }}
             >
               <span>
-                <img loading="lazy" src="/images/svg/tick-circle.svg" />
+                <img
+                  height="auto"
+                  width="auto"
+                  loading="lazy"
+                  src="/images/svg/tick-circle.svg"
+                />
               </span>
               <span> {item}</span>
             </p>

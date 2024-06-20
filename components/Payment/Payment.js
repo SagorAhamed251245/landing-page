@@ -14,7 +14,13 @@ const Payment = () => {
           {paymentAndFinancingOptions?.map((option, index) => (
             <div key={index} className="payment-option">
               <h2>
-                {option?.option} <img loading="lazy" src={option?.logo} />
+                {option?.option}{" "}
+                <img
+                  height="auto"
+                  width="auto"
+                  loading="lazy"
+                  src={option?.logo}
+                />
               </h2>
               <div className="white-row">
                 <p>{option?.eligibility}</p>

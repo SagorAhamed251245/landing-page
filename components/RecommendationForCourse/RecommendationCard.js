@@ -18,7 +18,12 @@ const RecommendationCard = ({ review, name, image }) => {
               {/* <Vector color={"#0065FF"} /> */}
             </div>
             <div>
-              <img loading="lazy" src="/images/svg/cotation.svg" />
+              <img
+                height="auto"
+                width="auto"
+                loading="lazy"
+                src="/images/svg/cotation.svg"
+              />
             </div>
           </div>
         </div>

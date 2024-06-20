@@ -38,7 +38,7 @@ const RightContent = () => {
         <div className="video_relative"></div>
         {/*  <div className="play_button" onClick={playPause}>
           <div>
-            <img 
+            <img   height="auto"  width="auto"  
 loading="lazy" 
  src="/images/svg/Polygon.svg" alt="Play/Pause" />
           </div>

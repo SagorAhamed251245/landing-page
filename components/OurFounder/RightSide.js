@@ -4,7 +4,12 @@ const RightSide = () => {
   return (
     <div className="founder_info_right">
       <div className="img_div">
-        <img loading="lazy" src="/images/image/founder.png" />
+        <img
+          loading="lazy"
+          src="/images/image/founder.png"
+          height="auto"
+          width="auto"
+        />
       </div>
       <div className="video_card">
         <div className="single_video">

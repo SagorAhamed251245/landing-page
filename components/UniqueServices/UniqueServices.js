@@ -32,11 +32,21 @@ const UniqueServices = () => {
                   gap: "5px",
                 }}
               >
-                <img loading="lazy" src="\images\svg\Star.svg" />
+                <img
+                  height="auto"
+                  width="auto"
+                  loading="lazy"
+                  src="\images\svg\Star.svg"
+                />
                 <p className="mi_P">
                   Michigan State Approved Training Provider
                 </p>
-                <img loading="lazy" src="\images\svg\Star.svg" />
+                <img
+                  height="auto"
+                  width="auto"
+                  loading="lazy"
+                  src="\images\svg\Star.svg"
+                />
               </div>
               <h4 className="title">What Makes Us Unique</h4>
             </div>

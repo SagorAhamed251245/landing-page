@@ -19,7 +19,12 @@ const ReviewCard = ({ review, name, image, platform }) => {
             <p className="p">{platform}</p>
           </div>
           <div>
-            <img loading="lazy" src="/images/svg/cotation.svg" />
+            <img
+              height="auto"
+              width="auto"
+              loading="lazy"
+              src="/images/svg/cotation.svg"
+            />
           </div>
         </div>
       </div>

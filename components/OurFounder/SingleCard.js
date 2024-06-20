@@ -32,7 +32,12 @@ const SingleCard = ({ review, name, occupation, url }) => {
       </div>
 
       <div className="absolute_icons">
-        <img loading="lazy" src="/images/svg/cotation.svg" />
+        <img
+          height="auto"
+          width="auto"
+          loading="lazy"
+          src="/images/svg/cotation.svg"
+        />
         <svg
           width="107"
           height="80"

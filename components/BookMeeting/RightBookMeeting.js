@@ -32,7 +32,7 @@ const RightBookMeeting = () => {
           {/*  <div className="video_relative"></div>
           <div className="play_button" onClick={playPause}>
             <div>
-              <img 
+              <img   height="auto"  width="auto"  
 loading="lazy" 
  src="/images/svg/Polygon.svg" alt="Play/Pause" />
             </div>
@@ -40,7 +40,12 @@ loading="lazy"
         </div>
       </div>
       <div className="absolute_image">
-        <img loading="lazy" src="/images/image/MIState.jpg" />
+        <img
+          height="auto"
+          width="auto"
+          loading="lazy"
+          src="/images/image/MIState.jpg"
+        />
       </div>
     </div>
   );

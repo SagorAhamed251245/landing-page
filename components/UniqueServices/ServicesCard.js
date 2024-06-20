@@ -10,7 +10,13 @@ const ServicesCard = ({ i, url, text, classNames }) => {
     <section className={`service_card ${classNames}`} style={sectionStyle}>
       <>
         <div>
-          <img loading="lazy" src={url} alt={`Service ${i}`} />
+          <img
+            height="auto"
+            width="auto"
+            loading="lazy"
+            src={url}
+            alt={`Service ${i}`}
+          />
         </div>
         <p>{text}</p>
 

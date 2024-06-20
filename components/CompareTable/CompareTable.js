@@ -69,7 +69,7 @@ const CompareTable = () => {
                     </p>
                   </td>
                   <td style={{ textAlign: "center" }} className="blue-row">
-                    {/* <img 
+                    {/* <img   height="auto"  width="auto"  
 loading="lazy" 
  src="\images\svg\tabtik\vuesax\linear\vuesax\linear\tick-circle.svg" /> */}
                     <RoundedCorrect color={"green"} isCorrect={true} />
@@ -100,7 +100,7 @@ loading="lazy"
                       }
                     />
 
-                    {/* <img 
+                    {/* <img   height="auto"  width="auto"  
 loading="lazy" 
  src="\images\svg\Ads Landing page\vuesax\linear\vuesax\linear\blacktik.svg" /> */}
                   </td>

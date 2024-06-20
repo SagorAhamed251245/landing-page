@@ -4,7 +4,13 @@ const LastCard = () => {
   return (
     <div className="last_card">
       <div className="div1">
-        <img loading="lazy" className="vehImg" src="/images/svg/OIG1.jpg" />
+        <img
+          height="auto"
+          width="auto"
+          loading="lazy"
+          className="vehImg"
+          src="/images/svg/OIG1.jpg"
+        />
       </div>
     </div>
   );

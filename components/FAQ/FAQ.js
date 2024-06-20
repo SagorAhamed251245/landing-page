@@ -9,7 +9,12 @@ const FAQ = () => {
       <section className="faq container">
         <div className="div div1">
           <div className="img">
-            <img loading="lazy" src="\images\svg\FAQ.svg" />
+            <img
+              height="auto"
+              width="auto"
+              loading="lazy"
+              src="\images\svg\FAQ.svg"
+            />
           </div>
         </div>
 

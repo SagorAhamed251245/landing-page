@@ -36,7 +36,12 @@ const SingleCard = ({ name, review, image }) => {
 
       <Vector color={"#0065FF"} />
       <div className="ab_image">
-        <img loading="lazy" src="/images/svg/cotation.svg" />
+        <img
+          height="auto"
+          width="auto"
+          loading="lazy"
+          src="/images/svg/cotation.svg"
+        />
       </div>
     </div>
   );

@@ -39,7 +39,12 @@ const LeftContent = ({ benefits }) => {
           <button className="contact_button">
             Book a meeting
             <span>
-              <img loading="lazy" src="/images/svg/lessdthen.svg" />
+              <img
+                height="auto"
+                width="auto"
+                loading="lazy"
+                src="/images/svg/lessdthen.svg"
+              />
             </span>
           </button>
         </Link>

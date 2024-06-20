@@ -15,7 +15,7 @@ const SingleCard = ({ bootCamp }) => {
   return (
     <div className="single_card">
       <div className="single_card_img">
-        <img loading="lazy" src={image} />
+        <img height="auto" width="auto" loading="lazy" src={image} />
       </div>
       <div className="single_card_info">
         <div className="div_1">
@@ -25,7 +25,12 @@ const SingleCard = ({ bootCamp }) => {
             <p>
               {averageRating}
               <span style={{ display: "flex", alignItems: "center" }}>
-                <img loading="lazy" src="/images/svg/stars.svg" />
+                <img
+                  height="auto"
+                  width="auto"
+                  loading="lazy"
+                  src="/images/svg/stars.svg"
+                />
               </span>
               <span>#({totalRatings})</span>
             </p>

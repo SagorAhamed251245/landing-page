@@ -7,10 +7,20 @@ export const SwiperNavButtons = () => {
   return (
     <div className="swiper-nav-btns">
       <button onClick={() => swiper.slidePrev()}>
-        <img loading="lazy" src="/images/svg/leftArrow.svg" />
+        <img
+          height="auto"
+          width="auto"
+          loading="lazy"
+          src="/images/svg/leftArrow.svg"
+        />
       </button>
       <button onClick={() => swiper.slideNext()}>
-        <img loading="lazy" src="/images/svg/rightArrow.svg" />
+        <img
+          height="auto"
+          width="auto"
+          loading="lazy"
+          src="/images/svg/rightArrow.svg"
+        />
       </button>
     </div>
   );

@@ -16,7 +16,12 @@ const FirstCard = () => {
           <p>
             5.0
             <span style={{ display: "flex", alignItems: "center" }}>
-              <img loading="lazy" src="/images/svg/stars.svg" />
+              <img
+                height="auto"
+                width="auto"
+                loading="lazy"
+                src="/images/svg/stars.svg"
+              />
             </span>{" "}
             <span>(#0,765)</span>
           </p>
