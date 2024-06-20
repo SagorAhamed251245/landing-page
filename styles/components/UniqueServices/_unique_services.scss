@@ -39,6 +39,15 @@
     justify-content: center;
     gap: 25px;
     position: relative;
+    .unique_icons {
+      height: 50px;
+      width: 50px;
+      object-fit: cover;
+      @include breakpoints(tablet) {
+        height: 15px;
+        width: 15px;
+      }
+    }
     @include breakpoints(tablet) {
       height: 40px;
       width: 40px;
@@ -49,14 +58,6 @@
         font-size: 6px;
       }
       > div {
-        > img {
-          height: 100px;
-          width: 80px;
-          @include breakpoints(tablet) {
-            height: 15px;
-            width: 15px;
-          }
-        }
       }
     }
     .mobile_slider {

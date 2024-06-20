@@ -15,6 +15,7 @@ const ServicesCard = ({ i, url, text, classNames }) => {
             height={80}
             width={80}
             loading="lazy"
+            className="unique_icons"
             src={url}
             alt={`Service ${i}`}
           />

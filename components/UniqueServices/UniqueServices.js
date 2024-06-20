@@ -9,6 +9,7 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Pagination } from "swiper/modules";
+import Image from "next/image";
 
 const UniqueServices = () => {
   let slider = [0, 1, 2];
@@ -32,18 +33,20 @@ const UniqueServices = () => {
                   gap: "5px",
                 }}
               >
-                <img
-                  height="auto"
-                  width="auto"
+                <Image
+                  height={30}
+                  width={30}
+                  alt="star"
                   loading="lazy"
                   src="\images\svg\Star.svg"
                 />
                 <p className="mi_P">
                   Michigan State Approved Training Provider
                 </p>
-                <img
-                  height="auto"
-                  width="auto"
+                <Image
+                  height={30}
+                  width={30}
+                  alt="star"
                   loading="lazy"
                   src="\images\svg\Star.svg"
                 />

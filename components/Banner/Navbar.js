@@ -35,11 +35,13 @@ const Navbar = () => {
         </ul>
 
         <section className="mobile_nav_section">
-          <img
+          <Image
             loading="lazy"
             className="hamburger"
             src="/images/svg/hamberger.svg"
             alt="Menu"
+            height={50}
+            width={50}
             onClick={toggleMobileNav}
           />
           {mobileNavVisible && (
