@@ -20,13 +20,21 @@ const FirstCard = () => {
           <p>
             5.0
             <span style={{ display: "flex", alignItems: "center" }}>
-              <section className="new_starts_class">
+              {/*  <section className="new_starts_class">
                 <FaStar color="#ef7817" />
                 <FaStar color="#ef7817" />
                 <FaStar color="#ef7817" />
                 <FaStar color="#ef7817" />
                 <FaStar color="#ef7817" />
-              </section>
+              </section> */}
+              <Image
+                height={30}
+                width={150}
+                loading="lazy"
+                src="/images/svg/stars.svg"
+                alt="star image"
+                className="new_starts_class"
+              />
             </span>{" "}
             <span>(#0,765)</span>
           </p>

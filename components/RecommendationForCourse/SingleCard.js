@@ -29,13 +29,21 @@ const SingleCard = ({ name, review, image }) => {
         <p style={{ marginTop: "20px" }}>{review}</p>
         {/* ratings */}
 
-        <span className="new_starts_class">
+        {/* <span className="new_starts_class">
           <FaStar color="#ef7817" />
           <FaStar color="#ef7817" />
           <FaStar color="#ef7817" />
           <FaStar color="#ef7817" />
           <FaStar color="#ef7817" />
-        </span>
+        </span> */}
+        <Image
+          height={30}
+          width={150}
+          loading="lazy"
+          src="/images/svg/stars.svg"
+          alt="star image"
+          className="new_starts_class"
+        />
       </div>
 
       <Vector color={"#0065FF"} />
