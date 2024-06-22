@@ -16,7 +16,13 @@ const SingleCard = ({ bootCamp }) => {
   return (
     <div className="single_card">
       <div className="single_card_img">
-        <img height="auto" width="auto" loading="lazy" src={image} />
+        <Image
+          height={219}
+          width={361}
+          loading="lazy"
+          src={image}
+          alt="single card image"
+        />
       </div>
       <div className="single_card_info">
         <div className="div_1">

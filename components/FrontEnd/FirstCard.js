@@ -5,7 +5,9 @@ const FirstCard = () => {
   return (
     <div className="first_card">
       <div className="single_card_img">
-        <img
+        <Image
+          height={219}
+          width={361}
           loading="lazy"
           src="https://img.freepik.com/premium-photo/cardano-blockchain-platform_23-2150411956.jpg"
         />

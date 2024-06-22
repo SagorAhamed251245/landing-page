@@ -8,7 +8,9 @@ const LastCard = () => {
       <div className="lastCard_div1">
         <div className="single_card">
           <div className="single_card_img">
-            <img
+            <Image
+              height={219}
+              width={361}
               loading="lazy"
               src="https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1698481726898-MERN-Full-Stack"
             />
