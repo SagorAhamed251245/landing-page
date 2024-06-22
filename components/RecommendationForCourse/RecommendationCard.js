@@ -40,8 +40,7 @@ const RecommendationCard = ({ review, name, image }) => {
           <Image
             height={30}
             width={150}
-            loading="lazy"
-            src="/images/svg/stars.svg"
+            src="/images/svg/stars.png"
             alt="star image"
             className="new_starts_class"
           />

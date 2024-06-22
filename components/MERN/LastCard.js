@@ -33,7 +33,7 @@ const LastCard = () => {
                     <Image
                       height={30}
                       width={150}
-                      src="/images/svg/stars.svg"
+                      src="/images/svg/stars.png"
                       alt="star image"
                       className="new_starts_class"
                     />
@@ -59,7 +59,6 @@ const LastCard = () => {
       <div className="div">
         <div>
           <iframe
-            loading="lazy"
             id="founder"
             style={{
               objectFit: "cover",

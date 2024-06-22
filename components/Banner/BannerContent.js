@@ -61,7 +61,7 @@ const BannerContent = () => {
             Book a meeting
             <span>
               {/* <img   height="auto"  width="auto"  
-loading="lazy" 
+ 
  src="/images/svg/lessdthen.svg" /> */}
               <LessThen color={"white"} />
             </span>

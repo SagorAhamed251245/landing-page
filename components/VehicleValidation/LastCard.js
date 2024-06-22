@@ -7,7 +7,6 @@ const LastCard = () => {
         <img
           height="auto"
           width="auto"
-          loading="lazy"
           className="vehImg"
           src="/images/svg/OIG1.jpg"
         />

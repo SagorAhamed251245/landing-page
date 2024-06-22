@@ -72,12 +72,7 @@ const NextCareer = () => {
           </Link>
         </div>
 
-        <img
-          height="auto"
-          width="auto"
-          loading="lazy"
-          src="\images\svg\Rectangle 41581.svg"
-        />
+        <img height="auto" width="auto" src="\images\svg\Rectangle 41581.svg" />
         <Link
           target="_blank"
           className="linkBtn lg_hidden center_btn"

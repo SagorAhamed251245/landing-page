@@ -11,7 +11,6 @@ const PodcastCard = () => {
       <div className="single_video podcast-card">
         <div className="div">
           <iframe
-            loading="lazy"
             id="founder"
             style={{
               objectFit: "cover",
@@ -31,7 +30,7 @@ const PodcastCard = () => {
         {/*   <div className="play_button" onClick={playPause}>
           <div>
             <img   height="auto"  width="auto"  
-loading="lazy" 
+ 
  src="/images/svg/Polygon.svg" alt="Play/Pause" />
           </div>
         </div> */}

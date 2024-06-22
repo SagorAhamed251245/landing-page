@@ -37,7 +37,6 @@ const UniqueServices = () => {
                   height={30}
                   width={30}
                   alt="star"
-                  loading="lazy"
                   src="\images\svg\Star.svg"
                 />
                 <p className="mi_P">
@@ -47,7 +46,6 @@ const UniqueServices = () => {
                   height={30}
                   width={30}
                   alt="star"
-                  loading="lazy"
                   src="\images\svg\Star.svg"
                 />
               </div>

@@ -15,12 +15,7 @@ const Payment = () => {
             <div key={index} className="payment-option">
               <h2>
                 {option?.option}{" "}
-                <img
-                  height="auto"
-                  width="auto"
-                  loading="lazy"
-                  src={option?.logo}
-                />
+                <img height="auto" width="auto" src={option?.logo} />
               </h2>
               <div className="white-row">
                 <p>{option?.eligibility}</p>

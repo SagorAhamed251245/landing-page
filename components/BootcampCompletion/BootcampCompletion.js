@@ -24,11 +24,7 @@ const BootcampCompletion = () => {
               gap: "10px",
             }}
           >
-            <img
-              loading="lazy"
-              className="green-tik"
-              src="\images\svg\check-circle 4.svg"
-            />{" "}
+            <img className="green-tik" src="\images\svg\check-circle 4.svg" />{" "}
             <p>Low Salary $5000</p>
           </div>
           <div
@@ -39,11 +35,7 @@ const BootcampCompletion = () => {
               gap: "10px",
             }}
           >
-            <img
-              loading="lazy"
-              className="green-tik"
-              src="\images\svg\check-circle 4.svg"
-            />{" "}
+            <img className="green-tik" src="\images\svg\check-circle 4.svg" />{" "}
             <p>Average Salary $10000</p>
           </div>
           <div
@@ -54,11 +46,7 @@ const BootcampCompletion = () => {
               gap: "10px",
             }}
           >
-            <img
-              loading="lazy"
-              className="green-tik"
-              src="\images\svg\check-circle 4.svg"
-            />{" "}
+            <img className="green-tik" src="\images\svg\check-circle 4.svg" />{" "}
             <p>Top Salary $15000</p>
           </div>
           <Link
@@ -75,11 +63,7 @@ const BootcampCompletion = () => {
           </Link>
         </div>
 
-        <img
-          loading="lazy"
-          className="right_img"
-          src="\images\svg\image 575.png"
-        />
+        <img className="right_img" src="\images\svg\image 575.png" />
         <Link
           target="_blank"
           className="linkBtn lg_hidden center_btn"

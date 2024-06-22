@@ -17,7 +17,6 @@ const RightContent = () => {
           {/* <button onClick="playPause()">Play/Pause</button> */}
           <div className="video">
             <iframe
-              loading="lazy"
               id="founder"
               style={{
                 objectFit: "cover",
@@ -39,7 +38,7 @@ const RightContent = () => {
         {/*  <div className="play_button" onClick={playPause}>
           <div>
             <img   height="auto"  width="auto"  
-loading="lazy" 
+ 
  src="/images/svg/Polygon.svg" alt="Play/Pause" />
           </div>
         </div> */}

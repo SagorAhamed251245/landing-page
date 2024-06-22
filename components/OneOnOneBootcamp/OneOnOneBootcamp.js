@@ -95,7 +95,6 @@ const OneOnOneBootcamp = () => {
             {/* image  */}
             <div className="img">
               <img
-                loading="lazy"
                 src="https://i.postimg.cc/CxWYHsHh/one-on-one-pic.jpg"
                 alt="OneOnOneBootcamp"
               />

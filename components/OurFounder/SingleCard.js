@@ -7,7 +7,6 @@ const SingleCard = ({ review, name, occupation, url }) => {
       {/* user info */}
       <div className="user_info">
         <img
-          loading="lazy"
           style={{ width: "40px", height: "40px", borderRadius: "50%" }}
           src={url}
         />
@@ -35,7 +34,7 @@ const SingleCard = ({ review, name, occupation, url }) => {
         <Image
           height={30}
           width={150}
-          src="/images/svg/stars.svg"
+          src="/images/svg/stars.png"
           alt="star image"
           className="new_starts_class"
         />

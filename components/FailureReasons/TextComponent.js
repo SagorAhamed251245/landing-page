@@ -35,7 +35,6 @@ const TextComponent = () => {
                 <img
                   height="auto"
                   width="auto"
-                  loading="lazy"
                   src="/images/svg/tick-circle.svg"
                 />
               </span>

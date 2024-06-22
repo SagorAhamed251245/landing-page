@@ -118,23 +118,13 @@ const StudentsReviews = () => {
         <div className="reviews_buttons">
           <button onClick={() => setPlatform("Google")}>
             <span>
-              <img
-                loading="lazy"
-                src="/images/svg/google.svg"
-                height={20}
-                width={20}
-              />
+              <img src="/images/svg/google.svg" height={20} width={20} />
             </span>
             <span>Reviews</span>
           </button>
           <button onClick={() => setPlatform("Facebook")}>
             <span>
-              <img
-                loading="lazy"
-                src="/images/svg/facebook.svg"
-                height={20}
-                width={20}
-              />
+              <img src="/images/svg/facebook.svg" height={20} width={20} />
             </span>
             <span>Reviews</span>
           </button>
