@@ -16,9 +16,10 @@ const Navbar = () => {
         <Image
           loading="lazy"
           className="logo"
-          src="/images/svg/logo.svg"
+          src="/images/svg/logo.png"
           alt="Logo"
-          layout="fill"
+          height={50}
+          width={100}
         />
       </section>
       <section className="">

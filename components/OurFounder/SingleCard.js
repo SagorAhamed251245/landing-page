@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import { FaStar } from "react-icons/fa";
 
 const SingleCard = ({ review, name, occupation, url }) => {
   return (
@@ -58,7 +57,7 @@ const SingleCard = ({ review, name, occupation, url }) => {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <circle cx="79" cy="79" r="79" fill="#FF9900" fill-opacity="0.5" />
+          <circle cx="79" cy="79" r="79" fill="#FF9900" fillOpacity="0.5" />
         </svg>
       </div>
     </div>

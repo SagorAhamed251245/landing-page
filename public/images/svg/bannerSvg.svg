@@ -38,9 +38,9 @@
 </mask>
 <g mask="url(#mask4_1_427)">
 <rect x="-430.549" y="546.703" width="1190.54" height="720.797" transform="rotate(-19.8368 -430.549 546.703)" fill="url(#paint5_linear_1_427)"/>
-<ellipse cx="1645.63" cy="140.319" rx="687.291" ry="327.981" transform="rotate(-15.1614 1645.63 140.319)" fill="url(#paint6_linear_1_427)" fill-opacity="0.7"/>
+<ellipse cx="1645.63" cy="140.319" rx="687.291" ry="327.981" transform="rotate(-15.1614 1645.63 140.319)" fill="url(#paint6_linear_1_427)" fillOpacity="0.7"/>
 <ellipse cx="461.68" cy="362.388" rx="597.689" ry="111.966" transform="rotate(-15.1614 461.68 362.388)" fill="url(#paint7_linear_1_427)"/>
-<ellipse cx="308.758" cy="-74.6691" rx="936.511" ry="370.285" transform="rotate(-15.1614 308.758 -74.6691)" fill="#FFE680" fill-opacity="0.7"/>
+<ellipse cx="308.758" cy="-74.6691" rx="936.511" ry="370.285" transform="rotate(-15.1614 308.758 -74.6691)" fill="#FFE680" fillOpacity="0.7"/>
 </g>
 </mask>
 <g mask="url(#mask3_1_427)">
@@ -79,9 +79,9 @@
 </mask>
 <g mask="url(#mask11_1_427)">
 <rect x="-430.549" y="546.703" width="1190.54" height="720.797" transform="rotate(-19.8368 -430.549 546.703)" fill="url(#paint14_linear_1_427)"/>
-<ellipse cx="1645.63" cy="140.319" rx="687.291" ry="327.981" transform="rotate(-15.1614 1645.63 140.319)" fill="url(#paint15_linear_1_427)" fill-opacity="0.7"/>
+<ellipse cx="1645.63" cy="140.319" rx="687.291" ry="327.981" transform="rotate(-15.1614 1645.63 140.319)" fill="url(#paint15_linear_1_427)" fillOpacity="0.7"/>
 <ellipse cx="461.68" cy="362.388" rx="597.689" ry="111.966" transform="rotate(-15.1614 461.68 362.388)" fill="url(#paint16_linear_1_427)"/>
-<ellipse cx="308.758" cy="-74.6691" rx="936.511" ry="370.285" transform="rotate(-15.1614 308.758 -74.6691)" fill="#FBD022" fill-opacity="0.7"/>
+<ellipse cx="308.758" cy="-74.6691" rx="936.511" ry="370.285" transform="rotate(-15.1614 308.758 -74.6691)" fill="#FBD022" fillOpacity="0.7"/>
 </g>
 </mask>
 <g mask="url(#mask10_1_427)">

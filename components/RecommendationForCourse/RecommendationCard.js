@@ -1,7 +1,6 @@
 import React from "react";
 import Vector from "../SVG/Vector";
 import Image from "next/image";
-import { FaStar } from "react-icons/fa";
 
 const RecommendationCard = ({ review, name, image }) => {
   return (

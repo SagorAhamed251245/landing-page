@@ -19,10 +19,10 @@ const LostITjob = () => {
             className="video"
             src="https://www.youtube.com/embed/A4AGAM4sijo?si=eOnjONf_ck86pdTs"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
           ></iframe>
         </div>
       </div>

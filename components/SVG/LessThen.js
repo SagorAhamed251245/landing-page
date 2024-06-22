@@ -13,8 +13,8 @@ const LessThen = ({ color }) => {
         d="M1.25 12.5L6.75 7L1.25 1.5"
         stroke={color}
         strokeWidth="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
