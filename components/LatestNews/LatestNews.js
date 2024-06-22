@@ -2,6 +2,7 @@ import React from "react";
 import Cards from "./Cards";
 import Link from "next/link";
 import LessThen from "../SVG/LessThen";
+import Image from "next/image";
 
 const LatestNews = () => {
   const latestNews = [
@@ -26,6 +27,14 @@ const LatestNews = () => {
   ];
   return (
     <section className="latest_news">
+      <div className="latest_news_bg_img">
+        <Image
+          src={"/images/image/blueBackground.png"}
+          width={1920}
+          alt="background image of latest news"
+          height={500}
+        />
+      </div>
       <div className=" container">
         <h4 className="title">Latest News</h4>
         <div className="latest_news_cards">
