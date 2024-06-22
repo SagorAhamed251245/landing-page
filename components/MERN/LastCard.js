@@ -11,7 +11,6 @@ const LastCard = () => {
             <Image
               height={219}
               width={361}
-              loading="lazy"
               src="https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1698481726898-MERN-Full-Stack"
             />
           </div>
@@ -34,7 +33,6 @@ const LastCard = () => {
                     <Image
                       height={30}
                       width={150}
-                      loading="lazy"
                       src="/images/svg/stars.svg"
                       alt="star image"
                       className="new_starts_class"

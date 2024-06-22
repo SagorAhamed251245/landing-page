@@ -11,7 +11,6 @@ export const SwiperNavButtons = () => {
         <Image
           height={300}
           width={300}
-          loading="lazy"
           src="/images/svg/leftArrow.svg"
           alt=" left arrow"
         />
@@ -20,7 +19,6 @@ export const SwiperNavButtons = () => {
         <Image
           height={300}
           width={300}
-          loading="lazy"
           src="/images/svg/rightArrow.svg"
           alt=" right arrow"
         />

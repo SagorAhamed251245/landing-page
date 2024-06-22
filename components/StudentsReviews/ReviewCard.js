@@ -23,7 +23,6 @@ const ReviewCard = ({ review, name, image, platform }) => {
             <Image
               height={80}
               width={80}
-              loading="lazy"
               alt="cotation"
               src="/images/svg/cotation.svg"
             />
@@ -46,7 +45,6 @@ const ReviewCard = ({ review, name, image, platform }) => {
         <Image
           height={30}
           width={150}
-          loading="lazy"
           src="/images/svg/stars.svg"
           alt="star image"
           className="new_starts_class"

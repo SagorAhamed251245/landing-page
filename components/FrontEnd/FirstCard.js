@@ -8,7 +8,6 @@ const FirstCard = () => {
         <Image
           height={219}
           width={361}
-          loading="lazy"
           src="https://img.freepik.com/premium-photo/cardano-blockchain-platform_23-2150411956.jpg"
         />
       </div>
@@ -29,7 +28,6 @@ const FirstCard = () => {
               <Image
                 height={30}
                 width={150}
-                loading="lazy"
                 src="/images/svg/stars.svg"
                 alt="star image"
                 className="new_starts_class"

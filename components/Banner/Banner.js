@@ -7,11 +7,10 @@ const Banner = () => {
   return (
     <header className="banner">
       <Image
-        loading="lazy"
         height={800}
         width={1200}
         className="background_image"
-        src="/images/svg/bannerSvg.svg"
+        src="/images/svg/backgroung.png"
         alt="Banner background"
       />
       <>

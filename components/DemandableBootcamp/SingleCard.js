@@ -16,13 +16,7 @@ const SingleCard = ({ bootCamp }) => {
   return (
     <div className="single_card">
       <div className="single_card_img">
-        <Image
-          height={219}
-          width={361}
-          loading="lazy"
-          src={image}
-          alt="single card image"
-        />
+        <Image height={219} width={361} src={image} alt="single card image" />
       </div>
       <div className="single_card_info">
         <div className="div_1">
@@ -42,7 +36,6 @@ const SingleCard = ({ bootCamp }) => {
                 <Image
                   height={30}
                   width={150}
-                  loading="lazy"
                   src="/images/svg/stars.svg"
                   alt="star image"
                   className="new_starts_class"

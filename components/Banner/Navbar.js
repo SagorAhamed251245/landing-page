@@ -14,7 +14,6 @@ const Navbar = () => {
       {/* left nav bar */}
       <section className="">
         <Image
-          loading="lazy"
           className="logo"
           src="/images/svg/logo.png"
           alt="Logo"
@@ -37,7 +36,6 @@ const Navbar = () => {
 
         <section className="mobile_nav_section">
           <Image
-            loading="lazy"
             className="hamburger"
             src="/images/svg/hamberger.svg"
             alt="Menu"

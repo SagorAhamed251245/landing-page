@@ -6,12 +6,10 @@ const RightSide = () => {
     <div className="founder_info_right">
       <div className="img_div">
         <Image
-          loading="lazy"
           src="/images/image/founder.png"
           height={500}
           width={500}
           alt="founder image"
-          objectFit="cover"
         />
       </div>
       <div className="video_card">
