@@ -4,7 +4,12 @@ const Footer = () => {
   return (
     <section className="footer">
       <div style={{ marginTop: "40px" }}>
-        <img height="auto" width="auto" src="\images\svg\FooterImg.svg" />
+        <img
+          loading="lazy"
+          height="auto"
+          width="auto"
+          src="\images\svg\FooterImg.svg"
+        />
       </div>
 
       <div className="links">
@@ -36,7 +41,11 @@ const Footer = () => {
         </p>
       </div>
 
-      <img className="footer-icon" src="\images\svg\footerIcon.svg" />
+      <img
+        loading="lazy"
+        className="footer-icon"
+        src="\images\svg\footerIcon.svg"
+      />
     </section>
   );
 };

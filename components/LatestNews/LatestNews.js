@@ -29,6 +29,7 @@ const LatestNews = () => {
     <section className="latest_news">
       <div className="latest_news_bg_img">
         <Image
+          loading="lazy"
           src={"/images/image/blueBackground.png"}
           width={1920}
           alt="background image of latest news"

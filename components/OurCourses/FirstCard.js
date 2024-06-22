@@ -6,6 +6,7 @@ const FirstCard = () => {
     <div className="first_card">
       <div className="single_card_img">
         <Image
+          loading="lazy"
           height={219}
           width={361}
           src="https://img.freepik.com/premium-photo/cardano-blockchain-platform_23-2150411956.jpg"
@@ -26,6 +27,7 @@ const FirstCard = () => {
                 <FaStar color="#ef7817" />
               </section> */}
               <Image
+                loading="lazy"
                 height={30}
                 width={150}
                 src="/images/svg/stars.png"

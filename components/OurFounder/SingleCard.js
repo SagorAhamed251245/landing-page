@@ -7,6 +7,7 @@ const SingleCard = ({ review, name, occupation, url }) => {
       {/* user info */}
       <div className="user_info">
         <img
+          loading="lazy"
           style={{ width: "40px", height: "40px", borderRadius: "50%" }}
           src={url}
         />
@@ -32,6 +33,7 @@ const SingleCard = ({ review, name, occupation, url }) => {
           <FaStar color="#ef7817" />
         </section> */}
         <Image
+          loading="lazy"
           height={30}
           width={150}
           src="/images/svg/stars.png"
@@ -42,6 +44,7 @@ const SingleCard = ({ review, name, occupation, url }) => {
 
       <div className="absolute_icons">
         <Image
+          loading="lazy"
           height={80}
           width={80}
           alt="cotation"

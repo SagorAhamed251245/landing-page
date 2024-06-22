@@ -12,6 +12,7 @@ const ServicesCard = ({ i, url, text, classNames }) => {
       <>
         <div>
           <Image
+            loading="lazy"
             height={80}
             width={80}
             className="unique_icons"

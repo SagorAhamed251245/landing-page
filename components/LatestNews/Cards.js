@@ -7,7 +7,7 @@ const Cards = ({ img, review }) => {
   return (
     <div className="latest_news_card">
       <div className="img_card">
-        <img height="auto" width="auto" src={img} />
+        <img loading="lazy" height="auto" width="auto" src={img} />
       </div>
 
       <div className="div">
@@ -27,10 +27,17 @@ const Cards = ({ img, review }) => {
           style={{ display: "flex", justifyContent: "center" }}
           className="blog_user"
         >
-          <img height="auto" width="auto" src="/images/svg/active.svg" />
+          <img
+            loading="lazy"
+            height="auto"
+            width="auto"
+            src="/images/svg/active.svg"
+          />
 
           {/*  <div>
-            <img   height="auto"  width="auto"  
+            <img
+          loading="lazy" 
+   height="auto"  width="auto"  
  
  src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_640.png" />
           </div>

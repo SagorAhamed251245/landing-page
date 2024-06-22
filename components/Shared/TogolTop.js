@@ -24,6 +24,7 @@ const TogolTop = () => {
 
   return (
     <img
+      loading="lazy"
       onClick={toggleScroll}
       className="Uparrow"
       src="/images/svg/upAnddown.svg"

@@ -5,6 +5,7 @@ const LastCard = () => {
     <div className="last_card">
       <div className="div1">
         <img
+          loading="lazy"
           height="auto"
           width="auto"
           className="vehImg"

@@ -6,6 +6,7 @@ const RightSide = () => {
     <div className="founder_info_right">
       <div className="img_div">
         <Image
+          loading="lazy"
           src="/images/image/founder.png"
           height={500}
           width={500}
@@ -16,6 +17,7 @@ const RightSide = () => {
         <div className="single_video">
           <div className="div">
             <iframe
+              loading="lazy"
               id="founder"
               style={{
                 objectFit: "cover",
@@ -34,7 +36,11 @@ const RightSide = () => {
           <div className="video_relative"></div>
         </div>
       </div>
-      <img className="yellowVector" src="/images/svg/Vector 16.svg" />
+      <img
+        loading="lazy"
+        className="yellowVector"
+        src="/images/svg/Vector 16.svg"
+      />
     </div>
   );
 };

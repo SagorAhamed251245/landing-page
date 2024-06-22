@@ -12,6 +12,7 @@ const RightBookMeeting = () => {
         <div className="single_video">
           <div className="div">
             <iframe
+              loading="lazy"
               id="founder"
               style={{
                 objectFit: "cover",
@@ -31,7 +32,9 @@ const RightBookMeeting = () => {
           {/*  <div className="video_relative"></div>
           <div className="play_button" onClick={playPause}>
             <div>
-              <img   height="auto"  width="auto"  
+              <img
+          loading="lazy" 
+   height="auto"  width="auto"  
  
  src="/images/svg/Polygon.svg" alt="Play/Pause" />
             </div>
@@ -39,7 +42,12 @@ const RightBookMeeting = () => {
         </div>
       </div>
       <div className="absolute_image">
-        <img height="auto" width="auto" src="/images/image/MIState.jpg" />
+        <img
+          loading="lazy"
+          height="auto"
+          width="auto"
+          src="/images/image/MIState.jpg"
+        />
       </div>
     </div>
   );

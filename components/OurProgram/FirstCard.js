@@ -7,6 +7,7 @@ const FirstCard = () => {
     <div className="first_card">
       <div className="single_card_img">
         <Image
+          loading="lazy"
           height={219}
           width={361}
           src="https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1698481098318-Software-Qualit"
@@ -28,6 +29,7 @@ const FirstCard = () => {
                   <FaStar color="#ef7817" />
                 </section> */}
                 <Image
+                  loading="lazy"
                   height={30}
                   width={150}
                   src="/images/svg/stars.png"

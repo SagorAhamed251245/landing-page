@@ -40,18 +40,21 @@ const CompareTable = () => {
                       readonly
                       placeholderSymbol={
                         <img
+                          loading="lazy"
                           src="/images/svg/halfStar.svg"
                           className="rating_icon"
                         />
                       }
                       emptySymbol={
                         <img
+                          loading="lazy"
                           src="/images/svg/emptyStar.svg"
                           className="rating_icon"
                         />
                       }
                       fullSymbol={
                         <img
+                          loading="lazy"
                           src="/images/svg/fullStar.svg"
                           className="rating_icon"
                         />
@@ -66,7 +69,9 @@ const CompareTable = () => {
                     </p>
                   </td>
                   <td style={{ textAlign: "center" }} className="blue-row">
-                    {/* <img   height="auto"  width="auto"  
+                    {/* <img
+          loading="lazy" 
+   height="auto"  width="auto"  
  
  src="\images\svg\tabtik\vuesax\linear\vuesax\linear\tick-circle.svg" /> */}
                     <RoundedCorrect color={"green"} isCorrect={true} />
@@ -76,25 +81,30 @@ const CompareTable = () => {
                       readonly
                       placeholderSymbol={
                         <img
+                          loading="lazy"
                           src="/images/svg/halfStar.svg"
                           className="rating_icon"
                         />
                       }
                       emptySymbol={
                         <img
+                          loading="lazy"
                           src="/images/svg/emptyStar.svg"
                           className="rating_icon"
                         />
                       }
                       fullSymbol={
                         <img
+                          loading="lazy"
                           src="/images/svg/fullStar.svg"
                           className="rating_icon"
                         />
                       }
                     />
 
-                    {/* <img   height="auto"  width="auto"  
+                    {/* <img
+          loading="lazy" 
+   height="auto"  width="auto"  
  
  src="\images\svg\Ads Landing page\vuesax\linear\vuesax\linear\blacktik.svg" /> */}
                   </td>

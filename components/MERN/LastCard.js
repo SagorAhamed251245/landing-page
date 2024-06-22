@@ -9,6 +9,7 @@ const LastCard = () => {
         <div className="single_card">
           <div className="single_card_img">
             <Image
+              loading="lazy"
               height={219}
               width={361}
               src="https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1698481726898-MERN-Full-Stack"
@@ -31,6 +32,7 @@ const LastCard = () => {
                       <FaStar color="#ef7817" />
                     </section> */}
                     <Image
+                      loading="lazy"
                       height={30}
                       width={150}
                       src="/images/svg/stars.png"
@@ -59,6 +61,7 @@ const LastCard = () => {
       <div className="div">
         <div>
           <iframe
+            loading="lazy"
             id="founder"
             style={{
               objectFit: "cover",

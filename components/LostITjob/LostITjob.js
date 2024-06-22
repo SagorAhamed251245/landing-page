@@ -9,6 +9,7 @@ const LostITjob = () => {
       <div className="left_section">
         <div className="video">
           <iframe
+            loading="lazy"
             id="founder"
             style={{
               objectFit: "cover",

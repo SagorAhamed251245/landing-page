@@ -16,6 +16,7 @@ const FailureReasons = () => {
       </button>
       <div className="cercel_img">
         <img
+          loading="lazy"
           height="auto"
           width="auto"
           src="/images/svg/Group 1171283242.png"
@@ -27,6 +28,7 @@ const FailureReasons = () => {
       </div>
       <div style={{ display: "flex", justifyContent: "end" }}>
         <img
+          loading="lazy"
           height="auto"
           width="auto"
           className="failImg"

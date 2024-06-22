@@ -34,6 +34,7 @@ const UniqueServices = () => {
                 }}
               >
                 <Image
+                  loading="lazy"
                   height={30}
                   width={30}
                   alt="star"
@@ -43,6 +44,7 @@ const UniqueServices = () => {
                   Michigan State Approved Training Provider
                 </p>
                 <Image
+                  loading="lazy"
                   height={30}
                   width={30}
                   alt="star"

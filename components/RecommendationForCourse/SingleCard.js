@@ -9,6 +9,7 @@ const SingleCard = ({ name, review, image }) => {
 
       <div className="user_info">
         <img
+          loading="lazy"
           style={{ width: "40px", height: "40px", borderRadius: "50%" }}
           src={image}
         />
@@ -35,6 +36,7 @@ const SingleCard = ({ name, review, image }) => {
           <FaStar color="#ef7817" />
         </span> */}
         <Image
+          loading="lazy"
           height={30}
           width={150}
           src="/images/svg/stars.png"
@@ -46,6 +48,7 @@ const SingleCard = ({ name, review, image }) => {
       <Vector color={"#0065FF"} />
       <div className="ab_image">
         <Image
+          loading="lazy"
           height={80}
           width={80}
           alt="cotation"

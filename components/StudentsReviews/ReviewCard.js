@@ -9,6 +9,7 @@ const ReviewCard = ({ review, name, image, platform }) => {
 
       <div className="user_info">
         <img
+          loading="lazy"
           style={{ width: "40px", height: "40px", borderRadius: "50%" }}
           src={image}
         />
@@ -20,6 +21,7 @@ const ReviewCard = ({ review, name, image, platform }) => {
           </div>
           <div>
             <Image
+              loading="lazy"
               height={80}
               width={80}
               alt="cotation"
@@ -42,6 +44,7 @@ const ReviewCard = ({ review, name, image, platform }) => {
           <FaStar color="#ef7817" />
         </section> */}
         <Image
+          loading="lazy"
           height={30}
           width={150}
           src="/images/svg/stars.png"

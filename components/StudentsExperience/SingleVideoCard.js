@@ -12,6 +12,7 @@ const SingleVideoCard = ({ url, id }) => {
     <div className="single_video">
       <div className="div">
         <iframe
+          loading="lazy"
           id={id}
           style={{
             objectFit: "cover",
@@ -31,7 +32,9 @@ const SingleVideoCard = ({ url, id }) => {
       <div className="video_relative"></div>
       {/* <div className="play_button" onClick={playPause}>
         <div>
-          <img   height="auto"  width="auto"  
+          <img
+          loading="lazy" 
+   height="auto"  width="auto"  
  
  src="/images/svg/Polygon.svg" alt="Play/Pause" />
         </div>
