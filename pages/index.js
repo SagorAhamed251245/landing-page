@@ -58,10 +58,16 @@ const Payment = lazy(() => import("@/components/Payment/Payment"));
 const OneOnOneBootcamp = lazy(() =>
   import("@/components/OneOnOneBootcamp/OneOnOneBootcamp")
 );
-
+import { Be_Vietnam_Pro } from "next/font/google";
+const BeVietnamPro = Be_Vietnam_Pro({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  style: ["normal"],
+  subsets: ["latin-ext"],
+  display: "swap",
+});
 export default function Home() {
   return (
-    <main id="top" className="">
+    <main id="top" className={BeVietnamPro.className}>
       <Suspense fallback={<div>Loading...</div>}>
         <TogolTop />
         <Banner />
