@@ -18,7 +18,6 @@ const FailureReasons = () => {
         <img
           height="auto"
           width="auto"
-          loading="lazy"
           src="/images/svg/Group 1171283242.png"
         />
       </div>
@@ -30,7 +29,6 @@ const FailureReasons = () => {
         <img
           height="auto"
           width="auto"
-          loading="lazy"
           className="failImg"
           src="/images/svg/fail.jpg"
         />

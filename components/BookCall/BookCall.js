@@ -93,7 +93,6 @@ const BookCall = () => {
 
       <div>
         <img
-          loading="lazy"
           style={{ width: "650px", marginTop: "80px", marginBottom: "80px" }}
           src="\images\svg\bookacall.svg"
         />

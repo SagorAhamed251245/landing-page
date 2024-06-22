@@ -31,39 +31,19 @@ const Finance = () => {
 
       <div className="finance container">
         <div className="finance_card">
-          <img
-            height="auto"
-            width="auto"
-            loading="lazy"
-            src="\images\svg\Fin1.svg"
-          />
+          <img height="auto" width="auto" src="\images\svg\Fin1.svg" />
           <h3>Climb Credit</h3>
         </div>
         <div className="finance_card">
-          <img
-            height="auto"
-            width="auto"
-            loading="lazy"
-            src="\images\svg\Fin2.svg"
-          />
+          <img height="auto" width="auto" src="\images\svg\Fin2.svg" />
           <h3>Student Affordable Loans</h3>
         </div>
         <div className="finance_card">
-          <img
-            height="auto"
-            width="auto"
-            loading="lazy"
-            src="\images\svg\Fin3.svg"
-          />
+          <img height="auto" width="auto" src="\images\svg\Fin3.svg" />
           <h3>Michigan States Funding</h3>
         </div>
         <div className="finance_card">
-          <img
-            height="auto"
-            width="auto"
-            loading="lazy"
-            src="\images\svg\Fin4.svg"
-          />
+          <img height="auto" width="auto" src="\images\svg\Fin4.svg" />
           <h3>Self Funding</h3>
         </div>
       </div>

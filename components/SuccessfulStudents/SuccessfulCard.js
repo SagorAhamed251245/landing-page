@@ -10,7 +10,6 @@ const SuccessfulCard = ({ url, id }) => {
     <div className="single_video">
       <div className="div">
         <iframe
-          loading="lazy"
           id="founder"
           style={{
             objectFit: "cover",
@@ -30,7 +29,7 @@ const SuccessfulCard = ({ url, id }) => {
       {/* <div className="play_button" onClick={playPause}>
         <div>
           <img   height="auto"  width="auto"  
-loading="lazy" 
+ 
  src="/images/svg/Polygon.svg" alt="Play/Pause" />
         </div>
       </div> */}

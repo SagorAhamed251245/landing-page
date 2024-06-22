@@ -4,7 +4,6 @@ const BookAMeeting = () => {
   return (
     <div className="container">
       <iframe
-        loading="lazy"
         src="https://api.leadconnectorhq.com/widget/booking/VcrUYHVr0BFRHfkWPqaL"
         style={{
           width: "100%",
