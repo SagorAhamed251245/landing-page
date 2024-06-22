@@ -1,6 +1,7 @@
 import React from "react";
 import Vector from "../SVG/Vector";
 import Image from "next/image";
+import { FaStar } from "react-icons/fa";
 
 const SingleCard = ({ name, review, image }) => {
   return (
@@ -28,13 +29,13 @@ const SingleCard = ({ name, review, image }) => {
         <p style={{ marginTop: "20px" }}>{review}</p>
         {/* ratings */}
 
-        <Image
-          height={30}
-          width={150}
-          loading="lazy"
-          src="/images/svg/stars.svg"
-          alt="star image"
-        />
+        <span className="new_starts_class">
+          <FaStar color="#ef7817" />
+          <FaStar color="#ef7817" />
+          <FaStar color="#ef7817" />
+          <FaStar color="#ef7817" />
+          <FaStar color="#ef7817" />
+        </span>
       </div>
 
       <Vector color={"#0065FF"} />

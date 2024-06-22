@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { FaStar } from "react-icons/fa";
 
 const FirstCard = () => {
   return (
@@ -19,13 +20,13 @@ const FirstCard = () => {
           <p>
             5.0
             <span style={{ display: "flex", alignItems: "center" }}>
-              <Image
-                height={30}
-                width={150}
-                loading="lazy"
-                src="/images/svg/stars.svg"
-                alt="star image"
-              />
+              <section className="new_starts_class">
+                <FaStar color="#ef7817" />
+                <FaStar color="#ef7817" />
+                <FaStar color="#ef7817" />
+                <FaStar color="#ef7817" />
+                <FaStar color="#ef7817" />
+              </section>
             </span>{" "}
             <span>(#0,765)</span>
           </p>
