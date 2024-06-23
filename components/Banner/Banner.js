@@ -9,6 +9,7 @@ const Banner = () => {
       <Image
         height={800}
         width={1200}
+        loading="eager"
         className="background_image"
         src="/images/svg/backgroung.png"
         alt="Banner background"

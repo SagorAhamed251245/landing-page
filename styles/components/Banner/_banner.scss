@@ -20,7 +20,7 @@
     object-fit: cover;
 
     @include breakpoints(tablet) {
-      height: 430px;
+      height: 100%;
     }
   }
 }

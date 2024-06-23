@@ -14,7 +14,7 @@ const Navbar = () => {
       {/* left nav bar */}
       <section className="">
         <Image
-          loading="lazy"
+          loading="eager"
           className="logo"
           src="/images/svg/logo.png"
           alt="Logo"

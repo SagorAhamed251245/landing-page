@@ -35,20 +35,20 @@ const UniqueServices = () => {
               >
                 <Image
                   loading="lazy"
-                  height={30}
-                  width={30}
+                  height={20}
+                  width={20}
                   alt="star"
-                  src="\images\svg\Star.svg"
+                  src="/images/svg/Star.png"
                 />
                 <p className="mi_P">
                   Michigan State Approved Training Provider
                 </p>
                 <Image
                   loading="lazy"
-                  height={30}
-                  width={30}
+                  height={20}
+                  width={20}
                   alt="star"
-                  src="\images\svg\Star.svg"
+                  src="/images/svg/Star.png"
                 />
               </div>
               <h4 className="title">What Makes Us Unique</h4>
