@@ -1,7 +1,5 @@
 import React from "react";
 import VideoCard from "../StudentsExperience/VideoCard";
-import LessThen from "../SVG/LessThen";
-import Link from "next/link";
 
 const ResourcesForYou = () => {
   const videos = [

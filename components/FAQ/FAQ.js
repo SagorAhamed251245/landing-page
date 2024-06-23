@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const FAQ = () => {
@@ -9,11 +10,13 @@ const FAQ = () => {
       <section className="faq container">
         <div className="div div1">
           <div className="img">
-            <img
+            <Image
               loading="lazy"
-              height="auto"
-              width="auto"
-              src="\images\svg\FAQ.svg"
+              height={899}
+              width={770}
+              className="faq_image"
+              src="/images/svg/Rectangle 41696.png"
+              alt="faq"
             />
           </div>
         </div>

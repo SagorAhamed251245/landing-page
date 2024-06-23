@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import LessThen from "../SVG/LessThen";
+import Image from "next/image";
 
 const NextCareer = () => {
   const nextCareer = [
@@ -72,11 +73,12 @@ const NextCareer = () => {
           </Link>
         </div>
 
-        <img
+        <Image
           loading="lazy"
-          height="auto"
-          width="auto"
-          src="\images\svg\Rectangle 41581.svg"
+          height={298}
+          width={320}
+          src="/images/svg/Rectangle111.png"
+          alt=""
         />
         <Link
           target="_blank"

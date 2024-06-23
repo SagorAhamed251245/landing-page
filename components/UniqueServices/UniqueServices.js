@@ -12,7 +12,7 @@ import { Pagination } from "swiper/modules";
 import Image from "next/image";
 
 const UniqueServices = () => {
-  let slider = [0, 1, 2];
+  const slider = [0, 1, 2];
   return (
     <Swiper
       pagination={{

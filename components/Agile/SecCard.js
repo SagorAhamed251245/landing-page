@@ -3,7 +3,7 @@ import React from "react";
 import LessThen from "../SVG/LessThen";
 
 const SecCard = () => {
-  let features = [
+  const features = [
     "Student Enrolled 300+",
     "Hours Video Lectures 100+",
     "Project 20+",

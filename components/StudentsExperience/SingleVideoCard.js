@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 const SingleVideoCard = ({ url, id }) => {
   //   const [playing, isPlaying] = useState(true);
   /* function playPause() {

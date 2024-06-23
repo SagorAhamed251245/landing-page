@@ -1,11 +1,6 @@
 import React from "react";
 
 const PodcastCard = () => {
-  function playPause() {
-    let myVideo = document.getElementById("1");
-    if (myVideo.paused) myVideo.play();
-    else myVideo.pause();
-  }
   return (
     <section>
       <div className="single_video podcast-card">
@@ -28,15 +23,6 @@ const PodcastCard = () => {
           ></iframe>
         </div>
         <div className="video_relative"></div>
-        {/*   <div className="play_button" onClick={playPause}>
-          <div>
-            <img
-          loading="lazy" 
-   height="auto"  width="auto"  
- 
- src="/images/svg/Polygon.svg" alt="Play/Pause" />
-          </div>
-        </div> */}
       </div>
     </section>
   );

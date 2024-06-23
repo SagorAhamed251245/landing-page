@@ -4,7 +4,7 @@ import Link from "next/link";
 import LessThen from "../SVG/LessThen";
 
 const DemandableBootcamp = () => {
-  let bootCamps = [
+  const bootCamps = [
     {
       course: "Flex: MERN Full-Stack Software Engineer",
       image:
@@ -46,7 +46,7 @@ const DemandableBootcamp = () => {
         </h4>
         <p>
           Recommended bootcamps offer comprehensive and high-quality programs
-          designed to equip students with in-demand skills for today's job
+          designed to equip students with in-demand skills for todays job
           market.
         </p>
       </div>

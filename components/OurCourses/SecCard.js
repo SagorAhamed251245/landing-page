@@ -1,7 +1,7 @@
 import React from "react";
 
 const SecCard = () => {
-  let features = [
+  const features = [
     "Student Enrolled 300+",
     "Hours Video Lectures 100+",
     "Project 20+",

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -39,11 +40,12 @@ const LeftContent = ({ benefits }) => {
           <button className="contact_button">
             Book a meeting
             <span>
-              <img
+              <Image
                 loading="lazy"
-                height="auto"
-                width="auto"
+                height={15}
+                width={15}
                 src="/images/svg/lessdthen.svg"
+                alt="lessthen"
               />
             </span>
           </button>

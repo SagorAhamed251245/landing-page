@@ -1,11 +1,8 @@
-import React, { useState } from "react";
 import SingleVideoCard from "./SingleVideoCard";
 import LessThen from "../SVG/LessThen";
 import Link from "next/link";
 
 const VideoCard = ({ videos }) => {
-  const [playing, isPlaying] = useState(true);
-
   return (
     <>
       <section className="videos_card">

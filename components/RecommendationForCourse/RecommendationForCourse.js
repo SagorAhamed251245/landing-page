@@ -1,7 +1,5 @@
 import React from "react";
-import ReviewCard from "../StudentsReviews/ReviewCard";
 import SingleCard from "./SingleCard";
-import SingleVideo from "./SingleVideo";
 import { Swiper, SwiperSlide } from "swiper/react";
 import RecommendationVideos from "./RecommendationVideos";
 // Import Swiper styles

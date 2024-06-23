@@ -1,9 +1,9 @@
 import { NextSeo } from "next-seo";
 import React from "react";
 
-function SeoComp({ title, description, url, image, canonical_slug, slug }) {
-  let defaultTitle = "inquiry.ts4u.us";
-  let defaultDescription =
+function SeoComp({ title, description, image, canonical_slug, slug }) {
+  const defaultTitle = "inquiry.ts4u.us";
+  const defaultDescription =
     "inquiry.ts4u.us is AI-Powered, Automated Solutions For Schools and Students. Learn to grow and Earn";
 
   return (

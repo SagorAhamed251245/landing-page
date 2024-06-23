@@ -1,6 +1,5 @@
 import React from "react";
 import RecommendationForCourse from "../RecommendationForCourse/RecommendationForCourse";
-import FirstCard from "./FirstCard";
 import SecCard from "./SecCard";
 import LastCard from "./LastCard";
 

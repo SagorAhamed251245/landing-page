@@ -12,7 +12,7 @@ import { FreeMode } from "swiper/modules";
 import { SwiperNavButtons } from "../DemandableBootcamp/SwiperNavButtons ";
 
 const ReviewAboutFounder = () => {
-  let reviews = [
+  const reviews = [
     {
       name: "Zuliana Zanardi",
       profile:

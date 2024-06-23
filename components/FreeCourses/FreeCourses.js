@@ -4,7 +4,7 @@ import Link from "next/link";
 import LessThen from "../SVG/LessThen";
 
 const FreeCourses = () => {
-  let bootCamps = [
+  const bootCamps = [
     {
       course: "Practical AWS CloudOps Crash Course",
       image: "https://www.schoolshub.ai/placeholder2.jpg",

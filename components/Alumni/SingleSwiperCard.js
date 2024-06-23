@@ -1,12 +1,13 @@
+import Image from "next/image";
 import React from "react";
 
 const SingleSwiperCard = ({ url }) => {
   return (
     <div className="single-swiper-card">
-      <img
+      <Image
         loading="lazy"
-        height="auto"
-        width="auto"
+        height={50}
+        width={130}
         src={url}
         alt="Company Logo"
       />

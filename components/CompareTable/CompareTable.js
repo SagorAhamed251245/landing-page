@@ -4,6 +4,7 @@ import LessThen from "../SVG/LessThen";
 import { comparisonData } from "@/data/comparisonData";
 import RoundedCorrect from "../SVG/RoundedCorrect";
 import Rating from "react-rating";
+import Image from "next/image";
 
 const CompareTable = () => {
   return (
@@ -39,24 +40,33 @@ const CompareTable = () => {
                       initialRating={item?.otherRating ? item?.otherRating : 0}
                       readonly
                       placeholderSymbol={
-                        <img
+                        <Image
                           loading="lazy"
+                          height={30}
+                          width={30}
                           src="/images/svg/halfStar.svg"
                           className="rating_icon"
+                          alt=""
                         />
                       }
                       emptySymbol={
-                        <img
+                        <Image
+                          height={30}
+                          width={30}
                           loading="lazy"
                           src="/images/svg/emptyStar.svg"
                           className="rating_icon"
+                          alt=""
                         />
                       }
                       fullSymbol={
-                        <img
+                        <Image
+                          height={30}
+                          width={30}
                           loading="lazy"
                           src="/images/svg/fullStar.svg"
                           className="rating_icon"
+                          alt=""
                         />
                       }
                     />
@@ -69,44 +79,41 @@ const CompareTable = () => {
                     </p>
                   </td>
                   <td style={{ textAlign: "center" }} className="blue-row">
-                    {/* <img
-          loading="lazy" 
-   height="auto"  width="auto"  
- 
- src="\images\svg\tabtik\vuesax\linear\vuesax\linear\tick-circle.svg" /> */}
                     <RoundedCorrect color={"green"} isCorrect={true} />
                     <br />
                     <Rating
                       initialRating={item?.ts4uRating ? item?.ts4uRating : 0}
                       readonly
                       placeholderSymbol={
-                        <img
+                        <Image
+                          height={30}
+                          width={30}
                           loading="lazy"
                           src="/images/svg/halfStar.svg"
                           className="rating_icon"
+                          alt=""
                         />
                       }
                       emptySymbol={
-                        <img
+                        <Image
+                          height={30}
+                          width={30}
                           loading="lazy"
                           src="/images/svg/emptyStar.svg"
                           className="rating_icon"
+                          alt=""
                         />
                       }
                       fullSymbol={
-                        <img
+                        <Image
+                          height={30}
+                          width={30}
                           loading="lazy"
                           src="/images/svg/fullStar.svg"
                           className="rating_icon"
                         />
                       }
                     />
-
-                    {/* <img
-          loading="lazy" 
-   height="auto"  width="auto"  
- 
- src="\images\svg\Ads Landing page\vuesax\linear\vuesax\linear\blacktik.svg" /> */}
                   </td>
                 </tr>
               ))}

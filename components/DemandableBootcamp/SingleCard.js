@@ -3,15 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 const SingleCard = ({ bootCamp }) => {
-  const {
-    course,
-    image,
-    timeLength,
-    averageRating,
-    totalRatings,
-    offerPrice,
-    price,
-  } = bootCamp;
+  const { course, image, timeLength, averageRating, totalRatings } = bootCamp;
 
   return (
     <div className="single_card">

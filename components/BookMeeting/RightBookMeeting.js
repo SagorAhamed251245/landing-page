@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const RightBookMeeting = () => {
@@ -32,11 +33,12 @@ const RightBookMeeting = () => {
         </div>
       </div>
       <div className="absolute_image">
-        <img
+        <Image
           loading="lazy"
-          height="auto"
-          width="auto"
+          height={517}
+          width={480}
           src="/images/image/MIState.jpg"
+          alt="Mi state"
         />
       </div>
     </div>
