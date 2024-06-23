@@ -2,12 +2,20 @@ import React from "react";
 import Comments from "../SVG/Comments";
 import Liked from "../SVG/Liked";
 import Views from "../SVG/Views";
+import Image from "next/image";
 
 const Cards = ({ img, review }) => {
   return (
     <div className="latest_news_card">
       <div className="img_card">
-        <img loading="lazy" height="auto" width="auto" src={img} />
+        <Image
+          loading="lazy"
+          height={382}
+          width={256}
+          src={img}
+          alt="letes news card"
+          className="img_card_img"
+        />
       </div>
 
       <div className="div">
@@ -27,25 +35,13 @@ const Cards = ({ img, review }) => {
           style={{ display: "flex", justifyContent: "center" }}
           className="blog_user"
         >
-          <img
+          <Image
             loading="lazy"
-            height="auto"
-            width="auto"
-            src="/images/svg/active.svg"
+            height={36}
+            width={302}
+            src="/images/svg/active.png"
+            alt="222"
           />
-
-          {/*  <div>
-            <img
-          loading="lazy" 
-   height="auto"  width="auto"  
- 
- src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_640.png" />
-          </div>
-          <div>
-            <p>
-              shibluahmad <span>Read More</span>
-            </p>
-          </div> */}
         </div>
         <p className="news_p">{review}</p>
       </div>

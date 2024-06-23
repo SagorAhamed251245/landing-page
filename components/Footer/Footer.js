@@ -1,14 +1,16 @@
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
   return (
     <section className="footer">
       <div style={{ marginTop: "40px" }}>
-        <img
+        <Image
           loading="lazy"
-          height="auto"
-          width="auto"
-          src="\images\svg\FooterImg.svg"
+          width={195}
+          height={98}
+          src="/images/svg/FooterImg.png"
+          alt="footer logo"
         />
       </div>
 
@@ -40,12 +42,6 @@ const Footer = () => {
           Reserved.
         </p>
       </div>
-
-      <img
-        loading="lazy"
-        className="footer-icon"
-        src="\images\svg\footerIcon.svg"
-      />
     </section>
   );
 };

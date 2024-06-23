@@ -111,6 +111,7 @@ const CompareTable = () => {
                           loading="lazy"
                           src="/images/svg/fullStar.svg"
                           className="rating_icon"
+                          alt=""
                         />
                       }
                     />
