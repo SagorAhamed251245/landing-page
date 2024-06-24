@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const TogolTop = () => {
@@ -23,9 +24,11 @@ const TogolTop = () => {
   }
 
   return (
-    <img
+    <Image
       loading="lazy"
       onClick={toggleScroll}
+      height={50}
+      width={50}
       className="Uparrow"
       src="/images/svg/upAnddown.svg"
       alt="Toggle scroll"

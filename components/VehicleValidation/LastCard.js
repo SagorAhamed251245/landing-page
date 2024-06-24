@@ -1,13 +1,15 @@
+import Image from "next/image";
 import React from "react";
 
 const LastCard = () => {
   return (
     <div className="last_card">
       <div className="div1">
-        <img
+        <Image
+          height={1024}
+          width={1024}
+          alt=""
           loading="lazy"
-          height="auto"
-          width="auto"
           className="vehImg"
           src="/images/svg/OIG1.jpg"
         />

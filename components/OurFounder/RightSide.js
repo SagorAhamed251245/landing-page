@@ -36,7 +36,10 @@ const RightSide = () => {
           <div className="video_relative"></div>
         </div>
       </div>
-      <img
+      <Image
+        height={200}
+        width={300}
+        alt=""
         loading="lazy"
         className="yellowVector"
         src="/images/svg/Vector 16.svg"

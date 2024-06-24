@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const OneOnOneBootcamp = () => {
   const data = [
     {
@@ -94,7 +96,9 @@ const OneOnOneBootcamp = () => {
 
             {/* image  */}
             <div className="img">
-              <img
+              <Image
+                height={432}
+                width={640}
                 loading="lazy"
                 src="https://i.postimg.cc/CxWYHsHh/one-on-one-pic.jpg"
                 alt="OneOnOneBootcamp"

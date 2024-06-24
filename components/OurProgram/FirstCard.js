@@ -11,6 +11,7 @@ const FirstCard = () => {
           height={219}
           width={361}
           src="https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1698481098318-Software-Qualit"
+          alt=""
         />
       </div>
       <div className="single_card_info">

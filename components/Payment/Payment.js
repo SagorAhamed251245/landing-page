@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { paymentAndFinancingOptions } from "@/data/paymentData";
 import LessThen from "../SVG/LessThen";
+import Image from "next/image";
 
 const Payment = () => {
   return (
@@ -15,10 +16,11 @@ const Payment = () => {
             <div key={index} className="payment-option">
               <h2>
                 {option?.option}{" "}
-                <img
+                <Image
                   loading="lazy"
-                  height="auto"
-                  width="auto"
+                  height={30}
+                  width={100}
+                  alt="paymenrt"
                   src={option?.logo}
                 />
               </h2>
