@@ -121,7 +121,7 @@ const StudentsReviews = () => {
             <span>
               <Image
                 loading="lazy"
-                src="/images/svg/google.svg"
+                src="/images/svg/google.png"
                 height={20}
                 width={20}
                 alt=""
@@ -134,7 +134,7 @@ const StudentsReviews = () => {
               <Image
                 alt=""
                 loading="lazy"
-                src="/images/svg/facebook.svg"
+                src="/images/svg/facebook.png"
                 height={20}
                 width={20}
               />

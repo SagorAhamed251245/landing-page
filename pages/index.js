@@ -1,7 +1,6 @@
 import React, { Suspense, lazy } from "react";
 
 // Dynamic imports for lazy loading
-const Alumni = lazy(() => import("@/components/Alumni/Alumni"));
 const Banner = lazy(() => import("@/components/Banner/Banner"));
 const BookMeeting = lazy(() => import("@/components/BookMeeting/BookMeeting"));
 
@@ -59,7 +58,7 @@ export default function Home() {
         <OurFounder />
         <StudentsExperience />
         <BookMeeting />
-        <Alumni />
+        {/* <Alumni /> */}
         <StudentsReviews />
         {/* <LostITjob /> */}
         <CompareTable />

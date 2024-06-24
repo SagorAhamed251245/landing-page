@@ -1,10 +1,8 @@
 import React from "react";
-import Comments from "../SVG/Comments";
-import Liked from "../SVG/Liked";
-import Views from "../SVG/Views";
+
 import Image from "next/image";
 
-const Cards = ({ img, review }) => {
+const Cards = ({ img }) => {
   return (
     <div className="latest_news_card">
       <div className="img_card">
@@ -18,7 +16,7 @@ const Cards = ({ img, review }) => {
         />
       </div>
 
-      <div className="div">
+      {/*  <div className="div">
         <div className="div2">
           <p>
             <Views />
@@ -44,7 +42,7 @@ const Cards = ({ img, review }) => {
           />
         </div>
         <p className="news_p">{review}</p>
-      </div>
+      </div> */}
     </div>
   );
 };
