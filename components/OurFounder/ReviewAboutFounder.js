@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { FreeMode } from "swiper/modules";
-import { SwiperNavButtons } from "../DemandableBootcamp/SwiperNavButtons ";
+import { SwiperNavButtons } from "../DemandableBootcamp/SwiperNavButtons";
 
 const ReviewAboutFounder = () => {
   const reviews = [

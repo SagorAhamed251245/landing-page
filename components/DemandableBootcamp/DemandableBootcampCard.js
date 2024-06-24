@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { FreeMode } from "swiper/modules";
-import { SwiperNavButtons } from "./SwiperNavButtons ";
+import { SwiperNavButtons } from "./SwiperNavButtons";
 // import { SwiperNavButtons } from "./SwiperNavButtons";
 
 const DemandableBootcampCard = ({ bootCamps }) => {

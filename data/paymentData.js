@@ -120,7 +120,7 @@ export const paymentAndFinancingOptions = [
       },
     ],
   },
-  {
+  /*  {
     option: "Self-Funding (Mia Share)",
     logo: "/images/companiLogo/Mia-Share+Logo.jpg",
     eligibility:
@@ -177,5 +177,5 @@ export const paymentAndFinancingOptions = [
         details: "Suitable for everyone.",
       },
     ],
-  },
+  }, */
 ];

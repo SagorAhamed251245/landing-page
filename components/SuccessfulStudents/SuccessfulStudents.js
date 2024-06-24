@@ -1,7 +1,7 @@
 import React from "react";
 import SuccessfulCard from "./SuccessfulCard";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { SwiperNavButtons } from "../DemandableBootcamp/SwiperNavButtons ";
+import { SwiperNavButtons } from "../DemandableBootcamp/SwiperNavButtons";
 
 // Import Swiper styles
 import "swiper/css";

@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { FreeMode } from "swiper/modules";
-import { SwiperNavButtons } from "../DemandableBootcamp/SwiperNavButtons ";
+import { SwiperNavButtons } from "../DemandableBootcamp/SwiperNavButtons";
 import BookButton from "../Shared/BookButton";
 
 const RecommendationForCourse = ({

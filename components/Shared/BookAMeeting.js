@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 
 const BookAMeeting = () => {
   return (
@@ -24,3 +24,4 @@ const BookAMeeting = () => {
 };
 
 export default BookAMeeting;
+ */

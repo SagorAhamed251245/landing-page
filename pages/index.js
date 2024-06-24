@@ -5,12 +5,8 @@ const Alumni = lazy(() => import("@/components/Alumni/Alumni"));
 const Banner = lazy(() => import("@/components/Banner/Banner"));
 const BookMeeting = lazy(() => import("@/components/BookMeeting/BookMeeting"));
 
-const DemandableBootcamp = lazy(() =>
-  import("@/components/DemandableBootcamp/DemandableBootcamp")
-);
 const NextCareer = lazy(() => import("@/components/NextCareer/NextCareer"));
 
-const LostITjob = lazy(() => import("@/components/LostITjob/LostITjob"));
 const StudentsExperience = lazy(() =>
   import("@/components/StudentsExperience/StudentsExperience")
 );
@@ -21,9 +17,6 @@ const UniqueServices = lazy(() =>
   import("@/components/UniqueServices/UniqueServices")
 );
 const FreeCourses = lazy(() => import("@/components/FreeCourses/FreeCourses"));
-const ResourcesForYou = lazy(() =>
-  import("@/components/ResourcesForYou/ResourcesForYou")
-);
 
 const Footer = lazy(() => import("@/components/Footer/Footer"));
 const OurFounder = lazy(() => import("@/components/OurFounder/OurFounder"));
@@ -45,7 +38,6 @@ const SuccessfulStudents = lazy(() =>
 );
 const Podcast = lazy(() => import("@/components/Podcast/Podcast"));
 const TogolTop = lazy(() => import("@/components/Shared/TogolTop"));
-const BookAMeeting = lazy(() => import("@/components/Shared/BookAMeeting"));
 const Payment = lazy(() => import("@/components/Payment/Payment"));
 const OneOnOneBootcamp = lazy(() =>
   import("@/components/OneOnOneBootcamp/OneOnOneBootcamp")
@@ -68,9 +60,8 @@ export default function Home() {
         <StudentsExperience />
         <BookMeeting />
         <Alumni />
-        <DemandableBootcamp />
         <StudentsReviews />
-        <LostITjob />
+        {/* <LostITjob /> */}
         <CompareTable />
         <OneOnOneBootcamp />
         <MERN />
@@ -82,11 +73,10 @@ export default function Home() {
         <SuccessfulStudents />
         <FAQ />
         <FreeCourses />
-        <ResourcesForYou />
         <LatestNews />
         <Payment />
         <Podcast />
-        <BookAMeeting />
+        {/* <BookAMeeting /> */}
         <Footer />
       </Suspense>
     </main>
