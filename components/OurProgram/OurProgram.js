@@ -52,9 +52,9 @@ const OurProgram = () => {
     {
       url: "https://player.vimeo.com/video/929764398?h=1b7f7683b2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
-    {
+    /* {
       url: "https://player.vimeo.com/video/929773001?h=450f8e6f25&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    },
+    }, */
   ];
   return (
     <>

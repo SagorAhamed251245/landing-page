@@ -16,7 +16,7 @@ const StudentsExperience = () => {
       url: "https://player.vimeo.com/video/927010846?h=fa6894ce55&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "3",
     },
-    {
+    /* {
       url: "https://player.vimeo.com/video/926990535?h=a15a1b73f3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "4",
     },
@@ -27,7 +27,7 @@ const StudentsExperience = () => {
     {
       url: "https://player.vimeo.com/video/926998311?h=f56ca873af&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "6",
-    },
+    }, */
   ];
   return (
     <section className="container students_experience_section">

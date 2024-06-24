@@ -64,7 +64,7 @@ const RecommendationForCourse = ({
                 spaceBetween: 30,
               },
               1500: {
-                slidesPerView: 4,
+                slidesPerView: 3,
                 spaceBetween: 30,
               },
             }}

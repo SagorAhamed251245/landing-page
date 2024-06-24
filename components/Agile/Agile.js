@@ -51,9 +51,9 @@ const Agile = () => {
     {
       url: "https://player.vimeo.com/video/929435634?h=693eb595d8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
-    {
+    /* {
       url: "https://player.vimeo.com/video/929784444?h=4ce8e776c9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    },
+    }, */
   ];
   return (
     <section className="agile_section">

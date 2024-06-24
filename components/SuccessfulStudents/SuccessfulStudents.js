@@ -40,18 +40,18 @@ const SuccessfulStudents = () => {
       url: "https://player.vimeo.com/video/937442605?h=1e91db9d11&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "6",
     },
-    {
+    /* {
       url: "https://player.vimeo.com/video/896441719?h=01d3d83751&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-      id: "6",
+      id: "7",
     },
     {
       url: "https://player.vimeo.com/video/950788484?h=85fab4515c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-      id: "6",
+      id: "8",
     },
     {
       url: "https://player.vimeo.com/video/896450085?h=8b02893af2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-      id: "6",
-    },
+      id: "9",
+    }, */
   ];
   return (
     <section className="successful-students container">
@@ -95,7 +95,7 @@ const SuccessfulStudents = () => {
             spaceBetween: 30,
           },
           1500: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             spaceBetween: 30,
           },
         }}

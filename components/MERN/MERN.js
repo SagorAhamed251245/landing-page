@@ -51,9 +51,9 @@ const MERN = () => {
     {
       url: "https://player.vimeo.com/video/929774286?h=45f32c67cb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
-    {
+    /*  {
       url: "https://player.vimeo.com/video/929769118?h=debe947ba3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    },
+    }, */
   ];
   return (
     <>

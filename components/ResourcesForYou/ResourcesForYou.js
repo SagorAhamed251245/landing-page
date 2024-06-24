@@ -15,7 +15,7 @@ const ResourcesForYou = () => {
       url: "https://player.vimeo.com/video/858150964?h=5ab3848847&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "3",
     },
-    {
+    /* {
       url: "https://player.vimeo.com/video/858402561?h=40fd24e9be&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "4",
     },
@@ -26,7 +26,7 @@ const ResourcesForYou = () => {
     {
       url: "https://player.vimeo.com/video/856181438?h=cf12ba8901&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       id: "6",
-    },
+    }, */
   ];
   return (
     <section className="container">

@@ -51,9 +51,9 @@ const OurCourses = () => {
     {
       url: "https://player.vimeo.com/video/930119715?h=d3189c41b1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     },
-    {
+    /*  {
       url: "https://player.vimeo.com/video/929785607?h=130f7dbd0a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    },
+    }, */
   ];
   return (
     <>
