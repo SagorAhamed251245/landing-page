@@ -3,6 +3,7 @@ import ReviewCard from "./ReviewCard";
 import Link from "next/link";
 import LessThen from "../SVG/LessThen";
 import SwiperReview from "./SwiperReview";
+import Image from "next/image";
 
 const StudentsReviews = () => {
   const [platform, setPlatform] = useState("Google");
@@ -118,18 +119,20 @@ const StudentsReviews = () => {
         <div className="reviews_buttons">
           <button onClick={() => setPlatform("Google")}>
             <span>
-              <img
+              <Image
                 loading="lazy"
                 src="/images/svg/google.svg"
                 height={20}
                 width={20}
+                alt=""
               />
             </span>
             <span>Reviews</span>
           </button>
           <button onClick={() => setPlatform("Facebook")}>
             <span>
-              <img
+              <Image
+                alt=""
                 loading="lazy"
                 src="/images/svg/facebook.svg"
                 height={20}
