@@ -56,9 +56,9 @@ const SuccessfulStudents = () => {
   return (
     <section className="successful-students container">
       <div className="next-career next-career1">
-        <h1 style={{ marginBottom: "20px" }} className="title">
+        <h2 style={{ marginBottom: "20px" }} className="title">
           Successful Students
-        </h1>
+        </h2>
         <p>
           Successful students exhibit several key characteristics that
           contribute to their achievements.

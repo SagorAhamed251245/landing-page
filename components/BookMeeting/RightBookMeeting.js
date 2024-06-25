@@ -24,7 +24,6 @@ const RightBookMeeting = () => {
               }}
               className="video"
               src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fts4u.us%2Fvideos%2F1080286049717678%2F&show_text=false&width=269&t=0"
-              title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"

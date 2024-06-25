@@ -10,9 +10,9 @@ const CompareTable = () => {
   return (
     <section className="compare-table-box">
       <div>
-        <h1 style={{ textAlign: "center" }} className="title">
+        <h2 style={{ textAlign: "center" }} className="title">
           Compare With Other Bootcamps
-        </h1>
+        </h2>
         <div className="compare-table">
           <table>
             <thead>

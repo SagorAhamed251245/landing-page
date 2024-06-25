@@ -62,7 +62,6 @@ const LastCard = () => {
       <div className="div">
         <div>
           <iframe
-            title="video"
             loading="lazy"
             id="founder"
             style={{

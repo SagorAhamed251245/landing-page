@@ -8,9 +8,9 @@ const Payment = () => {
   return (
     <section className="payment-table-box ">
       <div className="container">
-        <h1 style={{ textAlign: "center" }} className="title">
+        <h2 style={{ textAlign: "center" }} className="title">
           Payment and Financing
-        </h1>
+        </h2>
         <div className="payment-table">
           {paymentAndFinancingOptions?.map((option, index) => (
             <div key={index} className="payment-option">

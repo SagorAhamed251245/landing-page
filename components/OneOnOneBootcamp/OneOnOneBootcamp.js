@@ -71,7 +71,7 @@ const OneOnOneBootcamp = () => {
     <section className="one-on-one">
       <div className="one-on-one-box">
         <div>
-          <h1 className="title">One-On-One Bootcamp Week</h1>
+          <h2 className="title">One-On-One Bootcamp Week</h2>
           <p className="description">
             This one-on-one private coaching model is central to TS4U's
             commitment to maximizing student outcomes, providing a
