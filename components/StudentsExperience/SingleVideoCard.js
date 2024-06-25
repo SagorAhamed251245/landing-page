@@ -10,6 +10,7 @@ const SingleVideoCard = ({ url, id }) => {
     <div className="single_video">
       <div className="div">
         <iframe
+          title="video"
           loading="lazy"
           id={id}
           style={{
@@ -28,15 +29,6 @@ const SingleVideoCard = ({ url, id }) => {
         ></iframe>
       </div>
       <div className="video_relative"></div>
-      {/* <div className="play_button" onClick={playPause}>
-        <div>
-          <img
-          loading="lazy" 
-   height="auto"  width="auto"  
- 
- src="/images/svg/Polygon.svg" alt="Play/Pause" />
-        </div>
-      </div> */}
     </div>
   );
 };

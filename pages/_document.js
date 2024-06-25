@@ -5,9 +5,11 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* <meta property="og:image" content="public/images/image/themble.jpg" /> */}
+        <SeoComp
+          image={"/images/image/themble.jpg"}
+          title={"inquiry.ts4u.us"}
+        />
       </Head>
-      <SeoComp image={"/images/image/themble.jpg"} />
 
       <body className="max_container">
         <Main />

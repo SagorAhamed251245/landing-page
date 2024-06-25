@@ -6,6 +6,7 @@ const PodcastCard = () => {
       <div className="single_video podcast-card">
         <div className="div">
           <iframe
+            title="video"
             loading="lazy"
             id="founder"
             style={{

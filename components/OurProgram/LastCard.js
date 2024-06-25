@@ -5,6 +5,7 @@ const LastCard = () => {
     <div className="lastCard">
       <div className="div">
         <iframe
+          title="video"
           loading="lazy"
           id="founder"
           style={{

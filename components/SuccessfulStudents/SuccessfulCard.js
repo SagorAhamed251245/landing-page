@@ -3,6 +3,7 @@ const SuccessfulCard = ({ url }) => {
     <div className="single_video">
       <div className="div">
         <iframe
+          title="video"
           loading="lazy"
           id="founder"
           style={{
@@ -20,20 +21,6 @@ const SuccessfulCard = ({ url }) => {
         ></iframe>
       </div>
       <div className="video_relative"></div>
-      {/* <div className="play_button" onClick={playPause}>
-        <div>
-          <img
-          loading="lazy" 
-   height="auto"  width="auto"  
- 
- src="/images/svg/Polygon.svg" alt="Play/Pause" />
-        </div>
-      </div> */}
-
-      {/* <div style={{ padding: "12px" }} className="blur">
-        <h3 style={{ marginBottom: "5px" }}>Angel Rose</h3>
-        <p>AWS CloudOps Engineer (Students)</p>
-      </div> */}
     </div>
   );
 };

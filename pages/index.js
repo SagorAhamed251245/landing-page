@@ -42,6 +42,8 @@ const OneOnOneBootcamp = lazy(() =>
   import("@/components/OneOnOneBootcamp/OneOnOneBootcamp")
 );
 import { Be_Vietnam_Pro } from "next/font/google";
+import Head from "next/head";
+
 const BeVietnamPro = Be_Vietnam_Pro({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   style: ["normal"],
@@ -50,34 +52,41 @@ const BeVietnamPro = Be_Vietnam_Pro({
 });
 export default function Home() {
   return (
-    <main id="top" className={BeVietnamPro.className}>
-      <Suspense fallback={<div>Loading...</div>}>
-        <TogolTop />
-        <Banner />
-        <UniqueServices />
-        <OurFounder />
-        <StudentsExperience />
-        <BookMeeting />
-        {/* <Alumni /> */}
-        <StudentsReviews />
-        {/* <LostITjob /> */}
-        <CompareTable />
-        <OneOnOneBootcamp />
-        <MERN />
-        <OurCourses />
-        <OurProgram />
-        <VehicleValidation />
-        <Agile />
-        <NextCareer />
-        <SuccessfulStudents />
-        <FAQ />
-        <FreeCourses />
-        <LatestNews />
-        <Payment />
-        <Podcast />
-        {/* <BookAMeeting /> */}
-        <Footer />
-      </Suspense>
-    </main>
+    <>
+      <Head>
+        <title>inquiry.ts4u.us</title>
+        <meta property="og:image" content="/images/image/themble.jpg" />
+      </Head>
+      ;
+      <main id="top" className={BeVietnamPro.className}>
+        <Suspense fallback={<div>Loading...</div>}>
+          <TogolTop />
+          <Banner />
+          <UniqueServices />
+          <OurFounder />
+          <StudentsExperience />
+          <BookMeeting />
+          {/* <Alumni /> */}
+          <StudentsReviews />
+          {/* <LostITjob /> */}
+          <CompareTable />
+          <OneOnOneBootcamp />
+          <MERN />
+          <OurCourses />
+          <OurProgram />
+          <VehicleValidation />
+          <Agile />
+          <NextCareer />
+          <SuccessfulStudents />
+          <FAQ />
+          <FreeCourses />
+          <LatestNews />
+          <Payment />
+          <Podcast />
+          {/* <BookAMeeting /> */}
+          <Footer />
+        </Suspense>
+      </main>
+    </>
   );
 }

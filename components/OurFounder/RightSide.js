@@ -17,6 +17,7 @@ const RightSide = () => {
         <div className="single_video">
           <div className="div">
             <iframe
+              title="video"
               loading="lazy"
               id="founder"
               style={{

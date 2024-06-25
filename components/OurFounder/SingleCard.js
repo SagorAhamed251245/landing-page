@@ -6,8 +6,11 @@ const SingleCard = ({ review, name, occupation, url }) => {
     <div className="review_card ">
       {/* user info */}
       <div className="user_info">
-        <img
+        <Image
           loading="lazy"
+          height={30}
+          width={30}
+          alt="user image"
           style={{ width: "40px", height: "40px", borderRadius: "50%" }}
           src={url}
         />

@@ -17,6 +17,7 @@ const RightContent = () => {
           {/* <button onClick="playPause()">Play/Pause</button> */}
           <div className="video">
             <iframe
+              title="video"
               loading="lazy"
               id="founder"
               style={{
