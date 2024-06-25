@@ -97,12 +97,24 @@ const OneOnOneBootcamp = () => {
             {/* image  */}
             <div className="img">
               <Image
-                height={432}
-                width={640}
+                height={950}
+                width={1440}
                 loading="lazy"
-                src="https://i.postimg.cc/CxWYHsHh/one-on-one-pic.jpg"
+                src="/images/one-on-one-pic.jpg"
                 alt="OneOnOneBootcamp"
               />
+              <a
+                className="download_btn"
+                download={true}
+                href={"/images/one-on-one-pic.jpg"}
+              >
+                <Image
+                  width={100}
+                  height={100}
+                  alt="download image"
+                  src={"/images/download.png"}
+                />
+              </a>
             </div>
 
             {/* text content 2 */}

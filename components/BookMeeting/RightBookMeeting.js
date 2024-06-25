@@ -32,7 +32,7 @@ const RightBookMeeting = () => {
           </div>
         </div>
       </div>
-      <div className="absolute_image">
+      <div className="absolute_image mb-hidden">
         <Image
           loading="lazy"
           height={517}
