@@ -57,7 +57,6 @@ export default function Home() {
         <title>inquiry.ts4u.us</title>
         <meta property="og:image" content="/images/image/themble.jpg" />
       </Head>
-      ;
       <main id="top" className={BeVietnamPro.className}>
         <Suspense fallback={<div>Loading...</div>}>
           <TogolTop />

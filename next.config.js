@@ -19,6 +19,7 @@ module.exports = (phase, { defaultConfig }) => {
         "scontent-sin6-4.xx.fbcdn.net",
         "scontent-sin6-3.xx.fbcdn.net",
         "ts4u.us",
+        "media.licdn.com",
       ],
     },
   });
