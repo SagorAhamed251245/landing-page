@@ -4,6 +4,11 @@ import ServicesCard from "./ServicesCard";
 const ServicesCards = () => {
   const cards = [
     {
+      url: "/images/svg/service_icon/image 574.png",
+      text: "One One Bootcamp",
+      //   margin: "0px",
+    },
+    {
       url: "/images/svg/service_icon/image 28.png",
       text: "Project Based Learning",
       //   margin: "0px",
@@ -52,11 +57,6 @@ const ServicesCards = () => {
       url: "/images/svg/service_icon/image 573.png",
       text: "Weekly Technical Interview",
       //   margin: "30px",
-    },
-    {
-      url: "/images/svg/service_icon/image 574.png",
-      text: "Extra Discount for Upfront payoff",
-      //   margin: "0px",
     },
     {
       url: "/images/svg/service_icon/image 574.png",

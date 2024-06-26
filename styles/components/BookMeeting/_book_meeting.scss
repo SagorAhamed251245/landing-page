@@ -6,6 +6,8 @@
   align-items: "center";
   margin-bottom: "100px";
   padding-top: 100px;
+  position: relative;
+
   @include breakpoints(tablet) {
     margin-bottom: 40px;
     height: auto;
@@ -23,14 +25,68 @@
       height: auto;
     }
     .mi_state_image {
-      height: 100%;
+      height: 90vh;
       width: 100%;
+      padding: 15px;
+      position: absolute;
+      z-index: 5;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
 
-      > img {
+      animation: scaleUp 0.5s ease-out;
+      align-items: center;
+      justify-content: center;
+
+      > div {
+        position: relative;
         height: 100%;
         width: 100%;
-        object-fit: cover;
+        > p {
+          position: absolute;
+          top: 0;
+          z-index: 30;
+          right: 0;
+          padding: 5px;
+          background: $primary_color;
+          color: white;
+          font-size: 20px;
+          font-weight: bolder;
+          border-radius: 5px;
+        }
+        > img {
+          height: auto;
+          width: 100%;
+          object-fit: cover;
+          border-radius: 15px;
+        }
       }
+    }
+
+    @keyframes scaleUp {
+      from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.8);
+      }
+      to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+      }
+    }
+
+    @keyframes scaleDown {
+      from {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+      }
+      to {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.8);
+      }
+    }
+
+    .mi_state_image_closing {
+      animation: scaleDown 0.5s ease-out forwards;
     }
     .right_book_meeting {
       width: 50%;
@@ -115,32 +171,6 @@
             height: 100%;
           }
         }
-
-        .play_button {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          width: 70px;
-          height: 70px;
-          border-radius: 50%;
-          background-color: rgba(238, 190, 190, 0.2); /* 20% opacity */
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          z-index: 1;
-        }
-
-        .play_button > div {
-          opacity: 100%;
-          width: 40px;
-          height: 40px;
-          border-radius: 50%;
-          background-color: #fff;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
       }
     }
     .left_book_meeting {
@@ -152,6 +182,56 @@
           align-items: center;
           justify-content: center;
           margin-bottom: 30px;
+        }
+      }
+      ._div {
+        overflow: hidden;
+        display: flex;
+        align-items: end;
+        height: 100%;
+
+        @include breakpoints(tablet) {
+          align-items: start;
+          height: 100%;
+          margin-bottom: 30px;
+          margin-top: 30px;
+          width: 100%;
+          overflow: hidden;
+          object-fit: cover;
+          // justify-content: end;
+          // padding-bottom: 40px;
+          // margin-top: 40px;
+        }
+
+        .single_video {
+          height: 519px;
+          position: relative; /* Ensure positioning context for play button */
+          background-color: $body_text;
+          overflow: hidden; /* Ensure video doesn't overflow the container */
+          border-radius: 20px;
+          width: 482px;
+          z-index: 3;
+          @include breakpoints(tablet) {
+            overflow: hidden;
+            overflow-y: hidden;
+            height: 550px;
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+
+        .div {
+          height: 100%;
+          width: 60.8%;
+          margin: 0 auto;
+          @include breakpoints(tablet) {
+            width: 100%;
+            overflow: hidden;
+            height: 282.98px;
+            // height: 350px;
+            width: 100%;
+            height: 100%;
+          }
         }
       }
       display: flex;
@@ -179,7 +259,7 @@
           margin: 30px 0px;
           width: 80%;
           @include breakpoints(tablet) {
-            width: 95%;
+            width: 100%;
             text-align: center;
           }
         }

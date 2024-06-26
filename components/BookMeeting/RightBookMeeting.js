@@ -9,7 +9,7 @@ const RightBookMeeting = () => {
   } */
   return (
     <div className="right_book_meeting">
-      <div>
+      <div className="mb_hidden">
         <div className="single_video">
           <div className="div">
             <iframe
