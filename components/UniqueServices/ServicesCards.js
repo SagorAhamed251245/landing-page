@@ -5,7 +5,7 @@ const ServicesCards = () => {
   const cards = [
     {
       url: "/images/svg/service_icon/image 574.png",
-      text: "One One Bootcamp",
+      text: "One-on-One Bootcamp",
       //   margin: "0px",
     },
     {
