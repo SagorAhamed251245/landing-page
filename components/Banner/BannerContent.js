@@ -6,10 +6,10 @@ import LessThen from "../SVG/LessThen";
 
 const BannerContent = () => {
   const benefits = [
-    {
-      title: "Affordable Coaching",
-      details: `Only <mark style="font-weight: bold;">$0.13</mark> per minute`,
-    },
+    // {
+    //   title: "Affordable Coaching",
+    //   details: `Only <mark style="font-weight: bold;">$0.13</mark> per minute`,
+    // },
     {
       title: "Expert Instructors",
       details: "Developed by top IT professionals, including Shiblu Ahmad.",
