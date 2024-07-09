@@ -12,7 +12,7 @@ const LeftBookMeeting = () => {
     <div className="left_book_meeting">
       <div>
         <h4 className="title ">MI State Approved IT Training Provider</h4>
-        <p className="">
+        <div className="">
           Michigan State-approved IT training providers offer a range of
           programs tailored to meet industry standards and workforce demands.
           These providers undergo rigorous evaluation to ensure their courses
@@ -87,7 +87,7 @@ const LeftBookMeeting = () => {
           programs are well-equipped to meet the needs of Michigan's growing
           technology sector, enhancing their employment prospects in the state
           and beyond.
-        </p>
+        </div>
 
         <Link
           target="_blank"
