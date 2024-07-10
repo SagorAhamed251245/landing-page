@@ -79,7 +79,7 @@ export default function Home() {
           <SuccessfulStudents />
           <FAQ />
           <FreeCourses />
-          <LatestNews />
+          {/* <LatestNews /> */}
           <Payment />
           <Podcast />
           {/* <BookAMeeting /> */}
