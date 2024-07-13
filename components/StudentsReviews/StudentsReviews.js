@@ -80,8 +80,10 @@ const StudentsReviews = () => {
       platform: "Google",
       review:
         "What I like about TS4U is it treats you like family. Very responsive through slack and always have the urge to upgrade them and their students.Shiblu Ahmed, the CEO of the company is very dedicated and always encourage the likes of IT and NON-IT people. He is a clear example of dedication and is always open to new challanges. Its been a month I have joined them and so far I am liking it even though my background is NON-IT.Their website and module organisation is spot on and very intuitive and shouout to Shahed bhaiya whose lecture and his teaching style is top of the chart.",
-      image:
-        "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/307756850_10160063035295395_2289222722772136032_n.jpg?stp=cp6_dst-jpg_p200x200&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Xw7q_vAgIFUQ7kNvgFKZG2R&_nc_ht=scontent.fdac23-1.fna&oh=00_AYAzcGr1yOEPKVwmsmQvmo7Zc6oAae52Fj0ZY5SlJ9g0hw&oe=665CAC55",
+      //   image:
+      //     "https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-1/307756850_10160063035295395_2289222722772136032_n.jpg?stp=cp6_dst-jpg_p200x200&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Xw7q_vAgIFUQ7kNvgFKZG2R&_nc_ht=scontent.fdac23-1.fna&oh=00_AYAzcGr1yOEPKVwmsmQvmo7Zc6oAae52Fj0ZY5SlJ9g0hw&oe=665CAC55",
+      //
+      image: "/images/userDefault.png",
     },
     {
       name: "Imran Nazir",

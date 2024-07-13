@@ -8,6 +8,7 @@ module.exports = (phase, { defaultConfig }) => {
     ...defaultConfig,
     reactStrictMode: true,
     images: {
+      formats: ["image/webp"],
       domains: [
         "i.postimg.cc",
         "ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com",
