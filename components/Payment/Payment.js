@@ -16,10 +16,8 @@ const Payment = () => {
             <div key={index} className="payment-option">
               <h2>
                 {option?.option}{" "}
-                <Image
-                  loading="lazy"
-                  height={30}
-                  width={100}
+                <img
+                  style={{ height: "30px", width: "100" }}
                   alt="paymenrt"
                   src={option?.logo}
                 />

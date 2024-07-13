@@ -7,7 +7,7 @@ const FreeCourses = () => {
   const bootCamps = [
     {
       course: "Practical AWS CloudOps Crash Course",
-      image: "https://www.schoolshub.ai/placeholder2.jpg",
+      image: "/images/aws.webp",
       timeLength: "104",
       averageRating: 5,
       totalRatings: "50+ Students",
@@ -36,7 +36,7 @@ const FreeCourses = () => {
     },
     {
       course: "Flex-Product Manager",
-      image: "https://www.schoolshub.ai/placeholder2.jpg",
+      image: "/images/productOwner.webp",
       timeLength: "107",
       averageRating: 5,
       totalRatings: "40+ Students",
