@@ -128,7 +128,10 @@ const StudentsReviews = () => {
       <div>
         <h4 className="title">Students Reviews</h4>
         <div className="reviews_buttons">
-          <button onClick={() => setPlatform("Google")}>
+          <button
+            className={`${platform === "Google" && "active"}`}
+            onClick={() => setPlatform("Google")}
+          >
             <span>
               <Image
                 loading="lazy"
@@ -140,7 +143,10 @@ const StudentsReviews = () => {
             </span>
             <span>Reviews</span>
           </button>
-          <button onClick={() => setPlatform("Facebook")}>
+          <button
+            className={`${platform === "Facebook" && "active"}`}
+            onClick={() => setPlatform("Facebook")}
+          >
             <span>
               <Image
                 alt=""

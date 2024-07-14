@@ -8,6 +8,9 @@
   .reviews_buttons {
     margin-top: 15px;
     display: flex;
+    .active {
+      background-color: $primary_color;
+    }
 
     align-items: center;
     > button {
