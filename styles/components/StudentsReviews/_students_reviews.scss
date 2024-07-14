@@ -10,6 +10,9 @@
     display: flex;
     .active {
       background-color: $primary_color;
+      .butoon_text {
+        color: $whiteColor;
+      }
     }
 
     align-items: center;

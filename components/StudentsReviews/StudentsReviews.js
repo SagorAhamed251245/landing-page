@@ -141,7 +141,7 @@ const StudentsReviews = () => {
                 alt=""
               />
             </span>
-            <span>Reviews</span>
+            <span className="butoon_text">Reviews</span>
           </button>
           <button
             className={`${platform === "Facebook" && "active"}`}
@@ -156,7 +156,7 @@ const StudentsReviews = () => {
                 width={20}
               />
             </span>
-            <span>Reviews</span>
+            <span className="butoon_text">Reviews</span>
           </button>
         </div>
       </div>

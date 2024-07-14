@@ -19,6 +19,7 @@ $smLaptop-min: 841px;
 $laptop-min: 992px;
 $largeLaptop-min: 1025px;
 $extraLargeLaptop-min: 1300px;
+$whiteColor: #ffffff;
 
 @mixin mobile_container() {
   width: 100%;
