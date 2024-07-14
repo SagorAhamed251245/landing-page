@@ -26,8 +26,7 @@ const FreeCourses = () => {
     },
     {
       course: "3 Hours Spoken English",
-      image:
-        "https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1662310598685-english-lesson.",
+      image: "/images/spokenEnglish.webp",
       timeLength: "103",
       averageRating: 5,
       totalRatings: "30+ Students",

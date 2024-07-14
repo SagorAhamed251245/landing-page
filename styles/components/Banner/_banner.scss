@@ -138,6 +138,7 @@
     font-weight: bolder;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
     @include breakpoints(tablet) {
       justify-content: center;
       background-color: $primary_color;
