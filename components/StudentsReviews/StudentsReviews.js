@@ -138,7 +138,7 @@ const StudentsReviews = () => {
                 src="/images/svg/google.png"
                 height={20}
                 width={20}
-                alt=""
+                alt="google image"
               />
             </span>
             <span className="butoon_text">Reviews</span>
@@ -149,7 +149,7 @@ const StudentsReviews = () => {
           >
             <span>
               <Image
-                alt=""
+                alt="google image"
                 loading="lazy"
                 src="/images/svg/facebook.png"
                 height={20}

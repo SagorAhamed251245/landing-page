@@ -46,7 +46,7 @@ const CompareTable = () => {
                           width={30}
                           src="/images/svg/halfStar.svg"
                           className="rating_icon"
-                          alt=""
+                          alt="Half star rattitg"
                         />
                       }
                       emptySymbol={
@@ -56,7 +56,7 @@ const CompareTable = () => {
                           loading="lazy"
                           src="/images/svg/emptyStar.svg"
                           className="rating_icon"
-                          alt=""
+                          alt="Emty star ratting"
                         />
                       }
                       fullSymbol={
@@ -66,7 +66,7 @@ const CompareTable = () => {
                           loading="lazy"
                           src="/images/svg/fullStar.svg"
                           className="rating_icon"
-                          alt=""
+                          alt="rating icon"
                         />
                       }
                     />
@@ -91,7 +91,7 @@ const CompareTable = () => {
                           loading="lazy"
                           src="/images/svg/halfStar.svg"
                           className="rating_icon"
-                          alt=""
+                          alt="rating icon"
                         />
                       }
                       emptySymbol={
@@ -101,7 +101,7 @@ const CompareTable = () => {
                           loading="lazy"
                           src="/images/svg/emptyStar.svg"
                           className="rating_icon"
-                          alt=""
+                          alt="rating icon"
                         />
                       }
                       fullSymbol={
@@ -111,7 +111,7 @@ const CompareTable = () => {
                           loading="lazy"
                           src="/images/svg/fullStar.svg"
                           className="rating_icon"
-                          alt=""
+                          alt="rating icon"
                         />
                       }
                     />

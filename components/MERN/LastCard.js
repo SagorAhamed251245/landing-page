@@ -12,7 +12,7 @@ const LastCard = () => {
               loading="lazy"
               height={219}
               width={361}
-              alt=""
+              alt="ts4u single card image"
               src="https://ts4uportal-all-files-upload.nyc3.digitaloceanspaces.com/program-image/1698481726898-MERN-Full-Stack"
             />
           </div>

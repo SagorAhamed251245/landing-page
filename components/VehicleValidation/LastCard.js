@@ -8,7 +8,7 @@ const LastCard = () => {
         <Image
           height={1024}
           width={1024}
-          alt=""
+          alt="last card image"
           loading="lazy"
           className="vehImg"
           src="/images/svg/OIG1.jpg"

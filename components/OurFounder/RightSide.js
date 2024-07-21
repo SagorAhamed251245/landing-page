@@ -39,7 +39,7 @@ const RightSide = () => {
       <Image
         height={200}
         width={300}
-        alt=""
+        alt="Ts4u images"
         loading="lazy"
         className="yellowVector"
         src="/images/svg/Vector 16.svg"

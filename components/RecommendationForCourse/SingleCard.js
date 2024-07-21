@@ -11,6 +11,7 @@ const SingleCard = ({ name, review, image }) => {
         <img
           style={{ width: "40px", height: "40px", borderRadius: "50%" }}
           src={image || "/images/userDefault.png"}
+          alt={name}
         />
         <div className="div">
           <div>

@@ -78,7 +78,7 @@ const NextCareer = () => {
           height={298}
           width={320}
           src="/images/svg/Rectangle111.png"
-          alt=""
+          alt="Meeting image"
         />
         <Link
           target="_blank"
