@@ -2,9 +2,10 @@ import { NextSeo } from "next-seo";
 import React from "react";
 
 function SeoComp({ title, description, image, canonical_slug, slug }) {
-  const defaultTitle = "inquiry.ts4u.us";
+  const defaultTitle =
+    "TRANSFORM YOUR CAREER INTO SIX FIGURES WITH TS4U'S PRIVATE ONE-ON-ONE BOOTCAMP.";
   const defaultDescription =
-    "inquiry.ts4u.us is AI-Powered, Automated Solutions For Schools and Students. Learn to grow and Earn";
+    "Transform your career into a six-figure income with TS4U’s Private One-on-One Bootcamp. Discover expert guidance, personalized learning, and a roadmap to success. Learn More!";
 
   return (
     <NextSeo

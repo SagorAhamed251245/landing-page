@@ -7,8 +7,40 @@ export default function Document() {
       <Head>
         <SeoComp
           image={"/images/image/themble.jpg"}
-          title={"inquiry.ts4u.us"}
+          title={
+            "TRANSFORM YOUR CAREER INTO SIX FIGURES WITH TS4U'S PRIVATE ONE-ON-ONE BOOTCAMP. HERE'S MORE"
+          }
         />
+        {/**Canonical */}
+
+        <link rel="canonical" href="https://inquiry.ts4u.us/"></link>
+
+        {/** schema.org */}
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "WebSite",
+              name: "Inquiry TS4U",
+              url: "https://inquiry.ts4u.us/",
+              potentialAction: {
+                "@type": "SearchAction",
+                target: "https://inquiry.ts4u.us/?s={search_term_string}",
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
+
+        {/**keyword */}
+
+        <meta
+          name="keywords"
+          content="TS4U,Professional growth,Exclusive program,Career development,Personal development,Financial freedom,Business coaching,Top earners,Make six figures,Entrepreneurship,Wealth building,Wealth creation,High income potential,Success mindset,Online training,Must-Have Perks,Financial success,Income generation,Private Bootcamp,Self-improvement"
+        />
+
         {/* Google tag (gtag.js) */}
         <script
           async
