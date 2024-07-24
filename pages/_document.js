@@ -21,11 +21,11 @@ export default function Document() {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', 'G-6L2FSQRWYC');
+              gtag('config', 'AW-16520111092');
             `,
           }}
         ></script>
       </Head>
-
       <body className="max_container">
         <Main />
         <NextScript />
@@ -42,6 +42,7 @@ export default function Document() {
                 'https://connect.facebook.net/en_US/fbevents.js');
                 fbq('init', '318631454217422');
                 fbq('track', 'PageView');
+                gtag('event', 'conversion', {'send_to': 'AW-16520111092/lQ8oCP2QjsQZEPTHs8U9'});
               `,
           }}
         ></script>
