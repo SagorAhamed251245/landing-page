@@ -43,6 +43,7 @@ const OneOnOneBootcamp = lazy(() =>
 );
 import { Be_Vietnam_Pro } from "next/font/google";
 import Head from "next/head";
+import SeoComp from "./SeoComp";
 
 const BeVietnamPro = Be_Vietnam_Pro({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -53,10 +54,15 @@ const BeVietnamPro = Be_Vietnam_Pro({
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>inquiry.ts4u.us</title>
-        <meta property="og:image" content="/images/image/themble.jpg" />
-      </Head>
+      <SeoComp
+        image={"/images/image/themble.jpg"}
+        title={
+          "TRANSFORM YOUR CAREER INTO SIX FIGURES WITH TS4U'S PRIVATE ONE-ON-ONE BOOTCAMP. HERE'S MORE"
+        }
+        description={
+          "Transform your career into a six-figure income with TS4U’s Private One-on-One Bootcamp. Discover expert guidance, personalized learning, and a roadmap to success. Learn More!"
+        }
+      />
       <main id="top" className={BeVietnamPro.className}>
         <Suspense fallback={<div>Loading...</div>}>
           <TogolTop />
