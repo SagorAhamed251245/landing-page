@@ -44,14 +44,8 @@ export default function Document() {
                 {
                   "@type": "ListItem",
                   position: 1,
-                  name: "Inquiry TS4U",
+                  name: "Home",
                   item: "https://inquiry.ts4u.us/",
-                },
-                {
-                  "@type": "ListItem",
-                  position: 2,
-                  name: "",
-                  item: "",
                 },
               ],
             }),
