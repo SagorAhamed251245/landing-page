@@ -1,9 +1,9 @@
 .mern_stack {
-  padding-top: 100px;
+  padding-top: 50px;
   background-color: #efebfe;
   // margin-top: 100px;
   @include breakpoints(tablet) {
-    padding-top: 40px;
+    padding-top: 20px;
   }
   .sec_card_section {
     h4 {
@@ -164,15 +164,15 @@
 }
 .ourProgramTitle_mern {
   background-color: #efebfe;
-  padding: 0 0 100px 0;
+  padding: 0 0 50px 0;
   @include breakpoints(tablet) {
     padding: 0 0 40px 0;
   }
 }
 .ourProgramTitle {
-  margin: 100px 0;
+  margin: 50px 0;
   text-align: center;
   @include breakpoints(tablet) {
-    margin: 40px 0;
+    margin: 20px 0;
   }
 }

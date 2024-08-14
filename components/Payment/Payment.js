@@ -37,6 +37,7 @@ const Payment = () => {
           ))}
         </div>
         <Link
+          style={{ marginTop: "0px" }}
           target="_blank"
           rel="noopener noreferrer"
           className="linkBtn center_btn"

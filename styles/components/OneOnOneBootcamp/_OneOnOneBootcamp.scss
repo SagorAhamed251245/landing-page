@@ -7,11 +7,11 @@
   display: flex;
   justify-content: center;
   background-color: #e7e1fc;
-  padding: 80px;
+  padding: 50px 80px 50px 80px;
   padding-top: 0px;
 
   @include breakpoints(tablet) {
-    padding: 40px 16px;
+    padding: 20px 16px;
   }
 
   @include breakpoints(mobile) {

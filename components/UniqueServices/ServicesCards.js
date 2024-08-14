@@ -18,11 +18,11 @@ const ServicesCards = () => {
       text: "Internship Opportunity",
       //   margin: "30px",
     },
-    {
-      url: "/images/svg/service_icon/image 75.png",
-      text: "Early Bird Discount",
-      //   margin: "0px",
-    },
+    // {
+    //   url: "/images/svg/service_icon/image 75.png",
+    //   text: "Early Bird Discount",
+    //   margin: "0px",
+    // },
     {
       url: "/images/svg/service_icon/image 567.png",
       text: "Job Placement Assistant",
@@ -48,21 +48,21 @@ const ServicesCards = () => {
       text: "Resume Preparation",
       //   margin: "30px",
     },
-    {
-      url: "/images/svg/service_icon/image 572.png",
-      text: "Complimentary Career Counseling",
-      //   margin: "0px",
-    },
+    // {
+    //   url: "/images/svg/service_icon/image 572.png",
+    //   text: "Complimentary Career Counseling",
+    //     margin: "0px",
+    // },
     {
       url: "/images/svg/service_icon/image 573.png",
       text: "Weekly Technical Interview",
       //   margin: "30px",
     },
-    {
-      url: "/images/svg/service_icon/image 574.png",
-      text: "Extra Discount for Upfront payoff",
-      //   margin: "0px",
-    },
+    // {
+    //   url: "/images/svg/service_icon/image 574.png",
+    //   text: "Extra Discount for Upfront payoff",
+    //   //   margin: "0px",
+    // },
   ];
 
   return (

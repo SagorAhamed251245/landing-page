@@ -123,11 +123,11 @@
   color: white;
   border: none;
   gap: 15px;
-  margin-top: 60px;
+  margin-top: 20px;
   @include breakpoints(tablet) {
     @include mobile_button;
     // display: none;
-    margin-top: 30px;
+    margin-top: 15px;
   }
 }
 

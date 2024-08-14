@@ -79,7 +79,7 @@ export default function Home() {
           <MERN />
           <OurCourses />
           <OurProgram />
-          <VehicleValidation />
+          {/* <VehicleValidation /> */}
           <Agile />
           <NextCareer />
           <SuccessfulStudents />
@@ -87,7 +87,7 @@ export default function Home() {
           <FreeCourses />
           {/* <LatestNews /> */}
           <Payment />
-          <Podcast />
+          {/* <Podcast /> */}
           {/* <BookAMeeting /> */}
           <Footer />
         </Suspense>

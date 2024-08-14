@@ -2,11 +2,10 @@
   display: flex;
   justify-content: center;
   background-color: #e7e1fc;
-  padding: 80px;
-
+  padding: 50px 80px 50px 80px;
 
   @include breakpoints(tablet) {
-    padding: 40px 16px;
+    padding: 20px 16px;
   }
 
   @include breakpoints(mobile) {
@@ -105,7 +104,7 @@
           margin: 5px;
         }
 
-        .list-heading{
+        .list-heading {
           font-size: 20px;
           color: $primary_color;
           font-weight: bold;

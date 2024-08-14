@@ -8,11 +8,11 @@ const Intro = () => {
       }}
     >
       <h4 className="title">Students Experience At TS4U</h4>
-      <p className="bootcamp-p">
+      {/* <p className="bootcamp-p">
         Bootcamp experiences vary widely among students, but common themes
         emerge. Many report intense immersion into the subject matter, with a
         focus on practical, hands-on learning.
-      </p>
+      </p> */}
     </div>
   );
 };

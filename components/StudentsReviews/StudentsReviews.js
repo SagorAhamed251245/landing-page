@@ -176,6 +176,7 @@ const StudentsReviews = () => {
       </div>
       <SwiperReview reviews={reviews} platform={platform} />
       <Link
+        style={{ marginTop: "0px" }}
         target="_blank"
         className="linkBtn center_btn"
         href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}

@@ -1,16 +1,16 @@
 .our_founder_section {
   background-color: rgba(88, 49, 240, 0.05);
-  margin-top: 100px;
+  margin-top: 50px;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   > h4 {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   @include breakpoints(tablet) {
     margin-top: 40px;
     padding-top: 40px;
     > h4 {
-      margin-bottom: 40px;
+      margin-bottom: 20px;
     }
   }
 
@@ -177,9 +177,9 @@
 
   /* ReviewAboutFounder */
   .ReviewAboutFounder {
-    margin-top: 100px;
+    margin-top: 50px;
     .review_about_founder_cards {
-      margin-top: 60px;
+      margin-top: 50px;
       display: grid;
       gap: 30px;
       grid-template-columns: repeat(4, 1fr);

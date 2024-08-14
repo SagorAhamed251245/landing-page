@@ -1,9 +1,9 @@
 .successful-students {
   height: auto;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   @include breakpoints(tablet) {
     // margin-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .book_a_meeting_btns {
     padding: 16px 30px;
@@ -16,7 +16,7 @@
     color: white;
     border: none;
     gap: 15px;
-    margin-top: 40px;
+    margin-top: 20px;
     @include breakpoints(tablet) {
       @include mobile_button;
       // display: none;
@@ -24,7 +24,7 @@
     }
   }
   .next-career1 {
-    margin-top: 80px;
+    margin-top: 50px;
     @include breakpoints(tablet) {
       margin-top: 0px;
       // margin-bottom: 40px;
