@@ -16,8 +16,10 @@ const Payment = () => {
             <div key={index} className="payment-option">
               <h2>
                 {option?.option}{" "}
-                <img
+                <Image
                   style={{ height: "30px", width: "100" }}
+                  width={100}
+                  height={30}
                   alt="paymenrt"
                   src={option?.logo}
                 />

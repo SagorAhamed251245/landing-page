@@ -90,7 +90,6 @@ const LeftBookMeeting = () => {
         </div>
 
         <Link
-          style={{ marginTop: "60px" }}
           target="_blank"
           className="linkBtn"
           href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
