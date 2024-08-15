@@ -15,8 +15,7 @@ const ReviewAboutFounder = () => {
   const reviews = [
     {
       name: "Zuliana Zanardi",
-      profile:
-        "https://media.licdn.com/dms/image/D4D03AQFztSZWvEavpw/profile-displayphoto-shrink_800_800/0/1670977309888?e=1722470400&v=beta&t=jTQMQRlNqAJ4RgSYoRO7_hwGwVNw2eGXh-uOILUdAl8",
+      profile: "/images/userDefault.png",
       id: 1,
       occupation: "Product manager at PSPO",
       review:
@@ -24,8 +23,7 @@ const ReviewAboutFounder = () => {
     },
     {
       name: "Joel Waldman",
-      profile:
-        "https://media.licdn.com/dms/image/C4D03AQH3Lr80ONq9Wg/profile-displayphoto-shrink_200_200/0/1534272004626?e=1722470400&v=beta&t=iUQbpJ8UMcpyNW3MKwAEM6HBo_CyFouosaGFEG_mLqw",
+      profile: "/images/userDefault.png",
       id: 1,
       occupation: "Analytics Leader | Blockchain Sanguine",
       review:
@@ -33,8 +31,7 @@ const ReviewAboutFounder = () => {
     },
     {
       name: "Ted Williamson",
-      profile:
-        "https://media.licdn.com/dms/image/D5603AQEoZx0LEamAsA/profile-displayphoto-shrink_200_200/0/1672525692027?e=1722470400&v=beta&t=m3RI1nRq7XRjYAjnzsGmiS72eZ9m1CsRcaxcQWRbrXQ",
+      profile: "/images/userDefault.png",
       id: 1,
       occupation: "Senior Vice President at Integra Partners",
       review:
@@ -42,8 +39,7 @@ const ReviewAboutFounder = () => {
     },
     {
       name: "John Rackar",
-      profile:
-        "https://media.licdn.com/dms/image/C5603AQHHS3w9nDWppA/profile-displayphoto-shrink_200_200/0/1516346559595?e=1722470400&v=beta&t=z3XbyThni_izRZqy2tostGJFsNeGfPPDH2zG2pbKEfY",
+      profile: "/images/userDefault.png",
       id: 1,
       occupation: "Software Engineer at QuickenLoans",
       review:
