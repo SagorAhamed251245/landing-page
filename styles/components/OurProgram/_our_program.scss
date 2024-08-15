@@ -1,7 +1,7 @@
 .our_program {
   background-color: $primary_color;
   padding-top: 50px;
-  padding-bottom: 50px;
+  // padding-bottom: 50px;
   margin-top: 50px;
   @include breakpoints(tablet) {
     padding-bottom: 20px;
