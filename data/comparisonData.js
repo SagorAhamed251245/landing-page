@@ -120,3 +120,81 @@ export const comparisonData = [
     ts4uRating: 4.5,
   },
 ];
+
+export const compareData = [
+  {
+    feature: {
+      title: "Flexibility",
+    },
+    otherBootcamp: {
+      title: "Frequency of Cohorts",
+      description:
+        "Running cohorts quarterly or monthly can cause inconsistent learning and readiness.",
+    },
+    ts4uItBootcamp: {
+      title: "Flexible Enrollment",
+      description:
+        "Students can join anytime, starting their learning when it suits them best.",
+    },
+  },
+  {
+    feature: {
+      title: "One-Stop-Solution",
+    },
+    otherBootcamp: {
+      title: "Classroom Dynamics",
+      description:
+        "Overcrowded and hybrid classrooms prevent students from participating or sharing concerns.",
+    },
+    ts4uItBootcamp: {
+      title: "Personalized One-on-One Bootcamp",
+      description:
+        "Each student gets a coach from day one for personalized attention.",
+    },
+  },
+  {
+    feature: {
+      title: "Students Support",
+    },
+    otherBootcamp: {
+      title: "Limited Student Support",
+      description:
+        "Weaker students struggle with limited support and mentor availability, especially after hours.",
+    },
+    ts4uItBootcamp: {
+      title: "Round-the-Clock Support",
+      description:
+        "We provide support with a coach available 24/6, matching students' schedules and time zones.",
+    },
+  },
+  {
+    feature: {
+      title: "Pacing",
+    },
+    otherBootcamp: {
+      title: "Pacing Issues",
+      description:
+        "Students needing more time may struggle with the fast pace, causing stress and potential dropouts.",
+    },
+    ts4uItBootcamp: {
+      title: "Adaptive Learning Pace",
+      description:
+        "Our one-on-one bootcamp adjusts to each student's progress, providing a personalized learning experience.",
+    },
+  },
+  {
+    feature: {
+      title: "Mentor Quality",
+    },
+    otherBootcamp: {
+      title: "Mentorship Quality",
+      description:
+        "Without dedicated mentors, personalized learning and guidance are limited, affecting performance and engagement.",
+    },
+    ts4uItBootcamp: {
+      title: "Confidential and Customized Coaching",
+      description:
+        "In one-on-one settings, students feel secure discussing their strengths and challenges, which leads to better learning.",
+    },
+  },
+];

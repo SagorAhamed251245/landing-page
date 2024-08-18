@@ -70,17 +70,19 @@ const OneOnOneBootcamp = () => {
   return (
     <section className="one-on-one">
       <div className="one-on-one-box">
-        <div>
-          <h2 className="title">One-On-One Bootcamp Week</h2>
-          <p className="description">
+        <div className="container">
+          <h2 style={{ margin: "20px 0" }} className="title">
+            One-On-One Bootcamp Week
+          </h2>
+          {/* <p className="description">
             This one-on-one private coaching model is central to TS4U's
             commitment to maximizing student outcomes, providing a
             comprehensive, personalized educational experience that is directly
             aligned with industry demands and individual growth objectives.
-          </p>
+          </p> */}
 
           {/* main container  */}
-          <div className="container">
+          <div>
             {/* text content 1 */}
             <div className="text-container">
               {data?.map((item, index) => (
@@ -95,15 +97,15 @@ const OneOnOneBootcamp = () => {
             </div>
 
             {/* image  */}
-            <div className="img">
+            <div style={{ margin: "20px 0" }} className="img">
               <Image
                 height={950}
                 width={1440}
                 loading="lazy"
-                src="/images/one-on-one-pic.jpg"
+                src="/images/one-one_latest.png"
                 alt="OneOnOneBootcamp"
               />
-              <a
+              {/* <a
                 className="download_btn"
                 download={true}
                 href={"/images/one-on-one-pic.jpg"}
@@ -114,7 +116,7 @@ const OneOnOneBootcamp = () => {
                   alt="download image"
                   src={"/images/download.png"}
                 />
-              </a>
+              </a> */}
             </div>
 
             {/* text content 2 */}

@@ -30,6 +30,9 @@ const FAQ = lazy(() => import("@/components/FAQ/FAQ"));
 const CompareTable = lazy(() =>
   import("@/components/CompareTable/CompareTable")
 );
+const CompareTableNew = lazy(() =>
+  import("@/components/CompareTable/CompareTableNew")
+);
 
 const LatestNews = lazy(() => import("@/components/LatestNews/LatestNews"));
 const SuccessfulStudents = lazy(() =>
@@ -41,6 +44,7 @@ const Payment = lazy(() => import("@/components/Payment/Payment"));
 const OneOnOneBootcamp = lazy(() =>
   import("@/components/OneOnOneBootcamp/OneOnOneBootcamp")
 );
+
 import { Be_Vietnam_Pro } from "next/font/google";
 import Head from "next/head";
 import SeoComp from "./SeoComp";
@@ -74,7 +78,8 @@ export default function Home() {
           {/* <Alumni /> */}
           <StudentsReviews />
           {/* <LostITjob /> */}
-          <CompareTable />
+          {/* <CompareTable /> */}
+          <CompareTableNew />
           <OneOnOneBootcamp />
           <MERN />
           <OurCourses />

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   background-color: #e7e1fc;
-  padding: 50px 80px 50px 80px;
+  padding: 50px 80px;
 
   @include breakpoints(tablet) {
     padding: 40px 16px;
@@ -101,5 +101,171 @@
     padding: 10px;
     width: auto;
     font-size: 8px;
+  }
+}
+
+.compare_table_new {
+  background-color: #e7e1fc;
+  padding: 50px 80px;
+  @include breakpoints(tablet) {
+    padding: 40px 16px;
+  }
+
+  position: relative;
+  .style_top_image {
+    position: absolute;
+    top: 3.5%;
+    left: 6%;
+    z-index: 0;
+    @include breakpoints(tablet) {
+      top: 4%;
+      left: 0;
+    }
+  }
+  .ant-table-thead {
+    .ant-table-cell {
+      background-color: #fff;
+    }
+  }
+  .compare_table_new_container {
+    padding: 40px;
+    background-color: $whiteColor;
+    border-radius: 10px;
+    position: relative;
+    z-index: 100;
+    @include breakpoints(tablet) {
+      padding: 5px;
+    }
+  }
+}
+
+.table_feature_card {
+  background-image: url("../../../public/images/image/featurebgimage.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+
+  .content {
+    background-color: #6c3bebe5;
+    padding: 72px;
+
+    @include breakpoints(tablet) {
+      padding: 40px 20px;
+      h3 {
+        font-size: 16px;
+      }
+    }
+    text-align: center;
+    color: $whiteColor;
+    border-radius: 10px;
+    h3 {
+      font-family: "Be Vietnam Pro";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      @include breakpoints(smTablet) {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.other_bootcamp_card {
+  background-color: $whiteColor;
+  text-align: center;
+  padding: 22.5px;
+  @include breakpoints(tablet) {
+    padding: 16px;
+  }
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px;
+  .icon_style {
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    .svg-icon {
+      width: 30px;
+      height: 30px;
+      padding: 5px;
+    }
+  }
+  h3 {
+    margin-top: 10px;
+    color: $title_text;
+    font-family: "Be Vietnam Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  p {
+    margin-top: 10px;
+    padding: 0 15px;
+    color: $text_color;
+    text-align: center;
+    font-family: "Be Vietnam Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    @include breakpoints(smTablet) {
+      display: none;
+    }
+  }
+}
+
+.ts4u_bootcamp_card {
+  background-color: $whiteColor;
+  text-align: center;
+  padding: 22.5px;
+  border-radius: 10px;
+  @include breakpoints(tablet) {
+    padding: 16px;
+  }
+  box-shadow: 0px 0px 15px 0px;
+  .icon_style {
+    background-color: #09c64a;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    .svg-icon {
+      width: 30px;
+      height: 30px;
+      padding: 5px;
+    }
+  }
+  h3 {
+    margin-top: 10px;
+    color: $title_text;
+    font-family: "Be Vietnam Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  p {
+    margin-top: 10px;
+    padding: 0 15px;
+    color: $text_color;
+    text-align: center;
+    font-family: "Be Vietnam Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    @include breakpoints(smTablet) {
+      display: none;
+    }
   }
 }
