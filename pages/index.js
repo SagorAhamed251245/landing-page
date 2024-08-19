@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from "react";
+import React, { Suspense, lazy, useEffect, useState } from "react";
 
 // Dynamic imports for lazy loading
 const Banner = lazy(() => import("@/components/Banner/Banner"));
@@ -44,10 +44,9 @@ const Payment = lazy(() => import("@/components/Payment/Payment"));
 const OneOnOneBootcamp = lazy(() =>
   import("@/components/OneOnOneBootcamp/OneOnOneBootcamp")
 );
-
 import { Be_Vietnam_Pro } from "next/font/google";
-import Head from "next/head";
 import SeoComp from "./SeoComp";
+import HomePopup from "@/components/HomePopup/HomePopup";
 
 const BeVietnamPro = Be_Vietnam_Pro({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -55,6 +54,7 @@ const BeVietnamPro = Be_Vietnam_Pro({
   subsets: ["latin-ext"],
   display: "swap",
 });
+
 export default function Home() {
   return (
     <>
@@ -97,6 +97,7 @@ export default function Home() {
           <Footer />
         </Suspense>
       </main>
+      <HomePopup />
     </>
   );
 }
