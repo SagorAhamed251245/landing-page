@@ -74,7 +74,7 @@ function CompareTableNew() {
             dataSource={compareData}
             columns={columns}
             pagination={false}
-            scroll={{ x: "786px" }}
+            style={{ maxWidth: "100%" }}
           />
         </div>
       </div>

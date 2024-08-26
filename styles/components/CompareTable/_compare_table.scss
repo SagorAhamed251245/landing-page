@@ -110,6 +110,11 @@
   @include breakpoints(tablet) {
     padding: 40px 16px;
   }
+  .ant-table-tbody > tr > td {
+    @include breakpoints(tablet) {
+      padding: 3px;
+    }
+  }
 
   position: relative;
   .style_top_image {
@@ -128,6 +133,19 @@
   }
   .ant-table-wrapper .ant-table-thead > tr > th {
     border: none !important;
+    padding: 3px;
+  }
+  .ant-table-thead {
+    @include breakpoints(tablet) {
+      tr {
+        th {
+          h2 {
+            font-size: 13px;
+            line-height: normal;
+          }
+        }
+      }
+    }
   }
   .ant-table-thead {
     .ant-table-cell {
@@ -158,9 +176,13 @@
     padding: 72px;
 
     @include breakpoints(tablet) {
-      padding: 40px 20px;
+      padding: 24px 10px;
+      height: 136px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       h3 {
-        font-size: 16px;
+        font-size: 10px;
       }
     }
     text-align: center;
@@ -173,7 +195,7 @@
       font-weight: 600;
       line-height: normal;
       @include breakpoints(smTablet) {
-        font-size: 16px;
+        font-size: 10px;
       }
     }
   }
@@ -184,7 +206,8 @@
   text-align: center;
   padding: 22.5px;
   @include breakpoints(tablet) {
-    padding: 16px;
+    padding: 10px;
+    height: 136px;
   }
   border-radius: 10px;
   box-shadow: 0px 0px 15px 0px;
@@ -202,6 +225,10 @@
       height: 30px;
       padding: 5px;
     }
+    @include breakpoints(tablet) {
+      height: 24px;
+      width: 24px;
+    }
   }
   h3 {
     margin-top: 10px;
@@ -211,6 +238,9 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    @include breakpoints(tablet) {
+      font-size: 10px;
+    }
   }
   p {
     margin-top: 10px;
@@ -222,8 +252,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    @include breakpoints(smTablet) {
-      display: none;
+    @include breakpoints(tablet) {
+      padding: 0 0;
+      font-size: 6px;
     }
   }
 }
@@ -234,7 +265,8 @@
   padding: 22.5px;
   border-radius: 10px;
   @include breakpoints(tablet) {
-    padding: 16px;
+    padding: 10px;
+    height: 136px;
   }
   box-shadow: 0px 0px 15px 0px;
   .icon_style {
@@ -251,6 +283,10 @@
       height: 30px;
       padding: 5px;
     }
+    @include breakpoints(tablet) {
+      height: 24px;
+      width: 24px;
+    }
   }
   h3 {
     margin-top: 10px;
@@ -260,6 +296,9 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    @include breakpoints(tablet) {
+      font-size: 10px;
+    }
   }
   p {
     margin-top: 10px;
@@ -271,8 +310,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    @include breakpoints(smTablet) {
-      display: none;
+    @include breakpoints(tablet) {
+      padding: 0 0;
+      font-size: 6px;
     }
   }
 }
