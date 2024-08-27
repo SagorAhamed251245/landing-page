@@ -210,7 +210,7 @@
     height: 136px;
   }
   border-radius: 10px;
-  box-shadow: 0px 0px 15px 0px;
+  box-shadow: 0px 0px 1px 0px;
   .icon_style {
     background-color: red;
     width: 40px;
@@ -245,7 +245,7 @@
   p {
     margin-top: 10px;
     padding: 0 15px;
-    color: $text_color;
+    color: $title_text;
     text-align: center;
     font-family: "Be Vietnam Pro";
     font-size: 16px;
@@ -268,7 +268,7 @@
     padding: 10px;
     height: 136px;
   }
-  box-shadow: 0px 0px 15px 0px;
+  box-shadow: 0px 0px 1px 0px;
   .icon_style {
     background-color: #09c64a;
     width: 40px;
@@ -303,7 +303,7 @@
   p {
     margin-top: 10px;
     padding: 0 15px;
-    color: $text_color;
+    color: $title_text;
     text-align: center;
     font-family: "Be Vietnam Pro";
     font-size: 16px;
