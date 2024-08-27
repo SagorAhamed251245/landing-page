@@ -1,17 +1,16 @@
 .home_pop_up {
-  background-color: $primary-color;
+  background-color: transparent;
   color: white;
 
   .modal_img {
     text-align: center;
     position: relative;
-    background-color: white !important;
+    // background-color: white !important;
 
     .close_pop_up {
       position: absolute;
       top: 7px;
       right: 7px;
-
       cursor: pointer;
 
       img {
@@ -40,5 +39,6 @@
 .home_popup_modal {
   .ant-modal-content {
     padding: 0px;
+    background-color: transparent;
   }
 }
