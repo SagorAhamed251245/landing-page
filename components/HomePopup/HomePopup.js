@@ -43,7 +43,7 @@ function HomePopup() {
           >
             <img
               className="modal-img"
-              src="/home_popup/e_com_project.jpg"
+              src="/home_popup/learn_lenux.jpg"
               alt="modal"
             />
           </a>
