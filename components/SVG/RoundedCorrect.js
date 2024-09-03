@@ -1,11 +1,11 @@
 import React from "react";
 
-const RoundedCorrect = ({ color, isCorrect }) => {
+const RoundedCorrect = ({ color, isCorrect, width, height }) => {
   return isCorrect ? (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="33"
-      height="32"
+      width={width ? width : "32"}
+      height={height ? height : "32"}
       viewBox="0 0 33 32"
       fill="none"
     >
@@ -27,8 +27,8 @@ const RoundedCorrect = ({ color, isCorrect }) => {
   ) : (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="33"
-      height="32"
+      width={width ? width : "32"}
+      height={height ? height : "32"}
       viewBox="0 0 33 32"
       fill="none"
     >

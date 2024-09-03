@@ -35,7 +35,7 @@ const Navbar = () => {
           </Link>
         </ul>
 
-        <section className="mobile_nav_section">
+        {/* <section className="mobile_nav_section">
           <Image
             loading="lazy"
             className="hamburger"
@@ -56,7 +56,7 @@ const Navbar = () => {
               </Link>
             </ul>
           )}
-        </section>
+        </section> */}
       </section>
     </nav>
   );

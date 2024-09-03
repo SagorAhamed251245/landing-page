@@ -50,10 +50,12 @@
       display: flex;
       gap: 50px;
 
-      @include breakpoints(tablet) {
-        display: none;
+      // @include breakpoints(tablet) {
+      //   display: none;
+      // }
+      a {
+        margin-top: 0px;
       }
-
       .li {
         list-style: none;
         font-size: 16px;
@@ -81,7 +83,7 @@
       gap: 20px;
       background-color: #fff;
       position: absolute;
-      z-index: 5;
+      z-index: 1000;
       // top: 70px;
       right: 1%;
       border-radius: 20px;
@@ -174,9 +176,9 @@
   // right_banner_section
   .right_banner_section {
     width: 50%;
-    height: 596px;
+    height: 460px;
     margin-right: 30px;
-    width: 614px;
+    width: 500px;
     background-color: #0d2032;
     border-radius: 20px;
     position: relative;
@@ -189,11 +191,11 @@
     }
 
     .video_relative {
-      height: 596px;
+      height: 460px;
       border-radius: 20px;
       background-color: $primary_color;
       opacity: 100;
-      width: 614px;
+      width: 450px;
       position: absolute;
       top: 10%;
       z-index: -1;

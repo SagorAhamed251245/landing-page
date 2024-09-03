@@ -5,13 +5,34 @@ import { Table } from "antd";
 import { compareData } from "@/data/comparisonData";
 import RoundedCorrect from "../SVG/RoundedCorrect";
 
+import fImage from "../../public/images/image/comapareTableImage/featurebgimage.png";
+import fImage1 from "../../public/images/image/comapareTableImage/bg0.png";
+import fImage2 from "../../public/images/image/comapareTableImage/bg1.png";
+import fImage3 from "../../public/images/image/comapareTableImage/bg2.png";
+import fImage4 from "../../public/images/image/comapareTableImage/bg3.png";
+
 function CompareTableNew() {
   const columns = [
     {
       title: <h2 style={{ textAlign: "center" }}>Feature</h2>,
       dataIndex: "feature",
-      render: (feature) => (
-        <div className="table_feature_card">
+      render: (feature, _, index) => (
+        <div
+          style={{
+            backgroundImage: `url(${
+              index === 0
+                ? fImage.src
+                : index === 1
+                ? fImage1.src
+                : index === 2
+                ? fImage2.src
+                : index === 3
+                ? fImage3.src
+                : fImage4.src
+            })`,
+          }}
+          className="table_feature_card"
+        >
           <div className="content">
             <h3>{feature?.title}</h3>
           </div>
@@ -26,7 +47,12 @@ function CompareTableNew() {
         <div className="other_bootcamp_card">
           <div>
             <div className="icon_style">
-              <RoundedCorrect color={"#fff"} isCorrect={false} />
+              <RoundedCorrect
+                color={"#fff"}
+                height={25}
+                width={25}
+                isCorrect={false}
+              />
             </div>
             <h3>{otherBootcamp?.title}</h3>
             <p>{otherBootcamp?.description}</p>
@@ -40,10 +66,14 @@ function CompareTableNew() {
       dataIndex: "ts4uItBootcamp",
       render: (ts4uItBootcamp) => (
         <div className="ts4u_bootcamp_card">
-          {" "}
           <div>
             <div className="icon_style">
-              <RoundedCorrect color={"#fff"} isCorrect={true} />
+              <RoundedCorrect
+                color={"#fff"}
+                height={25}
+                width={25}
+                isCorrect={true}
+              />
             </div>
             <h3>{ts4uItBootcamp?.title}</h3>
             <p>{ts4uItBootcamp?.description}</p>

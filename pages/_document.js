@@ -166,7 +166,7 @@ export default function Document() {
           }}
         ></script>
       </Head>
-      <body className="max_container">
+      <body>
         <Main />
         <NextScript />
         <script

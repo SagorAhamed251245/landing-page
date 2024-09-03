@@ -165,7 +165,6 @@
 }
 
 .table_feature_card {
-  background-image: url("../../../public/images/image/featurebgimage.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -189,7 +188,6 @@
     color: $whiteColor;
     border-radius: 10px;
     h3 {
-      font-family: "Be Vietnam Pro";
       font-size: 24px;
       font-style: normal;
       font-weight: 600;
@@ -221,8 +219,8 @@
     margin: 0 auto;
     border-radius: 50%;
     .svg-icon {
-      width: 30px;
-      height: 30px;
+      width: 25px;
+      height: 25px;
       padding: 5px;
     }
     @include breakpoints(tablet) {
@@ -233,7 +231,7 @@
   h3 {
     margin-top: 10px;
     color: $title_text;
-    font-family: "Be Vietnam Pro";
+
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -247,7 +245,7 @@
     padding: 0 15px;
     color: $title_text;
     text-align: center;
-    font-family: "Be Vietnam Pro";
+
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -279,8 +277,8 @@
     margin: 0 auto;
     border-radius: 50%;
     .svg-icon {
-      width: 30px;
-      height: 30px;
+      width: 25px;
+      height: 25px;
       padding: 5px;
     }
     @include breakpoints(tablet) {
@@ -291,7 +289,7 @@
   h3 {
     margin-top: 10px;
     color: $title_text;
-    font-family: "Be Vietnam Pro";
+
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -305,7 +303,7 @@
     padding: 0 15px;
     color: $title_text;
     text-align: center;
-    font-family: "Be Vietnam Pro";
+
     font-size: 16px;
     font-style: normal;
     font-weight: 400;

@@ -146,6 +146,11 @@
       gap: 10px;
     }
   }
+  .founder_contact {
+    .linkBtn {
+      justify-content: flex-start !important;
+    }
+  }
   .book_a_meeting {
     padding: 16px 30px;
     display: flex;

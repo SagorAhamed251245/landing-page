@@ -67,12 +67,14 @@ const Agile = () => {
   return (
     <section className="agile_section">
       <div className="agile">
-        <div className="agile_top">
-          <div className="agile_video">
-            <SingleVideoCard />
-          </div>
+        <div className="container">
+          <div className="agile_top">
+            <div className="agile_video">
+              <SingleVideoCard />
+            </div>
 
-          <SecCard />
+            <SecCard />
+          </div>
         </div>
       </div>
 

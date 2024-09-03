@@ -47,6 +47,7 @@ const OneOnOneBootcamp = lazy(() =>
 import { Be_Vietnam_Pro } from "next/font/google";
 import SeoComp from "./SeoComp";
 import HomePopup from "@/components/HomePopup/HomePopup";
+import NewBanner from "@/components/Banner/NewBanner";
 
 const BeVietnamPro = Be_Vietnam_Pro({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -70,7 +71,8 @@ export default function Home() {
       <main id="top" className={BeVietnamPro.className}>
         <Suspense fallback={<div>Loading...</div>}>
           <TogolTop />
-          <Banner />
+          <NewBanner />
+          {/* <Banner /> */}
           <UniqueServices />
           <OurFounder />
           <StudentsExperience />

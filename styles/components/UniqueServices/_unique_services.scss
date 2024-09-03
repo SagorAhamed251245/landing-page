@@ -97,3 +97,9 @@
     }
   }
 }
+
+.unique_section_services_root {
+  @include breakpoints(tablet) {
+    margin-top: 200px;
+  }
+}

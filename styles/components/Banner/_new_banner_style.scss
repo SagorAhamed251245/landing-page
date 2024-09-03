@@ -1,0 +1,53 @@
+.new_banner_style {
+  background: linear-gradient(
+      0deg,
+      rgba(30, 20, 243, 1) 0%,
+      rgba(255, 255, 255, 0) 44%
+    ),
+    linear-gradient(
+      140deg,
+      rgba(37, 232, 248, 1) 4%,
+      rgba(239, 251, 34, 1) 40%,
+      rgba(254, 21, 21, 1) 70%,
+      rgb(241, 174, 174) 90%
+    );
+  height: 700px;
+  //   background-size: 200% 200%;
+  //   animation: backgroundAnimation 10s ease infinite;
+  position: relative;
+
+  .triangle_bg {
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+    .triangle {
+      clip-path: polygon(100% 50%, 0% 100%, 100% 100%);
+      background-color: #fff;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1; /* Behind the content */
+    }
+  }
+
+  .navbar,
+  .banner_content {
+    position: relative;
+    z-index: 2; /* Above the triangle */
+  }
+}
+
+// @keyframes backgroundAnimation {
+//   0% {
+//     background-position: 0% 50%;
+//   }
+//   50% {
+//     background-position: 100% 50%;
+//   }
+//   100% {
+//     background-position: 0% 50%;
+//   }
+// }
