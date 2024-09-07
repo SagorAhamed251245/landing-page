@@ -1,4 +1,7 @@
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const OneOnOneBootcamp = () => {
   const data = [
@@ -28,7 +31,7 @@ const OneOnOneBootcamp = () => {
         "Coaches unlock and assign tailored content, customized to each student’s learning trajectory.",
     },
   ];
-
+  
   const data2 = [
     {
       title: "Agile Methodology",
@@ -66,12 +69,14 @@ const OneOnOneBootcamp = () => {
         "Each sprint concludes with a retrospective led by the coach, setting the stage for the next cycle and continuous improvement.",
     },
   ];
-
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className="one-on-one">
       <div className="one-on-one-box">
         <div className="container">
-          <h2 style={{ margin: "20px 0" }} className="title">
+          <h2 style={{ margin: "20px 0" }} className="title" data-aos="fade-up" data-aos-duration="1000">
             One-On-One Bootcamp Week
           </h2>
           {/* <p className="description">
@@ -84,7 +89,7 @@ const OneOnOneBootcamp = () => {
           {/* main container  */}
           <div>
             {/* text content 1 */}
-            <div className="text-container">
+            <div className="text-container" data-aos="fade-right" data-aos-duration="1000">
               {data?.map((item, index) => (
                 <ul key={index} className="bullet-style">
                   <li>
@@ -97,7 +102,7 @@ const OneOnOneBootcamp = () => {
             </div>
 
             {/* image  */}
-            <div style={{ margin: "20px 0" }} className="img">
+            <div style={{ margin: "20px 0" }} className="img" data-aos="zoom-in" data-aos-duration="1000">
               <Image
                 height={950}
                 width={1440}
@@ -108,7 +113,7 @@ const OneOnOneBootcamp = () => {
             </div>
 
             {/* text content 2 */}
-            <div className="text-container">
+            <div className="text-container" data-aos="fade-left" data-aos-duration="1000">
               {data2?.map((item, index) => (
                 <ul key={index} className="bullet-style">
                   <li>

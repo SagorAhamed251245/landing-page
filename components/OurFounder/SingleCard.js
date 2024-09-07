@@ -1,9 +1,14 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const SingleCard = ({ review, name, occupation, url }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="review_card ">
+    <div className="review_card " data-aos="zoom-in" data-aos-duration="1000">
       {/* user info */}
       <div className="user_info">
         <Image
@@ -23,7 +28,7 @@ const SingleCard = ({ review, name, occupation, url }) => {
         </div>
       </div>
       {/* reviews */}
-      <p className="p1">Recommended</p>
+      <p className="p1" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="300">Recommended</p>
       <div className="reviews">
         <p style={{ marginTop: "20px" }}>{review}</p>
         {/* ratings */}
@@ -45,7 +50,7 @@ const SingleCard = ({ review, name, occupation, url }) => {
         />
       </div>
 
-      <div className="absolute_icons">
+      <div className="absolute_icons" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
         <Image
           loading="lazy"
           height={80}

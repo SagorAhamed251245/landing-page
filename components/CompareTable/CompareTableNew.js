@@ -1,9 +1,11 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import compareImage from "@/public/images/image/compareImage.svg";
 import { Table } from "antd";
 import { compareData } from "@/data/comparisonData";
 import RoundedCorrect from "../SVG/RoundedCorrect";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import fImage from "../../public/images/image/comapareTableImage/featurebgimage.png";
 import fImage1 from "../../public/images/image/comapareTableImage/bg0.png";
@@ -83,9 +85,12 @@ function CompareTableNew() {
       width: "33.33%",
     },
   ];
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className="compare_table_new">
-      <h2
+      <h2 data-aos="fade-up" data-aos-duration="1000"
         style={{ textAlign: "center", marginBottom: "30px" }}
         className="title"
       >
@@ -98,8 +103,8 @@ function CompareTableNew() {
         src={compareImage}
         alt="compare image"
       />
-      <div className="container compare_table_new_container">
-        <div>
+      <div className="container compare_table_new_container" data-aos="fade-up" data-aos-duration="1000">
+        <div data-aos="fade-up" data-aos-duration="1000">
           <Table
             dataSource={compareData}
             columns={columns}

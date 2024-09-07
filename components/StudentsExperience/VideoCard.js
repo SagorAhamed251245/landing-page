@@ -1,8 +1,14 @@
 import SingleVideoCard from "./SingleVideoCard";
 import LessThen from "../SVG/LessThen";
 import Link from "next/link";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const VideoCard = ({ videos }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <section className="videos_card">
@@ -16,7 +22,7 @@ const VideoCard = ({ videos }) => {
           />
         ))}
       </section>
-      <Link
+      <Link data-aos="flip-left" data-aos-duration="1200"
         target="_blank"
         className="linkBtn center_btn"
         href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}

@@ -1,18 +1,23 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import LessThen from "../SVG/LessThen";
 import Link from "next/link";
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const LeftBookMeeting = () => {
   const [modalOpen, setModalOpen] = useState({
     id: null,
     isOpen: false,
   });
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="left_book_meeting">
       <div>
-        <h4 className="title ">MI State Approved IT Training Provider</h4>
-        <div className="">
+        <h4 className="title " data-aos="zoom-in-up" data-aos-duration="1000">MI State Approved IT Training Provider</h4>
+        <div className="" data-aos="fade-right" data-aos-duration="1000">
           Michigan State-approved IT training providers offer a range of
           programs tailored to meet industry standards and workforce demands.
           These providers undergo rigorous evaluation to ensure their courses
@@ -89,7 +94,7 @@ const LeftBookMeeting = () => {
           and beyond.
         </div>
 
-        <Link
+        <Link data-aos="flip-left" data-aos-duration="1200"
           target="_blank"
           className="linkBtn"
           href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}

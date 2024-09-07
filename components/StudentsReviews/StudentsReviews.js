@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ReviewCard from "./ReviewCard";
 import Link from "next/link";
 import LessThen from "../SVG/LessThen";
 import SwiperReview from "./SwiperReview";
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const StudentsReviews = () => {
   const [platform, setPlatform] = useState("Google");
@@ -122,13 +124,16 @@ const StudentsReviews = () => {
       image: "/images/userDefault.png",
     },
   ];
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className="students_reviews container">
       {/* titles */}
       <div>
-        <h4 className="title">Students Reviews</h4>
+        <h4 className="title" data-aos="fade-up" data-aos-duration="1000">Students Reviews</h4>
         <div className="reviews_buttons">
-          <button
+          <button data-aos="flip-left" data-aos-duration="1000"
             className={`${platform === "Google" && "active"}`}
             onClick={() => setPlatform("Google")}
           >
@@ -143,7 +148,7 @@ const StudentsReviews = () => {
             </span>
             <span className="butoon_text">Reviews</span>
           </button>
-          <button
+          <button data-aos="flip-left" data-aos-duration="1000"
             className={`${platform === "Facebook" && "active"}`}
             onClick={() => setPlatform("Facebook")}
           >
@@ -175,7 +180,7 @@ const StudentsReviews = () => {
           ))}
       </div>
       <SwiperReview reviews={reviews} platform={platform} />
-      <Link
+      <Link data-aos="flip-left" data-aos-duration="1000"
         style={{ marginTop: "0px" }}
         target="_blank"
         className="linkBtn center_btn"
