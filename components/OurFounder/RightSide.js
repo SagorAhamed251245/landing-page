@@ -1,10 +1,15 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const RightSide = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="founder_info_right">
-      <div className="img_div">
+      <div className="img_div" data-aos="fade-left" data-aos-duration="1000">
         <Image
           loading="lazy"
           src="/images/image/founder.png"
@@ -13,7 +18,7 @@ const RightSide = () => {
           alt="founder image"
         />
       </div>
-      <div className="video_card">
+      <div className="video_card" data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="150">
         <div className="single_video">
           <div className="div">
             <iframe

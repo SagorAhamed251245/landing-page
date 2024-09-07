@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const RightContent = () => {
   /*  function playPause() {
@@ -6,10 +8,16 @@ const RightContent = () => {
     if (myVideo.paused) myVideo.play();
     else myVideo.pause();
   } */
-
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
-      <section className="right_banner_section">
+      <section
+        className="right_banner_section"
+        data-aos="fade-up-left"
+        data-aos-duration="1000"
+      >
         {/* <p>
           Join Revolutionary Private Bootcamp Today. Pay After Getting A Job
         </p> */}

@@ -1,18 +1,23 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 
 const LeftContent = ({ benefits }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className="left_banner_section">
-      <p className="p">Are you sure you want to change your life?</p>
+      <p className="p" data-aos="fade-right" data-aos-duration="1000">Are you sure you want to change your life?</p>
 
-      <h1 className="h3">
+      <h1 className="h3" data-aos="fade-left" data-aos-duration="1000">
         Transform your career into a six-figure income with TS4U’s Private
         One-on-One Bootcamp. Here’s what you get
       </h1>
       {benefits?.map((item, index) => (
-        <p className="sub_p mb-hidden" key={index}>
+        <p className="sub_p mb-hidden" key={index} data-aos="fade-right" data-aos-duration="1000">
           {item.title}:{" "}
           <span dangerouslySetInnerHTML={{ __html: item.details }} />
         </p>
@@ -37,7 +42,7 @@ const LeftContent = ({ benefits }) => {
           className="linkBtn "
           href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
         >
-          <button className="contact_button">
+          <button className="contact_button" data-aos="flip-left" data-aos-duration="1000">
             Book a meeting
             <span>
               <Image
