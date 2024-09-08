@@ -17,7 +17,7 @@ const LeftBookMeeting = () => {
     <div className="left_book_meeting">
       <div>
         <h4 className="title " data-aos="zoom-in-up" data-aos-duration="1000">MI State Approved IT Training Provider</h4>
-        <div className="" data-aos="fade-right" data-aos-duration="1000">
+        <div className="" data-aos="fade-right" data-aos-duration="1000"><br />
           Michigan State-approved IT training providers offer a range of
           programs tailored to meet industry standards and workforce demands.
           These providers undergo rigorous evaluation to ensure their courses
@@ -85,7 +85,7 @@ const LeftBookMeeting = () => {
                 ></iframe>
               </div>
             </div>
-          </div>
+          </div> <br />
           Students can trust that programs offered by approved providers adhere
           to industry best practices and provide relevant, up-to-date knowledge
           and skills. This approval also signifies that graduates from these
@@ -96,7 +96,7 @@ const LeftBookMeeting = () => {
 
         <Link data-aos="flip-left" data-aos-duration="1200"
           target="_blank"
-          className="linkBtn"
+          className="linkBtn1"
           href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
         >
           <button className="book_button">

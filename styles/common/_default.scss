@@ -44,7 +44,7 @@
   color: white;
   border: none;
   gap: 15px;
-  margin-top: 40px;
+  
   @include breakpoints(tablet) {
     @include mobile_button;
     display: none;

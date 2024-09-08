@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const LastCard = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="last_card">
-      <div className="div">
+      <div className="div" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="500">
         <iframe
           loading="lazy"
           id="founder"

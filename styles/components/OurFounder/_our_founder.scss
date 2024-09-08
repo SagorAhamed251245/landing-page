@@ -162,7 +162,7 @@
     color: white;
     border: none;
     gap: 15px;
-    margin-top: 30px;
+    margin-top: 10px;
     @include breakpoints(tablet) {
       font-size: 12px;
       padding: 10px 12px;
@@ -197,7 +197,7 @@
       width: 100%;
       border-radius: 15px;
       padding: 30px;
-
+      background-color: #fff;
       border: 1px solid rgba(108, 59, 235, 0.1098039216);
       position: relative;
       overflow: hidden;

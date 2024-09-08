@@ -1,6 +1,13 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const SingleVideoCard = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="single_video">
+    <div className="single_video" data-aos="fade-right" data-aos-duration="1000">
       <div className="div">
         <iframe
           title="video"

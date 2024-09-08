@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const SingleVideo = ({ url, id }) => {
   /* function playPause() {
@@ -6,9 +8,12 @@ const SingleVideo = ({ url, id }) => {
     if (myVideo.paused) myVideo.play();
     else myVideo.pause();
   } */
+    useEffect(() => {
+      AOS.init();
+    }, []);
   return (
     <div className="single_video">
-      <div className="div">
+      <div className="div" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
         <iframe
           title="video"
           loading="lazy"

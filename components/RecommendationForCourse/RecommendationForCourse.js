@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import SingleCard from "./SingleCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import RecommendationVideos from "./RecommendationVideos";
@@ -21,9 +23,12 @@ const RecommendationForCourse = ({
   recommendation,
   recommendationVideos,
 }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
-      <h4
+      <h4 data-aos="fade-up" data-aos-duration="1000"
         className="title recommendation_cards_title"
         style={{
           color: titleColor ? titleColor : "black",
@@ -33,7 +38,7 @@ const RecommendationForCourse = ({
       </h4>
       <section className="recommendation_reviews container">
         <div className="recommendation_cards">
-          <Swiper
+          <Swiper data-aos="fade-up" data-aos-duration="1000"
             slidesPerView={4}
             spaceBetween={30}
             freeMode={true}
@@ -72,7 +77,7 @@ const RecommendationForCourse = ({
           >
             {recommendation?.map((review, index) => (
               <SwiperSlide key={index}>
-                <SingleCard
+                <SingleCard 
                   name={review.name}
                   review={review.review}
                   image={review.image}
@@ -83,7 +88,7 @@ const RecommendationForCourse = ({
           </Swiper>
         </div>
         <RecommendationVideos recommendationVideos={recommendationVideos} />
-        <div
+        <div data-aos="flip-left" data-aos-duration="1000"
           className="review_btn"
           style={{
             display: "flex",

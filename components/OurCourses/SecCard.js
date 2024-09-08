@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const SecCard = () => {
   const features = [
@@ -7,6 +9,9 @@ const SecCard = () => {
     "Project 20+",
     "Months 6+",
   ];
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section
       style={{
@@ -16,10 +21,10 @@ const SecCard = () => {
       }}
     >
       <div className="aws_title">
-        <h4 className="title">
+        <h4 className="title" data-aos="fade-up" data-aos-duration="1000">
           MERN+AWS DevOps and <br /> CloudOps Engineer
         </h4>
-        <p className="p_aws">
+        <p className="p_aws" data-aos="fade-left" data-aos-duration="1000">
           Become an AWS CloudOps Engineer in just 7 to 9 months! No prior
           programming experience needed. Dive into hands-on projects and
           enterprise applications. Work in an agile scrum setup and collaborate
@@ -28,7 +33,7 @@ const SecCard = () => {
         </p>
         <div className="features">
           {features.map((item, index) => (
-            <p
+            <p data-aos="fade-right" data-aos-duration="1000"
               key={index}
               style={{
                 display: "flex",

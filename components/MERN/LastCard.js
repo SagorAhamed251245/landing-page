@@ -1,11 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const LastCard = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="lastCard">
-      <div className="lastCard_div1">
+      <div className="lastCard_div1" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250">
         <div className="single_card">
           <div className="single_card_img">
             <Image
@@ -59,7 +65,7 @@ const LastCard = () => {
           </div>
         </div>
       </div>
-      <div className="div">
+      <div className="div" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="250">
         <div>
           <iframe
             loading="lazy"
