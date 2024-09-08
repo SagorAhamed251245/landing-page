@@ -50,7 +50,7 @@ const SingleCard = ({ review, name, occupation, url }) => {
         />
       </div>
 
-      <div className="absolute_icons" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+      <div className="absolute_icons">
         <Image
           loading="lazy"
           height={80}

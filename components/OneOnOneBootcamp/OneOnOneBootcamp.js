@@ -102,7 +102,7 @@ const OneOnOneBootcamp = () => {
             </div>
 
             {/* image  */}
-            <div style={{ margin: "20px 0" }} className="img" data-aos="zoom-in" data-aos-duration="1000">
+            <div style={{ margin: "20px 0" }} className="img">
               <Image
                 height={950}
                 width={1440}

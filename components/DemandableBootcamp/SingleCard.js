@@ -10,8 +10,8 @@ const SingleCard = ({ bootCamp }) => {
     AOS.init();
   }, []);
   return (
-    <div className="single_card" data-aos="fade-up" data-aos-duration="1000">
-      <div className="single_card_img" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+    <div className="single_card" data-aos="zoom-in" data-aos-duration="1000">
+      <div className="single_card_img">
         <Image
           loading="lazy"
           height={219}
@@ -22,10 +22,10 @@ const SingleCard = ({ bootCamp }) => {
       </div>
       <div className="single_card_info">
         <div className="div_1">
-          <h4 data-aos="fade-right" data-aos-duration="1000">{course}</h4>
+          <h4>{course}</h4>
           <div className="">
-            <p data-aos="fade-right" data-aos-duration="1000">Total hours: {timeLength}+h Video Lectures</p>
-            <p data-aos="fade-right" data-aos-duration="1000">
+            <p>Total hours: {timeLength}+h Video Lectures</p>
+            <p>
               <span style={{ display: "flex", alignItems: "center" }}>
                 {/* <section className="new_starts_class">
                   <FaStar color="#ef7817" />
@@ -47,7 +47,7 @@ const SingleCard = ({ bootCamp }) => {
             </p>
           </div>
 
-          <div className="div_2" data-aos="fade-up" data-aos-duration="1000">
+          <div className="div_2">
             {/* <p>
               {offerPrice} <span>{price}</span>
             </p> */}
