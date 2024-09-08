@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import DemandableBootcampCard from "../DemandableBootcamp/DemandableBootcampCard";
 import Link from "next/link";
 import LessThen from "../SVG/LessThen";
@@ -43,11 +45,14 @@ const FreeCourses = () => {
       price: "",
     },
   ];
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div>
       <section className="demandable_bootcamp ">
         <div className="demand-text" style={{ textAlign: "center" }}>
-          <h4 className="title" style={{ marginBottom: "20px" }}>
+          <h4 className="title" style={{ marginBottom: "20px" }} data-aos="fade-up" data-aos-duration="1000">
             Our Free Courses
           </h4>
           <p></p>
@@ -55,7 +60,7 @@ const FreeCourses = () => {
         <div className="container">
           <DemandableBootcampCard bootCamps={bootCamps} />
         </div>
-        <Link
+        <Link data-aos="flip-left" data-aos-duration="1000"
           target="_blank"
           className="linkBtn center_btn"
           href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}

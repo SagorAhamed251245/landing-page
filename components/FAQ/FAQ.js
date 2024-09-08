@@ -1,14 +1,19 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const FAQ = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section>
-      <h2 style={{ textAlign: "center" }} className="title">
+      <h2 style={{ textAlign: "center" }} className="title" data-aos="fade-up" data-aos-duration="1000">
         Frequently Asked Questions
       </h2>
       <section className="faq container">
-        <div className="div div1">
+        <div className="div div1" data-aos="fade-right" data-aos-duration="1000">
           <div className="img">
             <Image
               loading="lazy"
@@ -22,7 +27,7 @@ const FAQ = () => {
         </div>
 
         <div className="div">
-          <div>
+          <div data-aos="fade-left" data-aos-duration="1000">
             <details>
               <summary>What makes TS4U different from other bootcamps?</summary>
               <div>
@@ -35,7 +40,7 @@ const FAQ = () => {
               </div>
             </details>
           </div>
-          <div>
+          <div data-aos="fade-left" data-aos-duration="1000">
             <details>
               <summary>What is Private and one-on-one bootcamp?</summary>
               <div>
@@ -45,7 +50,7 @@ const FAQ = () => {
               </div>
             </details>
           </div>
-          <div>
+          <div data-aos="fade-left" data-aos-duration="1000">
             <details>
               <summary>
                 What is flexible enrollment and how it helps a student?
@@ -56,7 +61,7 @@ const FAQ = () => {
               </div>
             </details>
           </div>
-          <div>
+          <div data-aos="fade-left" data-aos-duration="1000">
             <details>
               <summary>
                 How do I have the technical support when I need?
@@ -68,7 +73,7 @@ const FAQ = () => {
               </div>
             </details>
           </div>
-          <div>
+          <div data-aos="fade-left" data-aos-duration="1000">
             <details>
               <summary>
                 What happens in the job interview after bootcamp completion?
@@ -80,7 +85,7 @@ const FAQ = () => {
               </div>
             </details>
           </div>
-          <div>
+          <div data-aos="fade-left" data-aos-duration="1000">
             <details>
               <summary>
                 What are some of the difficulties non-IT people have learning
@@ -93,7 +98,7 @@ const FAQ = () => {
               </div>
             </details>
           </div>
-          <div>
+          <div data-aos="fade-left" data-aos-duration="1000">
             <details>
               <summary>Does TS4U provide career counseling?</summary>
               <div>
@@ -103,7 +108,7 @@ const FAQ = () => {
               </div>
             </details>
           </div>
-          <div>
+          <div data-aos="fade-left" data-aos-duration="1000">
             <details>
               <summary>How can you define bench testing?</summary>
               <div>
@@ -112,7 +117,7 @@ const FAQ = () => {
               </div>
             </details>
           </div>
-          <div>
+          <div data-aos="fade-left" data-aos-duration="1000">
             <details>
               <summary>
                 Suppose a member has not completed his graduation; can he join

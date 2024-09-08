@@ -10,7 +10,7 @@ const FirstCard = () => {
   }, []);
   return (
     <div className="first_card" data-aos="fade-up" data-aos-duration="1000">
-      <div className="single_card_img" data-aos="zoom-in" data-aos-duration="1000">
+      <div className="single_card_img" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
         <Image
           loading="lazy"
           height={219}
