@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import SuccessfulCard from "./SuccessfulCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { SwiperNavButtons } from "../DemandableBootcamp/SwiperNavButtons";
@@ -53,13 +55,16 @@ const SuccessfulStudents = () => {
       id: "9",
     }, */
   ];
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className="successful-students container">
       <div className="next-career next-career1">
-        <h2 style={{ marginBottom: "20px" }} className="title">
+        <h2 style={{ marginBottom: "20px" }} className="title" data-aos="fade-up" data-aos-duration="1000">
           Successful Students
         </h2>
-        <p>
+        <p data-aos="fade-right" data-aos-duration="1000">
           Successful students exhibit several key characteristics that
           contribute to their achievements.
         </p>
@@ -108,7 +113,7 @@ const SuccessfulStudents = () => {
         ))}
         <SwiperNavButtons />
       </Swiper>
-      <Link
+      <Link data-aos="flip-left" data-aos-duration="1000"
         target="_blank"
         className="linkBtn center_btn"
         href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}

@@ -1,12 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const SingleCard = ({ bootCamp }) => {
-  const { course, image, timeLength, averageRating, totalRatings } = bootCamp;
-
+  const { course, image, timeLength, totalRatings } = bootCamp;
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="single_card">
+    <div className="single_card" data-aos="zoom-in" data-aos-duration="1000">
       <div className="single_card_img">
         <Image
           loading="lazy"
@@ -22,7 +26,6 @@ const SingleCard = ({ bootCamp }) => {
           <div className="">
             <p>Total hours: {timeLength}+h Video Lectures</p>
             <p>
-              {averageRating}
               <span style={{ display: "flex", alignItems: "center" }}>
                 {/* <section className="new_starts_class">
                   <FaStar color="#ef7817" />
@@ -40,7 +43,7 @@ const SingleCard = ({ bootCamp }) => {
                   className="new_starts_class"
                 />
               </span>
-              <span>#({totalRatings})</span>
+              <span>({totalRatings})</span>
             </p>
           </div>
 
