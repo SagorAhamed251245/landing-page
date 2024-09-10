@@ -27,7 +27,7 @@ const FAQ = () => {
         </div>
 
         <div className="div">
-          <div data-aos="fade-left" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-duration="1000">
             <details>
               <summary>What makes TS4U different from other bootcamps?</summary>
               <div>
@@ -40,7 +40,7 @@ const FAQ = () => {
               </div>
             </details>
           </div>
-          <div data-aos="fade-left" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-duration="1000">
             <details>
               <summary>What is Private and one-on-one bootcamp?</summary>
               <div>
@@ -50,7 +50,7 @@ const FAQ = () => {
               </div>
             </details>
           </div>
-          <div data-aos="fade-left" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-duration="1000">
             <details>
               <summary>
                 What is flexible enrollment and how it helps a student?
@@ -61,7 +61,7 @@ const FAQ = () => {
               </div>
             </details>
           </div>
-          <div data-aos="fade-left" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-duration="1000">
             <details>
               <summary>
                 How do I have the technical support when I need?
@@ -73,7 +73,7 @@ const FAQ = () => {
               </div>
             </details>
           </div>
-          <div data-aos="fade-left" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-duration="1000">
             <details>
               <summary>
                 What happens in the job interview after bootcamp completion?
@@ -85,7 +85,7 @@ const FAQ = () => {
               </div>
             </details>
           </div>
-          <div data-aos="fade-left" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-duration="1000">
             <details>
               <summary>
                 What are some of the difficulties non-IT people have learning
@@ -98,7 +98,7 @@ const FAQ = () => {
               </div>
             </details>
           </div>
-          <div data-aos="fade-left" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-duration="1000">
             <details>
               <summary>Does TS4U provide career counseling?</summary>
               <div>
@@ -108,7 +108,7 @@ const FAQ = () => {
               </div>
             </details>
           </div>
-          <div data-aos="fade-left" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-duration="1000">
             <details>
               <summary>How can you define bench testing?</summary>
               <div>
@@ -117,7 +117,7 @@ const FAQ = () => {
               </div>
             </details>
           </div>
-          <div data-aos="fade-left" data-aos-duration="1000">
+          <div data-aos="fade-up" data-aos-duration="1000">
             <details>
               <summary>
                 Suppose a member has not completed his graduation; can he join

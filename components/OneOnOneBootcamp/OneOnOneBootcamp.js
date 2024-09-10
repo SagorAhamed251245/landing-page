@@ -89,7 +89,7 @@ const OneOnOneBootcamp = () => {
           {/* main container  */}
           <div>
             {/* text content 1 */}
-            <div className="text-container" data-aos="fade-right" data-aos-duration="1000">
+            <div className="text-container" data-aos="fade-up" data-aos-duration="1000">
               {data?.map((item, index) => (
                 <ul key={index} className="bullet-style">
                   <li>
@@ -113,7 +113,7 @@ const OneOnOneBootcamp = () => {
             </div>
 
             {/* text content 2 */}
-            <div className="text-container" data-aos="fade-left" data-aos-duration="1000">
+            <div className="text-container" data-aos="fade-up" data-aos-duration="1000">
               {data2?.map((item, index) => (
                 <ul key={index} className="bullet-style">
                   <li>

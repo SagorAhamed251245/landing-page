@@ -15,7 +15,7 @@ const RightContent = () => {
     <>
       <section
         className="right_banner_section"
-        data-aos="fade-up-left"
+        data-aos="fade-up"
         data-aos-duration="1000"
       >
         {/* <p>

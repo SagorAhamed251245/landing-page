@@ -11,7 +11,7 @@ const LastCard = () => {
   }, []);
   return (
     <div className="lastCard">
-      <div className="lastCard_div1" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="250">
+      <div className="lastCard_div1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
         <div className="single_card">
           <div className="single_card_img">
             <Image
@@ -65,7 +65,7 @@ const LastCard = () => {
           </div>
         </div>
       </div>
-      <div className="div" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="250">
+      <div className="div" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
         <div>
           <iframe
             loading="lazy"

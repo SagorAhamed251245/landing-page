@@ -24,7 +24,7 @@ const SecCard = () => {
         <h4 className="title" data-aos="fade-up" data-aos-duration="1000">
           MERN+AWS DevOps and <br /> CloudOps Engineer
         </h4>
-        <p className="p_aws" data-aos="fade-left" data-aos-duration="1000">
+        <p className="p_aws" data-aos="fade-up" data-aos-duration="1000">
           Become an AWS CloudOps Engineer in just 7 to 9 months! No prior
           programming experience needed. Dive into hands-on projects and
           enterprise applications. Work in an agile scrum setup and collaborate
