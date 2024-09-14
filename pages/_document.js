@@ -12,11 +12,9 @@ export default function Document() {
           }
         />
         {/**Canonical */}
-
         <link rel="canonical" href="https://inquiry.ts4u.us/"></link>
 
-        {/** schema.org start*/}
-
+        {/** schema.org start */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -33,7 +31,6 @@ export default function Document() {
             }),
           }}
         />
-        {/* ------------------- */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -51,9 +48,6 @@ export default function Document() {
             }),
           }}
         />
-
-        {/* ------------------- */}
-
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -88,9 +82,6 @@ export default function Document() {
             }),
           }}
         />
-
-        {/* ------------------- */}
-
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -140,10 +131,8 @@ export default function Document() {
             }),
           }}
         />
-
-        {/** schema.org end*/}
+        {/** schema.org end */}
         {/**keyword */}
-
         <meta
           name="keywords"
           content="TS4U,Professional growth,Exclusive program,Career development,Personal development,Financial freedom,Business coaching,Top earners,Make six figures,Entrepreneurship,Wealth building,Wealth creation,High income potential,Success mindset,Online training,Must-Have Perks,Financial success,Income generation,Private Bootcamp,Self-improvement"
@@ -167,8 +156,32 @@ export default function Document() {
         ></script>
       </Head>
       <body>
+        {/* Google Tag Manager */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-WNCJXR4G');
+            `,
+          }}
+        ></script>
+        
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-WNCJXR4G"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
+        
         <Main />
         <NextScript />
+
         <script
           dangerouslySetInnerHTML={{
             __html: `
