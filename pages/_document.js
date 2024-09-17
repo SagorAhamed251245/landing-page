@@ -12,7 +12,7 @@ export default function Document() {
           }
         />
         {/**Canonical */}
-        <link rel="canonical" href="https://inquiry.ts4u.us/"></link>
+        <link rel="canonical" href="https://inquiry.ts4u.us/" />
 
         {/** schema.org start */}
         <script
@@ -137,23 +137,6 @@ export default function Document() {
           name="keywords"
           content="TS4U,Professional growth,Exclusive program,Career development,Personal development,Financial freedom,Business coaching,Top earners,Make six figures,Entrepreneurship,Wealth building,Wealth creation,High income potential,Success mindset,Online training,Must-Have Perks,Financial success,Income generation,Private Bootcamp,Self-improvement"
         />
-
-        {/* Google tag (gtag.js) */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-6L2FSQRWYC"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-6L2FSQRWYC');
-              gtag('config', 'AW-16520111092');
-            `,
-          }}
-        ></script>
       </Head>
       <body>
         {/* Google Tag Manager */}
@@ -168,7 +151,11 @@ export default function Document() {
             `,
           }}
         ></script>
-        
+        {/* End Google Tag Manager */}
+
+        <Main />
+        <NextScript />
+
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
@@ -178,27 +165,7 @@ export default function Document() {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
-        
-        <Main />
-        <NextScript />
-
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-                !function(f,b,e,v,n,t,s)
-                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-                n.queue=[];t=b.createElement(e);t.async=!0;
-                t.src=v;s=b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t,s)}(window, document,'script',
-                'https://connect.facebook.net/en_US/fbevents.js');
-                fbq('init', '318631454217422');
-                fbq('track', 'PageView');
-                gtag('event', 'conversion', {'send_to': 'AW-16520111092/lQ8oCP2QjsQZEPTHs8U9'});
-              `,
-          }}
-        ></script>
+        {/* End Google Tag Manager (noscript) */}
       </body>
     </Html>
   );
