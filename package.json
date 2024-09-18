@@ -19,6 +19,7 @@
     "react-dom": "^18",
     "react-fast-marquee": "^1.6.4",
     "react-rating": "^2.0.5",
+    "react-responsive": "^10.0.0",
     "sass": "^1.77.2",
     "swiper": "^11.1.3"
   },

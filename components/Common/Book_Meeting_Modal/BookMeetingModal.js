@@ -1,10 +1,15 @@
 import LessThen from "@/components/SVG/LessThen";
 import { Modal, Spin } from "antd";
 import React, { useState } from "react";
+import { useMediaQuery } from "react-responsive";
 
 function BookMeetingModal({ bgColor, color }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [loading, setLoading] = useState(true);
+
+  const isMobile = useMediaQuery({
+    query: '(max-width: 768px)'
+  })
 
   const showModal = () => {
     setIsModalOpen(true);
@@ -65,7 +70,7 @@ function BookMeetingModal({ bgColor, color }) {
             <iframe
               src="https://www.bootcampshub.ai/form-embed/tZRIZ6Rses"
               width="100%"
-              height="640"
+              height={"670"}
               frameBorder="0"
               style={{
                 border: "none",
@@ -75,7 +80,7 @@ function BookMeetingModal({ bgColor, color }) {
                 display: loading ? "none" : "block",
               }}
               allowTransparency="true"
-              scrolling="no"
+              scrolling={"no"}
               onLoad={handleIframeLoad}
             ></iframe>
           </div>
