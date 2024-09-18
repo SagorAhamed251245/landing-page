@@ -14,6 +14,7 @@ import "swiper/css/navigation";
 import { FreeMode } from "swiper/modules";
 import { SwiperNavButtons } from "../DemandableBootcamp/SwiperNavButtons";
 import BookButton from "../Shared/BookButton";
+import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const RecommendationForCourse = ({
   titleColor,
@@ -93,13 +94,15 @@ const RecommendationForCourse = ({
           style={{
             display: "flex",
             justifyContent: "center",
+            marginTop:"30px"
           }}
         >
-          <BookButton
+          {/* <BookButton
             Children={btnChildren}
             primary={primaryBtn}
             LessThenColor={LessThenColor}
-          />
+          /> */}
+                <BookMeetingModal bgColor={"#ffffff"} color={"#5831f0"} />
         </div>
       </section>
     </>

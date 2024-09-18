@@ -4,6 +4,7 @@ import Tick from "./Tick";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const LeftSide = () => {
   useEffect(() => {
@@ -22,21 +23,21 @@ const LeftSide = () => {
       <div>
         <div className="founder_contact">
           <div>
-            <h4 className="title" data-aos="fade-up" data-aos-duration="1000">Shiblu Ahmad</h4>
-            <p className="p1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Principal, TS4U</p>
+            <h4 className="title" data-aos="fade-up" data-aos-duration="1000">
+              Shiblu Ahmad
+            </h4>
+            <p
+              className="p1"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              Principal, TS4U
+            </p>
           </div>
-          <Link
-            target="_blank" data-aos="flip-right" data-aos-duration="1000"
-            className="linkBtn"
-            href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
-          >
-            <button className="book_a_meeting" >
-              Book a meeting
-              <span>
-                <LessThen color={"white"} />
-              </span>
-            </button>
-          </Link>
+          <div style={{ marginTop: "20px" }}>
+            <BookMeetingModal />
+          </div>
         </div>
 
         <p className="into_p" data-aos="fade-up" data-aos-duration="1000">
@@ -50,7 +51,12 @@ const LeftSide = () => {
 
       <div>
         {experiences.map((expe, index) => (
-          <div className="experience" key={index} data-aos="fade-right" data-aos-duration="1000">
+          <div
+            className="experience"
+            key={index}
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <Tick />
             <p>{expe}</p>
           </div>

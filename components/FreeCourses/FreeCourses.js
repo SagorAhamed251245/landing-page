@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import DemandableBootcampCard from "../DemandableBootcamp/DemandableBootcampCard";
 import Link from "next/link";
 import LessThen from "../SVG/LessThen";
+import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const FreeCourses = () => {
   const bootCamps = [
@@ -60,18 +61,9 @@ const FreeCourses = () => {
         <div className="container">
           <DemandableBootcampCard bootCamps={bootCamps} />
         </div>
-        <Link data-aos="flip-left" data-aos-duration="1000"
-          target="_blank"
-          className="linkBtn center_btn"
-          href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
-        >
-          <button className="book_a_meeting_btn">
-            Book a meeting
-            <span>
-              <LessThen color={"white"} />
-            </span>
-          </button>
-        </Link>
+        <div style={{marginTop:"20px",display:"flex",justifyContent:"center"}}>
+   <BookMeetingModal/>
+   </div>
       </section>
     </div>
   );

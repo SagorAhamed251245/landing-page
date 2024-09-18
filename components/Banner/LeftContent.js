@@ -3,6 +3,7 @@ import "aos/dist/aos.css";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect } from "react";
+import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const LeftContent = ({ benefits }) => {
   useEffect(() => {
@@ -32,29 +33,11 @@ const LeftContent = ({ benefits }) => {
           <span dangerouslySetInnerHTML={{ __html: item.details }} />
         </p>
       ))}
-      {/* <p className="sub_p">
-        In this free training video, learn how I landed my dream career without
-        a degree or certifications.
-      </p> */}
+    
       <div className="contact_button_div mb-hidden">
-        <Link
-          target="_blank"
-          className="linkBtn "
-          href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
-        >
-          <button className="contact_button" data-aos="flip-left" data-aos-duration="1000">
-            Book a meeting
-            <span>
-              <Image
-                loading="lazy"
-                height={15}
-                width={15}
-                src="/images/svg/lessdthen.svg"
-                alt="lessthen"
-              />
-            </span>
-          </button>
-        </Link>
+        
+
+<BookMeetingModal/>
       </div>
     </section>
   );
