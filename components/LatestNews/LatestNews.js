@@ -3,6 +3,7 @@ import Cards from "./Cards";
 import Link from "next/link";
 import LessThen from "../SVG/LessThen";
 import Image from "next/image";
+import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const LatestNews = () => {
   const latestNews = [
@@ -44,19 +45,10 @@ const LatestNews = () => {
           ))}
         </div>
       </div>
-      <Link
-        target="_blank"
-        className="linkBtn center_btn"
-        href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
-        style={{ textDecoration: "none" }}
-      >
-        <button className={"book_a_meeting_2"}>
-          Book a meeting
-          <span>
-            <LessThen color={"#5831f0"} />
-          </span>
-        </button>
-      </Link>
+     
+
+
+<BookMeetingModal/>
     </section>
   );
 };

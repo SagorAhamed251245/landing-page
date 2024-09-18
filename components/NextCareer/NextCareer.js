@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import LessThen from "../SVG/LessThen";
 import Image from "next/image";
+import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const NextCareer = () => {
   useEffect(() => {
@@ -64,18 +65,9 @@ const NextCareer = () => {
             ))}
           </div>
 
-          <Link data-aos="flip-up" data-aos-duration="1000"
-            target="_blank"
-            className=" linkBtn1  center_btn  mb_hidden"
-            href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
-          >
-            <button className="book_a_meeting_btn ">
-              Book a meeting
-              <span>
-                <LessThen color={"white"} />
-              </span>
-            </button>
-          </Link>
+          <div style={{marginTop:"30px"}}>
+          <BookMeetingModal/>
+          </div>
         </div>
 
         <Image data-aos="fade-up" data-aos-duration="1000"

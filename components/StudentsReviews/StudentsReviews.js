@@ -6,6 +6,7 @@ import SwiperReview from "./SwiperReview";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const StudentsReviews = () => {
   const [platform, setPlatform] = useState("Google");
@@ -180,19 +181,9 @@ const StudentsReviews = () => {
           ))}
       </div>
       <SwiperReview reviews={reviews} platform={platform} />
-      <Link data-aos="flip-left" data-aos-duration="1000"
-        style={{ marginTop: "0px" }}
-        target="_blank"
-        className="linkBtn center_btn"
-        href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
-      >
-        <button className="book_a_meeting_btn">
-          Book a meeting
-          <span>
-            <LessThen color={"white"} />
-          </span>
-        </button>
-      </Link>
+   <div style={{marginTop:"20px"}}>
+   <BookMeetingModal/>
+   </div>
     </section>
   );
 };

@@ -15,6 +15,7 @@ import "swiper/css/navigation";
 import { FreeMode } from "swiper/modules";
 import Link from "next/link";
 import LessThen from "../SVG/LessThen";
+import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const SuccessfulStudents = () => {
   const videos = [
@@ -113,18 +114,9 @@ const SuccessfulStudents = () => {
         ))}
         <SwiperNavButtons />
       </Swiper>
-      <Link data-aos="flip-left" data-aos-duration="1000"
-        target="_blank"
-        className="linkBtn center_btn"
-        href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
-      >
-        <button className="book_a_meeting_btns">
-          Book a meeting
-          <span>
-            <LessThen color={"white"} />
-          </span>
-        </button>
-      </Link>
+      <div style={{marginTop:"20px"}}>
+   <BookMeetingModal/>
+   </div>
     </section>
   );
 };
