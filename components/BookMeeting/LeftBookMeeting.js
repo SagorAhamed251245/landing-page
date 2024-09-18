@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const LeftBookMeeting = () => {
   const [modalOpen, setModalOpen] = useState({
@@ -94,18 +95,9 @@ const LeftBookMeeting = () => {
           and beyond.
         </div>
 
-        <Link data-aos="flip-left" data-aos-duration="1200"
-          target="_blank"
-          className="linkBtn1"
-          href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
-        >
-          <button className="book_button">
-            Book a meeting
-            <span>
-              <LessThen color={"white"} />
-            </span>
-          </button>
-        </Link>
+        <div style={{marginTop:"20px"}}>
+   <BookMeetingModal/>
+   </div>
       </div>
     </div>
   );

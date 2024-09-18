@@ -4,6 +4,7 @@ import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const VideoCard = ({ videos }) => {
   useEffect(() => {
@@ -22,18 +23,9 @@ const VideoCard = ({ videos }) => {
           />
         ))}
       </section>
-      <Link data-aos="flip-left" data-aos-duration="1200"
-        target="_blank"
-        className="linkBtn center_btn"
-        href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
-      >
-        <button className="book_a_Video_meeting_btn  center">
-          Book a meeting
-          <span>
-            <LessThen color={"white"} />
-          </span>
-        </button>
-      </Link>
+      <div style={{marginTop:"20px",display:"flex",justifyContent:"center"}}>
+   <BookMeetingModal/>
+   </div>
     </>
   );
 };

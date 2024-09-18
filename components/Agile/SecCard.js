@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import LessThen from "../SVG/LessThen";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const SecCard = () => {
   const features = [
@@ -63,19 +64,9 @@ const SecCard = () => {
             </p>
           ))}
         </div>
-        <Link data-aos="flip-left" data-aos-duration="1000"
-          target="_blank"
-          className="linkBtn1"
-          href={"https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"}
-          style={{ textDecoration: "none" }}
-        >
-          <button className={"book_a_meeting_2"}>
-            Book a meeting
-            <span>
-              <LessThen color={"#5831f0"} />
-            </span>
-          </button>
-        </Link>
+        <div style={{marginTop:"20px",display:"flex", justifyContent:"center"}}>
+   <BookMeetingModal bgColor={"white"} color={"#5831f0"}/>
+   </div>
       </div>
     </section>
   );

@@ -65,7 +65,7 @@ function BookMeetingModal({ bgColor, color }) {
             <iframe
               src="https://www.bootcampshub.ai/form-embed/tZRIZ6Rses"
               width="100%"
-              height="680"
+              height="640"
               frameBorder="0"
               style={{
                 border: "none",
