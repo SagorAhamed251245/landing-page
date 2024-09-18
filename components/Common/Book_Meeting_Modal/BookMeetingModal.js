@@ -8,7 +8,7 @@ function BookMeetingModal({ bgColor, color }) {
   const [loading, setLoading] = useState(true);
 
   const isMobile = useMediaQuery({
-    query: '(max-width: 768px)'
+    query: '(max-width: 370px)'
   })
 
   const showModal = () => {
@@ -70,7 +70,7 @@ function BookMeetingModal({ bgColor, color }) {
             <iframe
               src="https://www.bootcampshub.ai/form-embed/tZRIZ6Rses"
               width="100%"
-              height={"670"}
+              height={isMobile?"600":"670"}
               frameBorder="0"
               style={{
                 border: "none",
@@ -80,7 +80,7 @@ function BookMeetingModal({ bgColor, color }) {
                 display: loading ? "none" : "block",
               }}
               allowTransparency="true"
-              scrolling={"no"}
+              scrolling={isMobile?"on":"no"}
               onLoad={handleIframeLoad}
             ></iframe>
           </div>
