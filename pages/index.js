@@ -99,7 +99,7 @@ export default function Home() {
           <Footer />
         </Suspense>
       </main>
-      <HomePopup />
+      {/* <HomePopup /> */}
     </>
   );
 }
