@@ -3,13 +3,13 @@ import { Modal, Spin } from "antd";
 import React, { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
-function BookMeetingModal({ bgColor, color }) {
+function BookMeetingModal({ bgColor, color, title = "Book a meeting" }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [loading, setLoading] = useState(true);
 
   const isMobile = useMediaQuery({
-    query: '(max-width: 370px)'
-  })
+    query: "(max-width: 370px)",
+  });
 
   const showModal = () => {
     setIsModalOpen(true);
@@ -39,7 +39,7 @@ function BookMeetingModal({ bgColor, color }) {
         }}
         className="book_a_meeting_btn"
       >
-        Book a meeting
+        {title}
         <span>
           <LessThen color={color ? color : "white"} />
         </span>
@@ -64,23 +64,21 @@ function BookMeetingModal({ bgColor, color }) {
               <Spin size="large" />
             </div>
           )}
-          <div
-         
-          >
+          <div>
             <iframe
               src="https://www.bootcampshub.ai/form-embed/tZRIZ6Rses"
               width="100%"
-              height={isMobile?"600":"670"}
+              height={isMobile ? "600" : "670"}
               frameBorder="0"
               style={{
                 border: "none",
-           
+
                 top: 0,
                 left: 0,
                 display: loading ? "none" : "block",
               }}
               allowTransparency="true"
-              scrolling={isMobile?"on":"no"}
+              scrolling={isMobile ? "on" : "no"}
               onLoad={handleIframeLoad}
             ></iframe>
           </div>
