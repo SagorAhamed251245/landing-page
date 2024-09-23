@@ -42,10 +42,10 @@ const LeftContent = ({ benefits }) => {
       ))}
 
       <div
-        style={{ marginTop: "0px" }}
+        style={{ marginTop: "10px" }}
         className="contact_button_div mb-hidden"
       >
-        <h3 style={{ marginBottom: "10px" }}>
+        <h3 style={{ marginBottom: "10px", fontSize: "24px" }}>
           Apply now to get 50% off on our Bootcamp program
         </h3>
         <BookMeetingModal title="Get Offer" />

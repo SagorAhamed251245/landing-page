@@ -52,7 +52,10 @@ const BannerContent = () => {
           </p>
         ))}
       </div>
-      <h3 className="d-flex-lg-hidden" style={{ marginBottom: "10px" }}>
+      <h3
+        className="d-flex-lg-hidden"
+        style={{ marginBottom: "10px", marginTop: "10px", fontSize: "24px" }}
+      >
         Apply now to get 50% off on our Bootcamp program
       </h3>
       <div className="contact_button_div d-flex-lg-hidden">
