@@ -1,7 +1,6 @@
-import React, { Suspense, lazy, useEffect, useState } from "react";
+import React, { Suspense, lazy } from "react";
 
 // Dynamic imports for lazy loading
-const Banner = lazy(() => import("@/components/Banner/Banner"));
 const BookMeeting = lazy(() => import("@/components/BookMeeting/BookMeeting"));
 
 const NextCareer = lazy(() => import("@/components/NextCareer/NextCareer"));
@@ -21,24 +20,24 @@ const Footer = lazy(() => import("@/components/Footer/Footer"));
 const OurFounder = lazy(() => import("@/components/OurFounder/OurFounder"));
 const OurProgram = lazy(() => import("@/components/OurProgram/OurProgram"));
 const OurCourses = lazy(() => import("@/components/OurCourses/OurCourses"));
-const VehicleValidation = lazy(() =>
-  import("@/components/VehicleValidation/VehicleValidation")
-);
+// const VehicleValidation = lazy(() =>
+//   import("@/components/VehicleValidation/VehicleValidation")
+// );
 const Agile = lazy(() => import("@/components/Agile/Agile"));
 const MERN = lazy(() => import("@/components/MERN/MERN"));
 const FAQ = lazy(() => import("@/components/FAQ/FAQ"));
-const CompareTable = lazy(() =>
-  import("@/components/CompareTable/CompareTable")
-);
+// const CompareTable = lazy(() =>
+//   import("@/components/CompareTable/CompareTable")
+// );
 const CompareTableNew = lazy(() =>
   import("@/components/CompareTable/CompareTableNew")
 );
 
-const LatestNews = lazy(() => import("@/components/LatestNews/LatestNews"));
+// const LatestNews = lazy(() => import("@/components/LatestNews/LatestNews"));
 const SuccessfulStudents = lazy(() =>
   import("@/components/SuccessfulStudents/SuccessfulStudents")
 );
-const Podcast = lazy(() => import("@/components/Podcast/Podcast"));
+// const Podcast = lazy(() => import("@/components/Podcast/Podcast"));
 const TogolTop = lazy(() => import("@/components/Shared/TogolTop"));
 const Payment = lazy(() => import("@/components/Payment/Payment"));
 const OneOnOneBootcamp = lazy(() =>
@@ -46,7 +45,7 @@ const OneOnOneBootcamp = lazy(() =>
 );
 import { Be_Vietnam_Pro } from "next/font/google";
 import SeoComp from "./SeoComp";
-import HomePopup from "@/components/HomePopup/HomePopup";
+// import HomePopup from "@/components/HomePopup/HomePopup";
 import NewBanner from "@/components/Banner/NewBanner";
 
 const BeVietnamPro = Be_Vietnam_Pro({

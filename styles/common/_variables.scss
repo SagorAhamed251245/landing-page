@@ -20,6 +20,7 @@ $laptop-min: 992px;
 $largeLaptop-min: 1025px;
 $extraLargeLaptop-min: 1300px;
 $whiteColor: #ffffff;
+$text-extra-medium: 18px;
 
 @mixin mobile_container() {
   width: 100%;

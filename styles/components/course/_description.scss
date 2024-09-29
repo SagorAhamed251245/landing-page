@@ -1,0 +1,295 @@
+.description-root {
+  background: #ffffff;
+  padding: 100px 10px;
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    @media (max-width: 992px) {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 28px;
+    }
+  }
+
+  .wmde-markdown p {
+    color: #000000b2 !important;
+    font-size: 16px !important;
+  }
+  .wmde-markdown .task-list-item {
+    color: #000000b2 !important;
+    font-size: 16px !important;
+  }
+
+  @media (max-width: 992px) {
+    padding: 32px 20px;
+  }
+  @media (max-width: 792px) {
+    padding: 32px 20px;
+  }
+
+  .description-body {
+    @media (max-width: 792px) {
+      order: 2;
+    }
+    .content_details {
+      font-size: 18px;
+      h1 {
+        font-size: 24px;
+        line-height: 31px;
+      }
+    }
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0em;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 1);
+    @media (max-width: 792px) {
+      font-size: 24px;
+      line-height: normal;
+    }
+  }
+
+  h3 {
+    margin-top: 25px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+
+    @media (max-width: 792px) {
+      width: 100%;
+    }
+  }
+
+  h4 {
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 40px;
+  }
+
+  ul {
+    padding-left: 20px;
+
+    @media (max-width: 792px) {
+      padding: 0px 20px;
+      width: 100%;
+    }
+  }
+
+  ol {
+    padding: 0px 20px;
+  }
+
+  ul li {
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  .description-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 243px;
+    height: 60px;
+    border-radius: 40px;
+    background: #27ac1f;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    line-height: normal;
+    cursor: pointer;
+  }
+  .wmde-markdown {
+    background-color: transparent !important;
+  }
+
+  .course_preview_container {
+    @include breakpoints(smTable) {
+      padding: 0 10px;
+    }
+    @include breakpoints(tablet) {
+      order: 1;
+    }
+    .course_preview {
+      width: 40%;
+      margin: 0 auto;
+
+      @include breakpoints(smLaptop) {
+        width: 100%;
+        padding: 0 0px;
+      }
+
+      .preview_container {
+        width: 416px;
+        background: white;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        border-radius: 20px;
+        margin: 0 auto;
+
+        @include breakpoints(smLaptop) {
+          // width: 100%;
+          padding: 0 10px;
+        }
+        @include breakpoints(smTablet) {
+          width: 100%;
+          padding: 0 10px;
+        }
+
+        .preview_wrapper {
+          padding: 20px;
+          margin: 10px 0;
+          @include breakpoints(smTablet) {
+            padding: 0;
+          }
+
+          .price_div {
+            // img {
+            //   width: 100%;
+            //   object-fit: contain;
+            //   height: 320px;
+            //   border-radius: 10px;
+            // }
+            .item_value {
+              font-size: 30px;
+              font-weight: 700;
+              .old_price {
+                color: #00000080;
+                margin-left: 8px;
+                font-size: 18px;
+                font-weight: 600;
+              }
+            }
+          }
+          .card_heading {
+            font-size: 22px;
+            font-weight: 600;
+          }
+          .preview_details {
+            margin-top: 20px;
+
+            .preview_item {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              margin-bottom: 15px;
+
+              .item_name {
+
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: normal;
+                color: #00000099;
+
+                @include breakpoints(smTablet) {
+                  font-size: 12px;
+                }
+              }
+
+              .item_value {
+
+                font-style: normal;
+                font-weight: normal;
+                font-size: $text-extra-medium;
+                line-height: 21px;
+                font-size: 18px;
+                color: black;
+
+                @include breakpoints(smTablet) {
+                  font-size: 12px;
+                }
+
+                .old-price {
+                  font-weight: normal;
+                  font-size: 14px;
+                  line-height: 16px;
+                  color: #a3a3a3 !important;
+                  margin-right: 10px;
+                }
+              }
+
+              .price {
+                color: #d7321c;
+              }
+
+              .rating {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                .star {
+                  color: #ffc107;
+                  font-size: 20px;
+                }
+              }
+            }
+
+            button {
+              width: 100%;
+              height: 54px;
+              background: $primary_color;
+              border-radius: 8px;
+              border: none;
+              outline: none;
+              cursor: pointer;
+              text-align: center;
+              font-style: normal;
+              font-weight: 500;
+              font-size: $text-extra-medium;
+              line-height: 23px;
+              color: white;
+
+              @include breakpoints(smTablet) {
+                height: 38px;
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .wmde-markdown h1 {
+    max-width: 51ch !important;
+    font-size: 24px;
+  }
+  .wmde-markdown h2 {
+    max-width: 51ch !important;
+    font-size: 24px;
+  }
+  .wmde-markdown h3 {
+    max-width: 51ch !important;
+    font-size: 24px;
+  }
+  .wmde-markdown h4 {
+    max-width: 51ch !important;
+    font-size: 24px;
+  }
+  .wmde-markdown h5 {
+    max-width: 51ch !important;
+    font-size: 24px;
+  }
+  .wmde-markdown h6 {
+    max-width: 51ch !important;
+    font-size: 24px;
+  }
+}
