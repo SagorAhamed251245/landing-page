@@ -1,8 +1,15 @@
 import NewBanner from "@/components/Banner/NewBanner";
+import BenefitsCourse from "@/components/course/BenefitsCourse";
+import ClassDeliverBy from "@/components/course/ClassDeliverBy";
 import CourseContent from "@/components/course/CourseContent";
 import Description from "@/components/course/Description";
 import Industry from "@/components/course/Industry";
+import JourneyForQuater from "@/components/course/JourneyForQuater";
+import ObtainCertification from "@/components/course/ObtainCertification";
 import Opportunities from "@/components/course/Opportunities";
+import Recognition from "@/components/course/Recognition";
+import Requirements from "@/components/course/Requirements";
+import Role from "@/components/course/Role";
 import SingleBootcampHero from "@/components/course/SingleBootcampHero";
 import WhatWillLearn from "@/components/course/WhatWillLearn";
 import TogolTop from "@/components/Shared/TogolTop";
@@ -30,6 +37,39 @@ function CourseLandingPage({
         <Opportunities opportunities={program?.opportunities} index={index} />
       ),
       courseContent: <CourseContent program={program} />,
+      requirements: program?.requirements?.length > 0 && (
+        <Requirements requirements={program?.requirements} />
+      ),
+      salary: program?.salaryForThisRole && (
+        <Role data={program?.salaryForThisRole} index={index} />
+      ),
+      benefits: program?.benefits?.length > 0 && (
+        <BenefitsCourse
+          list={program?.benefits}
+          buttonShow={false}
+          title={"Benefits of the course"}
+          index={index}
+        />
+      ),
+      recognition: program?.recognition && (
+        <Recognition data={program?.recognition} index={index} />
+      ),
+      certificate: program?.obtainCertification && (
+        <ObtainCertification
+          obtainCertification={program?.obtainCertification}
+          index={index}
+        />
+      ),
+      instructurs: program?.instructors?.length > 0 && (
+        <ClassDeliverBy program={program} />
+      ),
+      roadmap: roadmap?.quarters?.length > 0 && (
+        <JourneyForQuater program={program} />
+      ),
+      // reviews: <CustomerReview id={program?._id} />,
+      // faqs: program?.faqs?.length > 0 && (
+      //   <SingleFaqs course={program} index={index} />
+      // ),
     };
   };
   console.log(program?.whatLearns?.length);

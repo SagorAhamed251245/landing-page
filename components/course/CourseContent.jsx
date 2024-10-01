@@ -5,31 +5,31 @@ import TreeNode from "./TreeNode";
 
 const { Text } = Typography;
 
-function formatCompactDuration(seconds) {
-  const hours = Math.floor(seconds / 3600);
-  const minutes = Math.floor((seconds % 3600) / 60);
-  const remainingSeconds = seconds % 60;
+// function formatCompactDuration(seconds) {
+//   const hours = Math.floor(seconds / 3600);
+//   const minutes = Math.floor((seconds % 3600) / 60);
+//   const remainingSeconds = seconds % 60;
 
-  const result = [];
+//   const result = [];
 
-  if (hours > 0) {
-    result.push(hours + "h");
-  }
+//   if (hours > 0) {
+//     result.push(hours + "h");
+//   }
 
-  if (minutes > 0 || (hours > 0 && seconds % 3600 === 0)) {
-    result.push(minutes + "m");
-  }
+//   if (minutes > 0 || (hours > 0 && seconds % 3600 === 0)) {
+//     result.push(minutes + "m");
+//   }
 
-  if (remainingSeconds > 0 && hours === 0 && minutes === 0) {
-    result.push(remainingSeconds + "s");
-  }
+//   if (remainingSeconds > 0 && hours === 0 && minutes === 0) {
+//     result.push(remainingSeconds + "s");
+//   }
 
-  if (seconds === 0) {
-    return "0s";
-  }
+//   if (seconds === 0) {
+//     return "0s";
+//   }
 
-  return result.join(" ");
-}
+//   return result.join(" ");
+// }
 
 function secondsToHours(seconds) {
   const hours = seconds / 3600;
@@ -37,7 +37,7 @@ function secondsToHours(seconds) {
 }
 
 const RenderTranscription = ({ data }) => {
-  let [tabs, setTabs] = useState([]);
+  const [tabs, setTabs] = useState([]);
 
   useEffect(() => {
     setTabs([]);
@@ -107,6 +107,7 @@ const CourseContent = ({ program }) => {
   const [totalChapter, setTotalChapter] = useState(undefined);
   const [totalLesson, setTotalLesson] = useState(undefined);
   const [selectedCategory, setSelectedCategory] = useState(null);
+  console.log(program)
 
   function buildTreeView(chapters) {
     const nodes = {};
@@ -115,7 +116,7 @@ const CourseContent = ({ program }) => {
       nodes[item._id] = { ...item, children: [], firstParent: false };
     });
 
-    let tree = [];
+    const tree = [];
 
     chapters.forEach((item) => {
       if (item.myCourse.parent) {
@@ -131,12 +132,15 @@ const CourseContent = ({ program }) => {
     return tree;
   }
 
+  console.log(chapters)
+
   useEffect(() => {
     if (program) {
-      let data = {
+      const data = {
         courseId: program._id,
         fields: ["chapters"],
       };
+
 
       if (!selectedCategory) {
         data.fields = [...data.fields, "categories"];
@@ -162,11 +166,12 @@ const CourseContent = ({ program }) => {
       }
 
       setLoading(true);
+            console.log(data)
 
       axios
-        .post("/course/chapterv2/preview", data)
+        .post("https://api.bootcampshub.ai/course/chapterv2/preview", data)
         .then((res) => {
-          let results = res.data?.results;
+          const results = res.data?.results;
           if (results.categories) {
             setCategories(results.categories);
           }
@@ -184,7 +189,7 @@ const CourseContent = ({ program }) => {
           }
 
           if (results.chapters) {
-            let processedChapters = results.chapters?.chapters.map(
+            const processedChapters = results.chapters?.chapters.map(
               (chapter) => ({
                 title: chapter?.lesson?.title || chapter?.chapter?.name,
                 key: chapter._id,
@@ -214,6 +219,12 @@ const CourseContent = ({ program }) => {
         });
     }
   }, [program, selectedCategory]);
+
+
+
+  useEffect(()=>{
+    axios.post("https://api.bootcampshub.ai/course/chapterv2/preview").then(res=>console.log(res)).catch(err=>console.log(err))
+  },[])
 
   const handleSeeMore = () => {
     setSeeMore(seeMore + 6);

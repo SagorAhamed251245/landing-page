@@ -1,0 +1,129 @@
+.journeyForWeekSection {
+  background: #f5f5f5;
+  padding: 80px 0px;
+  @media (max-width: 792px) {
+    padding: 32px 20px;
+  }
+
+  .journeyWeekTitle {
+    h2 {
+      margin-bottom: 80px;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: normal;
+      font-family: "Work Sans", sans-serif;
+      text-align: center;
+      @media (max-width: 792px) {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .desktop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 85px;
+    @include breakpoints(laptop) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .journeyForWeekSection_cardContainer {
+    .weekCard {
+      background-color: #ffffff;
+      height: 235px;
+      padding: 40px 34px;
+      border-radius: 10px;
+      position: relative;
+      &:last-child {
+        .path_design {
+          display: none;
+        }
+      }
+      &:nth-child(3n) {
+        .path_design {
+          display: none;
+        }
+      }
+      @include breakpoints(laptop) {
+        height: 100%;
+        margin-top: 40px;
+        &:nth-child(2n) {
+          .path_design {
+            display: none;
+          }
+        }
+      }
+
+      .week_card_element {
+        .week_name {
+          background-color: $primary_color;
+          border: 2.5px solid $primary_color;
+          padding: 12px;
+          border-radius: 10px;
+          width: 155px;
+          position: absolute;
+          top: -30px;
+          left: 50%;
+          transform: translateX(-50%);
+
+          h4 {
+            font-family: "Work Sans" sans-serif;
+            color: $primary_color;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 600;
+          }
+        }
+        .week_card_text {
+          margin-top: 30px;
+          h3 {
+            font-family: "Work Sans" sans-serif;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: normal;
+            text-align: center;
+            margin-bottom: 20px;
+          }
+          p {
+            font-family: "Work Sans" sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: normal;
+            text-align: center;
+            color: #000000b2;
+          }
+        }
+      }
+
+      .path_design {
+        position: absolute;
+        right: -83px;
+        top: 40%;
+        transform: translateY(-40%);
+      }
+    }
+  }
+
+  .hero_slider_navigator {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: -13px;
+    transform: translateY(-50%);
+    z-index: 50;
+
+    &:first-child {
+      left: auto;
+      right: -13px;
+    }
+  }
+}
+
