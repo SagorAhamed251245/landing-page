@@ -10,7 +10,7 @@
 } */
 
 body {
-  /* font-family: "Inter", sans-serif; Fallback font */
+  font-family: "Inter", sans-serif; 
   /* Primary font */
   position: relative;
   /* max-width: 1300px;

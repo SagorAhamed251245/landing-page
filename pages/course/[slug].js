@@ -1,4 +1,5 @@
 import NewBanner from "@/components/Banner/NewBanner";
+import CourseContent from "@/components/course/CourseContent";
 import Description from "@/components/course/Description";
 import Industry from "@/components/course/Industry";
 import Opportunities from "@/components/course/Opportunities";
@@ -28,9 +29,10 @@ function CourseLandingPage({
       opportunities: program?.opportunities && (
         <Opportunities opportunities={program?.opportunities} index={index} />
       ),
+      courseContent: <CourseContent program={program} />,
     };
   };
-
+  console.log(program?.whatLearns?.length);
   return (
     <div>
       <main>
@@ -52,6 +54,7 @@ function CourseLandingPage({
         ></Description>
 
         {program?.layoutSections?.map((section, index) => {
+          console.log(section);
           if (section?.isVisible) {
             return (
               <React.Fragment key={section.id}>
@@ -72,6 +75,8 @@ export const getServerSideProps = async (ctx) => {
     const courseRes = await axios.get(
       `https://api.bootcampshub.ai/api/course/single/${ctx.query.slug}`
     );
+
+    console.log(courseRes?.data);
 
     return {
       props: {

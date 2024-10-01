@@ -5,6 +5,7 @@ import { useMediaQuery } from "react-responsive";
 import image from "/public/landing_page/whatYouWillLearn.png";
 
 const WhatWillLearn = ({ bootcamp, index }) => {
+  console.log(bootcamp)
   const [seeMore, setSeeMore] = useState(6);
   const isMobile = useMediaQuery({
     query: "(max-width: 768px)",
