@@ -4,14 +4,18 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-
 const LastCard = () => {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <div className="lastCard">
-      <div className="lastCard_div1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
+      <div
+        className="lastCard_div1"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="250"
+      >
         <div className="single_card">
           <div className="single_card_img">
             <Image
@@ -51,12 +55,9 @@ const LastCard = () => {
                 </p>
               </div>
               <div className="div_2">
-                <p></p>
                 <Link
                   target="_blank"
-                  href={
-                    "https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"
-                  }
+                  href={"/course/flex:-mern-full-stack-software-engineer"}
                 >
                   Learn More
                 </Link>
@@ -65,7 +66,12 @@ const LastCard = () => {
           </div>
         </div>
       </div>
-      <div className="div" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
+      <div
+        className="div"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="250"
+      >
         <div>
           <iframe
             loading="lazy"

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Link from "next/link";
 
 const SecCard = () => {
   const features = [
@@ -33,7 +34,9 @@ const SecCard = () => {
         </p>
         <div className="features">
           {features.map((item, index) => (
-            <p data-aos="fade-right" data-aos-duration="1000"
+            <p
+              data-aos="fade-right"
+              data-aos-duration="1000"
               key={index}
               style={{
                 display: "flex",
@@ -69,6 +72,15 @@ const SecCard = () => {
               <span> {item}</span>
             </p>
           ))}
+
+          <div className="div_2">
+            <Link
+              target="_blank"
+              href={"/course/flex:-mern-full-stack-software-engineer"}
+            >
+              Learn More
+            </Link>
+          </div>
         </div>
       </div>
     </section>
