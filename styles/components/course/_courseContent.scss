@@ -9,7 +9,7 @@
   }
 
   h2 {
-    font-family: "Work Sans", sans-serif;
+
     font-size: 40px;
     font-weight: 700;
     line-height: normal;
@@ -22,7 +22,7 @@
 
   .desc {
     margin-top: 20px;
-    font-family: "Work Sans", sans-serif;
+
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -41,7 +41,7 @@
     background: rgba(245, 245, 245, 1);
 
     p {
-      font-family: "Inter", sans-serif;
+   
       font-size: 16px;
       font-weight: 500;
       line-height: 24px;
@@ -94,15 +94,11 @@
 
       .ant-tree-treenode {
         padding: 12px 0;
-        // border: 1px solid $primary_color_sh;
         border-bottom: 1px solid #ddd;
         border-left: 1px solid #ddd;
         border-right: 1px solid #ddd;
 
-        // align-items: center;
-        // &:last-child {
-        //   border-bottom: 1px solid red !important;
-        // }
+       
 
         gap: 10px;
         margin: 10px 0;
@@ -183,9 +179,7 @@
         }
       }
 
-      // .ant-tree-treenode-selected {
-      //   border-top: 1.5px solid red;
-      // }
+     
 
       .parent-view {
         width: 100%;
@@ -239,10 +233,7 @@
         font-weight: 700;
       }
 
-      // .active {
-      //   background-color: #27ac1f;
-      //   color: white;
-      // }
+    
 
       .ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected {
         background-color: transparent;
@@ -251,11 +242,9 @@
   }
 
   .ant-segmented {
-    background-color: $primary_color;
+    background-color: $primary_color_light;
     border-radius: 10px;
-    &:hover {
-      background-color: $primary_color;
-    }
+   
   }
 
   .ant-segmented.ant-segmented-lg .ant-segmented-item-label {
@@ -273,6 +262,12 @@
   .ant-segmented-item {
     border-radius: 10px;
     color: $primary_color;
+    font-weight: 600;
+     &:hover {
+      background-color: $primary_color;
+        color: white !important;
+       
+    }
   }
 }
 
@@ -281,7 +276,7 @@
   gap: 15px;
 
   .freeText-para {
-    font-family: "Inter", sans-serif;
+   
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;

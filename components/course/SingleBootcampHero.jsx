@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import ReactStarsRating from "react-awesome-stars-rating";
 import Image from "next/image";
 import MessagePreview from "./MessagePreview";
+import Navbar from "../Banner/Navbar";
 // import MessagePreview from "./MessagePreview";
 function getRandomInt(min, max) {
   min = Math.ceil(min);
@@ -30,18 +31,7 @@ const SingleBootcampHero = ({
 }) => {
   const [randomNumber, setRandomNumber] = useState(null);
   
-  // const items = [
-  //   { title: "Home", href: "/" },
-  //   { title: "Company", href: "/company/Tech-Serve4-U-LLC?type=bootcamps" },
-  //   { title: bootcamp?.title.slice(0, 20) + "...", href: bootcamp?.slug },
-  // ].map((item, index) => (
-  //   <Anchor className="breadcrumb" href={item.href} key={index}>
-  //     {item.title}
-  //   </Anchor>
-  // ));
-  // const isMobile = useMediaQuery({
-  //   query: "(max-width: 768px)",
-  // });
+ 
   useEffect(() => {
     const randomInt = getRandomInt(100, 1000);
     setRandomNumber(randomInt);
@@ -49,17 +39,10 @@ const SingleBootcampHero = ({
 
   return (
     <div className="single-bootcamphero-root">
+        <Navbar />
       <div className="single-bootcamphero container">
         <div className={`left `}>
-          {/* <Breadcrumbs
-            className="breadcumb"
-            separator={<Image
-              width={1080}
-              height={720} src="/multischool/bootcamps/chevrons.svg"></img>}
-            mt="xs"
-          >
-            {items}
-          </Breadcrumbs> */}
+        
           <h1 className="heading1-sh">{bootcamp?.title}</h1>
           {bootcamp?.shortDetail && (
             <div className="desc shortDescription">
@@ -70,8 +53,7 @@ const SingleBootcampHero = ({
           )}
 
           <div className="review">
-            {/* <p className="ratings">{review?.averageStarCount}</p> */}
-            {/* <ReactStarsRating value={4.9} isEdit={false}></ReactStarsRating> */}
+           
             <ReactStarsRating
               value={review?.averageStarCount}
               isEdit={false}
@@ -113,7 +95,7 @@ const SingleBootcampHero = ({
             {course?.instructor?.name || "N/A"}
           </p>
         </div>
-        <div className="right">
+        <div  className="right">
           <Image
             width={1080}
             height={720}

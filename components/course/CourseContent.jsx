@@ -107,7 +107,7 @@ const CourseContent = ({ program }) => {
   const [totalChapter, setTotalChapter] = useState(undefined);
   const [totalLesson, setTotalLesson] = useState(undefined);
   const [selectedCategory, setSelectedCategory] = useState(null);
-  console.log(program)
+
 
   function buildTreeView(chapters) {
     const nodes = {};
@@ -132,7 +132,7 @@ const CourseContent = ({ program }) => {
     return tree;
   }
 
-  console.log(chapters)
+ 
 
   useEffect(() => {
     if (program) {
@@ -166,10 +166,10 @@ const CourseContent = ({ program }) => {
       }
 
       setLoading(true);
-            console.log(data)
+            
 
       axios
-        .post("https://api.bootcampshub.ai/course/chapterv2/preview", data)
+        .post("https://api.bootcampshub.ai/api/course/chapterv2/preview", data)
         .then((res) => {
           const results = res.data?.results;
           if (results.categories) {
@@ -222,9 +222,7 @@ const CourseContent = ({ program }) => {
 
 
 
-  useEffect(()=>{
-    axios.post("https://api.bootcampshub.ai/course/chapterv2/preview").then(res=>console.log(res)).catch(err=>console.log(err))
-  },[])
+
 
   const handleSeeMore = () => {
     setSeeMore(seeMore + 6);

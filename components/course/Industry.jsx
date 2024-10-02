@@ -18,7 +18,7 @@ const Industry = ({ bootcamp }) => {
             style={{ display: "flex", gap: "20px", alignItems: "center" }}
           >
             {bootcamp?.alumni?.images?.map((item, i) => (
-              <Image key={i} width={1080} height={720} src={item} alt="slider" />
+              <Image key={i} width={200} height={100} src={item} alt="slider" />
             ))}
           </Marquee>
         </div>

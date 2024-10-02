@@ -1,7 +1,7 @@
-import NewBanner from "@/components/Banner/NewBanner";
 import BenefitsCourse from "@/components/course/BenefitsCourse";
 import ClassDeliverBy from "@/components/course/ClassDeliverBy";
 import CourseContent from "@/components/course/CourseContent";
+import CustomerReview from "@/components/course/CustomerReview";
 import Description from "@/components/course/Description";
 import Industry from "@/components/course/Industry";
 import JourneyForQuater from "@/components/course/JourneyForQuater";
@@ -11,9 +11,9 @@ import Recognition from "@/components/course/Recognition";
 import Requirements from "@/components/course/Requirements";
 import Role from "@/components/course/Role";
 import SingleBootcampHero from "@/components/course/SingleBootcampHero";
+import SingleFaqs from "@/components/course/SingleFaqs";
 import WhatWillLearn from "@/components/course/WhatWillLearn";
 import TogolTop from "@/components/Shared/TogolTop";
-
 import axios from "axios";
 import React from "react";
 
@@ -22,7 +22,6 @@ function CourseLandingPage({
   roadmap,
   studentCount,
   totalDuration,
-  page,
   review,
   totalLesson,
 }) {
@@ -66,18 +65,18 @@ function CourseLandingPage({
       roadmap: roadmap?.quarters?.length > 0 && (
         <JourneyForQuater program={program} />
       ),
-      // reviews: <CustomerReview id={program?._id} />,
-      // faqs: program?.faqs?.length > 0 && (
-      //   <SingleFaqs course={program} index={index} />
-      // ),
+      reviews: <CustomerReview id={program?._id} />,
+      faqs: program?.faqs?.length > 0 && (
+        <SingleFaqs course={program} index={index} />
+      ),
     };
   };
-  console.log(program?.whatLearns?.length);
+
   return (
     <div>
       <main>
         <TogolTop />
-        <NewBanner />
+
         <SingleBootcampHero
           totalDuration={totalDuration}
           studentCount={studentCount}
@@ -94,7 +93,6 @@ function CourseLandingPage({
         ></Description>
 
         {program?.layoutSections?.map((section, index) => {
-          console.log(section);
           if (section?.isVisible) {
             return (
               <React.Fragment key={section.id}>
@@ -115,8 +113,6 @@ export const getServerSideProps = async (ctx) => {
     const courseRes = await axios.get(
       `https://api.bootcampshub.ai/api/course/single/${ctx.query.slug}`
     );
-
-    console.log(courseRes?.data);
 
     return {
       props: {

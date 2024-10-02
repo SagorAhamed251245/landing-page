@@ -95,17 +95,17 @@ const Description = ({ bootcamp, studentCount, review, totalLesson }) => {
 
                   <div className="price_container">
                     <p className="item_value">
-                      {bootcamp.price.isFree ? (
+                      {bootcamp?.price?.isFree ? (
                         "Free"
-                      ) : bootcamp.price.cost.salePrice > 0 ? (
+                      ) : bootcamp?.price?.cost?.salePrice > 0 ? (
                         <>
-                          ${bootcamp.price.cost.salePrice}
+                          ${bootcamp?.price?.cost?.salePrice}
                           <del className="old_price">
-                            ${bootcamp.price.cost.price}
+                            ${bootcamp?.price?.cost?.price}
                           </del>
                         </>
                       ) : (
-                        <>${bootcamp.price.cost.price}</>
+                        <>${bootcamp?.price?.cost?.price}</>
                       )}
                     </p>
                   </div>

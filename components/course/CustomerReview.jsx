@@ -1,5 +1,4 @@
-import { Pagination } from "@mantine/core";
-import { Empty, message } from "antd";
+import { Empty, message, Pagination } from "antd"; // Imported Pagination from antd
 import axios from "axios";
 import moment from "moment";
 import Image from "next/image";
@@ -10,7 +9,6 @@ import { SpinnerCircularFixed } from "spinners-react";
 
 const CustomerReview = ({ id }) => {
   const [reviewsData, setReviewsData] = useState([]);
-
   const [isLoading, setIsLoading] = useState(false);
   const [categories, setCategories] = useState([]);
   const [category, setCategory] = useState("");
@@ -60,6 +58,16 @@ const CustomerReview = ({ id }) => {
     }
   }, [fetching]);
 
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+    fetchData({
+      fields: ["reviews"],
+      category: category,
+      page: page,
+      limit: 10,
+    });
+  };
+
   return (
     <>
       <div className="customerReview">
@@ -67,8 +75,9 @@ const CustomerReview = ({ id }) => {
           <div className="title_container">
             <h2>Students Reviews</h2>
             <div className="button_container">
-              {categories?.map((ct,index) => (
-                <button key={index}
+              {categories?.map((ct) => (
+                <button
+                  key={ct?.name}
                   className={`${category === ct?.name && "active"}`}
                   onClick={() => {
                     setCategory(ct?.name);
@@ -84,71 +93,65 @@ const CustomerReview = ({ id }) => {
           <div className="review-sections">
             {reviewsData?.length > 0 && !isLoading ? (
               <div>
-                {reviewsData?.map((item) => {
-                  return (
-                    <div key={item?._id} className="review-sections-item">
-                      <div className="top">
-                        <div className="profile">
-                          <Image
-                            width={1080}
-                            height={720}
-                            src={
-                              item?.user?.profilePicture ||
-                              item?.reviewedBy?.profilePicture ||
-                              "/avatar.png"
-                            }
-                            alt={
-                              item?.user?.fullName || item?.reviewedBy?.fullName
-                            }
-                          />
-
-                          <div>
-                            <h3>
-                              {item?.user?.fullName ||
-                                item?.reviewedBy?.fullName}
-                            </h3>
-                          </div>
-                        </div>
-
+                {reviewsData?.map((item) => (
+                  <div key={item?._id} className="review-sections-item">
+                    <div className="top">
+                      <div className="profile">
+                        <Image
+                          width={1080}
+                          height={720}
+                          src={
+                            item?.user?.profilePicture ||
+                            item?.reviewedBy?.profilePicture ||
+                            "/avatar.png"
+                          }
+                          alt={
+                            item?.user?.fullName || item?.reviewedBy?.fullName
+                          }
+                        />
                         <div>
-                          <p className="ago">
-                            {moment(item?.createdAt).fromNow()}
-                          </p>
+                          <h3>
+                            {item?.user?.fullName ||
+                              item?.reviewedBy?.fullName}
+                          </h3>
                         </div>
                       </div>
-
-                      <div className="stars">
-                        <ReactStarsRating
-                          value={item?.starCount}
-                          isEdit={false}
-                        ></ReactStarsRating>
-                      </div>
-
-                      <div
-                        className={`desc ${
-                          item?.videoUrl ? "gridTemp2" : "gridTemp1"
-                        }`}
-                      >
-                        <div>
-                          <h4>{moment(item?.createdAt).format("LL")}</h4>
-                          <p>{item?.text}</p>
-                        </div>
-                        {item?.videoUrl && (
-                          <div className="player_container">
-                            <ReactPlayer
-                              url={item?.videoUrl}
-                              controls
-                              width="100%"
-                              height="100%"
-                              className="react_player"
-                              style={{ borderRadius: "15px" }}
-                            />
-                          </div>
-                        )}
+                      <div>
+                        <p className="ago">{moment(item?.createdAt).fromNow()}</p>
                       </div>
                     </div>
-                  );
-                })}
+
+                    <div className="stars">
+                      <ReactStarsRating
+                        value={item?.starCount}
+                        isEdit={false}
+                      ></ReactStarsRating>
+                    </div>
+
+                    <div
+                      className={`desc ${
+                        item?.videoUrl ? "gridTemp2" : "gridTemp1"
+                      }`}
+                    >
+                      <div>
+                        <h4>{moment(item?.createdAt).format("LL")}</h4>
+                        <p>{item?.text}</p>
+                      </div>
+                      {item?.videoUrl && (
+                        <div className="player_container">
+                          <ReactPlayer
+                            url={item?.videoUrl}
+                            controls
+                            width="100%"
+                            height="100%"
+                            className="react_player"
+                            style={{ borderRadius: "15px" }}
+                          />
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                ))}
               </div>
             ) : isLoading ? (
               <div
@@ -182,17 +185,10 @@ const CustomerReview = ({ id }) => {
           </div>
           <div style={{ display: "flex", justifyContent: "flex-end" }}>
             <Pagination
-              total={Math.ceil(count / 10)}
-              value={currentPage}
-              onChange={() => {
-                fetchData({
-                  fields: ["reviews"],
-                  category: category,
-                  page: 1,
-                  limit: 3,
-                });
-              }}
-              mt="sm"
+              current={currentPage} // Ant Design requires `current`
+              total={count} // Total number of reviews
+              pageSize={10} // Number of items per page
+              onChange={handlePageChange} // Ant Design `onChange`
             />
           </div>
         </div>

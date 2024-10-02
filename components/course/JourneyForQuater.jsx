@@ -1,10 +1,17 @@
+"use client"
+
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper";
-import Image from "next/image";
+// Import Swiper and required modules
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { Autoplay, Pagination, Navigation } from "swiper";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const JourneyForQuater = ({ program }) => {
   const [seeMore, setSeeMore] = useState(6);
@@ -14,7 +21,7 @@ const JourneyForQuater = ({ program }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get(`https://api.bootcampshub.ai/course/roadmap/find/${program?._id}`);
+        const res = await axios.get(`https://api.bootcampshub.ai/api/course/roadmap/find/${program?._id}`);
         setRoadMap(res?.data?.roadmap);
       } catch (err) {
         console.log(err);
@@ -22,7 +29,7 @@ const JourneyForQuater = ({ program }) => {
     };
 
     fetchData();
-  }, []);
+  }, [program]);
 
   const handleSeeMore = () => {
     setSeeMore(seeMore + 6);
@@ -44,18 +51,17 @@ const JourneyForQuater = ({ program }) => {
   };
 
   const isMobile = useMediaQuery({
-    query: "(max-width:720px)",
+    query: "(max-width: 720px)",
   });
 
   return (
     <>
       {roadmap?.quarters && (
         <div className="journeyForWeekSection">
-          <div className=" container">
+          <div className="container">
             <div className="journeyWeekTitle">
               <h2>
-                Journey For Quarter-{weekNo + 1}({roadmap?.quarters?.length}{" "}
-                Quarters)
+                Journey For Quarter-{weekNo + 1} ({roadmap?.quarters?.length} Quarters)
               </h2>
             </div>
 
@@ -66,21 +72,17 @@ const JourneyForQuater = ({ program }) => {
                     ?.slice(0, seeMore)
                     .map((topic, i) => (
                       <div key={i} className="weekCard">
-                        <div>
-                          <div className="week_card_element">
-                            <div className="week_name">
-                              <h4>Week {i + 1}</h4>
-                            </div>
-                            <div className="week_card_text">
-                              <h3>{topic?.title}</h3>
-                              <p>{topic?.description.slice(0, 90)}</p>
-                            </div>
+                        <div className="week_card_element">
+                          <div className="week_name">
+                            <h4>Week {i + 1}</h4>
+                          </div>
+                          <div className="week_card_text">
+                            <h3>{topic?.title}</h3>
+                            <p>{topic?.description.slice(0, 90)}</p>
                           </div>
                         </div>
                         <div className="path_design">
-                          <Image
-                            width={78}
-                            height={78}
+                          <img
                             src="https://i.ibb.co/y6TdF8v/run.png"
                             alt="path design"
                           />
@@ -90,12 +92,10 @@ const JourneyForQuater = ({ program }) => {
               </div>
             )}
 
-            {isMobile && (
-              <div
-                style={{ position: "relative" }}
-                className="journeyForWeekSection_cardContainer"
-              >
+            {/* {isMobile && (
+              <div style={{ position: "relative" }} className="journeyForWeekSection_cardContainer">
                 <Swiper
+                           modules={[Autoplay, Navigation, Pagination]}
                   spaceBetween={20}
                   navigation={{
                     nextEl: ".hero_slide_next",
@@ -104,8 +104,9 @@ const JourneyForQuater = ({ program }) => {
                   autoplay={{
                     delay: 2500,
                   }}
-                  modules={[Autoplay, Navigation, Pagination]}
-                  className="mySwiper "
+                  pagination={{ clickable: true }}
+       
+                  className="mySwiper"
                 >
                   {roadmap?.quarters &&
                     roadmap?.quarters[`${weekNo}`]?.weeks
@@ -122,14 +123,12 @@ const JourneyForQuater = ({ program }) => {
                                 <p>{topic?.description.slice(0, 90)}</p>
                               </div>
                             </div>
-
-                           
                           </div>
                         </SwiperSlide>
                       ))}
                 </Swiper>
                 <div>
-                  <div className="hero_slide_next  hero_slider_navigator">
+                  <div className="hero_slide_next hero_slider_navigator">
                     <svg
                       width="60"
                       height="15"
@@ -159,7 +158,7 @@ const JourneyForQuater = ({ program }) => {
                   </div>
                 </div>
               </div>
-            )}
+            )} */}
 
             <div
               style={{
@@ -169,7 +168,7 @@ const JourneyForQuater = ({ program }) => {
                 justifyContent: "center",
               }}
             >
-              {!weekNo == 0 && roadmap?.quarters && (
+              {weekNo > 0 && roadmap?.quarters && (
                 <button
                   style={{ backgroundColor: "#27ac1f1a", color: "#27ac1f" }}
                   onClick={() => handlePre()}

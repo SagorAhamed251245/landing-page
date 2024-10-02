@@ -260,7 +260,10 @@
     }
 
     .right {
-      margin: auto;
+      margin-left: auto;
+      @media (max-width: 992px) {
+        margin: auto;
+        }
 
       .imgRight {
         width: 510px;
