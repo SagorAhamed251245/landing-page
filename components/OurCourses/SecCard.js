@@ -73,14 +73,14 @@ const SecCard = () => {
             </p>
           ))}
 
-          <div className="div_2">
+          {/* <div className="div_2">
             <Link
               target="_blank"
               href={"/course/flex:-mern-full-stack-software-engineer"}
             >
               Learn More
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
