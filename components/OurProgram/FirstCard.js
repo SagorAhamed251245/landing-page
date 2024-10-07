@@ -10,7 +10,12 @@ const FirstCard = () => {
   }, []);
   return (
     <div className="first_card" data-aos="fade-up" data-aos-duration="1000">
-      <div className="single_card_img" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+      <div
+        className="single_card_img"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="300"
+      >
         <Image
           loading="lazy"
           height={219}
@@ -21,9 +26,13 @@ const FirstCard = () => {
       </div>
       <div className="single_card_info">
         <div className="div_1">
-          <h4 data-aos="fade-right" data-aos-duration="1000">Flex: Software Quality Automation Engineer</h4>
+          <h4 data-aos="fade-right" data-aos-duration="1000">
+            Flex: Software Quality Automation Engineer
+          </h4>
           <div>
-            <p data-aos="fade-right" data-aos-duration="1000">Total hours: 100+h Video Lectures</p>
+            <p data-aos="fade-right" data-aos-duration="1000">
+              Total hours: 100+h Video Lectures
+            </p>
             <p data-aos="fade-right" data-aos-duration="1000">
               <span style={{ display: "flex", alignItems: "center" }}>
                 {/* <section className="new_starts_class">
@@ -49,9 +58,7 @@ const FirstCard = () => {
             <p></p>
             <Link
               target="_blank"
-              href={
-                "https://calendly.com/ts4u/book-a-call?back=1&month=2024-06"
-              }
+              href={"/course/flex:-software-quality-automation-engineer"}
             >
               Learn More
             </Link>

@@ -1,4 +1,5 @@
 $primary_color: #5831f0;
+$primary_color_light: #5731f05d;
 // $primary_font: 16px;
 $sudo_size: 60px;
 $back_ground: #f7f5fe;
@@ -20,6 +21,7 @@ $laptop-min: 992px;
 $largeLaptop-min: 1025px;
 $extraLargeLaptop-min: 1300px;
 $whiteColor: #ffffff;
+$text-extra-medium: 18px;
 
 @mixin mobile_container() {
   width: 100%;

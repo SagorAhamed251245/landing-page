@@ -1,0 +1,135 @@
+.tree_container_root {
+  .firstParent {
+    // border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px 0;
+  }
+
+  .leftLine {
+    padding: 20px;
+    @include breakpoints(tablet) {
+      padding: 12px 5px 12px 12px;
+    }
+  }
+
+  .tree_container_root {
+    .tree_container_root > .leftLine {
+      &:first-child {
+        border-left: 1px solid black;
+        @include breakpoints(tablet) {
+          border-left: none;
+        }
+      }
+    }
+  }
+  // .duration {
+  //   margin-left: 35px;
+  //   margin-top: 10px;
+  // }
+
+  .chapter-section {
+    .hide {
+      display: none;
+    }
+    @include breakpoints(tablet) {
+      display: flex;
+      justify-content: space-between;
+      .hide {
+        display: block;
+        color: $primary_color;
+        background-color: #27ac1f1a;
+        padding: 2px 4px;
+        border-radius: 5px;
+        cursor: pointer;
+        height: 27px;
+      }
+    }
+
+    .chapter_container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      @include breakpoints(tablet) {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .right_buttons {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        @include breakpoints(tablet) {
+          align-items: flex-start;
+          .show {
+            display: none;
+          }
+        }
+
+        .preview_label {
+          color: $primary_color;
+          background-color: #27ac1f1a;
+          padding: 2px 4px;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+      }
+      .chapter_title_new {
+        cursor: pointer;
+        align-items: center;
+        display: flex;
+        @include breakpoints(tablet) {
+          align-items: flex-start;
+        }
+        gap: 8px;
+        h2 {
+          font-size: 18px;
+          line-height: normal !important;
+          font-weight: 600;
+          color: #000000b2;
+          @include breakpoints(tablet) {
+            font-size: 14px;
+          }
+        }
+        .active {
+          color: $primary_color;
+        }
+      }
+    }
+  }
+
+  .button-container {
+    margin-left: 1%;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    .btn-gray {
+      background-color: #546a7e;
+      padding: 14px 28px;
+      color: white;
+      font-weight: 500;
+      border-radius: 10px;
+
+      @include breakpoints(smTablet) {
+        font-size: 12px;
+        padding: 12px 17px;
+      }
+    }
+  }
+
+  .course_title {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+}
+
+.children_container {
+  padding-left: 10px;
+  @include breakpoints(tablet) {
+    padding-left: 5px;
+  }
+}
