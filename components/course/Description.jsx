@@ -30,7 +30,7 @@ const Description = ({ bootcamp, studentCount, review, totalLesson }) => {
 
   const enrollNow = (course) => {
     if (course.type === "program") {
-      return Router.push(`/enroll/${course?.slug}`);
+      return Router.push(`https://www.bootcampshub.ai/enroll/${course?.slug}`);
     }
 
     axios
@@ -160,22 +160,7 @@ const Description = ({ bootcamp, studentCount, review, totalLesson }) => {
                   </div>
                   {
                     <>
-                      {!isAuthenticated ? (
-                        <button
-                          onClick={() =>
-                            Router.push(
-                              `/auth/login?callback=${window.location.pathname}`
-                            )
-                          }
-                          className="course_button"
-                          style={{
-                            backgroundColor: "#27ac1f1a",
-                            color: "#27ac1f",
-                          }}
-                        >
-                          {bootcamp?.type === "program" ? "Enroll" : "Add"}
-                        </button>
-                      ) : (
+                      { (
                         <button
                           onClick={() => enrollNow(bootcamp)}
                           className="course_button"
@@ -186,7 +171,7 @@ const Description = ({ bootcamp, studentCount, review, totalLesson }) => {
 
                       <button
                         onClick={() =>
-                          Router.push(`/enrollment-test/${bootcamp?._id}`)
+                          Router.push(`https://www.bootcampshub.ai/enrollment-test/${bootcamp?._id}`)
                         }
                         style={{
                           marginTop: "20px",
