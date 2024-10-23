@@ -9,22 +9,12 @@ const SingleVideoCard = () => {
   return (
     <div className="single_video" data-aos="fade-right" data-aos-duration="1000">
       <div className="div">
-        <iframe
-          title="video"
-          loading="lazy"
-          id="founder"
-          style={{
-            objectFit: "cover",
-            width: "100%",
-            height: "100%",
-          }}
-          className="video"
-          src="https://www.youtube.com/embed/k7PDCIxEirE?si=oVohkQf3ki6omxcZ"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
+      <img
+       src={"https://www.bootcampshub.ai/_next/image?url=https%3A%2F%2Fts4uportal-all-files-upload.nyc3.digitaloceanspaces.com%2Fprogram-image%2F1666179067143-Agile-PO.jpg&w=1080&q=75"}
+       alt="courses"
+      style={{objectFit:"contain",width:"100%",height:"100%"}}
+       
+       />
       </div>
       <div className="video_relative"></div>
     </div>

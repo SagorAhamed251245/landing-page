@@ -1,7 +1,7 @@
 import React from "react";
 import FirstCard from "./FirstCard";
 import SecCard from "./SecCard";
-import LastCard from "./LastCard";
+// import LastCard from "./LastCard";
 import RecommendationForCourse from "../RecommendationForCourse/RecommendationForCourse";
 
 const OurProgram = () => {
@@ -62,7 +62,7 @@ const OurProgram = () => {
         <div className="container our_program_cards">
           <FirstCard />
           <SecCard />
-          <LastCard />
+          {/* <LastCard /> */}
         </div>
 
         <RecommendationForCourse
