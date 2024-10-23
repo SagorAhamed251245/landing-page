@@ -18,7 +18,7 @@ const LastCard = () => {
             height: "100%",
           }}
           className="video"
-          src="https://www.youtube.com/embed/FerYEgG0GOc?si=1TH8_LaX6U9tQZxd"
+          src="https://www.youtube.com/embed/Ifj-hzVnwhE?si=6fbr_iOates5Q1xq"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

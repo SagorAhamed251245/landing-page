@@ -3,6 +3,7 @@ import FirstCard from "./FirstCard";
 import SecCard from "./SecCard";
 // import LastCard from "./LastCard";
 import RecommendationForCourse from "../RecommendationForCourse/RecommendationForCourse";
+import LastCard from "./LastCard";
 
 const OurProgram = () => {
   const recommendation = [
@@ -62,7 +63,7 @@ const OurProgram = () => {
         <div className="container our_program_cards">
           <FirstCard />
           <SecCard />
-          {/* <LastCard /> */}
+          <LastCard />
         </div>
 
         <RecommendationForCourse
