@@ -11,7 +11,7 @@ export default function Document() {
             "TRANSFORM YOUR CAREER INTO SIX FIGURES WITH TS4U'S PRIVATE ONE-ON-ONE BOOTCAMP. HERE'S MORE"
           }
         />
-        {/**Canonical */}
+        {/** Canonical */}
         <link rel="canonical" href="https://inquiry.ts4u.us/" />
 
         {/** schema.org start */}
@@ -91,7 +91,6 @@ export default function Document() {
               name: "Private One-on-One Bootcamp",
               image:
                 "https://inquiry.ts4u.us/_next/image?url=%2Fimages%2Fsvg%2Flogo.png&w=128&q=75",
-              "@id": "",
               url: "https://inquiry.ts4u.us/",
               telephone: "+1 (586) 276-7347",
               address: {
@@ -132,40 +131,50 @@ export default function Document() {
           }}
         />
         {/** schema.org end */}
-        {/**keyword */}
+
+        {/** Keywords */}
         <meta
           name="keywords"
           content="TS4U,Professional growth,Exclusive program,Career development,Personal development,Financial freedom,Business coaching,Top earners,Make six figures,Entrepreneurship,Wealth building,Wealth creation,High income potential,Success mindset,Online training,Must-Have Perks,Financial success,Income generation,Private Bootcamp,Self-improvement"
         />
-      </Head>
-      <body>
-        {/* Google Tag Manager */}
+
+        {/* Google Ads Conversion Tag */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16520111092"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-WNCJXR4G');
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-16520111092');
             `,
           }}
-        ></script>
-        {/* End Google Tag Manager */}
+        />
 
+        {/* Conversion Event Tracking Snippet */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              function gtag_report_conversion(url) {
+                var callback = function () {
+                  if (typeof(url) != 'undefined') {
+                    window.location = url;
+                  }
+                };
+                gtag('event', 'conversion', {
+                  'send_to': 'AW-16520111092/zWUUCJK__t8ZEPTHs8U9',
+                  'event_callback': callback
+                });
+                return false;
+              }
+            `,
+          }}
+        />
+      </Head>
+
+      <body>
         <Main />
         <NextScript />
-
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-WNCJXR4G"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          ></iframe>
-        </noscript>
-        {/* End Google Tag Manager (noscript) */}
       </body>
     </Html>
   );
