@@ -16,13 +16,9 @@ const Navbar = () => {
     <nav className="nav container">
       <section className="logo-section">
         <Link href={"/"}>
-          <Image
-            loading="eager"
-            className="logo"
+          <img className="logo"
             src="/images/svg/logo.png"
             alt="Logo"
-            height={50}
-            width={100}
             style={{width:"100%",height:"50px"}}
           />
         </Link>
