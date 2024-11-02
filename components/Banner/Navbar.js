@@ -23,6 +23,7 @@ const Navbar = () => {
             alt="Logo"
             height={50}
             width={100}
+            style={{width:"100%",height:"50px"}}
           />
         </Link>
       </section>
