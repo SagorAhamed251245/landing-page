@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { MenuOutlined } from "@ant-design/icons";
 import { Drawer, Button, Menu } from "antd";
-import Image from "next/image";
 import Link from "next/link";
 import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
@@ -19,7 +18,7 @@ const Navbar = () => {
           <img className="logo"
             src="/images/svg/logo.png"
             alt="Logo"
-            style={{width:"100%",height:"50px"}}
+            style={{width:"100%"}}
           />
         </Link>
       </section>
