@@ -8,7 +8,7 @@ function BookMeetingModal({ bgColor, color, title = "Book a meeting" }) {
   const [loading, setLoading] = useState(true);
 
   const isMobile = useMediaQuery({
-    query: "(max-width: 370px)",
+    query: "(max-width: 300px)",
   });
 
   const showModal = () => {
@@ -46,12 +46,14 @@ function BookMeetingModal({ bgColor, color, title = "Book a meeting" }) {
       </button>
       <Modal
         width={660}
+      
         footer={false}
         open={isModalOpen}
         onOk={handleOk}
         onCancel={handleCancel}
+        className="book_a_meeting_modal"
       >
-        <div>
+        <div >
           {loading && (
             <div
               style={{
@@ -64,11 +66,11 @@ function BookMeetingModal({ bgColor, color, title = "Book a meeting" }) {
               <Spin size="large" />
             </div>
           )}
-          <div>
+          <div style={{height:"700px"}}>
             <iframe
               src="https://pmcrmhub.ai/form-embed/tZRIZ6Rses"
               width="100%"
-              height={isMobile ? "600" : "720"}
+           height={"800px"}
               frameBorder="0"
               style={{
                 border: "none",
