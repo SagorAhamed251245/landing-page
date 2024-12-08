@@ -3,6 +3,7 @@ import { MenuOutlined } from "@ant-design/icons";
 import { Drawer, Button, Menu } from "antd";
 import Link from "next/link";
 import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
+import Image from "next/image";
 
 const Navbar = () => {
   const [drawerVisible, setDrawerVisible] = useState(false);
@@ -15,17 +16,19 @@ const Navbar = () => {
     <nav className="nav container">
       <section className="logo-section">
         <Link href={"/"}>
-          <img
+          <Image
             className="logo"
             src="/images/svg/logo.png"
             alt="Logo"
-            style={{ width: "100%" }}
+            width={1920}
+            height={1080}
+            style={{ width: "100%", height: "auto" }}
           />
         </Link>
       </section>
 
       {/* Desktop Menu */}
-      <section className="desktop-menu">
+      {/* <section className="desktop-menu">
         <Link href="/course/flex:-mern-full-stack-software-engineer">MERN</Link>
         <Link href="/course/flex:-software-quality-automation-engineer">
           SQA
@@ -34,7 +37,7 @@ const Navbar = () => {
           CloudOps
         </Link>
         <Link href="/course/agile-product-owner">Agile Product Owner</Link>
-      </section>
+      </section> */}
 
       <section className="desktop-meeting-modal">
         <BookMeetingModal />
