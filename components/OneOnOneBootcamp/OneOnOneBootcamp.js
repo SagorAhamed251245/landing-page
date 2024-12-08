@@ -71,12 +71,7 @@ const OneOnOneBootcamp = () => {
     <section className="one-on-one">
       <div className="one-on-one-box">
         <div className="container">
-          <h2
-            style={{ margin: "20px 0" }}
-            className="title"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
+          <h2 style={{ margin: "20px 0" }} className="title">
             One-On-One Bootcamp Week
           </h2>
           {/* <p className="description">
@@ -89,11 +84,7 @@ const OneOnOneBootcamp = () => {
           {/* main container  */}
           <div>
             {/* text content 1 */}
-            <div
-              className="text-container"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className="text-container">
               {data?.map((item, index) => (
                 <ul key={index} className="bullet-style">
                   <li>
@@ -117,11 +108,7 @@ const OneOnOneBootcamp = () => {
             </div>
 
             {/* text content 2 */}
-            <div
-              className="text-container"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
+            <div className="text-container">
               {data2?.map((item, index) => (
                 <ul key={index} className="bullet-style">
                   <li>

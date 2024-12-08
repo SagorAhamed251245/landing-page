@@ -1,10 +1,6 @@
 const SingleVideoCard = () => {
   return (
-    <div
-      className="single_video"
-      data-aos="fade-right"
-      data-aos-duration="1000"
-    >
+    <div className="single_video">
       <div className="div">
         <img
           src={

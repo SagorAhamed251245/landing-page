@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const SingleCard = ({ review, name, occupation, url }) => {
   return (
-    <div className="review_card " data-aos="zoom-in" data-aos-duration="1000">
+    <div className="review_card ">
       {/* user info */}
       <div className="user_info">
         <Image
@@ -22,14 +22,7 @@ const SingleCard = ({ review, name, occupation, url }) => {
         </div>
       </div>
       {/* reviews */}
-      <p
-        className="p1"
-        data-aos="flip-right"
-        data-aos-duration="1000"
-        data-aos-delay="300"
-      >
-        Recommended
-      </p>
+      <p className="p1">Recommended</p>
       <div className="reviews">
         <p style={{ marginTop: "20px" }}>{review}</p>
         {/* ratings */}

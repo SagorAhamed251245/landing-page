@@ -16,24 +16,15 @@ const LeftSide = () => {
       <div>
         <div className="founder_contact">
           <div>
-            <h4 className="title" data-aos="fade-up" data-aos-duration="1000">
-              Shiblu Ahmad
-            </h4>
-            <p
-              className="p1"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-delay="100"
-            >
-              Principal, TS4U
-            </p>
+            <h4 className="title">Shiblu Ahmad</h4>
+            <p className="p1">Principal, TS4U</p>
           </div>
           <div style={{ marginTop: "20px" }}>
             <BookMeetingModal />
           </div>
         </div>
 
-        <p className="into_p" data-aos="fade-up" data-aos-duration="1000">
+        <p className="into_p">
           Hi, my name is Shiblu Ahmad, and I’m the principal at TS4U. I am a
           Bangladeshi-born American with over 20 years of experience in the IT
           Industry. I have worked at many reputable companies in the USA and
@@ -44,17 +35,12 @@ const LeftSide = () => {
 
       <div>
         {experiences.map((expe, index) => (
-          <div
-            className="experience"
-            key={index}
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
+          <div className="experience" key={index}>
             <Tick />
             <p>{expe}</p>
           </div>
         ))}
-        <p className="into_p" data-aos="fade-up" data-aos-duration="1000">
+        <p className="into_p">
           I created my own start-up in 2013 but actively started full-time in
           2020, right after the pandemic began. My aim was to transfer
           experience and share my many years of knowledge with the

@@ -87,8 +87,6 @@ function CompareTableNew() {
   return (
     <section className="compare_table_new">
       <h2
-        data-aos="fade-up"
-        data-aos-duration="1000"
         style={{ textAlign: "center", marginBottom: "30px" }}
         className="title"
       >
@@ -101,12 +99,8 @@ function CompareTableNew() {
         src={compareImage}
         alt="compare image"
       />
-      <div
-        className="container compare_table_new_container"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-      >
-        <div data-aos="fade-up" data-aos-duration="1000">
+      <div className="container compare_table_new_container">
+        <div>
           <Table
             dataSource={compareData}
             columns={columns}

@@ -1,5 +1,3 @@
-import "aos/dist/aos.css";
-
 import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const LeftContent = ({ benefits }) => {
@@ -7,17 +5,12 @@ const LeftContent = ({ benefits }) => {
     <section className="left_banner_section">
       <p className="p">Are you sure you want to change your life?</p>
 
-      <h1 className="h3" data-aos="fade-left" data-aos-duration="1000">
+      <h1 className="h3">
         Transform your career into a six-figure income with TS4U’s Private
         One-on-One Bootcamp. Here’s what you get
       </h1>
       {benefits?.map((item, index) => (
-        <p
-          className="sub_p mb-hidden"
-          key={index}
-          data-aos="fade-right"
-          data-aos-duration="1000"
-        >
+        <p className="sub_p mb-hidden" key={index}>
           {item.title}:{" "}
           <span dangerouslySetInnerHTML={{ __html: item.details }} />
         </p>

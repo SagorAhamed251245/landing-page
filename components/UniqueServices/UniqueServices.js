@@ -26,9 +26,7 @@ const UniqueServices = () => {
               alt="star"
               src="/images/svg/Star.png"
             />
-            <p className="mi_P" data-aos="fade-up" data-aos-duration="1000">
-              Michigan State Approved Training Provider
-            </p>
+            <p className="mi_P">Michigan State Approved Training Provider</p>
             <Image
               loading="lazy"
               height={20}
@@ -37,14 +35,7 @@ const UniqueServices = () => {
               src="/images/svg/Star.png"
             />
           </div>
-          <h4
-            className="title"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="200"
-          >
-            What Makes Us Unique
-          </h4>
+          <h4 className="title">What Makes Us Unique</h4>
         </div>
         <ServicesCards />
       </section>

@@ -15,10 +15,10 @@ const SecCard = () => {
       }}
     >
       <div className="aws_title">
-        <h4 className="title" data-aos="fade-up" data-aos-duration="1000">
+        <h4 className="title">
           MERN+AWS DevOps and <br /> CloudOps Engineer
         </h4>
-        <p className="p_aws" data-aos="fade-up" data-aos-duration="1000">
+        <p className="p_aws">
           Become an AWS CloudOps Engineer in just 7 to 9 months! No prior
           programming experience needed. Dive into hands-on projects and
           enterprise applications. Work in an agile scrum setup and collaborate
@@ -28,8 +28,6 @@ const SecCard = () => {
         <div className="features">
           {features.map((item, index) => (
             <p
-              data-aos="fade-right"
-              data-aos-duration="1000"
               key={index}
               style={{
                 display: "flex",

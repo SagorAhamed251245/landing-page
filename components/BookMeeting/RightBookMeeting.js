@@ -10,11 +10,7 @@ const RightBookMeeting = () => {
   return (
     <div className="right_book_meeting">
       <div className="mb_hidden">
-        <div
-          className="single_video"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-        >
+        <div className="single_video">
           <div className="div">
             <iframe
               title="video"
@@ -36,11 +32,7 @@ const RightBookMeeting = () => {
           </div>
         </div>
       </div>
-      <div
-        className="absolute_image mb-hidden"
-        data-aos="fade-left"
-        data-aos-duration="1000"
-      >
+      <div className="absolute_image mb-hidden">
         <Image
           loading="lazy"
           height={517}

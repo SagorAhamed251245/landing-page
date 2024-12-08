@@ -7,12 +7,7 @@ const ServicesCard = ({ i, url, text, classNames }) => {
   const sectionStyle = position === "down" ? { marginTop: "25px" } : {};
 
   return (
-    <section
-      className={`service_card ${classNames}`}
-      style={sectionStyle}
-      data-aos="fade-up"
-      data-aos-duration="1000"
-    >
+    <section className={`service_card ${classNames}`} style={sectionStyle}>
       <>
         <div>
           <Image

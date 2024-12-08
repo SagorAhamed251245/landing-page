@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-import "aos/dist/aos.css";
 import { useSwiper } from "swiper/react";
 
 export const SwiperNavButtons = () => {
@@ -8,12 +7,7 @@ export const SwiperNavButtons = () => {
 
   return (
     <div className="swiper-nav-btns">
-      <button
-        onClick={() => swiper.slidePrev()}
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        data-aos-delay="500"
-      >
+      <button onClick={() => swiper.slidePrev()}>
         <Image
           loading="lazy"
           height={300}
@@ -22,12 +16,7 @@ export const SwiperNavButtons = () => {
           alt=" left arrow"
         />
       </button>
-      <button
-        onClick={() => swiper.slideNext()}
-        data-aos="fade-left"
-        data-aos-duration="1000"
-        data-aos-delay="400"
-      >
+      <button onClick={() => swiper.slideNext()}>
         <Image
           loading="lazy"
           height={300}

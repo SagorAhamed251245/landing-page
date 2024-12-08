@@ -1,11 +1,6 @@
 const SuccessfulCard = ({ url }) => {
   return (
-    <div
-      className="single_video"
-      data-aos="zoom-in"
-      data-aos-duration="1000"
-      data-aos-delay="350"
-    >
+    <div className="single_video">
       <div className="div">
         <iframe
           title="video"

@@ -7,11 +7,7 @@ const RightContent = () => {
 
   return (
     <>
-      <section
-        className="right_banner_section"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-      >
+      <section className="right_banner_section">
         {/* <p>
           Join Revolutionary Private Bootcamp Today. Pay After Getting A Job
         </p> */}

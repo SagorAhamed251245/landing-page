@@ -7,12 +7,7 @@ const SingleVideoCard = ({ url, id }) => {
   } */
 
   return (
-    <div
-      className="single_video"
-      data-aos="zoom-in"
-      data-aos-duration="1500"
-      data-aos-delay="200"
-    >
+    <div className="single_video">
       <div className="div">
         <iframe
           title="video"

@@ -13,10 +13,8 @@ const LeftBookMeeting = () => {
   return (
     <div className="left_book_meeting">
       <div>
-        <h4 className="title " data-aos="zoom-in-up" data-aos-duration="1000">
-          MI State Approved IT Training Provider
-        </h4>
-        <div className="" data-aos="fade-right" data-aos-duration="1000">
+        <h4 className="title ">MI State Approved IT Training Provider</h4>
+        <div className="">
           <br />
           Michigan State-approved IT training providers offer a range of
           programs tailored to meet industry standards and workforce demands.

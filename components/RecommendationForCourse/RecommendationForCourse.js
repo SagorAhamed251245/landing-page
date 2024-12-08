@@ -22,8 +22,6 @@ const RecommendationForCourse = ({
   return (
     <>
       <h4
-        data-aos="fade-up"
-        data-aos-duration="1000"
         className="title recommendation_cards_title"
         style={{
           color: titleColor ? titleColor : "black",
@@ -34,8 +32,6 @@ const RecommendationForCourse = ({
       <section className="recommendation_reviews container">
         <div className="recommendation_cards">
           <Swiper
-            data-aos="fade-up"
-            data-aos-duration="1000"
             slidesPerView={4}
             spaceBetween={30}
             freeMode={true}
@@ -86,8 +82,6 @@ const RecommendationForCourse = ({
         </div>
         <RecommendationVideos recommendationVideos={recommendationVideos} />
         <div
-          data-aos="flip-left"
-          data-aos-duration="1000"
           className="review_btn"
           style={{
             display: "flex",

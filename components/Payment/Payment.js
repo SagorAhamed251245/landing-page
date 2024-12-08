@@ -7,18 +7,13 @@ const Payment = () => {
   return (
     <section className="payment-table-box ">
       <div className="container">
-        <h2
-          style={{ textAlign: "center" }}
-          className="title"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
+        <h2 style={{ textAlign: "center" }} className="title">
           Payment and Financing
         </h2>
         <div className="payment-table">
           {paymentAndFinancingOptions?.map((option, index) => (
             <div key={index} className="payment-option">
-              <h2 data-aos="fade-up" data-aos-duration="1000">
+              <h2>
                 {option?.option}{" "}
                 <Image
                   style={{ height: "30px", width: "100" }}
@@ -29,12 +24,10 @@ const Payment = () => {
                 />
               </h2>
               <div className="white-row">
-                <p data-aos="fade-left" data-aos-duration="1000">
-                  {option?.eligibility}
-                </p>
+                <p>{option?.eligibility}</p>
                 <ul>
                   {option.benefitDetails.map((detail, i) => (
-                    <li key={i} data-aos="fade-right" data-aos-duration="1000">
+                    <li key={i}>
                       <span className="list-heading">{detail?.title}:</span>{" "}
                       <span>{detail?.details}</span>
                     </li>

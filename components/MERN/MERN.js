@@ -64,13 +64,7 @@ const MERN = () => {
 
   return (
     <>
-      <h4
-        className="title ourProgramTitle"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-      >
-        Our Program
-      </h4>
+      <h4 className="title ourProgramTitle">Our Program</h4>
       <div className="ourProgramTitle_mern">
         <section className="mern_stack ">
           <div className="container mern_stack_cards">

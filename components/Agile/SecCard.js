@@ -11,14 +11,8 @@ const SecCard = () => {
   return (
     <section style={{ color: "white", display: "flex", alignItems: "center" }}>
       <div className="container">
-        <h4 className="title" data-aos="fade-up" data-aos-duration="1000">
-          Flex Agile Product Owner
-        </h4>
-        <p
-          style={{ margin: "30px 0px", width: "70%" }}
-          data-aos="fade-left"
-          data-aos-duration="1000"
-        >
+        <h4 className="title">Flex Agile Product Owner</h4>
+        <p style={{ margin: "30px 0px", width: "70%" }}>
           Transform your career in just 5 to 7 months with our IT training
           course! Become an Agile Product Owner and lead top-notch development
           teams. Dive into hands-on learning and real-world problem-solving,
@@ -27,8 +21,6 @@ const SecCard = () => {
         <div className="features features_p">
           {features.map((item, index) => (
             <p
-              data-aos="fade-right"
-              data-aos-duration="1000"
               key={index}
               style={{
                 display: "flex",

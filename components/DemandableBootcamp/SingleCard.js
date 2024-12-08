@@ -5,7 +5,7 @@ const SingleCard = ({ bootCamp }) => {
   const { course, image, timeLength, totalRatings } = bootCamp;
 
   return (
-    <div className="single_card" data-aos="zoom-in" data-aos-duration="1000">
+    <div className="single_card">
       <div className="single_card_img">
         <Image
           loading="lazy"

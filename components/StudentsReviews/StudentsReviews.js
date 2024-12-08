@@ -128,13 +128,9 @@ const StudentsReviews = () => {
     <section className="students_reviews container">
       {/* titles */}
       <div>
-        <h4 className="title" data-aos="fade-up" data-aos-duration="1000">
-          Students Reviews
-        </h4>
+        <h4 className="title">Students Reviews</h4>
         <div className="reviews_buttons">
           <button
-            data-aos="flip-left"
-            data-aos-duration="1000"
             className={`${platform === "Google" && "active"}`}
             onClick={() => setPlatform("Google")}
           >
@@ -150,8 +146,6 @@ const StudentsReviews = () => {
             <span className="butoon_text">Reviews</span>
           </button>
           <button
-            data-aos="flip-left"
-            data-aos-duration="1000"
             className={`${platform === "Facebook" && "active"}`}
             onClick={() => setPlatform("Facebook")}
           >

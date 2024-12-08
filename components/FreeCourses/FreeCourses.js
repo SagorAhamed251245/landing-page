@@ -47,12 +47,7 @@ const FreeCourses = () => {
     <div>
       <section className="demandable_bootcamp ">
         <div className="demand-text" style={{ textAlign: "center" }}>
-          <h4
-            className="title"
-            style={{ marginBottom: "20px" }}
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
+          <h4 className="title" style={{ marginBottom: "20px" }}>
             Our Free Courses
           </h4>
           <p></p>

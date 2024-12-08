@@ -1,12 +1,7 @@
 const LastCard = () => {
   return (
     <div className="last_card">
-      <div
-        className="div"
-        data-aos="fade-up-right"
-        data-aos-duration="1000"
-        data-aos-delay="500"
-      >
+      <div className="div">
         <iframe
           loading="lazy"
           id="founder"

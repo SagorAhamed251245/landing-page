@@ -3,7 +3,7 @@ import Image from "next/image";
 const RightSide = () => {
   return (
     <div className="founder_info_right">
-      <div className="img_div" data-aos="fade-up" data-aos-duration="1000">
+      <div className="img_div">
         <Image
           loading="lazy"
           src="/images/image/founder.png"
@@ -12,12 +12,7 @@ const RightSide = () => {
           alt="founder image"
         />
       </div>
-      <div
-        className="video_card"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-        data-aos-delay="150"
-      >
+      <div className="video_card">
         <div className="single_video">
           <div className="div">
             <iframe

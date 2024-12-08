@@ -49,9 +49,7 @@ const ReviewAboutFounder = () => {
 
   return (
     <div className="ReviewAboutFounder">
-      <h4 className="title" data-aos="fade-up" data-aos-duration="1000">
-        Testimonials About Our Principal
-      </h4>
+      <h4 className="title">Testimonials About Our Principal</h4>
       <div className="review_about_founder_cards mb_hidden">
         {reviews.map((review, index) => (
           <SingleCard

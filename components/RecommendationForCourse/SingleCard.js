@@ -24,14 +24,7 @@ const SingleCard = ({ name, review, image }) => {
         </div>
       </div>
       {/* reviews */}
-      <p
-        className="p1"
-        data-aos="flip-left"
-        data-aos-duration="1000"
-        data-aos-delay="350"
-      >
-        Recommended
-      </p>
+      <p className="p1">Recommended</p>
       <div className="reviews">
         <p style={{ marginTop: "20px" }}>{review}</p>
         {/* ratings */}

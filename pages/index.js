@@ -25,6 +25,7 @@ import SuccessfulStudents from "@/components/SuccessfulStudents/SuccessfulStuden
 import FAQ from "@/components/FAQ/FAQ";
 import FreeCourses from "@/components/FreeCourses/FreeCourses";
 import Payment from "@/components/Payment/Payment";
+import { SpinnerRoundFilled } from "spinners-react";
 
 const BeVietnamPro = Be_Vietnam_Pro({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -79,7 +80,23 @@ export default function Home() {
       >
         {components.length > 0 ? (
           <VirtuosoProvider>
-            <Suspense fallback={<>Loading...</>}>{components}</Suspense>
+            <Suspense
+              fallback={
+                <div
+                  style={{
+                    width: "100%",
+                    height: "100vh",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <SpinnerRoundFilled color="#5831F0" />
+                </div>
+              }
+            >
+              {components}
+            </Suspense>
           </VirtuosoProvider>
         ) : (
           <p>Loading...</p>

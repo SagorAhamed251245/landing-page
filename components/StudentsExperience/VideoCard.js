@@ -1,7 +1,5 @@
 import SingleVideoCard from "./SingleVideoCard";
 
-import "aos/dist/aos.css";
-
 import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const VideoCard = ({ videos }) => {
