@@ -1,7 +1,5 @@
 import SingleCard from "./SingleCard";
 import { Swiper, SwiperSlide } from "swiper/react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 // Import Swiper styles
 import "swiper/css";
@@ -12,12 +10,8 @@ import "swiper/css/navigation";
 // import required modules
 import { FreeMode } from "swiper/modules";
 import { SwiperNavButtons } from "../DemandableBootcamp/SwiperNavButtons";
-import { useEffect } from "react";
 
 const ReviewAboutFounder = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   const reviews = [
     {
       name: "Zuliana Zanardi",
@@ -55,7 +49,9 @@ const ReviewAboutFounder = () => {
 
   return (
     <div className="ReviewAboutFounder">
-      <h4 className="title" data-aos="fade-up" data-aos-duration="1000">Testimonials About Our Principal</h4>
+      <h4 className="title" data-aos="fade-up" data-aos-duration="1000">
+        Testimonials About Our Principal
+      </h4>
       <div className="review_about_founder_cards mb_hidden">
         {reviews.map((review, index) => (
           <SingleCard

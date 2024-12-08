@@ -1,16 +1,10 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-
 const RightContent = () => {
   /*  function playPause() {
     let myVideo = document.getElementById("video1");
     if (myVideo.paused) myVideo.play();
     else myVideo.pause();
   } */
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
   return (
     <>
       <section

@@ -1,19 +1,22 @@
 import Image from "next/image";
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const FAQ = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <section>
-      <h2 style={{ textAlign: "center" }} className="title" data-aos="fade-up" data-aos-duration="1000">
+      <h2
+        style={{ textAlign: "center" }}
+        className="title"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         Frequently Asked Questions
       </h2>
       <section className="faq container">
-        <div className="div div1" data-aos="fade-right" data-aos-duration="1000">
+        <div
+          className="div div1"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           <div className="img">
             <Image
               loading="lazy"

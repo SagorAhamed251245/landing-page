@@ -1,6 +1,3 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import SuccessfulCard from "./SuccessfulCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { SwiperNavButtons } from "../DemandableBootcamp/SwiperNavButtons";
@@ -13,8 +10,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { FreeMode } from "swiper/modules";
-import Link from "next/link";
-import LessThen from "../SVG/LessThen";
+
 import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const SuccessfulStudents = () => {
@@ -56,13 +52,16 @@ const SuccessfulStudents = () => {
       id: "9",
     }, */
   ];
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
   return (
     <section className="successful-students container">
       <div className="next-career next-career1">
-        <h2 style={{ marginBottom: "20px" }} className="title" data-aos="fade-up" data-aos-duration="1000">
+        <h2
+          style={{ marginBottom: "20px" }}
+          className="title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           Successful Students
         </h2>
         <p data-aos="fade-right" data-aos-duration="1000">
@@ -114,9 +113,9 @@ const SuccessfulStudents = () => {
         ))}
         <SwiperNavButtons />
       </Swiper>
-      <div style={{marginTop:"20px"}}>
-   <BookMeetingModal/>
-   </div>
+      <div style={{ marginTop: "20px" }}>
+        <BookMeetingModal />
+      </div>
     </section>
   );
 };

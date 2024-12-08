@@ -1,19 +1,11 @@
-import AOS from "aos";
 import "aos/dist/aos.css";
-import Image from "next/image";
-import Link from "next/link";
-import React, { useEffect } from "react";
+
 import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const LeftContent = ({ benefits }) => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <section className="left_banner_section">
-      <p className="p" data-aos="fade-right" data-aos-duration="1000">
-        Are you sure you want to change your life?
-      </p>
+      <p className="p">Are you sure you want to change your life?</p>
 
       <h1 className="h3" data-aos="fade-left" data-aos-duration="1000">
         Transform your career into a six-figure income with TS4U’s Private

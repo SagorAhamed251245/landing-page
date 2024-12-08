@@ -1,7 +1,4 @@
 import Image from "next/image";
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const RightBookMeeting = () => {
   /*  function playPause() {
@@ -9,15 +6,17 @@ const RightBookMeeting = () => {
     if (myVideo.paused) myVideo.play();
     else myVideo.pause();
   } */
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
   return (
     <div className="right_book_meeting">
       <div className="mb_hidden">
-        <div className="single_video" data-aos="fade-right" data-aos-duration="1000">
+        <div
+          className="single_video"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           <div className="div">
-            <iframe 
+            <iframe
               title="video"
               loading="lazy"
               id="founder"
@@ -37,7 +36,11 @@ const RightBookMeeting = () => {
           </div>
         </div>
       </div>
-      <div className="absolute_image mb-hidden" data-aos="fade-left" data-aos-duration="1000">
+      <div
+        className="absolute_image mb-hidden"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+      >
         <Image
           loading="lazy"
           height={517}

@@ -1,7 +1,3 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-
 const SecCard = () => {
   const features = [
     "Student Enrolled 300+",
@@ -9,14 +5,19 @@ const SecCard = () => {
     "Project 20+",
     "Months 6+",
   ];
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
   return (
     <section className="our_program_Flex" style={{ color: "white" }}>
       <div>
-        <h4 className="title " data-aos="fade-up" data-aos-duration="1000">Flex Software Quality Automation Engineer</h4>
-        <p className="p_flex" style={{ margin: "15px 0" }} data-aos="fade-up" data-aos-duration="1000">
+        <h4 className="title " data-aos="fade-up" data-aos-duration="1000">
+          Flex Software Quality Automation Engineer
+        </h4>
+        <p
+          className="p_flex"
+          style={{ margin: "15px 0" }}
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           Embark on a 7-9 month journey to mastery as a MERN Full-Stack Software
           Engineer! Dive into hands-on learning, Agile Scrum projects, and
           mentorship in a virtual environment. Build enterprise-grade apps, earn
@@ -24,7 +25,9 @@ const SecCard = () => {
         </p>
         <div className="features">
           {features.map((item, index) => (
-            <p data-aos="fade-up" data-aos-duration="1000"
+            <p
+              data-aos="fade-up"
+              data-aos-duration="1000"
               key={index}
               style={{
                 display: "flex",

@@ -1,14 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const SingleCard = ({ bootCamp }) => {
   const { course, image, timeLength, totalRatings } = bootCamp;
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
   return (
     <div className="single_card" data-aos="zoom-in" data-aos-duration="1000">
       <div className="single_card_img">

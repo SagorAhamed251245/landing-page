@@ -1,6 +1,3 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import SingleCard from "./SingleCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import RecommendationVideos from "./RecommendationVideos";
@@ -13,23 +10,20 @@ import "swiper/css/navigation";
 // import required modules
 import { FreeMode } from "swiper/modules";
 import { SwiperNavButtons } from "../DemandableBootcamp/SwiperNavButtons";
-import BookButton from "../Shared/BookButton";
+
 import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const RecommendationForCourse = ({
   titleColor,
-  primaryBtn,
-  LessThenColor,
-  btnChildren,
+
   recommendation,
   recommendationVideos,
 }) => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <>
-      <h4 data-aos="fade-up" data-aos-duration="1000"
+      <h4
+        data-aos="fade-up"
+        data-aos-duration="1000"
         className="title recommendation_cards_title"
         style={{
           color: titleColor ? titleColor : "black",
@@ -39,7 +33,9 @@ const RecommendationForCourse = ({
       </h4>
       <section className="recommendation_reviews container">
         <div className="recommendation_cards">
-          <Swiper data-aos="fade-up" data-aos-duration="1000"
+          <Swiper
+            data-aos="fade-up"
+            data-aos-duration="1000"
             slidesPerView={4}
             spaceBetween={30}
             freeMode={true}
@@ -78,7 +74,7 @@ const RecommendationForCourse = ({
           >
             {recommendation?.map((review, index) => (
               <SwiperSlide key={index}>
-                <SingleCard 
+                <SingleCard
                   name={review.name}
                   review={review.review}
                   image={review.image}
@@ -89,12 +85,14 @@ const RecommendationForCourse = ({
           </Swiper>
         </div>
         <RecommendationVideos recommendationVideos={recommendationVideos} />
-        <div data-aos="flip-left" data-aos-duration="1000"
+        <div
+          data-aos="flip-left"
+          data-aos-duration="1000"
           className="review_btn"
           style={{
             display: "flex",
             justifyContent: "center",
-            marginTop:"30px"
+            marginTop: "30px",
           }}
         >
           {/* <BookButton
@@ -102,7 +100,7 @@ const RecommendationForCourse = ({
             primary={primaryBtn}
             LessThenColor={LessThenColor}
           /> */}
-                <BookMeetingModal bgColor={"#ffffff"} color={"#5831f0"} />
+          <BookMeetingModal bgColor={"#ffffff"} color={"#5831f0"} />
         </div>
       </section>
     </>

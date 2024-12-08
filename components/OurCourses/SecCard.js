@@ -1,8 +1,3 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Link from "next/link";
-
 const SecCard = () => {
   const features = [
     "Student Enrolled 300+",
@@ -10,9 +5,7 @@ const SecCard = () => {
     "Project 20+",
     "Months 6+",
   ];
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
   return (
     <section
       style={{

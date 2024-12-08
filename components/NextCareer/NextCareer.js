@@ -1,15 +1,10 @@
 import Link from "next/link";
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import LessThen from "../SVG/LessThen";
 import Image from "next/image";
 import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const NextCareer = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   const nextCareer = [
     {
       title: "Career Advancement",
@@ -42,9 +37,15 @@ const NextCareer = () => {
     <section className="bootcamp_completion_container book_meeting ">
       <div style={{ gap: "40px" }} className="bootcamp_completion container">
         <div className="next-career">
-          <h4 className="title" data-aos="fade-up" data-aos-duration="1000">Next Career Opportunities</h4>
+          <h4 className="title" data-aos="fade-up" data-aos-duration="1000">
+            Next Career Opportunities
+          </h4>
 
-          <p style={{ marginTop: "30px" }} data-aos="zoom-in" data-aos-duration="1000">
+          <p
+            style={{ marginTop: "30px" }}
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             Joining any of TS4U's Bootcamps can transform your financial and
             social status. Each Bootcamp equips you for senior, principal, and
             architectural positions. Transitioning to leadership roles becomes
@@ -56,7 +57,11 @@ const NextCareer = () => {
           <div>
             {nextCareer.map((item, index) => (
               <div key={index} className="bullet-style">
-                <p style={{ margin: "0", padding: "0" }} data-aos="fade-up" data-aos-duration="1000">
+                <p
+                  style={{ margin: "0", padding: "0" }}
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <span className="bullet">.</span>
                   <span className="heading">{item?.title}:</span>{" "}
                   {item?.description}
@@ -65,12 +70,14 @@ const NextCareer = () => {
             ))}
           </div>
 
-          <div style={{marginTop:"30px"}}>
-          <BookMeetingModal/>
+          <div style={{ marginTop: "30px" }}>
+            <BookMeetingModal />
           </div>
         </div>
 
-        <Image data-aos="fade-up" data-aos-duration="1000"
+        <Image
+          data-aos="fade-up"
+          data-aos-duration="1000"
           loading="lazy"
           height={298}
           width={320}

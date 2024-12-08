@@ -1,9 +1,5 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import DemandableBootcampCard from "../DemandableBootcamp/DemandableBootcampCard";
-import Link from "next/link";
-import LessThen from "../SVG/LessThen";
+
 import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const FreeCourses = () => {
@@ -46,14 +42,17 @@ const FreeCourses = () => {
       price: "",
     },
   ];
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
   return (
     <div>
       <section className="demandable_bootcamp ">
         <div className="demand-text" style={{ textAlign: "center" }}>
-          <h4 className="title" style={{ marginBottom: "20px" }} data-aos="fade-up" data-aos-duration="1000">
+          <h4
+            className="title"
+            style={{ marginBottom: "20px" }}
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             Our Free Courses
           </h4>
           <p></p>
@@ -61,9 +60,15 @@ const FreeCourses = () => {
         <div className="container">
           <DemandableBootcampCard bootCamps={bootCamps} />
         </div>
-        <div style={{marginTop:"20px",display:"flex",justifyContent:"center"}}>
-   <BookMeetingModal/>
-   </div>
+        <div
+          style={{
+            marginTop: "20px",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <BookMeetingModal />
+        </div>
       </section>
     </div>
   );

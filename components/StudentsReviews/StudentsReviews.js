@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ReviewCard from "./ReviewCard";
-import Link from "next/link";
-import LessThen from "../SVG/LessThen";
+
 import SwiperReview from "./SwiperReview";
 import Image from "next/image";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const StudentsReviews = () => {
@@ -125,16 +123,18 @@ const StudentsReviews = () => {
       image: "/images/userDefault.png",
     },
   ];
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
   return (
     <section className="students_reviews container">
       {/* titles */}
       <div>
-        <h4 className="title" data-aos="fade-up" data-aos-duration="1000">Students Reviews</h4>
+        <h4 className="title" data-aos="fade-up" data-aos-duration="1000">
+          Students Reviews
+        </h4>
         <div className="reviews_buttons">
-          <button data-aos="flip-left" data-aos-duration="1000"
+          <button
+            data-aos="flip-left"
+            data-aos-duration="1000"
             className={`${platform === "Google" && "active"}`}
             onClick={() => setPlatform("Google")}
           >
@@ -149,7 +149,9 @@ const StudentsReviews = () => {
             </span>
             <span className="butoon_text">Reviews</span>
           </button>
-          <button data-aos="flip-left" data-aos-duration="1000"
+          <button
+            data-aos="flip-left"
+            data-aos-duration="1000"
             className={`${platform === "Facebook" && "active"}`}
             onClick={() => setPlatform("Facebook")}
           >
@@ -181,9 +183,9 @@ const StudentsReviews = () => {
           ))}
       </div>
       <SwiperReview reviews={reviews} platform={platform} />
-   <div style={{marginTop:"20px"}}>
-   <BookMeetingModal/>
-   </div>
+      <div style={{ marginTop: "20px" }}>
+        <BookMeetingModal />
+      </div>
     </section>
   );
 };

@@ -1,15 +1,8 @@
-import React, { useEffect } from "react";
-import LessThen from "../SVG/LessThen";
 import Tick from "./Tick";
-import Link from "next/link";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const LeftSide = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   const experiences = [
     "Quicken Loans",
     "Fiat Chrysler",

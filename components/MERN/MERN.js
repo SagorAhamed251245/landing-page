@@ -1,12 +1,8 @@
-import React, { useEffect } from "react";
 import SecCard from "./SecCard";
 import LastCard from "./LastCard";
 import RecommendationForCourse from "../RecommendationForCourse/RecommendationForCourse";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const MERN = () => {
-
   const recommendation = [
     {
       name: "Foysol Ahmed ",
@@ -65,13 +61,16 @@ const MERN = () => {
       url: "https://player.vimeo.com/video/929769118?h=debe947ba3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     }, */
   ];
-  useEffect(() => {
-    AOS.init();
-  }, []);
 
   return (
     <>
-      <h4 className="title ourProgramTitle" data-aos="fade-up" data-aos-duration="1000">Our Program</h4>
+      <h4
+        className="title ourProgramTitle"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        Our Program
+      </h4>
       <div className="ourProgramTitle_mern">
         <section className="mern_stack ">
           <div className="container mern_stack_cards">

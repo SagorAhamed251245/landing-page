@@ -15,10 +15,11 @@ const Navbar = () => {
     <nav className="nav container">
       <section className="logo-section">
         <Link href={"/"}>
-          <img className="logo"
+          <img
+            className="logo"
             src="/images/svg/logo.png"
             alt="Logo"
-            style={{width:"100%"}}
+            style={{ width: "100%" }}
           />
         </Link>
       </section>

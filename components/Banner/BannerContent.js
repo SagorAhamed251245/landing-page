@@ -1,8 +1,7 @@
 import React from "react";
 import LeftContent from "./LeftContent";
 import RightContent from "./RightContent";
-import Link from "next/link";
-import LessThen from "../SVG/LessThen";
+
 import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const BannerContent = () => {

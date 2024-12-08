@@ -1,8 +1,3 @@
-import Link from "next/link";
-import React, { useEffect } from "react";
-import LessThen from "../SVG/LessThen";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const SecCard = () => {
@@ -12,14 +7,18 @@ const SecCard = () => {
     "Project 20+",
     "Months 6+",
   ];
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
   return (
     <section style={{ color: "white", display: "flex", alignItems: "center" }}>
       <div className="container">
-        <h4 className="title" data-aos="fade-up" data-aos-duration="1000">Flex Agile Product Owner</h4>
-        <p style={{ margin: "30px 0px", width: "70%" }} data-aos="fade-left" data-aos-duration="1000">
+        <h4 className="title" data-aos="fade-up" data-aos-duration="1000">
+          Flex Agile Product Owner
+        </h4>
+        <p
+          style={{ margin: "30px 0px", width: "70%" }}
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           Transform your career in just 5 to 7 months with our IT training
           course! Become an Agile Product Owner and lead top-notch development
           teams. Dive into hands-on learning and real-world problem-solving,
@@ -27,7 +26,9 @@ const SecCard = () => {
         </p>
         <div className="features features_p">
           {features.map((item, index) => (
-            <p data-aos="fade-right" data-aos-duration="1000"
+            <p
+              data-aos="fade-right"
+              data-aos-duration="1000"
               key={index}
               style={{
                 display: "flex",
@@ -64,9 +65,15 @@ const SecCard = () => {
             </p>
           ))}
         </div>
-        <div style={{marginTop:"20px",display:"flex", justifyContent:"center"}}>
-   <BookMeetingModal bgColor={"white"} color={"#5831f0"}/>
-   </div>
+        <div
+          style={{
+            marginTop: "20px",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <BookMeetingModal bgColor={"white"} color={"#5831f0"} />
+        </div>
       </div>
     </section>
   );

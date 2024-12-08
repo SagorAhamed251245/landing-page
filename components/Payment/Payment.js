@@ -1,20 +1,18 @@
-import Link from "next/link";
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { paymentAndFinancingOptions } from "@/data/paymentData";
-import LessThen from "../SVG/LessThen";
+
 import Image from "next/image";
 import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const Payment = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <section className="payment-table-box ">
       <div className="container">
-        <h2 style={{ textAlign: "center" }} className="title" data-aos="fade-up" data-aos-duration="1000">
+        <h2
+          style={{ textAlign: "center" }}
+          className="title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           Payment and Financing
         </h2>
         <div className="payment-table">
@@ -31,7 +29,9 @@ const Payment = () => {
                 />
               </h2>
               <div className="white-row">
-                <p data-aos="fade-left" data-aos-duration="1000">{option?.eligibility}</p>
+                <p data-aos="fade-left" data-aos-duration="1000">
+                  {option?.eligibility}
+                </p>
                 <ul>
                   {option.benefitDetails.map((detail, i) => (
                     <li key={i} data-aos="fade-right" data-aos-duration="1000">
@@ -44,9 +44,15 @@ const Payment = () => {
             </div>
           ))}
         </div>
-        <div style={{marginTop:"20px",display:"flex",justifyContent:"center"}}>
-   <BookMeetingModal/>
-   </div>
+        <div
+          style={{
+            marginTop: "20px",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <BookMeetingModal />
+        </div>
       </div>
     </section>
   );

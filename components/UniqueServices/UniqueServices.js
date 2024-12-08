@@ -1,9 +1,4 @@
-import React, { useEffect } from "react";
 import ServicesCards from "./ServicesCards";
-
-
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 // import './styles.css';
 
@@ -12,10 +7,6 @@ import "aos/dist/aos.css";
 import Image from "next/image";
 
 const UniqueServices = () => {
-  
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <div className="unique_section_services_root">
       <section className="unique_service container">

@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from "react";
-import LessThen from "../SVG/LessThen";
-import Link from "next/link";
+import React, { useState } from "react";
+
 import Image from "next/image";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 
 const LeftBookMeeting = () => {
@@ -11,14 +9,15 @@ const LeftBookMeeting = () => {
     id: null,
     isOpen: false,
   });
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
   return (
     <div className="left_book_meeting">
       <div>
-        <h4 className="title " data-aos="zoom-in-up" data-aos-duration="1000">MI State Approved IT Training Provider</h4>
-        <div className="" data-aos="fade-right" data-aos-duration="1000"><br />
+        <h4 className="title " data-aos="zoom-in-up" data-aos-duration="1000">
+          MI State Approved IT Training Provider
+        </h4>
+        <div className="" data-aos="fade-right" data-aos-duration="1000">
+          <br />
           Michigan State-approved IT training providers offer a range of
           programs tailored to meet industry standards and workforce demands.
           These providers undergo rigorous evaluation to ensure their courses
@@ -86,7 +85,8 @@ const LeftBookMeeting = () => {
                 ></iframe>
               </div>
             </div>
-          </div> <br />
+          </div>{" "}
+          <br />
           Students can trust that programs offered by approved providers adhere
           to industry best practices and provide relevant, up-to-date knowledge
           and skills. This approval also signifies that graduates from these
@@ -95,9 +95,9 @@ const LeftBookMeeting = () => {
           and beyond.
         </div>
 
-        <div style={{marginTop:"20px"}}>
-   <BookMeetingModal/>
-   </div>
+        <div style={{ marginTop: "20px" }}>
+          <BookMeetingModal />
+        </div>
       </div>
     </div>
   );

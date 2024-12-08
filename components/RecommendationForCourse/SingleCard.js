@@ -1,20 +1,15 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import Vector from "../SVG/Vector";
 import Image from "next/image";
 
 const SingleCard = ({ name, review, image }) => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <div className="recommendation_card">
       {/* user info */}
 
       <div className="user_info">
-        <Image 
-          width={40} height={40}
+        <Image
+          width={40}
+          height={40}
           style={{ width: "40px", height: "40px", borderRadius: "50%" }}
           src={image || "/images/userDefault.png"}
           alt={name}
@@ -29,7 +24,14 @@ const SingleCard = ({ name, review, image }) => {
         </div>
       </div>
       {/* reviews */}
-      <p className="p1" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="350">Recommended</p>
+      <p
+        className="p1"
+        data-aos="flip-left"
+        data-aos-duration="1000"
+        data-aos-delay="350"
+      >
+        Recommended
+      </p>
       <div className="reviews">
         <p style={{ marginTop: "20px" }}>{review}</p>
         {/* ratings */}

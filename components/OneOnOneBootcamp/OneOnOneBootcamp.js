@@ -1,7 +1,4 @@
 import Image from "next/image";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 const OneOnOneBootcamp = () => {
   const data = [
@@ -69,9 +66,7 @@ const OneOnOneBootcamp = () => {
         "Each sprint concludes with a retrospective led by the coach, setting the stage for the next cycle and continuous improvement.",
     },
   ];
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
   return (
     <section className="one-on-one">
       <div className="one-on-one-box">
