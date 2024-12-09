@@ -183,6 +183,9 @@
   /* ReviewAboutFounder */
   .ReviewAboutFounder {
     margin-top: 50px;
+    @include breakpoints(tablet) {
+      margin-top: 80px;
+    }
     .review_about_founder_cards {
       margin-top: 50px;
       display: grid;
