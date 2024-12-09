@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -15,15 +16,17 @@ const Footer = () => {
       </div>
 
       <div className="links">
-        <p
+        <Link
+          href={"/privacy-policy"}
           style={{
             borderRight: "2px solid white",
             paddingRight: "5px",
             marginRight: "8px",
           }}
+          className="link-style"
         >
           Privacy Policy
-        </p>
+        </Link>
         <p
           style={{
             borderRight: "2px solid white",
