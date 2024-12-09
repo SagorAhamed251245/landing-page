@@ -1,16 +1,15 @@
-import React, { useState } from "react";
-import { MenuOutlined } from "@ant-design/icons";
-import { Drawer, Button, Menu } from "antd";
+import React from "react";
+
 import Link from "next/link";
 import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
 import Image from "next/image";
 
 const Navbar = () => {
-  const [drawerVisible, setDrawerVisible] = useState(false);
+  // const [drawerVisible, setDrawerVisible] = useState(false);
 
-  const toggleDrawer = () => {
-    setDrawerVisible(!drawerVisible);
-  };
+  // const toggleDrawer = () => {
+  //   setDrawerVisible(!drawerVisible);
+  // };
 
   return (
     <nav className="nav container">
@@ -44,15 +43,15 @@ const Navbar = () => {
       </section>
 
       {/* Mobile Menu (Hamburger and Drawer) */}
-      <section className="mobile-nav-section">
+      {/* <section className="mobile-nav-section">
         <Button
           className="hamburger"
           icon={<MenuOutlined />}
           onClick={toggleDrawer}
         />
-      </section>
+      </section> */}
 
-      <Drawer
+      {/* <Drawer
         title="Menu"
         placement="right"
         onClose={toggleDrawer}
@@ -78,7 +77,7 @@ const Navbar = () => {
             <Link href="/course/agile-product-owner">Agile Product Owner</Link>
           </Menu.Item>
         </Menu>
-      </Drawer>
+      </Drawer> */}
     </nav>
   );
 };
