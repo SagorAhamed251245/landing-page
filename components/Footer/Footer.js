@@ -1,8 +1,33 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+import BookMeetingModal from "../Common/Book_Meeting_Modal/BookMeetingModal";
+import { Modal, Spin } from "antd";
+import { useMediaQuery } from "react-responsive";
 
 const Footer = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [loading, setLoading] = useState(true);
+
+  const isMobile = useMediaQuery({
+    query: "(max-width: 300px)",
+  });
+
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleOk = () => {
+    setIsModalOpen(false);
+  };
+
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
+
+  const handleIframeLoad = () => {
+    setLoading(false);
+  };
   return (
     <section className="footer">
       <div style={{ marginTop: "40px" }}>
@@ -27,7 +52,7 @@ const Footer = () => {
         >
           Privacy Policy
         </Link>
-        <p
+        {/* <p
           style={{
             borderRight: "2px solid white",
             paddingRight: "5px",
@@ -35,8 +60,54 @@ const Footer = () => {
           }}
         >
           Terms and Conditions
+        </p> */}
+        <p
+          style={{ paddingRight: "5px", cursor: "pointer" }}
+          onClick={showModal}
+        >
+          Contact Us
         </p>
-        <p style={{ paddingRight: "5px" }}>Contact Us</p>
+        <Modal
+          width={660}
+          footer={false}
+          open={isModalOpen}
+          onOk={handleOk}
+          onCancel={handleCancel}
+          className="book_a_meeting_modal"
+        >
+          <div>
+            {loading && (
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  height: "100%",
+                }}
+              >
+                <Spin size="large" />
+              </div>
+            )}
+            <div style={{ height: "700px" }}>
+              <iframe
+                src="https://pmcrmhub.ai/form-embed/tZRIZ6Rses"
+                width="100%"
+                height={"800px"}
+                frameBorder="0"
+                style={{
+                  border: "none",
+
+                  top: 0,
+                  left: 0,
+                  display: loading ? "none" : "block",
+                }}
+                allowTransparency="true"
+                scrolling={isMobile ? "on" : "no"}
+                onLoad={handleIframeLoad}
+              ></iframe>
+            </div>
+          </div>
+        </Modal>
       </div>
 
       <div style={{ marginBottom: "50px" }}>
