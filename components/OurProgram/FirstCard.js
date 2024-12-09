@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+
 
 const FirstCard = () => {
   return (
@@ -39,7 +39,7 @@ const FirstCard = () => {
               <span>(50+)</span>
             </p>
           </div>
-          <div className="div_2">
+          {/* <div className="div_2">
             <p></p>
             <Link
               target="_blank"
@@ -47,7 +47,7 @@ const FirstCard = () => {
             >
               Learn More
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

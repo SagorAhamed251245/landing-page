@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+
 
 const LastCard = () => {
   return (
@@ -43,14 +43,14 @@ const LastCard = () => {
                   <span>(50+)</span>
                 </p>
               </div>
-              <div className="div_2">
+              {/* <div className="div_2">
                 <Link
                   target="_blank"
                   href={"/course/flex:-mern-full-stack-software-engineer"}
                 >
                   Learn More
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
